@@ -1,0 +1,209 @@
+el:
+  activerecord:
+    models:
+      activity:
+        one: "Δραστηριότητα"
+        other: "Δραστηριότητα"
+      budget/investment:
+        one: "Επένδυση"
+        other: "Επένδυση"
+      comment:
+        one: "Σχόλιο"
+        other: "Σχόλιο"
+      debate:
+        one: "Συζήτηση"
+        other: "Συζήτηση"
+      tag:
+        one: "Ετικέτα"
+        other: "Ετικέτα"
+      user:
+        one: "Χρήστης"
+        other: "Χρήστης"
+      moderator:
+        one: "Συντονιστής"
+        other: "Συντονιστής"
+      administrator:
+        one: "Διαχειριστής"
+        other: "Διαχειριστής"
+      vote:
+        one: "Ψήφος"
+        other: "Ψήφος"
+      organization:
+        one: "Οργανισμός"
+        other: "Οργανισμός"
+      poll/booth:
+        one: "Περίπτερο"
+        other: "Περίπτερο"
+      poll/officer:
+        one: "Λειτουργός"
+        other: "Λειτουργός"
+      proposal:
+        one: "Πρόταση πολίτη"
+        other: "Πρόταση πολίτη"
+      site_customization/page:
+        one: Προσαρμοσμένη σελίδα
+        other: Προσαρμοσμένες σελίδες
+      site_customization/image:
+        one: Προσαρμοσμένη εικόνα
+        other: Προσαρμοσμένες εικόνες
+      site_customization/content_block:
+        one: Προσαρμοσμένο μπλοκ περιεχομένου
+        other: Προσαρμοσμένο περιεχόμενο μπλοκς
+      legislation/process:
+        one: "Διαδικασία"
+        other: "Διαδικασίες"
+      legislation/draft_versions:
+        one: "Προσχέδιο"
+        other: "Εκδοχές του σχεδίου"
+      legislation/questions:
+        one: "Ερώτηση"
+        other: "Ερωτήσεις"
+      legislation/question_options:
+        one: "Επιλογή ερώτησης"
+        other: "Ερώτημα επιλογών"
+      legislation/answers:
+        one: "Απάντηση"
+        other: "Απαντήσεις"
+    attributes:
+      budget:
+        name: "Όνομα"
+        description_accepting: "Περιγραφή κατά τη φάση Αποδοχής"
+        description_reviewing: "Περιγραφή κατά τη φάση Επιθεώρησης"
+        description_selecting: "Περιγραφή κατά τη φάση Επιλογής"
+        description_valuating: "Περιγραφή κατά τη φάση Αξιολόγησης"
+        description_balloting: "Περιγραφή κατά τη φάση Ψηφοφορίας"
+        description_reviewing_ballots: "Περιγραφή κατά τη διάρκεια της φάσης Επιθεώρησης Ψηφοδελτίων"
+        description_finished: "Περιγραφή με την ολοκληρωση του προϋπολογισμού"
+        phase: "Φάση"
+        currency_symbol: "Συνάλλαγμα"
+      budget/investment:
+        heading_id: "Επικεφαλίδα"
+        title: "Τίτλος"
+        description: "Περιγραφή"
+        external_url: "Σύνδεσμος πρόσθετης τεκμηρίωσης"
+        administrator_id: "Διαχειριστής"
+      comment:
+        body: "Σχόλιο"
+        user: "Χρήστης"
+      debate:
+        author: "Δημιουργός"
+        description: "Γνώμη"
+        terms_of_service: "Όροι υπηρεσίας"
+        title: "Τίτλος"
+      proposal:
+        author: "Δημιουργός"
+        title: "Τίτλος"
+        question: "Ερώτηση"
+        description: "Περιγραφή"
+        terms_of_service: "Όροι υπηρεσίας"
+      user:
+        login: "E-mail ή όνομα χρήστη"
+        email: "E-Mail"
+        username: "Όνομα χρήστη"
+        password_confirmation: "Επιβεβαίωση κωδικού πρόσβασης"
+        password: "Κωδικός πρόσβασης"
+        current_password: "Υφιστάμενος κωδικός πρόσβασης"
+        phone_number: "Αριθμός τηλεφώνου"
+        official_position: "Επίσημη θέση"
+        official_level: "Επίσημο επίπεδο"
+        redeemable_code: "Κωδικός επαλήθευσης που λάβατε μέσω email"
+      organization:
+        name: "Επωνυμία οργανισμού"
+        responsible_name: "Υπεύθυνος ομάδας"
+      poll:
+        name: "Όνομα"
+        starts_at: "Ημερομηνία έναρξης"
+        ends_at: "Καταληκτική ημερομηνία"
+        geozone_restricted: "Περιορίζεται από το geozone"
+      poll/question:
+        title: "Ερώτηση"
+        summary: "Περίληψη"
+        description: "Περιγραφή"
+        external_url: "Σύνδεσμος σε πρόσθετη τεκμηρίωση"
+      signature_sheet:
+        signable_type: "Τύπος με δυνατότητα υπογραφής"
+        signable_id: "ID με δυνατότητα υπογραφής "
+        document_numbers: "Αριθμοί εγγράφων"
+      site_customization/page:
+        content: Περιεχόμενο
+        created_at: Δημιουργήθηκε στις
+        subtitle: Υπότιτλος
+        slug: Slug
+        status: Κατάσταση
+        title: Τίτλος
+        updated_at: Ενημερώθηκε στις
+        print_content_flag: Κουμπί εκτύπωσης περιεχομένου
+        locale: Γλώσσα
+      site_customization/image:
+        name: Όνομα
+        image: Εικόνα
+      site_customization/content_block:
+        name: Όνομα
+        locale: Τοπικές ρυθμίσεις
+        body: Περιεχόμενο
+      legislation/process:
+        title: Τίτλος διαδικασίας
+        description: Περιγραφή
+        additional_info: Πρόσθετες πληροφορίες
+        draft_publication_date: Ημερομηνία δημοσίευσης προσχέδιου
+        result_publication_date: Ημερομηνία δημοσίευσης τελικών αποτελέσματων
+      legislation/draft_version:
+        title: Τίτλος έκδοσης
+        body: Κείμενο
+        changelog: Αλλαγές
+        status: Κατάσταση
+        final_version: Τελική μορφή
+      legislation/question:
+        title: Τίτλος
+        question_options: Επιλογές
+      legislation/question_option:
+        value: Τιμή
+      legislation/annotation:
+        text: Σχόλιο
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "Ο χρήστης έχει ήδη κωδικό πρόσβασης"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "Οι ετικέτες πρέπει να είναι μικρότερες ή ίσες με %{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "Έχετε φτάσει το μέγιστο ημερίσιο αριθμό προσωπικών μηνυμάτων "
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "Έγγραφο το οποίο δεν υπάρχει στην απογραφή"
+              has_voted: "Ο χρήστης έχει ήδη ψηφίσει"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: πρέπει να είναι κατά ή μετά την ημερομηνία έναρξης
+            debate_end_date:
+              invalid_date_range: πρέπει να είναι κατά ή μετά την ενδεικτική ημερομηνία έναρξης
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "οι ετικέτες πρέπει να είναι μικρότερες ή ίσες με %{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "οι ετικέτες πρέπει να είναι μικρότερες ή ίσες με %{count}"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: 'Μη επαληθευμένο από το Census'
+              already_voted: 'Έχετε ήδη ψηφίσει αυτήν την πρόταση'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "πρέπει να είναι γράμματα, αριθμοί, _ και -"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Το πλάτος πρέπει να είναι %{required_width}px"
+              image_height: "Το ύψος πρέπει να είναι %{required_height}px"
