@@ -1,0 +1,230 @@
+hr:
+  activerecord:
+    models:
+      activity:
+        one: "aktivnost"
+        few: "aktivnosti"
+        other: "aktivnosti"
+      budget/investment:
+        one: "Investicija"
+        few: "Investicije"
+        other: "Investicije"
+      comment:
+        one: "Komentar"
+        few: "Komentari"
+        other: "Komentari"
+      debate:
+        one: "Rasprava"
+        few: "Rasprave"
+        other: "Rasprave"
+      tag:
+        one: "Oznaka"
+        few: "Oznake"
+        other: "Oznake"
+      user:
+        one: "Korisnik"
+        few: "Korisnici"
+        other: "Korisnici"
+      moderator:
+        one: "Moderator"
+        few: "Moderatori"
+        other: "Moderatori"
+      administrator:
+        one: "Administrator"
+        few: "Administratori"
+        other: "Administratori"
+      vote:
+        one: "Glas"
+        few: "Glasovi"
+        other: "Glasovi"
+      organization:
+        one: "Organizacija"
+        few: "Organizacije"
+        other: "Organizacije"
+      poll/booth:
+        one: "kabina"
+        few: "kabine"
+        other: "kabine"
+      poll/officer:
+        one: "činovnik"
+        few: "činovnikci"
+        other: "činovnikci"
+      proposal:
+        one: "Prijedlog građana"
+        few: "Prijedlozi građana"
+        other: "Prijedlozi građana"
+      site_customization/page:
+        one: Prilagođena stranica
+        few: Prilagođene stranice
+        other: Prilagođene stranice
+      site_customization/image:
+        one: Prilagođena slika
+        few: Prilagođene slike
+        other: Prilagođene slike
+      site_customization/content_block:
+        one: Prilagođeni blok sadržaja
+        few: Prilagođeni blokovi sadržaja
+        other: Prilagođeni blokovi sadržaja
+      legislation/process:
+        one: "Proces"
+        few: "Procesi"
+        other: "Procesi"
+      legislation/draft_versions:
+        one: "Draft verzija"
+        few: "Draft verzije"
+        other: "Draft verzije"
+      legislation/questions:
+        one: "Pitanje"
+        few: "Pitanja"
+        other: "Pitanja"
+      legislation/question_options:
+        one: "Opcija pitanja"
+        few: "Opcije pitanja"
+        other: "Opcije pitanja"
+      legislation/answers:
+        one: "Odgovor"
+        few: "Odgovori"
+        other: "Odgovori"
+    attributes:
+      budget:
+        name: "Ime"
+        description_accepting: "Opis tokom faze Prihvačanja"
+        description_reviewing: "Opis tokom faze Pregleda"
+        description_selecting: "Opis tokom Selekcijske faze"
+        description_valuating: "Opis tokom faze Evaluacije"
+        description_balloting: "Opis tokom faze Izglasavanja"
+        description_reviewing_ballots: "Opis tokom faze Pregleda Glasanja"
+        description_finished: "Opis kada se finalizira budžet"
+        phase: "Faza"
+        currency_symbol: "Valuta"
+      budget/investment:
+        heading_id: "Naslov"
+        title: "Naziv"
+        description: "Opis"
+        external_url: "Poveznica za dodatnu dokumentaciju"
+        administrator_id: "Administrator"
+      comment:
+        body: "Komentar"
+        user: "Korisnik"
+      debate:
+        author: "Autor"
+        description: "Mišljenje"
+        terms_of_service: "Uvjeti usluge"
+        title: "Naziv"
+      proposal:
+        author: "Autor"
+        title: "Naziv"
+        question: "Pitanje"
+        description: "Opis"
+        terms_of_service: "Uvjeti usluge"
+      user:
+        login: "Email ili korisničko ime"
+        email: "Email"
+        username: "Korisničko ime"
+        password_confirmation: "Potvrđena zaporka"
+        password: "Zaporka"
+        current_password: "Trenutna zaporka"
+        phone_number: "Broj telefona"
+        official_position: "Službena pozicija"
+        official_level: "Službena razina"
+        redeemable_code: "Verifikacijski kod primljen preko emaila"
+      organization:
+        name: "Ime organizacije"
+        responsible_name: "Osoba odgovorna za grupu"
+      poll:
+        name: "Ime"
+        starts_at: "Datum početka"
+        ends_at: "Datum zatvaranja"
+        geozone_restricted: "Ograničeno geozonom"
+      poll/question:
+        title: "Pitanje"
+        summary: "Sažetak"
+        description: "Opis"
+        external_url: "Poveznica na dodatnu dokumentaciju"
+      signature_sheet:
+        signable_type: "Tip potpisa"
+        signable_id: "Potpis ID"
+        document_numbers: "Broj dukumenata"
+      site_customization/page:
+        content: Sadržaj
+        created_at: Stvoreno kod
+        subtitle: Podnaslov
+        slug: Žeton
+        status: Status
+        title: Naziv
+        updated_at: Ažurirano u
+        print_content_flag: Gumb za printanje sadržaja
+        locale: Jezik
+      site_customization/image:
+        name: Ime
+        image: Slika
+      site_customization/content_block:
+        name: Ime
+        locale: lokal
+        body: Tijelo
+      legislation/process:
+        title: Naslov procesa
+        description: Opis
+        additional_info: Dodatne informacije
+        draft_publication_date: Datum objave publikacije
+        result_publication_date: Finalni rezultat datuma objave
+      legislation/draft_version:
+        title: Naziv Verzije
+        body: Tekst
+        changelog: Izmjene
+        status: Status
+        final_version: Finalna verzija
+      legislation/question:
+        title: Naziv
+        question_options: Opcije
+      legislation/question_option:
+        value: Vrijednost
+      legislation/annotation:
+        text: Komentar
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "Ovaj korisnik već ima zaporku"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "oznake moraju biti manje ili jednako kao %{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "Vi ste već dostigli maksimalni broj privatnih poruka dnevno"
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "Dokument nije u cenzusu"
+              has_voted: "Korisnik je već glasao"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: mora biti na ili prije početnog datuma
+            debate_end_date:
+              invalid_date_range: mora biti na datum debate ili nakon početnog datuma
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "oznake moraju biti manje ili jednake prema %{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "oznake moraju biti manje ili jednake prema %{count}"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: 'Nije potvrđeno Cenzusom'
+              already_voted: 'Već je glasano za ovaj prijedlog'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "moraju biti slova, brojevi, _ i -"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Širina mora biti %{required_width}px"
+              image_height: "Visina mora biti %{required_height}px"
