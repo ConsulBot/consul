@@ -1,0 +1,652 @@
+so:
+  admin:
+    header:
+      title: Mamul
+    actions:
+      actions: Tilaabooyin
+      confirm: Mahubtaa adigu?
+      hide: Qarin
+      hide_author: Qoore Qarson
+      restore: Socelin
+      mark_featured: Soobandhigiid/ Muqaal
+      unmark_featured: Muqaal an Calamad lahayn
+      edit: Isbedel
+      configure: Isku Hagaajin
+    banners:
+      index:
+        title: Xayiraad
+        create: Same banner
+        edit: Bedel baneer
+        delete: Tirir banner
+        filters:
+          all: Dhamaan
+          with_active: Firfircoon
+          with_inactive: An firfirconeeyn
+        preview: Hor udhaac
+      edit:
+        editing: Bedel baneer
+        form:
+          submit_button: Badbaadi beddelka
+      new:
+        creating: Same banner
+    activity:
+      show:
+        action: Tilaabo
+        actions:
+          block: Xanibay
+          hide: Qarsoon
+          restore: Socelin
+        by: Dhexdhexaad ah
+        content: Mawduuc
+        filter: Muuji/ Tusiid
+        filters:
+          all: Dhamaan
+          on_comments: Faalo
+          on_debates: Doodo
+          on_proposals: Sojeedino
+          on_users: Isticmaalayaal
+        title: Waxqabadka Xeer ilaliyaha
+        type: Noca
+    budgets:
+      index:
+        title: Misaaniyadaha kaqayb qadashada
+        new_link: Samee misaaniyad cusub
+        filters:
+          finished: Dhamaday
+        table_name: Magac
+        table_phase: Weeji
+        table_investments: Maalgashiyo
+        table_edit_groups: Madaxyada Kooxaha
+        table_edit_budget: Isbedel
+        edit_groups: Wax ka bedel Madaxyada Kooxaha
+        edit_budget: Wax ka bedel Misaaniyada
+      create:
+        notice: Sameynta Misaaniyada cusub ee ka qaybqadashada waa lugu guleystay!
+      update:
+        notice: Miisaaniyadda ka qaybqaadashada ayaa si guul leh lo cusbooneysiiyey
+      edit:
+        title: Wax kabedel misaniyada ka qaybqadashada
+      new:
+        title: Misaniyada cusub ee kaqaybqaadashada
+      winners:
+        calculate: Xisaabi kugulestayasha Malgelinta
+        calculated: Xisaabinta kugulestayashu waxay qadaneysaa daqiiqado.
+    budget_investments:
+      index:
+        heading_filter_all: Dhamaan Ciwaanada
+        administrator_filter_all: Dhamaan Mamulayasha
+        valuator_filter_all: Dhamaan qimeeyayasha
+        tags_filter_all: Dhamaan Taagyada
+        filters:
+          without_admin: Anlahayn maamul
+          valuation_finished: Qimeeyn ayaa dhamatay
+          selected: Ladoortay
+          winners: Guleystayasha
+          all: Dhamaan
+        title: Mashariicda malgashiga
+        assigned_admin: Mamulaha lamagcaabay
+        no_admin_assigned: Mamule lama magcabin
+        no_valuators_assigned: Majiraan Qimeeyayaal loo qondeyey
+        feasibility:
+          unfeasible: "An surtgak ahayn"
+          undecided: "An go aasan"
+        selected: "Ladoortay"
+        select: "Dorasho"
+      show:
+        assigned_admin: Mamulaha lamagcaabay
+        assigned_valuators: Qimeyayasha lo xilsaray
+        info: "%{budget_name}-koox:%{group_name}-mashruca malgelinta%{id}"
+        edit: Isbedel
+        edit_classification: Beddelida qeexitaanka
+        by: An kadanbayn
+        sent: Diray
+        heading: Madaxa
+        dossier: Koob
+        edit_dossier: Tafatiraha Warqadaha
+        tags: Tagyada
+        undefined: Aan la garanayn
+        compatibility:
+          title: U Hogaansanan
+          "true": Aan la isku hallayn karin
+          "false": Waafaqsan
+        selection:
+          title: Xulasho
+        winner:
+          title: Guleyste
+          "true": "Haa"
+          "false": "Maya"
+      edit:
+        compatibility: U Hogaansanan
+        selection: Xulasho
+        assigned_valuators: Qimeeyayal
+        select_heading: Dooro Ciwaan
+        submit_button: Cusboneysiin
+        tags_placeholder: "Qoor Tagyada ad rabto inaad kasocdo qooska (,)"
+        undefined: Aan la garanayn
+      search_unfeasible: Raadinta aan macquul ahayn
+    milestones:
+      index:
+        table_id: "Aqoonsi"
+        table_title: "Ciwaan"
+        table_description: "Sharaxaad"
+        table_actions: "Tilaabooyin"
+        delete: "Tirtir hiigsiga/guleeysiga"
+        no_milestones: "An lahayn yool qeexaan"
+      new:
+        creating: Abuurida hiigsiga/guleeysiga
+      edit:
+        title: Wax ka bedel yolka
+      create:
+        notice: Guuleysi cusub ayaa abuuray guul!
+      update:
+        notice: Waxa siguula loo cusboneysiyey Higsiga
+      delete:
+        notice: Siguula ayaa loo tirtiray higsigaa
+    dashboard:
+      index:
+        title: Mamul
+    hidden_users:
+      index:
+        filter: Sifeeyee
+        filters:
+          all: Dhamaan
+          with_confirmed_hide: Xaqiijiyey
+          without_confirmed_hide: Joojin
+        title: Isticmaalayasha Qarsoon
+      show:
+        email: 'Email:'
+        hidden_at: 'Qarsoon ag:'
+        registered_at: 'Kadiwaan gashan ag:'
+        title: Wax qabadka Isticmalaha%{user}
+    legislation:
+      processes:
+        create:
+          notice: 'Geedi socod siguula ayaa losameyey. <a href="%{link}"> guji si aad u boqato</a>'
+          error: Geedi socodka lama Sameyn karo
+        update:
+          notice: 'Geedi socod siguula ayaa losameyey. <a href="%{link}"> guji si aad u boqato</a>'
+          error: Habraaca lama cusbooneysiin karo
+        destroy:
+          notice: Habraca Si guula ayaa loo tir tiray
+        edit:
+          back: Labasho
+          submit_button: Badbaadi beddelka
+        form:
+          enabled: Karti leh
+          process: Geedisocoodka
+          debate_phase: Wajiga doodda
+          use_markdown: Isticmaal lambarka si aad u sameyso qoraalka
+          title_placeholder: Ciwaanka geedi socodka
+          summary_placeholder: Soo koobista kooban ee sharaxaadda
+          description_placeholder: Ku dar sharaxaad ku saabsan hannaanka
+          additional_info_placeholder: Ku dar xog dheeriya oo ad u aragto iney faido ledahay
+        index:
+          create: New process
+          delete: Titiriid
+          filters:
+            all: Dhamaan
+        new:
+          back: Labasho
+          title: Abuur nidaam sharci oo wada shaqeyned
+          submit_button: Saame Nidam
+        process:
+          title: Geedisocoodka
+          comments: Faalo
+          status: Status
+          status_open: Furan
+          status_closed: Xiraan
+          status_planned: Qorsheysaan
+        subnav:
+          info: Maclumad
+          questions: Dood
+      draft_versions:
+        create:
+          notice: 'Qabyo qorida waxa losameyey si gula. <a href="%{link}">juug si ad u booqato</a>'
+          error: Qorshe lama abuuri karo
+        update:
+          notice: 'Qabya Qoral ayaa la cusbooneysiiyay. <a href="%{link}"> guji si aad u boqato</a>'
+          error: Qabayo Qoraal lama cusbooneysiin karo
+        destroy:
+          notice: Qabayo Qoralki Si guula ayaa loo tir tiray
+        edit:
+          back: Labasho
+          submit_button: Badbaadi beddelka
+          warning: Waad Tafatirtay qoraalka, ha ilaawin inaad gujiso badbadinta si joogto ah u keydiso isbeddelada.
+        form:
+          launch_text_editor: Biaabida Taratiridaa Qoraalka
+          close_text_editor: Tafatirida Qoralka hoose
+          use_markdown: Isticmaal lambarka si aad u sameyso qoraalka
+          hints:
+            final_version: Qaabkan waxaa la daabici doonaa sida Natiijada ugu dambeysa ee hawshan. Faallooyinka looma ogola qaybtan.
+            status:
+              draft: Mamul aha baad u arki kartaa Hordhaca cid kale ma arki karto
+              published: Muqal ahaan qof kasta
+          title_placeholder: Qor ciwaanka Qabyada ah
+          changelog_placeholder: Ku dar Isbedelada muhimka ah ee kayiid werintii hore
+          body_placeholder: Hoos ku qor qoraalka qaya qoralka ah
+        index:
+          title: Weerinta qabya qoralka
+          create: Saame Weerin
+          delete: Titiriid
+          preview: Hor udhaac
+        new:
+          back: Labasho
+          title: Saame weerin cusub
+          submit_button: Saame Weerin
+        table:
+          title: Ciwaan
+          created_at: Abuuray
+          comments: Faalo
+          final_version: Koobiga kama dabeysta ah
+          status: Status
+      questions:
+        create:
+          notice: 'Suasha si guula ayaa lo sameyey. <a href="%{link}">Click to visit</a>'
+          error: Sual an la abuuri karin
+        update:
+          notice: 'Suasha si guula ayaa lo cusboneysiyey. <a href="%{link}">Click to visit</a>'
+          error: Sual an la cusboneysiin karin
+        destroy:
+          notice: Suasha Si guula ayaa loo tir tiray
+        edit:
+          back: Labasho
+          title: "Tafatiir\"%{question_title}"
+          submit_button: Badbaadi beddelka
+        form:
+          add_option: Ku dar ikhyaari
+          value_placeholder: Ku dar jawaab celin
+        index:
+          back: Labasho
+          title: Su'aalaha la xiriira habkan
+          create: Saame sual
+          delete: Titiriid
+        new:
+          back: Labasho
+          title: Saame sual cusub
+          submit_button: Saame sual
+        table:
+          title: Ciwaan
+          question_options: Doorashooyinka su'aasha
+          answers_count: Jawabo tirin
+          comments_count: Tirinta falooyinka
+        question_option_fields:
+          remove_option: Kaas Ikhyariga
+    managers:
+      index:
+        title: Mamule
+      manager:
+        add: Kudar
+        delete: Titiriid
+    menu:
+      activity: Waxqabadka Xeer ilaliyaha
+      admin: Mamulka Warqada qiimo
+      banner: Mamulka xayiraada
+      proposals_topics: Ciwaanka sojedinada
+      budgets: Misaaniyadaha kaqayb qadashada
+      geozones: MamulDusha sare
+      hidden_comments: Falooyin Qarsoon
+      hidden_debates: Doodo qarsoodi ah
+      hidden_proposals: Soojedino qarsoon
+      hidden_users: Isticmaalayasha Qarsoon
+      administrators: Mamulayal
+      managers: Mamule
+      moderators: Dhexdhexadiyayal
+      valuators: Qimeeyayal
+      poll_officers: Sarakisha gobaha coddaynta
+      polls: Doorashooyinka
+      poll_booths: Goobta xayawaanka
+      officials: Saraakiisha
+      organizations: Ururo
+      stats: Tirakoob
+      signature_sheets: Warqada Saxixyada
+      site_customization:
+        content_blocks: Xayiraaddaha gaarka ah ee gaarka ah
+      title_moderated_content: Mawduuc dhexdhexaad ah
+      title_profiles: Aqoosi
+      legislation: Xeerarka wada shaqeynta
+      users: Isticmaalayaal
+    administrators:
+      index:
+        title: Mamulayal
+      administrator:
+        add: Kudar
+        delete: Titiriid
+        restricted_removal: "Sorry, you can't remove yourself from the administrators"
+    moderators:
+      index:
+        title: Dhexdhexadiyayal
+      moderator:
+        add: Kudar
+        delete: Titiriid
+    newsletters:
+      index:
+        title: Wargeesyo
+    valuators:
+      index:
+        title: Qimeeyayal
+      valuator:
+        add: Kudaar qimeyayasha
+    poll_officers:
+      index:
+        title: Sarakisha gobaha coddaynta
+      officer:
+        add: Kudar
+        delete: Tirtir booska
+        name: Magac
+        email: Email
+        entry_name: sarkaal
+      search:
+        email_placeholder: Radi isticmalaha Email ahaan
+        search: Raadin
+        user_not_found: Iisticamalaha lama hayo
+    poll_officer_assignments:
+      index:
+        officers_title: "Liska sarakiisha"
+        no_officers: "Ma jiraan sarkaal loo xilsaaray ra'yiururintan."
+        table_name: "Magac"
+        table_email: "Email"
+      by_officer:
+        date: "Tariikh"
+        booth: "Labadaba"
+        assignments: "Isku-dubbaridka Boorarka ayaa isbeddel ku sameeya ra'yiga"
+        no_assignments: "Isticmaalkani wuxuu leeyahay isbeddel ku yimaada codkan."
+    poll_booth_assignments:
+      show:
+        location: "Goobta"
+        officers: "Sarakiisha"
+        officers_list: "Liiska Sarkaalka labadaba"
+        no_officers: "Ma jiraan sarkaal xafiiskan"
+        recounts: "Dib u Xisaabin"
+        recounts_list: "Liiska dib u soo celinta"
+        date: "Tariikh"
+        count_final: "Soo-celinta ugu dambeysa (sarkaal)"
+        count_by_system: "Codadka oo tomaatiga ah"
+      index:
+        booths_title: "Liiska kabaha"
+        no_booths: "Ma jiraan labadaba loo qoondeeyay ra'yiururintan."
+        table_name: "Magac"
+        table_location: "Goobta"
+    polls:
+      index:
+        title: "Liisaska rayi ururinta firfircoon"
+        no_polls: "Ma jiraan wax doorasho ah oo soo socda."
+        create: "Saame dorshada"
+        name: "Magac"
+        dates: "Tariikhaha"
+      new:
+        title: "Dorashada Cusub"
+        submit_button: "Saame dorshada"
+      edit:
+        title: "Tafatiir dorashada"
+        submit_button: "Cusboneysii dorshada"
+      show:
+        questions_tab: Sualo
+        booths_tab: Labadaba
+        officers_tab: Sarakiisha
+        recounts_tab: Dib u Xisaabinaya
+        results_tab: Natiijoyin
+        no_questions: "Ma jiraan wax su'aalo ah oo loo xilsaaray ra'yiururintan."
+        questions_title: "Liiska sualaha"
+        table_title: "Ciwaan"
+      flash:
+        question_added: "Su'aasha lagu darey ra'yiururintan"
+        error_on_question_added: "Su'aashu laguma dari karin ra'yiururintan"
+    questions:
+      index:
+        title: "Sualo"
+        create: "Saame sual"
+        no_questions: "Majiraan Suaalo."
+        filter_poll: Falanqee sorashada
+        select_poll: Xuulo doorshada
+        questions_tab: "Sualo"
+        successful_proposals_tab: "Soojedin guleysatay"
+        create_question: "Saame sual"
+        table_proposal: "Sojeedin"
+        table_question: "Sual"
+      edit:
+        title: "Tafatiir Suasha"
+      show:
+        proposal: Sojeedinta asalka ah
+        author: Qoraa
+        valid_answers: Jawaab Sax ah
+    recounts:
+      index:
+        title: "Dib u Xisaabin"
+        no_recounts: "Majiraan wax dib loo tirin karo"
+        table_booth_name: "Labadaba"
+        table_system_count: "Codadka oo tomaatiga ah"
+    results:
+      index:
+        title: "Natiijoyin"
+        no_results: "Majiraan wax natiijooyina"
+    booths:
+      index:
+        add_booth: "Labadaba ku dar"
+        name: "Magac"
+        location: "Goobta"
+      new:
+        title: "Qol cusub"
+        submit_button: "Abuur labadaba"
+      edit:
+        title: "Tafatiir labadaba"
+        submit_button: "Dib u cusbooneysii kabaha"
+      show:
+        location: "Goobta"
+    officials:
+      edit:
+        title: 'Tafatiir Sarakiisha isticmaalsha'
+      flash:
+        official_destroyed: 'Faahfaahinta la keydiyay: istimalka aha mid rasmi ah'
+        official_updated: Faahfaahinta rasmiga ah lakeydiyey
+      index:
+        title: Saraakiisha
+      level_0: Maaha rasmi
+      level_1: Heerka 1
+      level_2: Heerka 2
+      level_3: Heerka 3
+      level_4: Heerka 4
+      level_5: Heerka 5
+      search:
+        edit_official: Tafatirida rasmiga ah
+        make_official: Sameyso rasmi ah
+        title: 'Meelaha rasmiga ah: Raadinta qofka'
+    organizations:
+      index:
+        filter: Sifeeyee
+        filters:
+          all: Dhamaan
+          pending: Joojin
+          rejected: Diiday
+          verified: Hubin
+        reject: Diiday
+        rejected: Diiday
+        search: Raadin
+        search_placeholder: Magaca Emailka ama talafoon lambarka
+        title: Ururo
+        verified: Hubin
+        verify: Xaqiijin
+      search:
+        title: Raadinta Ururada
+    settings:
+      flash:
+        updated: Cusboneysii Qimaha
+      index:
+        update_setting: Cusboneysiin
+        feature_flags: Soobandhigiidyo / Muqaalo
+        features:
+          enabled: "Muujin karo"
+          disabled: "Aan Muujin karin"
+          enable: "Karti leh"
+          disable: "Hawl gaab ah"
+    shared:
+      booths_search:
+        button: Raadin
+      poll_officers_search:
+        button: Raadin
+        placeholder: Raadinta dorashada sarakiisha
+      poll_questions_search:
+        button: Raadin
+        placeholder: Radinta Sualaha Dorashada
+      proposal_search:
+        button: Raadin
+        placeholder: Raadinta soo jeedinta adoo cinwaanka, koodhka, sharaxaadda ama su'aasha
+      user_search:
+        button: Raadin
+        placeholder: Raadi isticmaal adoo magacaaga ama email
+      search_results: "Raadi natiijada"
+      no_search_results: "Natijooyin lama helin."
+    geozones:
+      index:
+        title: Dusha sare
+        create: Abuur dusha sare
+        edit: Isbedel
+        delete: Titiriid
+      geozone:
+        name: Magac
+        external_code: Koodhaka dibada
+        census_code: Koodka tirakoobka
+        coordinates: Iskuduwaha
+      edit:
+        form:
+          submit_button: Badbaadi beddelka
+        editing: Hagaajinta dusha sare
+        back: Dib ulaabo
+      new:
+        back: Dib ulaabo
+        creating: Saame Degmo
+      delete:
+        success: Dusha sare si gula ayaa lo tirtiraay
+        error: Goobtaas lama tirtiri karo maadama ay jiraan waxyaabo ku xiran
+    signature_sheets:
+      author: Qoraa
+      created_at: Tarikh Abuurid
+      name: Magac
+      no_signature_sheets: "Majiraan Waraha saxiixa"
+      index:
+        title: Warqadaha Saxixyada
+        new: Warqadaha Cusub ee Saxixyada
+      new:
+        title: Warqadaha Cusub ee Saxixyada
+        submit: Saame Warqada saxiixa
+      show:
+        created_at: Abuuray
+        author: Qoraa
+        verified:
+          one: "Waxa jira %{count} saxiixya ah oo saxa"
+          other: "Waxa jira %{count} tiro saxiixya ah oo saxa"
+        unverified:
+          one: "Waxa jira %{count} tiro saxix ah o an sax ahayn"
+          other: "Waxa jira %{count} tiro saxix ah o an sax ahayn"
+        unverified_error: (Majiro tiro koob la xaqijiyey)
+        loading: "Waxaa weli jira saxiixyo lagu caddeeyey Tirakoobka, fadlan bogga ku soo cesho daqiiqado yar"
+    stats:
+      show:
+        stats_title: Xogta
+        summary:
+          comment_votes: Falooyinka codadka
+          comments: Faalo
+          debate_votes: Codeynta doodda
+          debates: Doodo
+          proposal_votes: Sojeedinta codaynta
+          proposals: Sojeedino
+          budgets: Misaaniyada furan
+          budget_investments: Mashariicda malgashiga
+          unverified_users: Isticmalayaasha an la aqonsaneyn
+          user_level_three: Isticmalayasha heerka sadexaad
+          user_level_two: Isticmalayasha heerka labaad
+          users: Wadarta isticmalayasha
+          verified_users: Isticmalayaasha la aqonsan yahay
+          verified_users_who_didnt_vote_proposals: Isticmaalayaasha la xaqiijiyay ee aan codka bixin
+          visits: Boqashooyinka
+          votes: Wadarka codadka
+        budgets_title: Misaaniyada kaqayb qadashada
+        direct_messages: Fariimo toosa
+        proposal_notifications: Ogaysiis soo jedin
+        incomplete_verifications: Caddaynta aan dhammeystirnayn
+      direct_messages:
+        title: Fariimo toosa
+        total: Wadarta guud
+        users_who_have_sent_message: Isticmalaysha diraay farimaha gaarka ah
+      proposal_notifications:
+        title: Ogaysiis soo jedin
+        total: Wadarta guud
+        proposals_with_notifications: Soo jeedimaha ogeysiisyada
+    tags:
+      index:
+        add_tag: Kudar soojedin mowduuc cusub
+        title: Moduucyo sojeedin
+    users:
+      columns:
+        name: Magac
+        email: Email
+        document_number: Lambarka dukumeentiga
+        roles: Dorarka
+        verification_level: Heerka saxda ah
+      index:
+        title: Istimale
+      search:
+        placeholder: Raadi isticmalaha Email ahaa, magac ama dukumeenti lambar
+        search: Raadin
+    verifications:
+      index:
+        phone_not_given: Telefoon aan la siin
+        sms_code_not_confirmed: Ma xaqiijin lambarka sms koodka
+        title: Caddaynta aan dhammeystirnayn
+    site_customization:
+      content_blocks:
+        create:
+          notice: Waduca joojinta ayaasi gula lo abuuray
+          error: Maduuca joojinta lama sameeyn karo
+        update:
+          notice: Waduca joojinta ayaa si gula lo cusboneysiyey
+          error: Sakad Macluumaadka lama cusbooneysiin karin
+        destroy:
+          notice: Mowduuca sakaada ayaa si gula loo tir tiraay
+        edit:
+          title: Tafatirid mowduuca sakaad
+        index:
+          create: Saamynta mowduca cusub ee xayiraada
+          delete: Masax sakada
+          title: Xudduudaha tusmada
+        new:
+          title: Saamynta mowduca cusub ee xayiraada
+        content_block:
+          body: Jirka
+          name: Magac
+      images:
+        index:
+          title: Sawirada Cadada
+          update: Cusboneysiin
+          delete: Titiriid
+          image: Sawiir
+        update:
+          notice: Sawiirka ayaa si guula lo cusboneysiyey
+          error: Sawirka lama cusboneysiin karo
+        destroy:
+          notice: Sawirka si gula ayaa loo tirtiraay
+          error: Sawirka lama tirtirkaro
+      pages:
+        create:
+          notice: Boga si guula ayaa lo sameyey
+          error: Boga lama sameyn karo
+        update:
+          notice: Booga si guula ayaa loosameyey
+          error: Booga lama cusboneysiin karo
+        destroy:
+          notice: Boga siguula ayaa loo tir tiray
+        edit:
+          title: Tafatiir%{page_title}
+        form:
+          options: Fursadaha
+        index:
+          create: Saame boog cusub
+          delete: Tirtiir booga
+          title: Bogaga gaara
+          see_page: Arag boga
+        new:
+          title: Sameyso bog cusub
+        page:
+          created_at: Abuuray
+          status: Status
+          title: Ciwaan
+          updated_at: La casriyeeyay
