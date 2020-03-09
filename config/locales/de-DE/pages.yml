@@ -1,0 +1,6 @@
+de:
+  pages:
+    verify:
+      info_code: 'Bitte geben Sie nun Ihren Code, den Sie per Post/SMS erhalten haben ein:'
+      submit: Mein Konto verifizieren
+      title: Verifizieren Sie Ihr Benutzerkonto
