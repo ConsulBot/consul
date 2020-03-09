@@ -1,0 +1,77 @@
+cs:
+  moderation:
+    header:
+      title: Moderování
+    comments:
+      index:
+        block_authors: Blokovat autory
+        confirm: Jste si jisti?
+        filter: Filtr
+        filters:
+          all: Vše
+          pending_flag_review: Nevyřízený
+          with_ignored_flag: Označené jako přečtené
+        headers:
+          comment: Komentář
+          moderate: Moderovat
+        hide_comments: Skrýt komentáře
+        ignore_flags: Označené jako přečtené
+        order: Pořadí
+        orders:
+          flags: Nejvíce označené
+          newest: Nejnovější
+        title: Komentáře
+    dashboard:
+      index:
+        title: Moderování
+    debates:
+      index:
+        block_authors: Blokovat autory
+        confirm: Jste si jisti?
+        filter: Filtr
+        filters:
+          all: Vše
+          pending_flag_review: Nevyřízený
+          with_ignored_flag: Označené jako přečtené
+        headers:
+          debate: Debata
+          moderate: Moderovat
+        hide_debates: Skrýt debaty
+        ignore_flags: Označit za přečtené
+        order: Pořadí
+        orders:
+          created_at: Nejnovější
+          flags: Nejvíce označené
+        title: Debaty
+    menu:
+      flagged_comments: Komentáře
+      flagged_debates: Debaty
+      proposals: Návrhy
+      users: Blokovat uživatele
+    proposals:
+      index:
+        block_authors: Blokovat autory
+        confirm: Jste si jisti?
+        filter: Filtr
+        filters:
+          all: Vše
+          pending_flag_review: Čeká na kontrolu
+          with_ignored_flag: Označit za přečtené
+        headers:
+          moderate: Moderovat
+          proposal: Návrhy
+        hide_proposals: Skrýt návrhy
+        ignore_flags: Označit za přečtené
+        order: Seřadit podle
+        orders:
+          created_at: Nejnovější
+          flags: Nejvíce označené
+        title: Návrhy
+    users:
+      index:
+        hidden: Blokováno
+        hide: Blokovat
+        search: Vyhledat
+        search_placeholder: email nebo jméno uživatele
+        title: Blokovat uživatele
+      notice_hide: Uživatel byl zablokován. Všechny debaty a komentáře tohoto uživatele byly skryty.
