@@ -1,0 +1,6 @@
+it:
+  pages:
+    verify:
+      info_code: 'Ora introduci il codice che hai ricevuto nella lettera:'
+      submit: Verifica il tuo account
+      title: Verifica il tuo account
