@@ -1,0 +1,77 @@
+da:
+  moderation:
+    header:
+      title: Moderation
+    comments:
+      index:
+        block_authors: Bloker bruger
+        confirm: Er du sikker?
+        filter: Filter
+        filters:
+          all: Alle
+          pending_flag_review: Under behandling
+          with_ignored_flag: Markér som set
+        headers:
+          comment: Kommentar
+          moderate: Moderér
+        hide_comments: Skjul kommentarer
+        ignore_flags: Markér som set
+        order: Orden
+        orders:
+          flags: Mest markeret
+          newest: Nyeste
+        title: Kommentarer
+    dashboard:
+      index:
+        title: Moderation
+    debates:
+      index:
+        block_authors: Bloker forfattere
+        confirm: Er du sikker?
+        filter: Filter
+        filters:
+          all: Alle
+          pending_flag_review: Under behandling
+          with_ignored_flag: Markér som set
+        headers:
+          debate: Debat
+          moderate: Moderér
+        hide_debates: Skjul debatindlæg
+        ignore_flags: Markér som set
+        order: Orden
+        orders:
+          created_at: Nyeste
+          flags: Mest markeret
+        title: Debatindlæg
+    menu:
+      flagged_comments: Kommentarer
+      flagged_debates: Debatter
+      proposals: Borgerforslag
+      users: Bloker brugere
+    proposals:
+      index:
+        block_authors: Bloker forfattere
+        confirm: Er du sikker?
+        filter: Filter
+        filters:
+          all: Alle
+          pending_flag_review: Afventer gennemgang
+          with_ignored_flag: Markér som set
+        headers:
+          moderate: Moderér
+          proposal: Borgerforslag
+        hide_proposals: Skjul forslag
+        ignore_flags: Markér som set
+        order: Sorter efter
+        orders:
+          created_at: Seneste
+          flags: Mest markeret
+        title: Borgerforslag
+    users:
+      index:
+        hidden: Blokeret
+        hide: Bloker
+        search: Søg
+        search_placeholder: e-mail eller brugernavn
+        title: Bloker brugere
+      notice_hide: Bruger blokeret. Alle brugerens debatindlag og kommentarer er blevet skjult.
