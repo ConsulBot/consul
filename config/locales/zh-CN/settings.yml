@@ -1,0 +1,28 @@
+zh-CN:
+  settings:
+    comments_body_max_length: "评论内容最大长度"
+    official_level_1_name: "1级公众职员"
+    official_level_2_name: "2级公众职员"
+    official_level_3_name: "3 级公众职员"
+    official_level_4_name: "4级公众职员"
+    official_level_5_name: "5级公众职员"
+    max_ratio_anon_votes_on_debates: "每次辩论匿名投票的最大比率"
+    max_votes_for_debate_edit: "对无法再编辑辩论的投票数"
+    proposal_code_prefix: "提议代码的前缀"
+    months_to_archive_proposals: "提议存档的月限"
+    email_domain_for_officials: "公众职员的电子邮件域名"
+    twitter_handle: "Twitter 设置"
+    twitter_hashtag: "Twitter 标签"
+    facebook_handle: "Facebook设置"
+    youtube_handle: "Youtube设置"
+    telegram_handle: "Telegram设置"
+    instagram_handle: "Instagram设置"
+    url: "主URL"
+    feature:
+      twitter_login: Twitter登录
+      facebook_login: Facebook登录
+      google_login: Google登录
+      signature_sheets: 签名表
+    meta_description: "网站描述(SEO)"
+    meta_keywords: "关键词 (SEO)"
+    min_age_to_participate: 参与需要的最低年龄
