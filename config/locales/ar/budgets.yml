@@ -1,0 +1,105 @@
+ar:
+  budgets:
+    ballots:
+      show:
+        title: الاقتراح الخاص بك
+        amount_spent: المبلغ المنفق
+        remaining: "لا يزال لديك <span>%{amount}</span> للاستثمار."
+        no_balloted_group_yet: "انت لم تقم بالتصويت على هذه المجموعة بعد، اذهب للتصويت!"
+        remove: ازالة التصويت
+        zero: أنت لم تصوت على أي مشروع استثماري.
+      reasons_for_not_balloting:
+        not_logged_in: تحتاج الى %{signin} او %{signup} للمتابعة.
+        not_verified: يمكن للمستخدمين الذين تم التحقق منهم فقط التصويت على الاستثمارات; %{verify_account}.
+        organization: المنظمات لا يسمح لها بالتصويت
+        not_selected: لا يمكن دعم المشاريع الإستثمارية الغير محددة
+        no_ballots_allowed: مرحلة التحديد مغلقة
+        change_ballot: تغيير الأصوات الخاصة بك
+    groups:
+      show:
+        title: قم بتحديد خيار
+        unfeasible_title: الاستثمارات الغير مجدية
+        unfeasible: انظر الى الاستثمارات الغير مجدية
+        unselected_title: الاستثمارات الغير محددة لمرحلة الاقتراع
+        unselected: انظر للاستثمارات الغير مجدية لمرحلة الاقتراع
+    phase:
+      accepting: قبول المشاريع
+      reviewing: استعراض المشاريع
+      selecting: تحديد المشاريع
+      valuating: تقييم المشاريع
+      finished: الميزانية النهائية
+    index:
+      title: الميزانيات المشاركة
+    investments:
+      form:
+        tag_category_label: "فئات"
+        tags_instructions: "علم على هذا الاقتراح. تستطيع الاختيار من بين الفئات المقترحة او اضافة الخاصة بك"
+        tags_label: العلامات
+        tags_placeholder: "ادخل العلامات التي ترغب في استخدامها، مفصولة بفواصل (',')"
+      index:
+        title: الميزانية التشاركية
+        unfeasible: الاستثمارات الغير مجدية
+        by_heading: "المشاريع الاستثمارية ذات النطاق: %{heading}"
+        search_form:
+          button: بحث
+          placeholder: البحث عن المشاريع الاستثمارية...
+          title: بحث
+        sidebar:
+          my_ballot: قرعتي
+          voted_info: يمكنك %{link} في اي وقت حتى اغلاف هذه المرحلة. لا داعي لانفاق جميع الاموال المتاحة.
+          voted_info_link: غيير الصوت الخاص بك
+          change_ballot: "اذا تريد تغيير رايك تسطيع ازالة التصويت الخاص بك في %{check_ballot} و البدء مرة اخرى."
+          zero: انت لم تصوت على اي مشروع استثماري في هذه المحموعة.
+          verified_only: "لانشاء ميزانية استثمار جديدة %{verify}."
+          not_logged_in: "لانشاء ميزانية استثمار جديدة يجب عليك %{sign_in} او %{sign_up}."
+          by_feasibility: حسب الجدوى
+          feasible: مشاريع مجدية
+          unfeasible: مشاريع غير مجدية
+        orders:
+          random: عشوائي
+          confidence_score: اعلى تقييم
+          price: حسب السعر
+      show:
+        author_deleted: تم حذف المستخدم
+        price_explanation: توضيح الاسعار
+        unfeasibility_explanation: تفسير غير مجدي
+        share: مشاركة
+        title: مشروع استثماري
+        supports: تشجيعات
+        votes: اصوات
+        price: السعر
+        comments_tab: تعليقات
+        milestones_tab: الأهداف المرحلية
+      wrong_price_format: الاعداد الصحيحة فقط
+      investment:
+        add: صوت
+        already_added: قمت بالفعل باضافة هذا المشروع الاستثماري
+        support_title: ادعم هذا المشروع
+        supports:
+          zero: لا يوجد دعم
+          zero: "%{count} دعم"
+          one: دعم واحد
+          two: "%{count} دعم"
+          few: "%{count} دعم"
+          many: "%{count} دعم"
+          other: "%{count} دعم"
+        give_support: دعم
+      header:
+        change_ballot: "اذا تريد تغير رايك تستطيع ازالة تصويتك في %{check_ballot} والبدء مرة اخرى."
+    show:
+      group: مجموعة
+      phase: المرحلة الفعلية
+      unfeasible_title: الإستثمارات غير مجدية
+      unfeasible: انظر الى الاستثمارات الغير مجدية
+      unselected_title: الإستثمارات غير محددة لمرحلة الإقتراع
+      unselected: انظر للاستثمارات الغير محددة لمرحلة الاقتراع
+      see_results: رؤية النتائج
+    results:
+      link: النتائج
+      page_title: "%{budget} -النتائج"
+      heading: "نتائج الميزانيات المشاركة"
+      heading_selection_title: "جسب المنطقة"
+      hide_discarded_link: اخفاء المهملة
+      show_all_link: اظهار الكل
+      amount_available: الميزانية المتاحة
+      incompatibles: غير متوافق
