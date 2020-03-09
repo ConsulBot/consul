@@ -1,0 +1,6 @@
+pt-BR:
+  pages:
+    verify:
+      info_code: 'Agora introduza o código recebido na carta:'
+      submit: Verificar minha conta
+      title: Verifique sua conta
