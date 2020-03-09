@@ -1,0 +1,103 @@
+pl:
+  budgets:
+    ballots:
+      show:
+        title: Twój tajny głos
+        amount_spent: Łączna wartość wybranych projektów
+        remaining: "Wciąż masz <span>%{amount}</span> do zainwestowania."
+        no_balloted_group_yet: "Jeszcze nie zagłosowałeś na tej grupie, oddaj swój głos!"
+        remove: Usuń głos
+        zero: Nie wybrałeś/aś jeszcze żadnego projektu.
+      reasons_for_not_balloting:
+        not_logged_in: Aby kontynuować, musisz %{signin} lub %{signup}.
+        not_verified: W głosowaniu mogą wziąć udział tylko zweryfikowani użytkownicy. %{verify_account}.
+        organization: Organizacje nie mogą głosować
+        not_selected: Niewybrane projekty inwestycyjne nie mogą być wspierane
+        no_ballots_allowed: Faza wybierania jest zamknięta
+        change_ballot: zmieńcie swoje głosy
+    groups:
+      show:
+        title: Wybierz opcję
+        unfeasible_title: Niewykonalne inwestycje
+        unfeasible: Zobacz niewykonalne inwestycje
+        unselected_title: Inwestycje niewybrane do fazy głosowania
+        unselected: Zobacz inwestycje niewybrane do fazy głosowania
+    phase:
+      accepting: Przyjmowanie projektów
+      reviewing: Przeglądanie projektów
+      selecting: Wybieranie projektów
+      valuating: Ewaluacja projektów
+      finished: Ukończony budżet
+    index:
+      title: Budżety partycypacyjne
+    investments:
+      form:
+        tag_category_label: "Kategorie"
+        tags_instructions: "Otaguj ten wniosek. Możesz wybrać spośród proponowanych kategorii lub dodać własną"
+        tags_label: Tagi
+        tags_placeholder: "Wprowadź oznaczenia, których chciałbyś użyć, rozdzielone przecinkami (',')"
+      index:
+        title: Budżetowanie partycypacyjne
+        unfeasible: Niewykonalne projekty inwestycyjne
+        by_heading: "Projekty inwestycyjne z zakresu: %{heading}"
+        search_form:
+          button: Szukaj
+          placeholder: Przeszukaj projekty inwestycyjne...
+          title: Szukaj
+        sidebar:
+          my_ballot: Moje głosowanie
+          voted_info: Możesz %{link} w każdej chwili aż do zamknięcia tej fazy. Nie ma potrzeby wydawania wszystkich dostępnych pieniędzy.
+          voted_info_link: zmień swój głos
+          change_ballot: "Jeśli zmienisz zdanie, możesz usunąć swoje głosy w %{check_ballot} i zacząć od nowa."
+          zero: Nie zagłosowałeś na żaden z projektów inwestycyjnych w tej grupie.
+          verified_only: "By stworzyć nową inwestycję budżetową %{verify}."
+          not_logged_in: "By stworzyć nową inwestycję budżetową musisz %{sign_in} lub %{sign_up}."
+          by_feasibility: Według wykonalności
+          feasible: Projekty uznane za możliwe do realizacji
+          unfeasible: Projekty uznane za niemożliwe do realizacji
+        orders:
+          random: losowe
+          confidence_score: najwyżej oceniane
+          price: według ceny
+      show:
+        author_deleted: Użytkownik usunięty
+        price_explanation: Wyjaśnienie ceny
+        unfeasibility_explanation: Wyjaśnienie niewykonalności
+        share: Udostępnij
+        title: Projekt inwestycyjny
+        supports: Wsparcie
+        votes: Głosów
+        price: Koszt
+        comments_tab: Komentarze
+        milestones_tab: Kamienie milowe
+      wrong_price_format: Tylko liczby całkowite
+      investment:
+        add: Głos
+        already_added: Dodałeś już ten projekt inwestycyjny
+        support_title: Wesprzyj ten projekt
+        supports:
+          zero: Brak poparcia
+          one: 1 popierający
+          few: "%{count} popierających"
+          many: "%{count} popierających"
+          other: "%{count} popierających"
+        give_support: Poparcie
+      header:
+        change_ballot: "Jeśli zmienisz zdanie, możesz usunąć swoje głosy w %{check_ballot} i zacząć od nowa."
+    show:
+      group: Grupa
+      phase: Aktualna faza
+      unfeasible_title: Niewykonalne inwestycje
+      unfeasible: Zobacz niewykonalne inwestycje
+      unselected_title: Inwestycje niewybrane do fazy głosowania
+      unselected: Zobacz inwestycje niewybrane do fazy głosowania
+      see_results: Zobacz wyniki
+    results:
+      link: Wyniki
+      page_title: "%{budget} - wyniki"
+      heading: "Wyniki budżetu partycypacyjnego"
+      heading_selection_title: "Przez powiat"
+      hide_discarded_link: Ukryj odrzucone
+      show_all_link: Pokaż wszystkie
+      amount_available: Dostępny budżet
+      incompatibles: Niekompatybilne
