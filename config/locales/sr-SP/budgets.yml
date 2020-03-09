@@ -1,0 +1,102 @@
+sr:
+  budgets:
+    ballots:
+      show:
+        title: Ваш глас
+        amount_spent: Потрошена количина
+        remaining: "Ви још морате <span>%{amount}</span> инвестирати."
+        no_balloted_group_yet: "Још увек нисте гласали за ову групу, гласајте!"
+        remove: Уклоните глас
+        zero: Нисте гласали ни за један пројекат.
+      reasons_for_not_balloting:
+        not_logged_in: Морате %{signin} или %{signup} да бисте наставили.
+        not_verified: Само потврђени корисници могу гласати за инвестиције; %{verify_account}.
+        organization: Организацијама није дозвољено гласање
+        not_selected: Неизабрани инвестициони пројекти не могу бити подржани
+        no_ballots_allowed: Фаза одабира је затворена
+        change_ballot: промените свој глас
+    groups:
+      show:
+        title: Изаберите опцију
+        unfeasible_title: Неизводљива улагања
+        unfeasible: Види неизводљиве инвестиције
+        unselected_title: Инвестиције нису одабране за гласачку фазу
+        unselected: Прегледајте инвестиције које нису одабране за гласачку фазу
+    phase:
+      accepting: Прихватање пројекта
+      reviewing: Преглед пројеката
+      selecting: Одабир пројеката
+      valuating: Вредновање пројеката
+      finished: Финализиран буџет
+    index:
+      title: Партиципативни буџет
+    investments:
+      form:
+        tag_category_label: "Категорије"
+        tags_instructions: "Обележите овај предлог. Можете одабрати из понуђених категорија или додати Вашу сопствену"
+        tags_label: Обележја
+        tags_placeholder: "Унесите обележја која бисте желели да користите, одвојене зарезима (',')"
+      index:
+        title: Партиципаторно буџетирање
+        unfeasible: Неспроводиви инвестициони пројекти
+        by_heading: "Инвестициони пројекат у опсегу: %{heading}"
+        search_form:
+          button: Претрага
+          placeholder: Претражи инвестиционе пројекте...
+          title: Претрага
+        sidebar:
+          my_ballot: Моје гласање
+          voted_info: Можете %{link} у било које време све до затварања ове фазе. Нема потребе да трошите сав преостали новац.
+          voted_info_link: промените Ваш глас
+          change_ballot: "Уколико промените Ваше мишљење можете променити свој глас у %{check_ballot} и започети поново."
+          zero: Нисте гласали ни за један инвестициони пројекат у овој групи.
+          verified_only: "Како бисте креирали нови буџет инвестиције %{verify}."
+          not_logged_in: "Како бисте креирали нову буџетску инвестицију морате %{sign_in} или %{sign_up}."
+          by_feasibility: По изводљивости
+          feasible: Изводљиви пројекти
+          unfeasible: Неизводљиви пројекти
+        orders:
+          random: насумично
+          confidence_score: највише котирани
+          price: по цени
+      show:
+        author_deleted: Корисник избрисан
+        price_explanation: Објашњење цене
+        unfeasibility_explanation: Неизводљиво објашњење
+        share: Подели
+        title: Инвестициони пројекат
+        supports: Подржава
+        votes: Гласова
+        price: Цена
+        comments_tab: Коментари
+        milestones_tab: Циљеви
+      wrong_price_format: Само цели бројеви
+      investment:
+        add: Глас
+        already_added: Већ сте додали овај инвестициони пројекат
+        support_title: Подржите овај пројекат
+        supports:
+          zero: Нема подршке
+          one: 1 подршка
+          few: "%{count} подршки"
+          other: "%{count} подршки"
+        give_support: Подршка
+      header:
+        change_ballot: "Уколико промените Ваше мишљење можете променити свој глас у %{check_ballot} и започети поново."
+    show:
+      group: Група
+      phase: Актуелна фаза
+      unfeasible_title: Неизводљиве инвестиције
+      unfeasible: Погледајте неизводљиве инвестиције
+      unselected_title: Инвестиције нису одабране за гласачку фазу
+      unselected: Прегледајте инвестиције које нису одабране за гласачку фазу
+      see_results: Види резултате
+    results:
+      link: Резултати
+      page_title: "%{budget} - Резултати"
+      heading: "Резултати партиципаторног буџетирања"
+      heading_selection_title: "По окрузима"
+      hide_discarded_link: Сакриј одбачено
+      show_all_link: Покажи све
+      amount_available: Расположив буџет
+      incompatibles: Некомпатибилно
