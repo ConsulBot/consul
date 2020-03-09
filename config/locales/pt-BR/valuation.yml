@@ -1,0 +1,61 @@
+pt-BR:
+  valuation:
+    header:
+      title: Avaliação
+    menu:
+      title: Avaliação
+      budgets: Orçamentos participativos
+    budgets:
+      index:
+        title: Orçamentos participativos
+        filters:
+          current: Aberto
+          finished: Terminados
+        table_name: Nome
+        table_phase: Estágio
+        table_assigned_investments_valuation_open: Projetos de investimento atribuídos com avaliação aberta
+        table_actions: Ações
+        evaluate: Avaliar
+    budget_investments:
+      index:
+        headings_filter_all: Todos os títulos
+        filters:
+          valuation_open: Aberto
+          valuating: Em avaliação
+          valuation_finished: Avaliação terminada
+        assigned_to: "Atribuído a %{valuator}"
+        title: Projetos de investimento
+        edit: Editar relatório
+        table_id: ID
+        table_title: Título
+        table_heading_name: Nome do título
+        table_actions: Ações
+      show:
+        back: Voltar
+        title: Projeto de investimento
+        info: Informação do autor
+        by: Enviado por
+        sent: Enviado em
+        heading: Título
+        dossier: Relatório
+        edit_dossier: Editar relatório
+        price: Preço
+        price_first_year: Custo durante o primeiro ano
+        currency: "€"
+        feasibility: Viabilidade
+        feasible: Viável
+        unfeasible: Inviável
+        undefined: Não definido
+        valuation_finished: Avaliação terminada
+        duration: Prazo
+        responsibles: Responsáveis
+        assigned_admin: Administrador designado
+        assigned_valuators: Avaliadores designados
+      edit:
+        dossier: Relatório
+        feasibility: Viabilidade
+        save: Salvar alterações
+      notice:
+        valuate: "Dossiê atualizado"
+
+
