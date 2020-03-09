@@ -1,0 +1,28 @@
+el:
+  settings:
+    comments_body_max_length: "Μέγιστο μήκος σχολίων"
+    official_level_1_name: "Επίπεδο 1 δημόσιος υπάλληλος"
+    official_level_2_name: "Επίπεδο 2 δημόσιος υπάλληλος"
+    official_level_3_name: "Επίπεδο 3 δημόσιος υπάλληλος"
+    official_level_4_name: "Επίπεδο 4 δημόσιος υπάλληλος"
+    official_level_5_name: "Επίπεδο 5 δημόσιος υπάλληλος"
+    max_ratio_anon_votes_on_debates: "Μέγιστος αριθμός ανώνυμων ψήφων κατά συζήτηση"
+    max_votes_for_debate_edit: "Αριθμός ψήφων κατά τις οποίες μια συζήτηση δεν μπορεί πλέον να επεξεργαστεί"
+    proposal_code_prefix: "Πρόθεμα για κωδικούς προτάσεων"
+    months_to_archive_proposals: "Αριθμός μηνών για την αρχειοθέτηση των προτάσεων"
+    email_domain_for_officials: "Τομέας ηλεκτρονικού ταχυδρομείου για δημοσίους υπαλλήλους"
+    twitter_handle: "Διαχείριση Twitter"
+    twitter_hashtag: "Twitter hashtag"
+    facebook_handle: "Διαχείριση Facebook"
+    youtube_handle: "Διαχείριση YouTube"
+    telegram_handle: "Διαχείριση Telegram"
+    instagram_handle: "Διαχείριση Instagram"
+    url: "Κύρια διεύθυνση URL"
+    feature:
+      twitter_login: Σύνδεση στο Twitter
+      facebook_login: Σύνδεση με Facebook
+      google_login: Σύνδεση με Google
+      signature_sheets: Φύλλα υπογραφών
+    meta_description: "Περιγραφή ιστότοπου (SEO)"
+    meta_keywords: "Λέξεις-κλειδιά (SEO)"
+    min_age_to_participate: Ελάχιστη απαιτούμενη ηλικία συμμετοχής
