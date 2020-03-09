@@ -1,0 +1,11 @@
+en-US:
+  admin:
+    poll_officers:
+      officer:
+        email: Email
+    poll_officer_assignments:
+      index:
+        table_email: "Email"
+    users:
+      columns:
+        email: Email
