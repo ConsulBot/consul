@@ -1,0 +1,61 @@
+de:
+  valuation:
+    header:
+      title: Bewertung
+    menu:
+      title: Bewertung
+      budgets: Bürgerhaushalte
+    budgets:
+      index:
+        title: Bürgerhaushalte
+        filters:
+          current: Offen
+          finished: Abgeschlossen
+        table_name: Name
+        table_phase: Phase
+        table_assigned_investments_valuation_open: Zugeordnete Investmentprojekte mit offener Bewertung
+        table_actions: Aktionen
+        evaluate: Bewerten
+    budget_investments:
+      index:
+        headings_filter_all: Alle Rubriken
+        filters:
+          valuation_open: Offen
+          valuating: Unter Bewertung
+          valuation_finished: Begutachtung abgeschlossen
+        assigned_to: "%{valuator} zugewiesen"
+        title: Ausgabenvorschläge
+        edit: Bericht bearbeiten
+        table_id: ID
+        table_title: Titel
+        table_heading_name: Name der Rubrik
+        table_actions: Aktionen
+      show:
+        back: Zurück
+        title: Investitionsprojekt
+        info: Autor info
+        by: Gesendet von
+        sent: Gesendet um
+        heading: Rubrik
+        dossier: Bericht
+        edit_dossier: Bericht bearbeiten
+        price: Preis
+        price_first_year: Kosten im ersten Jahr
+        currency: "€"
+        feasibility: Durchführbarkeit
+        feasible: Durchführbar
+        unfeasible: Undurchführbar
+        undefined: Undefiniert
+        valuation_finished: Begutachtung abgeschlossen
+        duration: Zeitrahmen
+        responsibles: Verantwortliche
+        assigned_admin: Zugewiesener Admin
+        assigned_valuators: Zugewiesene Begutachter*innen
+      edit:
+        dossier: Bericht
+        feasibility: Durchführbarkeit
+        save: Änderungen speichern
+      notice:
+        valuate: "Dossier aktualisiert"
+
+
