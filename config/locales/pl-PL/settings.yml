@@ -1,0 +1,28 @@
+pl:
+  settings:
+    comments_body_max_length: "Max długość pola komentarza"
+    official_level_1_name: "Urzędnik państwowy poziomu 1"
+    official_level_2_name: "Urzędnik państwowy poziomu 2"
+    official_level_3_name: "Urzędnik państwowy poziomu 3"
+    official_level_4_name: "Urzędnik państwowy poziomu 4"
+    official_level_5_name: "Urzędnik państwowy poziomu 5"
+    max_ratio_anon_votes_on_debates: "Maksymalny stosunek anonimowych głosów na debatę"
+    max_votes_for_debate_edit: "Liczba głosów, powyżej której debata nie może być dłużej edytowana"
+    proposal_code_prefix: "Prefiks dla kodów Wniosków"
+    months_to_archive_proposals: "Miesiące do archiwizacji Wniosków"
+    email_domain_for_officials: "Domena poczty e-mail dla urzędników państwowych"
+    twitter_handle: "Identyfikator użytkownika na Twitterze"
+    twitter_hashtag: "Znacznik Twittera"
+    facebook_handle: "Identyfikator użytkownika na Facebooku"
+    youtube_handle: "Identyfikator użytkownika na Youtubie"
+    telegram_handle: "Identyfikator użytkownika na Telegramie"
+    instagram_handle: "Identyfikator użytkownika na Instagramie"
+    url: "Główny adres URL"
+    feature:
+      twitter_login: Login do Twittera
+      facebook_login: Login do Facebooka
+      google_login: Login do Google
+      signature_sheets: Arkusze podpisu
+    meta_description: "Opis strony (SEO)"
+    meta_keywords: "Słowa kluczowe (SEO)"
+    min_age_to_participate: Minimalny wiek wymagany do wzięcia udziału
