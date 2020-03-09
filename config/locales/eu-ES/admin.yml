@@ -1,0 +1,51 @@
+eu:
+  admin:
+    budgets:
+      index:
+        table_name: Izena
+    legislation:
+      processes:
+        subnav:
+          questions: Eztabaida
+    poll_officers:
+      officer:
+        name: Izena
+        email: E-mail
+    poll_officer_assignments:
+      index:
+        table_name: "Izena"
+        table_email: "E-mail"
+    poll_booth_assignments:
+      index:
+        table_name: "Izena"
+    polls:
+      index:
+        name: "Izena"
+      show:
+        questions_tab: Galderak
+    questions:
+      index:
+        title: "Galderak"
+        questions_tab: "Galderak"
+        table_question: "Galdera"
+    booths:
+      index:
+        name: "Izena"
+    geozones:
+      geozone:
+        name: Izena
+    signature_sheets:
+      name: Izena
+    users:
+      columns:
+        name: Izena
+        email: E-mail
+      index:
+        title: Erabiltzailea
+    site_customization:
+      content_blocks:
+        content_block:
+          name: Izena
+      images:
+        index:
+          image: Irudia
