@@ -1,0 +1,573 @@
+ar:
+  account:
+    show:
+      change_credentials_link: تغيير بيانات الاعتماد الخاصة بي
+      erase_account_link: مسح حسابي
+      finish_verification: عملية التحقق مكتملة
+      notifications: إشعارات
+      organization_name_label: اسم المنظمة
+      organization_responsible_name_placeholder: ممثل المنظمة/الوحدة
+      personal: البيانات الشخصية
+      phone_number_label: رقم الهاتف
+      save_changes_submit: حفظ التغييرات
+      title: حسابي
+      user_permission_debates: المشاركة بالحوارات
+      user_permission_info: من خلال حسابك يمكنك...
+      user_permission_proposal: انشاء مقترحات جديدة
+      user_permission_support_proposal: دعم مقترحات
+      user_permission_title: المشاركة
+      user_permission_verify: لتنفيذ كافة الإجراءات يرجى التحقق من الحساب الخاص بك.
+      user_permission_verify_info: "* فقط للمستخدمين في التعداد."
+      user_permission_votes: المشاركة في التصويت النهائي
+      username_label: اسم المستخدم
+      verified_account: تم التحقق من الحساب
+      verify_my_account: التحقق من حسابي
+  application:
+    close: غلق
+    menu: القائمة
+  comments:
+    comments_closed: التعليقات مغلقة
+    verified_only: للمشاركة %{verify_account}
+    comment:
+      admin: مدير
+      author: كاتب
+      deleted: تم حذف هذا التعليق
+      moderator: المشرف
+      responses:
+        zero: لا توجد ردود
+        zero: "%{count} ردود"
+        one: ردّ واحد
+        two: "ردّان %{count}"
+        few: "%{count} ردود"
+        many: "%{count} ردود"
+        other: "%{count} ردود"
+      user_deleted: حذف المستخدم
+      votes:
+        zero: لا توجد أصوات
+        zero: "%{count} أصوات"
+        one: صوت واحد
+        two: "صوتان %{count}"
+        few: "%{count} أصوات"
+        many: "%{count} أصوات"
+        other: "%{count} أصوات"
+    form:
+      comment_as_admin: التعليق كمدير
+      comment_as_moderator: التعليق كمشرف
+      leave_comment: اترك تعليقك
+    orders:
+      most_voted: الأكثر تصويتا
+      newest: الأحدث أولاً
+      oldest: الأقدم أولاً
+    select_order: ترتيب حسب
+    show:
+      return_to_commentable: 'العودة إلى '
+  comments_helper:
+    comment_button: نشر التعليق
+    comment_link: تعليق
+    comments_title: تعليقات
+    reply_button: نشر الرد
+    reply_link: الرد
+  debates:
+    create:
+      form:
+        submit_button: بدء مناقشة
+    debate:
+      comments:
+        zero: لا توجد تعليقات
+        zero: "%{count} تعليقات"
+        one: '%{count} تعليق'
+        two: "%{count} تعليقات"
+        few: "%{count} تعليقات"
+        many: "%{count} تعليقات"
+        other: "%{count} تعليقات"
+      votes:
+        zero: لا توجد أصوات
+        zero: "%{count} أصوات"
+        one: صوت واحد
+        two: "%{count} أصوات"
+        few: "%{count} أصوات"
+        many: "%{count} أصوات"
+        other: "%{count} أصوات"
+    edit:
+      editing: تعديل المناقشة
+      form:
+        submit_button: حفظ التغييرات
+      show_link: عرض المناقشة
+    form:
+      debate_title: عنوان المناقشة
+      tags_instructions: ضع علامة على هذا النقاش.
+      tags_placeholder: "ادخل العلامات التي ترغب في استخدامها، مفصولة بفواصل (',')"
+    index:
+      featured_debates: مميز
+      filter_topic:
+        zero: " حول موضوع '%{topic}'"
+        one: " حول موضوع '%{topic}'"
+        two: " حول موضوع '%{topic}'"
+        few: " حول موضوع '%{topic}'"
+        many: " حول موضوع '%{topic}'"
+        other: " حول موضوع '%{topic}'"
+      orders:
+        confidence_score: اعلى تقييم
+        created_at: أحدث
+        hot_score: الأكثر نشاطا
+        most_commented: الأكثر تعليقا
+        relevance: الأهمية
+      search_form:
+        button: بحث
+        placeholder: البحث عن مناقشات...
+        title: بحث
+      select_order: ترتيب حسب
+      start_debate: بدء مناقشة
+      title: النقاشات
+    new:
+      form:
+        submit_button: بدء مناقشة
+      info: إذا كنت تريد تقديم اقتراح ، فهذا القسم الخاطئ ، إذهب إلى %{info_link}.
+      info_link: انشاء مقترح جديدة
+      more_info: مزيد من المعلومات
+      recommendation_four: استمتع بهذه المساحة والأصوات التي تملأها. إنها ملكك أيضًا.
+      recommendation_one: لا تكتب عنوان المناقشة أو الجمل الكاملة بأحرف كبيرة فذلك يعتبر صراخا على شبكة الإنترنت ولا أحد يحب أن يُصرخ عليه.
+      recommendation_three: النقد الحاد مرحب به. هذا فضاء للتفكير. لكننا نوصيك بالتمسك بالأناقة والذكاء. سيكون العالم مكان أفضل بوجود هذه الفضائل.
+      recommendation_two: سيتم حذف أي موضوع أو تعليق يتضمن إجراءً غير قانوني، إلى جانب المواضيع و التعاليق التي تنوي تخريب مساحات الموضوع، كل الأشياء الأخرى مسموح بها.
+      recommendations_title: توصيات لإنشاء مناقشة
+      start_new: بدء مناقشة
+    show:
+      author_deleted: تم حذف المستخدم
+      comments:
+        zero: لا توجد تعليقات
+        zero: "%{count} تعليق"
+        one: تعليق واحد
+        two: "%{count} تعليق"
+        few: "%{count} تعليق"
+        many: "%{count} تعليق"
+        other: "%{count} تعليق"
+      comments_title: تعليقات
+      edit_debate_link: تعديل
+      flag: تم التبليغ على أنّ هذا النقاش غير لائق من قبل العديد من المستخدمين.
+      share: مشاركة
+    update:
+      form:
+        submit_button: حفظ التغييرات
+  errors:
+    messages:
+      user_not_found: لم يتم العثور على المستخدم
+      invalid_date_range: "نطاق التاريخ غير صالح"
+  form:
+    accept_terms: أوافق على %{policy} و%{conditions}
+    accept_terms_title: أوافق على سياسة الخصوصية وشروط وأحكام الاستخدام
+    conditions: قوانين وشروط الاستخدام
+    debate: الحوارات
+    direct_message: رسالة خاصة
+    error: خطأ
+    errors: أخطاء
+    policy: سياسة الخصوصية
+    proposal: اقتراح
+    proposal_notification: "إشعار"
+    budget/investment: إستثمار
+    user: الحساب
+    verification/sms: الهاتف
+    signature_sheet: ورقة التوقيع
+  geozones:
+    none: جميع المدن
+  layouts:
+    application:
+      chrome: Google Chrome
+      firefox: فايرفوكس
+      ie: لقد اكتشفنا أنك تتصفح باستخدام Internet Explorer. للحصول على أفضل تجربة، ننصحك بإستخدام %{firefox} أو %{chrome}.
+      ie_title: هذا الموقع لا يتناسب مع متصفحك
+    footer:
+      accessibility: إمكانية الوصول
+      conditions: قوانين وشروط الاستخدام
+      consul_url: https://github.com/consul/consul
+      description: تستخدم هذه البوابة %{consul} والذي هو%{open_source}.
+      open_source: برنامج مفتوح المصدر
+      open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
+      participation_text: قرر كيف ستتشكل المدينة التي تريد العيش فيها.
+      participation_title: المشاركة
+      privacy: سياسة الخصوصية
+    header:
+      administration: الإدارة
+      available_locales: اللغات المتوفرة
+      debates: النقاشات
+      locale: 'لغة:'
+      management: الإدارة
+      moderation: الإشراف
+      valuation: التقييم
+      officing: ضباط الاستطلاع
+      my_account_link: حسابي
+      open: فتح
+      open_gov: حكومة مفتوحة
+      proposals: إقتراحات
+      poll_questions: التصويت
+      budgets: الميزانية التشاركية
+    admin:
+      watch_form_message: 'لم يتم حفظ التغيرات ، هل أنت متأكد من مغادرة الصفحة وتجاهل التغيرات ؟'
+  notifications:
+    index:
+      empty_notifications: لا يوجد إشعارات جديدة.
+      mark_all_as_read: الكل مقروءة
+      title: إشعارات
+  map:
+    title: "مقاطعات"
+    proposal_for_district: "إبدأ مقترحا لمقاطعتك"
+    start_proposal: إنشاء مقترح
+  omniauth:
+    facebook:
+      sign_in: تسجيل الدخول باستخدام حساب فايسبوك
+      sign_up: تسجيل باستخدام Facebook
+      name: Facebook
+    finish_signup:
+      title: "تفاصيل إضافية"
+      username_warning: "بسبب تغييرات في طريقة التفاعل مع الشبكات الاجتماعية، فمن الممكن أن يكون اسم المستخدم الخاص بك 'مستخدم من قبل '. إذا كان هذا هو الحالة ، الرجاء اختيار اسم مستخدم مختلف."
+    google_oauth2:
+      sign_in: تسجيل الدخول باستخدام Google
+      sign_up: تسجيل باستخدام Google
+      name: Google
+    twitter:
+      sign_in: تسجيل الدخول باستخدام Twitter
+      sign_up: تسجيل باستخدام Twitter
+      name: Twitter
+    info_sign_in: "تسجيل الدخول باستخدام:"
+    info_sign_up: "تسجيل الدخول باستخدام:"
+    or_fill: "أو املأ النموذج التالي:"
+  proposals:
+    create:
+      form:
+        submit_button: إنشاء مقترح
+    edit:
+      editing: تعديل المقترح
+      form:
+        submit_button: حفظ التغييرات
+      show_link: عرض المقترح
+    retire_form:
+      title: سحب المقترح
+      warning: "سيتسمر الإقتراح في إستقبال الدعم حتى في حالة قمت بسحبه، ولكن ستتم إزالته من القائمة الرئيسية وستظهر رسالة لجميع المستخدمين تفيد بأن المؤلف يرى أنه لا ينبغي دعم الاقتراح بعد الآن"
+      retired_reason_blank: إختر خيار
+      retired_explanation_placeholder: اشرح باختصار لماذا تعتقد أن هذا القترح يجب ألا يحصل على المزيد من الدعم
+      submit_button: سحب المقترح
+    retire_options:
+      duplicated: مكرّر
+      started: جارية بالفعل
+      unfeasible: غير مجدي
+      done: منتهي
+      other: أخرى
+    form:
+      proposal_responsible_name_note: "(بصفة فرديّة أو كممثل لجماعة؛ لن يتم عرضه للعامة)"
+      proposal_summary_note: "(200 حرف كحد أقصى)"
+      proposal_video_url_note: يمكنك إضافة رابط إلى YouTube أو Vimeo
+      tag_category_label: "فئات"
+      tags_instructions: "علم على هذا الاقتراح. تستطيع الاختيار من بين الفئات المقترحة او اضافة الخاصة بك"
+      tags_label: علامات
+      tags_placeholder: "ادخل العلامات التي ترغب في استخدامها، مفصولة بفواصل (',')"
+    index:
+      featured_proposals: مميز
+      filter_topic:
+        zero: " حول موضوع '%{topic}'"
+        one: " حول موضوع '%{topic}'"
+        two: " حول موضوع '%{topic}'"
+        few: " حول موضوع '%{topic}'"
+        many: " حول موضوع '%{topic}'"
+        other: " حول موضوع '%{topic}'"
+      orders:
+        confidence_score: اعلى تقييم
+        created_at: أحدث
+        hot_score: الأكثر نشاطا
+        most_commented: الأكثر تعليقات
+        relevance: الأهمية
+      retired_proposals: المقترحات المسحوبة
+      retired_proposals_link: "المقترحات المسحوبة من قبل المؤلف"
+      retired_links:
+        all: الكل
+        duplicated: مكرّر
+        started: جارية
+        unfeasible: غير مجدي
+        done: منتهي
+        other: أخرى
+      search_form:
+        button: بحث
+        placeholder: البحث عن مقترحات...
+        title: بحث
+      select_order: ترتيب حسب
+      select_order_long: 'أنت تشاهد المقترحات وفقًا لـ:'
+      start_proposal: إنشاء مقترح
+      title: إقتراحات
+      top: الأعلى أسبوعيا
+      top_link_proposals: المقترحات الأكثر تأييدا حسب الفئة
+    new:
+      form:
+        submit_button: إنشاء مقترح
+      more_info: كيف تعمل مقترحات المواطنين؟
+      recommendation_one: لا تكتب عنوان الموضوع أو الجمل الكاملة بأحرف كبيرة فذلك يعتبر صراخا على شبكة الإنترنت ولا أحد يحب أن يُصرخ عليه.
+      recommendation_three: استمتع بهذه المساحة والأصوات التي تملأها. إنها ملكك أيضًا.
+      recommendation_two: سيتم حذف أي موضوع أو تعليق يتضمن إجراءً غير قانوني، إلى جانب المواضيع و التعاليق التي تنوي تخريب مساحات الموضوع، كل الأشياء الأخرى مسموح بها.
+      recommendations_title: توصيات لإنشاء مقترح
+      start_new: انشاء مقترح جديد
+    notice:
+      retired: تم سحب المقترح
+    proposal:
+      created: "لقد قمت بإنشاء مقترح!"
+      share:
+        guide: "يمكنك الآن مشاركتها حتى يبدأ الأشخاص بدعمها."
+        edit: "ستتمكن من تغيير النص كما تريد قبل أن يتم مشاركته."
+        view_proposal: ليس الآن، انتقل إلى مقترحي
+      already_supported: لقد قمت بالفعل بدعم هذا المقترح. شاركه!
+      comments:
+        zero: لا توجد تعليقات
+        zero: "%{count} تعليق"
+        one: تعليق واحد
+        two: "%{count} تعليق"
+        few: "%{count} تعليق"
+        many: "%{count} تعليق"
+        other: "%{count} تعليق"
+      support: دعم
+      support_title: دعم هذا المقترح
+      supports:
+        zero: لا يوجد دعم
+        zero: "%{count} يدعم"
+        one: 1 دعم
+        two: "%{count} يدعم"
+        few: "%{count} يدعم"
+        many: "%{count} يدعم"
+        other: "%{count} يدعم"
+      supports_necessary: "بحاجة إلى %{number} دعم"
+      total_percent: 100%
+      archived: "تمت أرشفة هذا الاقتراح ولا يمكنه جمع الدعم."
+    show:
+      author_deleted: تم حذف المستخدم
+      code: 'رمز المقترح:'
+      comments:
+        zero: لا توجد تعليقات
+        zero: "%{count} تعليق"
+        one: تعليق واحد
+        two: "%{count} تعليق"
+        few: "%{count} تعليق"
+        many: "%{count} تعليق"
+        other: "%{count} تعليق"
+      comments_tab: تعليقات
+      flag: تم التبليغ على أنّ هذا المقترح غير لائق من قبل العديد من المستخدمين.
+      notifications_tab: إشعارات
+      retired_warning: "يرى المؤلف أن هذا المقترح يجب ألا يتلقى المزيد من الدعم."
+      retired_warning_link_to_explanation: اقرأ الشرح قبل التصويت عليه.
+      retired: تم سحب المقترح من قبل المؤلف
+      share: مشاركة
+      embed_video_title: "فيديو حول %{proposal}"
+    update:
+      form:
+        submit_button: حفظ التغييرات
+  polls:
+    all: "الكل"
+    no_dates: "التاريخ غير محدد"
+    dates: "من %{open_at} إلى %{closed_at}"
+    final_date: "التنائج النهائية"
+    index:
+      filters:
+        current: "فتح"
+        expired: "منتهي الصلاحية"
+      title: "استطلاعات"
+      participate_button: "المشاركة في هذا الاستطلاع"
+      participate_button_expired: "انتهى الاستطلاع"
+      no_geozone_restricted: "جميع المدن"
+      geozone_restricted: "مقاطعات"
+      geozone_info: "يمكن أن يشارك الناس في التعداد السكاني: "
+      cant_answer: "هذا الاستطلاع غير متوفر في منطقتك الجغرافية"
+      already_answer: "لقد شاركت سابقا في هذا الاستطلاع"
+    show:
+      cant_answer_not_logged_in: "تحتاج الى %{signin} او %{signup} للمتابعة."
+      verify_link: "تحقق من حسابك"
+      cant_answer_expired: "انتهى هذا الاستطلاع."
+  poll_questions:
+    show:
+      vote_answer: "صوّت على %{answer}"
+      voted: "لقد قمت بالتصويت على %{answer}"
+  proposal_notifications:
+    new:
+      title: "إرسال رسالة"
+      submit_button: "إرسال رسالة"
+      proposal_page: "صفحة المقترح"
+  shared:
+    edit: 'تعديل'
+    save: 'حفظ'
+    delete: حذف
+    "yes": "نعم"
+    "no": "لا"
+    search_results: "نتائج البحث"
+    advanced_search:
+      author_type: 'حسب فئة المؤلف'
+      author_type_blank: 'حدد فئة'
+      date: 'حسب التاريخ'
+      date_placeholder: 'DD/MM/YYYY'
+      date_range_blank: 'اختر التاريخ'
+      date_1: 'الـ 24 ساعة الماضية'
+      date_2: 'الأسبوع الماضي'
+      date_3: 'الشهر الماضي'
+      date_4: 'العام الماضي'
+      date_5: 'حسب الطلب'
+      from: 'من'
+      general: 'مع النص'
+      general_placeholder: 'اكتب النص'
+      search: 'ترشيح'
+      title: 'البحث المتقدم'
+      to: 'إلى'
+    author_info:
+      author_deleted: تم حذف المستخدم
+    back: عودة
+    check: حدّد
+    check_all: الكل
+    check_none: لا شيء
+    collective: جماعي
+    flag: الإبلاغ عنه كغير ملائم
+    follow: "تابع"
+    follow_entity: "تابع %{entity}"
+    hide: إخفاء
+    print:
+      print_button: طباعة هذه المعلومات
+    search: بحث
+    show: إظهار
+    suggest:
+      debate:
+        found:
+          zero: "هناك نقاشات حول المصطلح '%{query}' ، يمكنك المشاركة فيها بدلاً من فتح نقاش جديد."
+          one: "هناك نقاش حول المصطلح '%{query}' ، يمكنك المشاركة فيه بدلاً من فتح نقاش جديد."
+          two: "هناك نقاشات حول المصطلح '%{query}' ، يمكنك المشاركة فيها بدلاً من فتح نقاش جديد."
+          few: "هناك نقاشات حول المصطلح '%{query}' ، يمكنك المشاركة فيها بدلاً من فتح نقاش جديد."
+          many: "هناك نقاشات حول المصطلح '%{query}' ، يمكنك المشاركة فيها بدلاً من فتح نقاش جديد."
+          other: "هناك نقاشات حول المصطلح '%{query}' ، يمكنك المشاركة فيها بدلاً من فتح نقاش جديد."
+        message: "أنت تشاهد %{limit} من %{count} مناقشات تحتوي على مصطلح '%{query}'"
+        see_all: "اظهار الكل"
+      budget_investment:
+        found:
+          zero: "هناك استثمارات تحتوي على المصطلح '%{query}'، يمكنك المشاركة فيها بدلاً من فتح استثمار جديد."
+          one: "هناك استثمار يحتوي على المصطلح '%{query}'، يمكنك المشاركة فيه بدلاً من فتح استثمار جديد."
+          two: "هناك الاستثمارات تحتوي على المصطلح '%{query}'، يمكنك المشاركة فيها بدلاً من فتح استثمار جديد."
+          few: "هناك الاستثمارات تحتوي على المصطلح '%{query}'، يمكنك المشاركة فيها بدلاً من فتح استثمار جديد."
+          many: "هناك الاستثمارات تحتوي على المصطلح '%{query}'، يمكنك المشاركة فيها بدلاً من فتح استثمار جديد."
+          other: "هناك الاستثمارات تحتوي على المصطلح '%{query}'، يمكنك المشاركة فيها بدلاً من فتح استثمار جديد."
+        message: "أنت تشاهد %{limit} من %{count} استثمارات تحتوي على المصطلح '%{query}'"
+        see_all: "اظهار الكل"
+      proposal:
+        found:
+          zero: "هناك مقترحات تحتوي على المصطلح '%{query}، يمكنك المشاركة فيها بدلاً من فتح مقترح جديد"
+          one: "هناك مقترح يحتوي على المصطلح '%{query}'، يمكنك المشاركة فيه بدلاً من فتح مقترح جديد"
+          two: "هناك مقترحات تحتوي على المصطلح '%{query}'، يمكنك المشاركة فيها بدلاً من فتح مقترح جديد"
+          few: "هناك مقترحات تحتوي على المصطلح '%{query}'، يمكنك المشاركة فيها بدلاً من فتح مقترح جديد"
+          many: "هناك مقترحات تحتوي على المصطلح '%{query}'، يمكنك المشاركة فيها بدلاً من فتح مقترح جديد"
+          other: "هناك مقترحات تحتوي على المصطلح '%{query}'، يمكنك المشاركة فيها بدلاً من فتح مقترح جديد"
+        message: "أنت تشاهد %{limit} من %{count} مقترحات تحتوي على المصطلح '%{query}'"
+        see_all: "اظهار الكل"
+    tags_cloud:
+      tags: الشائع
+      districts: "مقاطعات"
+      districts_list: "قائمة المقاطعات"
+      categories: "فئات"
+    you_are_in: "أنت في"
+    unflag: حذف بلاغ عن عدم الملاءمة
+    unfollow_entity: "توقف عن متابعة %{entity}"
+    outline:
+      searcher: محرك البحث
+    go_to_page: "انتقل إلى صفحة "
+  social:
+    facebook: "%{org} Facebook"
+    twitter: "%{org} Twitter"
+    youtube: "%{org} YouTube"
+    whatsapp: واتساب
+    telegram: "%{org} Telegram"
+    instagram: "%{org} Instagram"
+  stats:
+    index:
+      visits: الزيارات
+      debates: النقاشات
+      proposals: إقتراحات
+      comments: تعليقات
+      proposal_votes: التصويت على المقترحات
+      debate_votes: الأصوات على المناقشات
+      comment_votes: الأصوات على التعليقات
+      votes: مجموع الأصوات
+      verified_users: مستخدمين تم التحقق منهم
+      unverified_users: مستخدمين غير متحقق منهم
+  unauthorized:
+    default: ليس لديك الصلاحية لدخول هذه الصفحة.
+    manage:
+      all: "ليس لديك إذن لتنفيذ عملية '%{action}' على %{subject}."
+  users:
+    direct_messages:
+      new:
+        direct_messages_bloqued: "هذا المستخدم اختار عدم تلقي رسائل مباشرة"
+        submit_button: إرسال رسالة
+        title: إرسال رسالة خاصة إلى %{receiver}
+        verified_only: لإرسال رسالة خاصة %{verify_account}
+      show:
+        receiver: تم إرسال رسالة إلى %{receiver}
+    show:
+      deleted: محذوف
+      deleted_debate: تم حذف هذا الحوار
+      deleted_proposal: تم حذف هذا المقترح
+      filters:
+        comments:
+          zero: "%{count} تعليقات"
+          one: تعليق 1
+          two: "%{count} تعليقات"
+          few: "%{count} تعليقات"
+          many: "%{count} تعليقات"
+          other: "%{count} تعليقات"
+        debates:
+          zero: "%{count} مناقشات"
+          one: مناقشة واحدة
+          two: "%{count} مناقشات"
+          few: "%{count} مناقشات"
+          many: "%{count} مناقشات"
+          other: "%{count} حوار"
+        proposals:
+          zero: "%{count} مقترحات"
+          one: مقترح واحد
+          two: "%{count} مقترحات"
+          few: "%{count} مقترحات"
+          many: "%{count} مقترحات"
+          other: "%{count} مقترحات"
+        budget_investments:
+          zero: "%{count} استثمار"
+          one: إستثمار واحد
+          two: "%{count} استثمار"
+          few: "%{count} استثمار"
+          many: "%{count} استثمار"
+          other: "%{count} استثمار"
+        follows:
+          zero: "%{count} متابعة"
+          one: متابعة واحدة
+          two: "%{count} متابعة"
+          few: "%{count} متابعة"
+          many: "%{count} متابعة"
+          other: "%{count} متابعة"
+      no_activity: لا يوجد اجراءات للمستخدم
+      no_private_messages: "لا يمكن ارسال رسالة خاصة لهذا المسنخدم."
+      send_private_message: "إرسال رسالة خاصة"
+  votes:
+    agree: أنا أوافق
+    anonymous: لا يمكن قبول التصويت لأنّ هناك عدد كبير جدًا من الأصوات المجهولة %{verify_account}.
+    comment_unauthenticated: تحتاج الى %{signin} او %{signup} كي تصبح قدرا على التصويت.
+    disagree: أنا لا أوافق
+    organizations: المنظمات لا يسمح لها بالتصويت
+    supports: دعم
+    verified_only: يمكن للمستخدمين الذين تم التحقق منهم فقط التصويت على المقترحات؛ %{verify_account}.
+    budget_investments:
+      not_logged_in: تحتاج الى %{signin} او %{signup} للمتابعة.
+      organization: المنظمات لا يسمح لها بالتصويت
+      unfeasible: لا يمكن دعم المشاريع الإستثمارية الغير مجدية
+      not_voting_allowed: مرحلة التصويت مغلقة
+  welcome:
+    verification:
+      i_dont_have_an_account: لا يوجد لدي حساب
+      i_have_an_account: لدي حساب بالفعل
+      question: هل لديك بالفعل حساب في %{org_name}؟
+      title: التحقق من الحساب
+    welcome:
+      title: المشاركة
+      user_permission_debates: المشاركة بالحوارات
+      user_permission_info: من خلال حسابك يمكنك...
+      user_permission_proposal: انشاء مقترحات جديدة
+      user_permission_support_proposal: دعم مقترحات *
+      user_permission_verify_info: "* فقط للمستخدمين في التعداد."
+      user_permission_verify_my_account: التحقق من حسابي
+      user_permission_votes: المشاركة في التصويت النهائي
+  invisible_captcha:
+    sentence_for_humans: "إذا كنت إنسانا، فتجاهل هذا الحقل"
+    timestamp_error_message: "آسف ، كان ذلك سريعًا جدًا! يرجى إعادة التقديم."
