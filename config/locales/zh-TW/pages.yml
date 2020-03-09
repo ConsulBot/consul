@@ -1,0 +1,6 @@
+zh-TW:
+  pages:
+    verify:
+      info_code: '現在輸入您在信中收到的代碼：'
+      submit: 核實我的帳戶
+      title: 核實您的帳戶
