@@ -1,0 +1,101 @@
+sq:
+  budgets:
+    ballots:
+      show:
+        title: Votimi juaj
+        amount_spent: Shuma e shpenzuar
+        remaining: "Ju keni ende <span>%{amount}</span> për të investuar."
+        no_balloted_group_yet: "Ju nuk keni votuar ende për këtë grup, shkoni të votoni!"
+        remove: Hiq voten
+        zero: Ju nuk keni votuar në asnjë projekt investimi.
+      reasons_for_not_balloting:
+        not_logged_in: Ju duhet %{signin} ose %{signup} për të vazhduar.
+        not_verified: Vetëm përdoruesit e verifikuar mund të votojnë për investimet; %{verify_account}.
+        organization: Organizatat nuk lejohen të votojnë
+        not_selected: Projektet e investimeve të pazgjedhura nuk mund të mbështeten.
+        no_ballots_allowed: Faza e zgjedhjes është e mbyllur
+        change_ballot: Ndryshoni votat tuaja
+    groups:
+      show:
+        title: Zgjidh një opsion
+        unfeasible_title: Investimet e papranueshme
+        unfeasible: Shih Investimet e papranueshme
+        unselected_title: Investimet që nuk janë përzgjedhur për fazën e votimit
+        unselected: Shih investimet që nuk janë përzgjedhur për fazën e votimit
+    phase:
+      accepting: Projektet e pranuara
+      reviewing: Rishikimi i projekteve
+      selecting: Përzgjedhja e projekteve
+      valuating: Projekte vlerësimi
+      finished: Buxheti i përfunduar
+    index:
+      title: Buxhetet me pjesëmarrje
+    investments:
+      form:
+        tag_category_label: "Kategoritë"
+        tags_instructions: "Etiketoni këtë propozim. Ju mund të zgjidhni nga kategoritë e propozuara ose të shtoni tuajën"
+        tags_label: Etiketë
+        tags_placeholder: "Futni etiketimet që dëshironi të përdorni, të ndara me presje (',')"
+      index:
+        title: Buxhetet  pjesëmarrës
+        unfeasible: Investimet e papranueshme
+        by_heading: "Projektet e investimeve me qëllim: %{heading}"
+        search_form:
+          button: Kërko
+          placeholder: Kërkoni projekte investimi ...
+          title: Kërko
+        sidebar:
+          my_ballot: Votimi im
+          voted_info: Ti mundesh %{link}  në çdo kohë deri në fund të kësaj faze. Nuk ka nevojë të harxhoni të gjitha paratë në dispozicion.
+          voted_info_link: Ndryshoni votat tuaja
+          change_ballot: "Nëse ndryshoni mendjen tuaj, ju mund të hiqni votat tuaja në %{check_ballot} dhe të filloni përsëri."
+          zero: Ju nuk keni votuar në asnjë projekt investimi në këtë grup
+          verified_only: "Për të krijuar një investim të ri buxhetor %{verify}"
+          not_logged_in: "Për të krijuar një investim të ri buxhetor ju duhet %{sign_in} ose %{sign_up}."
+          by_feasibility: Fizibilitetit
+          feasible: Projektet e realizueshme
+          unfeasible: Projektet e parealizueshme
+        orders:
+          random: "\ni rastësishëm\n"
+          confidence_score: më të vlerësuarat
+          price: nga çmimi
+      show:
+        author_deleted: Përdoruesi u fshi
+        price_explanation: Shpjegimi i çmimit
+        unfeasibility_explanation: Shpjegim i parealizuar
+        share: Shpërndaj
+        title: Projekt investimi
+        supports: Suporti
+        votes: Votim
+        price: Çmim
+        comments_tab: Komentet
+        milestones_tab: Pikëarritje
+      wrong_price_format: Vetëm numra të plotë
+      investment:
+        add: Votim
+        already_added: Ju e keni shtuar tashmë këtë projekt investimi
+        support_title: Mbështetni këtë projekt
+        supports:
+          zero: Asnjë mbështetje
+          one: 1  mbështetje
+          other: "1%{count} mbështetje"
+        give_support: Suporti
+      header:
+        change_ballot: "Nëse ndryshoni mendjen tuaj, ju mund të hiqni votat tuaja në %{check_ballot} dhe të filloni përsëri."
+    show:
+      group: Grupet
+      phase: Faza aktuale
+      unfeasible_title: Investimet e papranueshme
+      unfeasible: Shih Investimet e papranueshme
+      unselected_title: Investimet nuk janë përzgjedhur për fazën e votimit
+      unselected: Shih investimet që nuk janë përzgjedhur për fazën e votimit
+      see_results: Shiko rezultatet
+    results:
+      link: Rezultatet
+      page_title: "%{budget}- Rezultatet"
+      heading: "Rezultatet e buxhetit pjesëmarrjës"
+      heading_selection_title: "Nga rrethi"
+      hide_discarded_link: Hiq të fshehurat
+      show_all_link: Shfaqi të gjitha
+      amount_available: Buxheti në dispozicion
+      incompatibles: I papajtueshëm
