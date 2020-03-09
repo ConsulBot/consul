@@ -1,0 +1,55 @@
+he:
+  officing:
+    header:
+      title: הסקרים
+    dashboard:
+      index:
+        title: בודקי סקרים
+        info: כאן אתה יכול לבצע אימות למסמכי משתמש ולשמור את תוצאות ההצבעה
+    menu:
+      voters: אמת את המסמך
+    polls:
+      final:
+        title: הסקרים מוכנים לספירה סופית
+        no_polls: אתה לא מורשה לבצע ספירה סופית בכל סקר פעיל כלשהו
+        select_poll: בחר סקר
+        add_results: הוסף תוצאות
+    results:
+      flash:
+        create: "התוצאות נשמרו"
+        error_create: "התוצאות לא נשמרו. שגיאת נתונים."
+        error_wrong_booth: "דוכן לא נכון. תוצאות לא נשמרו."
+      new:
+        title: "%{poll} - הוסף תוצאות"
+        booth: "דוכן"
+        date: "תאריך"
+        select_booth: "בחר דוכן"
+        ballots_null: "הצבעות לא חוקיות"
+        submit: "שמירה"
+        results_list: "התוצאות שלך"
+        see_results: "הצג תוצאות"
+      index:
+        no_results: "אין תוצאות"
+        results: תוצאות
+        table_answer: תשובה
+        table_votes: הצבעות
+        table_nulls: "הצבעות לא חוקיות"
+    residence:
+      flash:
+        create: "מסמך מאומת עם מפקד האוכלוסין"
+        not_allowed: "אין לך משמרות היום"
+      new:
+        title: אמת את המסמך
+        document_number: "מספר מסמך (כולל אותיות)"
+        submit: אמת את המסמך
+        error_verifying_census: "מפקד האוכלוסין לא הצליח לאמת את המסמך הזה."
+        form_errors: מונע את אימות המסמך הזה
+    voters:
+      new:
+        title: סקרים
+        table_poll: סקר
+      show:
+        can_vote: יכול להצביע
+        error_already_voted: השתתפת כבר בהצבעה זו
+        submit: אשר הצבעה
+        success: "ההצבעה מוצגת!"
