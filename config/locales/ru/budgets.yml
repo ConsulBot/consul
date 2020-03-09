@@ -1,0 +1,103 @@
+ru:
+  budgets:
+    ballots:
+      show:
+        title: Ваше голосование
+        amount_spent: Потраченная сумма
+        remaining: "У вас еще есть <span>%{amount}</span> чтобы инвестировать."
+        no_balloted_group_yet: "Вы еще не голосовали в этой группе, проголосуйте!"
+        remove: Удалить голос
+        zero: Вы не проголосовали ни по одному инвестиционному проекту.
+      reasons_for_not_balloting:
+        not_logged_in: Вы должны %{signin} или %{signup}, чтобы продолжить.
+        not_verified: Только верифицированные пользователи могут голосовать за инвестиции; %{verify_account}.
+        organization: Организациям не разрешается голосовать
+        not_selected: Невыбранные инвестиционные проекты не поддерживаются
+        no_ballots_allowed: Фаза выбора закрыта
+        change_ballot: изменить ваши голоса
+    groups:
+      show:
+        title: Выберите вариант
+        unfeasible_title: Неосуществимые инвестиции
+        unfeasible: Просмотр неосуществимых инвестиций
+        unselected_title: Инвестиции не отобранны для этапа голосования
+        unselected: Просмотр инвестиций, не отобранных на голосование
+    phase:
+      accepting: Принятие проектов
+      reviewing: Рассмотрение проектов
+      selecting: Отбор проектов
+      valuating: Оценка проектов
+      finished: Готовый бюджет
+    index:
+      title: Партисипаторные бюджеты
+    investments:
+      form:
+        tag_category_label: "Категории"
+        tags_instructions: "Отметьте это предложение. Вы можете выбрать из предлагаемых категорий или добавить свои собственные"
+        tags_label: Метки
+        tags_placeholder: "Введите метки, которые вы хотели бы использовать, разделенные запятыми (',')"
+      index:
+        title: Совместное финансирование
+        unfeasible: Неосуществимые инвестиционные проекты
+        by_heading: "Инвестиционные проекты с объемом: %{heading}"
+        search_form:
+          button: Поиск
+          placeholder: Поиск инвестиционных проектов...
+          title: Поиск
+        sidebar:
+          my_ballot: Мой голос
+          voted_info: Вы можете %{link} в любое время до конца этого этапа. Нет необходимости тратить все имеющиеся деньги.
+          voted_info_link: изменить ваш голос
+          change_ballot: "Если вы передумаете, вы можете удалить свои голоса в %{check_ballot} и начать заново."
+          zero: Вы не голосовали ни за один инвестиционный проект в этой группе.
+          verified_only: "Чтобы создать новую бюджетную инвестицию %{verify}."
+          not_logged_in: "Для создания новой бюджетной инвестиции необходимо %{sign_in} или %{sign_up}."
+          by_feasibility: По возможности
+          feasible: Выполнимые проекты
+          unfeasible: Невыполнимые прокты
+        orders:
+          random: случайный
+          confidence_score: наивысший рейтинг
+          price: по цене
+      show:
+        author_deleted: Пользователь удален
+        price_explanation: Описание цены
+        unfeasibility_explanation: Объяснение невозможности
+        share: Доля
+        title: Инвестиционный проект
+        supports: Поддержки
+        votes: Голоса
+        price: Цена
+        comments_tab: Комментарии
+        milestones_tab: Основные этапы
+      wrong_price_format: Только целые числа
+      investment:
+        add: Голос
+        already_added: Вы уже добавили этот инвестиционный проект
+        support_title: Поддержать этот проект
+        supports:
+          zero: Нет поддержки
+          one: 1 поддержка
+          few: "поддерживает %{count}"
+          many: "поддерживает %{count}"
+          other: "поддерживает %{count}"
+        give_support: Поддержка
+      header:
+        change_ballot: "Если вы передумаете, вы можете удалить свои голоса в %{check_ballot} и начать заново."
+    show:
+      group: Группа
+      phase: Фактический этап
+      unfeasible_title: Неосуществимые инвестиции
+      unfeasible: Ознакомление с неосуществимыми инвестициями
+      unselected_title: Инвестиции не отобраны для голосования
+      unselected: Ознакомление с инвестициями, не отобранными на голосование
+      see_results: Посмотреть результаты
+    results:
+      link: Результаты
+      page_title: "%{budget} - Результаты"
+      heading: "Результаты совместного бюджета"
+      heading_selection_title: "По району"
+      hide_discarded_link: Скрыть отброшенные
+      show_all_link: Показать все
+      amount_available: Доступный бюджет
+      incompatibles: Несовместимые
