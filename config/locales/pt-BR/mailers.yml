@@ -1,0 +1,58 @@
+pt-BR:
+  mailers:
+    no_reply: "Esta mensagem foi enviada de um endereço de e-mail que não aceita respostas."
+    comment:
+      hi: Oi
+      subject: Alguém comentou sobre seu %{commentable}
+      title: Novo comentário
+    config:
+      manage_email_subscriptions: Para parar de receber esses e-mails altere suas configurações no
+    email_verification:
+      click_here_to_verify: este link
+      subject: Confirme seu email
+      thanks: Muito Obrigado.
+      title: Confirme sua conta usando o seguinte link
+    reply:
+      hi: Oi
+      subject: Alguém respondeu ao seu comentário
+      title: Nova resposta ao seu comentário
+    budget_investment_unfeasible:
+      hi: "Caro usuário,"
+      new_href: "novo projeto de investimento"
+      sincerely: "Atenciosamente"
+      sorry: "Desculpe o inconveniente e nós mais uma vez agradecemos pela sua valiosa participação."
+      subject: "Seu projeto de investimento '%{code}' foi marcado como inviável"
+    proposal_notification_digest:
+      info: "Aqui estão as novas notificações que foram publicadas pelos autores das propostas que você apoiou em %{org_name}."
+      title: "Notificações de proposta em %{org_name}"
+      share: Compartilhar proposta
+      comment: Comentar proposta
+      unsubscribe_account: Minha conta
+    direct_message_for_receiver:
+      subject: "Você recebeu uma nova mensagem privada"
+      reply: Responder para %{sender}
+      unsubscribe_account: Minha conta
+    user_invite:
+      ignore: "Se você não solicitou este convite, não se preocupe, você pode ignorar este e-mail."
+      thanks: "Muito Obrigado."
+      title: "Bem-vindo a %{org}"
+      button: Completar registro
+      subject: "Convite para %{org_name}"
+    budget_investment_created:
+      subject: "Obrigado por criar um investimento!"
+      title: "Obrigado por criar um investimento!"
+      follow_link: "Orçamentos participativos"
+      sincerely: "Atenciosamente"
+      share: "Compartilhe seu projeto"
+    budget_investment_selected:
+      subject: "Seu projeto de investimento '%{code}' foi selecionado"
+      hi: "Caro usuário,"
+      share: "Comece a receber votos, compartilhe seu projeto de investimento em redes sociais. Compartilhar é essencial para torná-lo realidade."
+      share_button: "Compartihle seu projeto de investimento"
+      thanks: "Obrigada novamente por participar."
+      sincerely: "Atenciosamente"
+    budget_investment_unselected:
+      subject: "Seu projeto de investimento '%{code}' não foi selecionado"
+      hi: "Caro usuário,"
+      thanks: "Obrigada novamente por participar."
+      sincerely: "Atenciosamente"
