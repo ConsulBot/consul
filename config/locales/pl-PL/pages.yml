@@ -1,0 +1,6 @@
+pl:
+  pages:
+    verify:
+      info_code: 'Teraz wprowadź kod otrzymany w liście:'
+      submit: Zweryfikuj swoje konto
+      title: Zweryfikuj swoje konto
