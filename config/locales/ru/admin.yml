@@ -1,0 +1,655 @@
+ru:
+  admin:
+    header:
+      title: Администрирование
+    actions:
+      actions: Действия
+      confirm: Вы уверены?
+      hide: Скрыть
+      hide_author: Скрыть автора
+      restore: Восстановить
+      mark_featured: Особенное
+      unmark_featured: Убрать из особенных
+      edit: Редактировать
+      configure: Конфигурировать
+    banners:
+      index:
+        title: Баннеры
+        create: Создать баннер
+        edit: Редактировать баннер
+        delete: Удалить баннер
+        filters:
+          all: Все
+          with_active: Активные
+          with_inactive: Не активные
+        preview: Предпросмотр
+      edit:
+        editing: Редактировать баннер
+        form:
+          submit_button: Сохранить изменения
+      new:
+        creating: Создать баннер
+    activity:
+      show:
+        action: Действие
+        actions:
+          block: Заблокированные
+          hide: Скрытые
+          restore: Восстановленные
+        by: Отмодерированные
+        content: Содержание
+        filter: Показать
+        filters:
+          all: Все
+          on_comments: Комментарии
+          on_debates: Обсуждения проблем
+          on_proposals: Заявки
+          on_users: Пользователи
+        title: Активность модератора
+        type: Тип
+    budgets:
+      index:
+        title: Партисипаторные бюджеты
+        new_link: Создать новый бюджет
+        filters:
+          finished: Завершены
+        table_name: Имя
+        table_phase: Этап
+        table_investments: Инвестиции
+        table_edit_groups: Группы заголовков
+        table_edit_budget: Редактировать
+        edit_groups: Редактировать группы заголовков
+        edit_budget: Редактировать бюджет
+      create:
+        notice: Новый совместный бюджет успешно создан!
+      update:
+        notice: Совместный бюджет успешно обновлен
+      edit:
+        title: Редактировать совместный бюджет
+      new:
+        title: Новый совместный бюджет
+      winners:
+        calculate: Посчитать выигравшие инвестиции
+        calculated: Победители подсчитываются, это может занять минуту.
+    budget_investments:
+      index:
+        heading_filter_all: Все заголовки
+        administrator_filter_all: Все администраторы
+        valuator_filter_all: Все оценщики
+        tags_filter_all: Все метки
+        filters:
+          without_admin: Без назначенного администратора
+          valuation_finished: Оценка окончена
+          selected: Выбранные
+          winners: Победители
+          all: Все
+        title: Инновационные проекты
+        assigned_admin: Назначенный администратор
+        no_admin_assigned: Ни один администратор не назначен
+        no_valuators_assigned: Ни один оценщик не назначен
+        feasibility:
+          unfeasible: "Неприемлемая"
+          undecided: "Нерешенная"
+        selected: "Выбранная"
+        select: "Выбрать"
+      show:
+        assigned_admin: Назначенный администратор
+        assigned_valuators: Назначенные оценщики
+        info: "%{budget_name} - Группа: %{group_name} - Проект инвестиции %{id}"
+        edit: Редактировать
+        edit_classification: Редактировать классификацию
+        by: Кто
+        sent: Отправлено
+        heading: Раздел
+        dossier: Пакет документов
+        edit_dossier: Редактировать пакет документов
+        tags: Метки
+        undefined: Неопределено
+        compatibility:
+          title: Совместимость
+          "true": Несовместимо
+          "false": Совместимо
+        selection:
+          title: Выбор
+        winner:
+          title: Победитель
+          "true": "Да"
+          "false": "Нет"
+      edit:
+        compatibility: Совместимость
+        selection: Выбор
+        assigned_valuators: Эксперты
+        select_heading: Выбрать заголовок
+        submit_button: Обновить
+        tags_placeholder: "Напишите желаемые метки, разделенные запятыми (,)"
+        undefined: Неопределено
+      search_unfeasible: Поиск невыполним
+    milestones:
+      index:
+        table_title: "Название"
+        table_description: "Описание"
+        table_actions: "Действия"
+        delete: "Удалить этап"
+        no_milestones: "Не имеет определенных основных этапов"
+      new:
+        creating: Создать этап
+      edit:
+        title: Редактировать этап
+      create:
+        notice: Новый этап успешно создан!
+      update:
+        notice: Этап успешно обновлен
+      delete:
+        notice: Этап успешно удален
+    dashboard:
+      index:
+        title: Администрирование
+    hidden_users:
+      index:
+        filter: Фильтр
+        filters:
+          all: Все
+          with_confirmed_hide: Подтвержденные
+          without_confirmed_hide: Ожидающие
+        title: Скрытые пользователи
+      show:
+        email: 'Email:'
+        hidden_at: 'Скрыто в:'
+        registered_at: 'Зарегистрировано в:'
+        title: Активность пользователя (%{user})
+    legislation:
+      processes:
+        create:
+          notice: 'Процесс успешно создан. <a href="%{link}">Нажмите, чтобы посетить</a>'
+          error: Не удалось создать процесс
+        update:
+          notice: 'Процесс успешно обновлен. <a href="%{link}">Нажмите, чтобы посетить</a>'
+          error: Не удалось обновить процесс
+        destroy:
+          notice: Процесс успешно удален
+        edit:
+          back: Назад
+          submit_button: Сохранить изменения
+        form:
+          enabled: Включено
+          process: Процесс
+          debate_phase: Фаза дебатов
+          use_markdown: Форматируйте текст при помощи разметки Markdown
+          title_placeholder: Заголовок процесса
+          summary_placeholder: Краткая выжимка из описания
+          description_placeholder: Добавить описание процесса
+          additional_info_placeholder: Добавить информацию, которую вы считаете полезной
+        index:
+          create: Новый процесс
+          delete: Удалить
+          filters:
+            all: Все
+        new:
+          back: Назад
+          title: Создать новый совместный законотворческий процесс
+          submit_button: Создать процесс
+        process:
+          title: Процесс
+          comments: Комментарии
+          status: Статус
+          status_open: Открытый
+          status_closed: Закрытый
+          status_planned: Запланирован
+        subnav:
+          info: Информация
+          questions: Обсуждение
+      draft_versions:
+        create:
+          notice: 'Черновик успешно создан. <a href="%{link}">Нажмите, чтобы посетить</a>'
+          error: Не удалось создать черновик
+        update:
+          notice: 'Черновик успешно обновлен. <a href="%{link}">Нажмите, чтобы посетить</a>'
+          error: Не удалось обновить черновик
+        destroy:
+          notice: Черновик успешно удален
+        edit:
+          back: Назад
+          submit_button: Сохранить изменения
+          warning: Вы отредактировали текст, не забудьте нажать Сохранить, чтобы изменения сохранились в базе.
+        form:
+          launch_text_editor: Запустить редактор текста
+          close_text_editor: Закрыть редактор текста
+          use_markdown: Для форматирования текста используйте разметку Markdown
+          hints:
+            final_version: Эта версия будет опубликована как конечный результат для этого процесса. В этой версии комментарии будут запрещены.
+            status:
+              draft: Вы можете предварительно просмотреть как администратор, больше никто не может это видеть
+              published: Видимо для всех
+          title_placeholder: Напишите название версии черновика
+          changelog_placeholder: Добавьте основные изменения из предыдущей версии
+          body_placeholder: Впишите текст черновика
+        index:
+          title: Предварительные варианты
+          create: Создать версию
+          delete: Удалить
+          preview: Предпросмотр
+        new:
+          back: Назад
+          title: Создать новую версию
+          submit_button: Создать версию
+        table:
+          title: Название
+          created_at: Создано в
+          comments: Комментарии
+          final_version: Окончательная версия
+          status: Статус
+      questions:
+        create:
+          notice: 'Вопрос успешно создан. <a href="%{link}">Нажмите, чтобы посетить</a>'
+          error: Не удалось создать вопрос
+        update:
+          notice: 'Вопрос успешно обновлен. <a href="%{link}">Нажмите, чтобы посетить</a>'
+          error: Не удалось обновить вопрос
+        destroy:
+          notice: Вопрос успешно удален
+        edit:
+          back: Назад
+          title: "Редактировать “%{question_title}”"
+          submit_button: Сохранить изменения
+        form:
+          add_option: Добавить вариант
+          value_placeholder: Добавить закрытый ответ
+        index:
+          back: Назад
+          title: Вопросы, связанные с этим процессом
+          create: Создать вопрос
+          delete: Удалить
+        new:
+          back: Назад
+          title: Создать новый вопрос
+          submit_button: Создать вопрос
+        table:
+          title: Название
+          question_options: Варианты вопроса
+          answers_count: Количество ответов
+          comments_count: Количество комментариев
+        question_option_fields:
+          remove_option: Убрать вариант
+    managers:
+      index:
+        title: Менеджеры
+      manager:
+        add: Добавить
+        delete: Удалить
+    menu:
+      activity: Активность модератора
+      admin: Меню администрирования
+      banner: Управление баннерами
+      proposals_topics: Темы предложений
+      budgets: Партисипаторные бюджеты
+      geozones: Управление геозонами
+      hidden_comments: Скрытые комментарии
+      hidden_debates: Скрытые дебаты
+      hidden_proposals: Скрытые предложения
+      hidden_users: Скрытые пользователи
+      administrators: Администраторы
+      managers: Менеджеры
+      moderators: Модераторы
+      valuators: Эксперты
+      poll_officers: Сотрудники избирательных участков
+      polls: Опросы
+      poll_booths: Расположение кабинок
+      officials: Официальные лица
+      organizations: Организации
+      stats: Статистика
+      signature_sheets: Подписные листы
+      site_customization:
+        content_blocks: Настраиваемые блоки содержимого
+      title_moderated_content: Модерируемое содержимое
+      title_profiles: Профили
+      legislation: Совместное законотворчество
+      users: Пользователи
+    administrators:
+      index:
+        title: Администраторы
+      administrator:
+        add: Добавить
+        delete: Удалить
+        restricted_removal: "Извините, вы не можете удалить сами себя из администраторов"
+    moderators:
+      index:
+        title: Модераторы
+      moderator:
+        add: Добавить
+        delete: Удалить
+    newsletters:
+      index:
+        title: Информационные бюллетени
+    valuators:
+      index:
+        title: Эксперты
+      valuator:
+        add: Добавить в оценщики
+    poll_officers:
+      index:
+        title: Сотрудники избирательных участков
+      officer:
+        add: Добавить
+        delete: Удалить позицию
+        name: Имя
+        email: Электронный адрес
+        entry_name: офицер
+      search:
+        email_placeholder: Искать пользователя по email
+        search: Поиск
+        user_not_found: Пользователь не найден
+    poll_officer_assignments:
+      index:
+        officers_title: "Список сотрудников"
+        no_officers: "Нет сотрудников, назначенных на это голосование."
+        table_name: "Имя"
+        table_email: "Электронный адрес"
+      by_officer:
+        date: "Дата"
+        booth: "Кабинка"
+        assignments: "Смены сотрудников в этом голосовании"
+        no_assignments: "У этого пользователя нет смен в этом голосовании."
+    poll_booth_assignments:
+      show:
+        location: "Место"
+        officers: "Сотрудники"
+        officers_list: "Список сотрудников для кабинки"
+        no_officers: "Нет сотрудников для этой кабинки"
+        recounts: "Пересчет"
+        recounts_list: "Список пересчета для этой кабинки"
+        date: "Дата"
+        count_final: "Финальный пересчет (сотрудниками)"
+        count_by_system: "Голоса (автоматически)"
+      index:
+        booths_title: "Список кабинок"
+        no_booths: "Нет кабинок, назначенных на это голосование."
+        table_name: "Имя"
+        table_location: "Место"
+    polls:
+      index:
+        title: "Список активных голосований"
+        no_polls: "Нет предстоящих голосований."
+        create: "Создать голосование"
+        name: "Имя"
+        dates: "Даты"
+      new:
+        title: "Новое голосование"
+        submit_button: "Создать голосование"
+      edit:
+        title: "Редактировать голосование"
+        submit_button: "Обновить голосование"
+      show:
+        questions_tab: Вопросы
+        booths_tab: Кабинки
+        officers_tab: Сотрудники
+        recounts_tab: Пересчет
+        results_tab: Результаты
+        no_questions: "Нет вопросов, назначенных на это голосование."
+        questions_title: "Список вопросов"
+        table_title: "Название"
+      flash:
+        question_added: "Вопрос добавлен в это голосование"
+        error_on_question_added: "Не удалось назначить вопрос для этого голосования"
+    questions:
+      index:
+        title: "Вопросы"
+        create: "Создать вопрос"
+        no_questions: "Нет вопросов."
+        filter_poll: Фильтр по голосованию
+        select_poll: Выбрать голосование
+        questions_tab: "Вопросы"
+        successful_proposals_tab: "Успешные предложения"
+        create_question: "Создать вопрос"
+        table_proposal: "Заявка"
+        table_question: "Вопрос"
+      edit:
+        title: "Редактировать вопрос"
+      show:
+        proposal: Изначальное предложение
+        author: Автор
+        valid_answers: Правильные ответы
+    recounts:
+      index:
+        title: "Пересчеты"
+        no_recounts: "Нечего пересчитывать"
+        table_booth_name: "Кабинка"
+        table_system_count: "Голоса (автоматически)"
+    results:
+      index:
+        title: "Результаты"
+        no_results: "Нет результатов"
+    booths:
+      index:
+        add_booth: "Добавить кабинку"
+        name: "Имя"
+        location: "Местоположение"
+      new:
+        title: "Новая кабинка"
+        submit_button: "Создать кабинку"
+      edit:
+        title: "Редактировать кабинку"
+        submit_button: "Обновить кабинку"
+      show:
+        location: "Местоположение"
+    officials:
+      edit:
+        title: 'Чиновники: Редактировать пользователя'
+      flash:
+        official_destroyed: 'Детали сохранены: пользователь больше не является чиновником'
+        official_updated: Детали чиновника сохранены
+      index:
+        title: Чиновники
+      level_0: Не чиновник
+      level_1: Уровень 1
+      level_2: Уровень 2
+      level_3: Уровень 3
+      level_4: Уровень 4
+      level_5: Уровень 5
+      search:
+        edit_official: Редактировать чиновника
+        make_official: Сделать чиновником
+        title: 'Позиции чиновников: Поиск пользователя'
+    organizations:
+      index:
+        filter: Фильтровать
+        filters:
+          all: Все
+          pending: Ожидают
+          rejected: Отклоненные
+          verified: Верифицированные
+        reject: Отклонить
+        rejected: Отклонено
+        search: Поиск
+        search_placeholder: Имя, email или номер телефона
+        title: Организации
+        verified: Верифицировано
+        verify: Верифицировать
+      search:
+        title: Поиск организаций
+    settings:
+      flash:
+        updated: Значение обновлено
+      index:
+        update_setting: Обновить
+        feature_flags: Функции
+        features:
+          enabled: "Функция включена"
+          disabled: "Функция отключена"
+          enable: "Включить"
+          disable: "Выключить"
+    shared:
+      booths_search:
+        button: Поиск
+      poll_officers_search:
+        button: Поиск
+        placeholder: Искать сотрудников голосования
+      poll_questions_search:
+        button: Поиск
+        placeholder: Искать вопросы голосования
+      proposal_search:
+        button: Поиск
+        placeholder: Искать предложения по названию, коду, описанию или вопросу
+      user_search:
+        button: Поиск
+        placeholder: Искать пользователя по имени или email
+      search_results: "Результаты поиска"
+      no_search_results: "Результаты не найдены."
+    geozones:
+      index:
+        title: Геозона
+        create: Создать геозону
+        edit: Редактировать
+        delete: Удалить
+      geozone:
+        name: Имя
+        external_code: Внешний код
+        census_code: Код Цензуса
+        coordinates: Координаты
+      edit:
+        form:
+          submit_button: Сохранить изменения
+        editing: Редактирование геозоны
+        back: Вернуться
+      new:
+        back: Вернуться
+        creating: Создать район
+      delete:
+        success: Геозона успешно удалена
+        error: Эта геозона не может быть удалена, так как есть прикрепленные к ней элементы
+    signature_sheets:
+      author: Автор
+      created_at: Дата создания
+      name: Имя
+      no_signature_sheets: "Нет подписных листов"
+      index:
+        title: Подписные листы
+        new: Новые подписные листы
+      new:
+        title: Новые подписные листы
+        submit: Создать подписной лист
+      show:
+        created_at: Создано
+        author: Автор
+        verified:
+          one: "Найдена %{count} верная подпись"
+          few: "Найдено %{count} верных подписей"
+          many: "Найдено %{count} верных подписей"
+          other: "Найдено %{count} верных подписей"
+        unverified:
+          one: "Найдена %{count} неверная подпись"
+          few: "Найдено %{count} неверных подписей"
+          many: "Найдено %{count} неверных подписей"
+          other: "Найдено %{count} неверных подписей"
+        unverified_error: (Не верифицировано Цензусом)
+        loading: "Еще есть подписи, находящиеся на проверке у Цензуса, пожалуйста обновите страницу чуть позже"
+    stats:
+      show:
+        stats_title: Статистика
+        summary:
+          comment_votes: Голоса за комментарии
+          comments: Комментарии
+          debate_votes: Голоса за дебаты
+          debates: Обсуждения проблем
+          proposal_votes: Голоса за предложения
+          proposals: Заявки
+          budgets: Открытые бюджеты
+          budget_investments: Инновационные проекты
+          unverified_users: Неверифицированные пользователи
+          user_level_three: Пользователи третьего уровня
+          user_level_two: Пользователи второго уровня
+          users: Всего пользователей
+          verified_users: Верифицированные пользователи
+          verified_users_who_didnt_vote_proposals: Верифицированные пользователи, не голосовавшие за предложения
+          visits: Посещения
+          votes: Всего голосов
+        budgets_title: Партисипаторное бюджетирование
+        direct_messages: Прямые сообщения
+        proposal_notifications: Уведомления о предложениях
+        incomplete_verifications: Незавершенные верификации
+      direct_messages:
+        title: Прямые сообщения
+        total: Всего
+        users_who_have_sent_message: Пользователи, отправившие личное сообщение
+      proposal_notifications:
+        title: Уведомления о предложениях
+        total: Всего
+        proposals_with_notifications: Предложения с уведомлениями
+    tags:
+      index:
+        add_tag: Добавить новую тему предложения
+        title: Темы предложения
+    users:
+      columns:
+        name: Имя
+        email: Электронный адрес
+        document_number: Номер документа
+        roles: Роли
+        verification_level: Уровень верификации
+      index:
+        title: Пользователь
+      search:
+        placeholder: Искать пользователя по email'у, имени или номеру документа
+        search: Поиск
+    verifications:
+      index:
+        phone_not_given: Телефон не задан
+        sms_code_not_confirmed: Не подтвердил SMS код
+        title: Незаконченные верификации
+    site_customization:
+      content_blocks:
+        create:
+          notice: Блок содержимого успешно создан
+          error: Не удалось создать блок содержимого
+        update:
+          notice: Блок содержимого успешно обновлен
+          error: Не удалось обновить блок содержимого
+        destroy:
+          notice: Блок содержимого успешно удален
+        edit:
+          title: Редактирование блока содержимого
+        index:
+          create: Создать новый блок содержимого
+          delete: Удалить блок
+          title: Блоки содержимого
+        new:
+          title: Создать новый блок содержимого
+        content_block:
+          body: Тело
+          name: Имя
+      images:
+        index:
+          title: Настраиваемые изображения
+          update: Обновить
+          delete: Удалить
+          image: Изображение
+        update:
+          notice: Изображение успешно обновлено
+          error: Не удалось обновить изображение
+        destroy:
+          notice: Изображение успешно удалено
+          error: Не удалось удалить изображение
+      pages:
+        create:
+          notice: Страница успешно создана
+          error: Не удалось создать страницу
+        update:
+          notice: Страница успешно обноулена
+          error: Не удалось обновить страницу
+        destroy:
+          notice: Страница успешно удалена
+        edit:
+          title: Редактирование %{page_title}
+        form:
+          options: Опции
+        index:
+          create: Создать новую страницу
+          delete: Удалить страницу
+          title: Настраиваемые страницы
+          see_page: Смотреть страницу
+        new:
+          title: Создать новую настраиваемую страницу
+        page:
+          created_at: Создано в
+          status: Статус
+          title: Название
+          updated_at: Обновлено в
