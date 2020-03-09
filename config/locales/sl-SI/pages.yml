@@ -1,0 +1,6 @@
+sl:
+  pages:
+    verify:
+      info_code: 'Zdaj vnesi kodo, ki si jo prejel/-a po e-pošti:'
+      submit: Verificiraj moj račun
+      title: Verificiraj svoj račun
