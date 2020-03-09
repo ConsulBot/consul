@@ -1,0 +1,25 @@
+sr:
+  settings:
+    comments_body_max_length: "Максимална дужина коментара"
+    official_level_1_name: "Јавни службеник првог нивоа"
+    official_level_2_name: "Јавни службеник другог нивоа"
+    official_level_3_name: "Јавни службеник трећег нивоа"
+    official_level_4_name: "Јавни службеник четвртог нивоа"
+    official_level_5_name: "Јавни службеник петог нивоа"
+    max_ratio_anon_votes_on_debates: "Максимални однос анонимних гласача по дебати"
+    max_votes_for_debate_edit: "Број гласова од којих Дебата више не може бити уређивана"
+    proposal_code_prefix: "Префикс за Предлог лозинке"
+    months_to_archive_proposals: "Месеци за архивирање Предлога"
+    email_domain_for_officials: "Емаил домен за јавне функционере"
+    twitter_handle: "Ручица за Твитер"
+    twitter_hashtag: "Твитер хаштаг"
+    facebook_handle: "Ручица за Фејсбук"
+    youtube_handle: "Ручица за Јутјуб"
+    telegram_handle: "Ручица за Телеграм"
+    instagram_handle: "Ручица за Инстаграм"
+    url: "Главни УРЛ"
+    feature:
+      twitter_login: Twitter приступ
+      facebook_login: Facebook приступ
+      google_login: Google приступ
+      signature_sheets: Поље за потпис
