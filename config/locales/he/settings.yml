@@ -1,0 +1,28 @@
+he:
+  settings:
+    comments_body_max_length: "אורך תגובה מקסימלי"
+    official_level_1_name: "נושא משרה ברמה 1"
+    official_level_2_name: "נושא משרה ברמה 2"
+    official_level_3_name: "נושא משרה ברמה 3"
+    official_level_4_name: "נושא משרה ברמה 4"
+    official_level_5_name: "נושא משרה ברמה 5"
+    max_ratio_anon_votes_on_debates: "יחס המרבי של הצבעות אנונימית לכל דיון"
+    max_votes_for_debate_edit: "מספר ההצבעות שממנה לא ניתן עוד לערוך את הדיון"
+    proposal_code_prefix: "קידומת עבור קודי הצעה"
+    months_to_archive_proposals: "מספר החודשים לאחסון ההצעות בארכיון"
+    email_domain_for_officials: "דומיין דוא\"ל עבור נושאי משרה ציבורית"
+    twitter_handle: "בערוץ טוויטר"
+    twitter_hashtag: "סולמית טוויטר"
+    facebook_handle: "בערוץ פייסבוק"
+    youtube_handle: "בערוץ יוטיוב"
+    telegram_handle: "בערוץ טלגרם"
+    instagram_handle: "בערוץ אינסטגרם"
+    url: "כתובת האתר הראשי"
+    feature:
+      twitter_login: טוויטר כניסה
+      facebook_login: כניסה עם חשבון פייסבוק
+      google_login: כניסה עם חשבון גוגל
+      signature_sheets: דפי חתימות
+    meta_description: "תיאור אתר (SEO)"
+    meta_keywords: "מילות מפתח (SEO)"
+    min_age_to_participate: הגיל המינימלי הדרוש בכדי להשתתף
