@@ -1,0 +1,99 @@
+cs:
+  budgets:
+    ballots:
+      show:
+        title: Vaše hlasování
+        amount_spent: Vydaná částka
+        remaining: "Ještě můžete investovat částku <span>%{amount}</span>."
+        no_balloted_group_yet: "Dosud jste o této skupině nehlasovali, hlasujte!"
+        remove: Odstranit hlas
+        zero: Nehlasoval jste pro žádný investiční projekt.
+      reasons_for_not_balloting:
+        not_logged_in: Pro pokračování je nutné %{signin} nebo %{signup}.
+        not_verified: O investicích mohou hlasovat pouze ověření uživatelé; %{verify_account}.
+        organization: Organizacím není dovoleno hlasovat
+        not_selected: Nevybrané investiční projekty nelze podpořit
+        no_ballots_allowed: Fáze výběru byla ukončena
+        change_ballot: změnit své hlasování
+    groups:
+      show:
+        title: Vyberte možnost
+        unfeasible_title: Nerealizovatelné projekty
+        unfeasible: Podívejte se na nerealizovatelné investice
+        unselected_title: Projekty, které nebyly vybrány pro fázi hlasování
+        unselected: Zobrazit projekty, které nebyly vybrány pro fázi hlasování
+    phase:
+      accepting: Přijímání projektů
+      reviewing: Posuzování projektů
+      selecting: Výběr projektů
+      valuating: Oceňování projektů
+      finished: Dokončený rozpočet
+    index:
+      title: Participativní rozpočty
+    investments:
+      form:
+        tag_category_label: "Kategorie"
+        tags_instructions: "Štítek tohoto návrhu. Můžete si vybrat z kategorií nebo přidat vlastní"
+        tags_label: Štítky
+        tags_placeholder: "Zadejte štítky, které chcete používat, oddělené čárkami (',')"
+      index:
+        title: Participativní rozpočtování
+        unfeasible: Nerealizovatelné investiční projekty
+        by_heading: "Investiční projekty s působností: %{heading}"
+        search_form:
+          button: Vyhledat
+          placeholder: Vyhledat investiční projekty...
+          title: Vyhledat
+        sidebar:
+          my_ballot: Moje hlasování
+          voted_info: Můžete %{link} kdykoli před ukončením této fáze. Není třeba utrácet všechny dostupné peníze.
+          voted_info_link: změnit své hlasování
+          change_ballot: "Pokud změníte názor, můžete odebrat své hlasy v %{check_ballot} a začít znovu."
+          zero: V této skupině jste nehlasovali pro žádný investiční projekt.
+          verified_only: "Pro vytvoření nové položky participativního rozpočtu %{verify}."
+          not_logged_in: "Pro vytvoření nové položky participativního rozpočtu musíte %{sign_in} nebo%{sign_up}."
+          by_feasibility: Podle proveditelnosti
+          feasible: Proveditelné projekty
+          unfeasible: Neproveditelné projekty
+        orders:
+          random: náhodné pořadí
+          confidence_score: nejlépe hodnocené
+          price: podle ceny
+      show:
+        author_deleted: Uživatel
+        price_explanation: Vysvětlení nákladů
+        unfeasibility_explanation: Vysvětlení neproveditelnosti
+        share: Sdílet
+        title: Investiční projekt
+        supports: Podpora
+        votes: Hlasů
+        price: Cena
+        comments_tab: Komentáře
+        milestones_tab: Milníky
+      wrong_price_format: Pouze celá čísla
+      investment:
+        add: Hlasujte
+        already_added: Tento investiční projekt jste již přidali
+        support_title: Podpořit tento projekt
+        supports:
+          zero: Žádná podpora
+        give_support: Podpořte!
+      header:
+        change_ballot: "Pokud změníte názor, můžete odebrat své hlasy v %{check_ballot} a začít znovu."
+    show:
+      group: Skupina
+      phase: Aktuální fáze
+      unfeasible_title: Nerealizovatelné projekty
+      unfeasible: Podívejte se na nerealizovatelné investice
+      unselected_title: Projekty, které nebyly vybrány pro fázi hlasování
+      unselected: Zobrazit projekty, které nebyly vybrány pro fázi hlasování
+      see_results: Zobrazit výsledky
+    results:
+      link: Výsledky
+      page_title: "%{budget} - výsledky"
+      heading: "Výsledky participativního rozpočtu"
+      heading_selection_title: "Podle městských částí"
+      hide_discarded_link: Skrýt vyřazené
+      show_all_link: Zobrazit vše
+      amount_available: Rozpočet k dispozici
+      incompatibles: Nekompatibilní
