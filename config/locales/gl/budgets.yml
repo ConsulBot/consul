@@ -1,0 +1,101 @@
+gl:
+  budgets:
+    ballots:
+      show:
+        title: Os teus votos
+        amount_spent: Custo total
+        remaining: "Quédanche <span>%{amount}</span> para investir."
+        no_balloted_group_yet: "Aínda non votaches proxectos deste grupo. Vota!"
+        remove: Retirar voto
+        zero: Aínda non votaches ningunha proposta de investimento.
+      reasons_for_not_balloting:
+        not_logged_in: Debes %{signin} ou %{signup} para continuares.
+        not_verified: As propostas de investimento só poden ser apoiadas por usuarios con contas verificadas; %{verify_account}.
+        organization: As organizacións non poden votar.
+        not_selected: Non se poden votar propostas inviables
+        no_ballots_allowed: O período de votacións está pechado
+        change_ballot: cambiar os teus votos
+    groups:
+      show:
+        title: Escolle unha opción
+        unfeasible_title: Propostas inviables
+        unfeasible: Ver as propostas inviables
+        unselected_title: Propostas non seleccionadas para a votación final
+        unselected: Ver as propostas non seleccionadas para a votación final
+    phase:
+      accepting: Presentación de proxectos
+      reviewing: Revisión de proxectos
+      selecting: Fase de apoios
+      valuating: Avaliación de proxectos
+      finished: Resultados
+    index:
+      title: Orzamentos participativos
+    investments:
+      form:
+        tag_category_label: "Categorías"
+        tags_instructions: "Etiqueta esta proposta. Podes elixir entre as categorías propostas ou escribir as que desexares"
+        tags_label: Etiquetas
+        tags_placeholder: "Escribe as etiquetas que desexes separadas por unha coma (',')"
+      index:
+        title: Orzamentos participativos
+        unfeasible: Propostas de investimento non viables
+        by_heading: "Propostas de investimento con ámbito: %{heading}"
+        search_form:
+          button: Procurar
+          placeholder: Buscar propostas de investimento...
+          title: Procurar
+        sidebar:
+          my_ballot: Os meus votos
+          voted_info: Podes %{link} en calquera momento ata o peche desta fase. Non é necesario gastares todo o diñeiro dispoñible.
+          voted_info_link: cambiar o teu voto
+          change_ballot: "Se cambiares de opinión, podes borrar os teus votos en %{check_ballot} e comezar de novo."
+          zero: Añinda non votaches ningunha proposta de investimento neste ámbito do orzamento.
+          verified_only: "Para creares unha nova proposta de investimento %{verify}."
+          not_logged_in: "Para creares unha nova proposta de investimento debes %{sign_in} ou %{sign_up}."
+          by_feasibility: Por viabilidade
+          feasible: Ver os proxectos viables
+          unfeasible: Ver os proxectos inviables
+        orders:
+          random: aleatorias
+          confidence_score: Máis apoiados
+          price: por custo
+      show:
+        author_deleted: Usuario/a borrado/a
+        price_explanation: Informe de custo <small>(opcional, dato público)</small>
+        unfeasibility_explanation: Informe de inviabilidade
+        share: Compartir
+        title: Proposta de investimento
+        supports: Apoios
+        votes: Votos
+        price: Custo
+        comments_tab: Comentarios
+        milestones_tab: Fitos
+      wrong_price_format: Só pode incluír caracteres numéricos
+      investment:
+        add: Voto
+        already_added: Xa engadiches esta proposta de investimento
+        support_title: Apoiar este proxecto
+        supports:
+          zero: Sen apoio
+          one: 1 apoio
+          other: "%{count} apoios"
+        give_support: Apoiar
+      header:
+        change_ballot: "Se cambiares de opinión, podes borrar os teus votos en %{check_ballot} e comezar de novo."
+    show:
+      group: Grupo
+      phase: Fase actual
+      unfeasible_title: Propostas inviables
+      unfeasible: Ver as propostas inviables
+      unselected_title: Propostas non seleccionadas para a votación final
+      unselected: Ver as propostas que non foron seleccionadas para a votación final
+      see_results: Ver resultados
+    results:
+      link: Resultados
+      page_title: "%{budget} - Resultados"
+      heading: "Resultados dos orzamentos participativos"
+      heading_selection_title: "Por zona"
+      hide_discarded_link: Agochar as rexeitadas
+      show_all_link: Amosar todas
+      amount_available: Orzamento dispoñible
+      incompatibles: Incompatibles
