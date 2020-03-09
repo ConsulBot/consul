@@ -1,0 +1,77 @@
+bs:
+  moderation:
+    header:
+      title: Moderiranje
+    comments:
+      index:
+        block_authors: Blokiraj autore
+        confirm: Jeste sigurni?
+        filter: Filter (suzi pretragu)
+        filters:
+          all: Sve
+          pending_flag_review: U toku
+          with_ignored_flag: Označeno kao pogledano
+        headers:
+          comment: Komentariši
+          moderate: Moderiraj
+        hide_comments: Sakrij komentare
+        ignore_flags: Označi kao pogledano
+        order: Redoslijed
+        orders:
+          flags: Najviše puta označeni
+          newest: Najnoviji
+        title: Komentari
+    dashboard:
+      index:
+        title: Moderiranje
+    debates:
+      index:
+        block_authors: Blokiraj autore
+        confirm: Jeste sigurni?
+        filter: Filter (suzi pretragu)
+        filters:
+          all: Sve
+          pending_flag_review: U toku
+          with_ignored_flag: Označeno kao pogledano
+        headers:
+          debate: Učestvuj u debati
+          moderate: Moderiraj
+        hide_debates: Sakrij debate
+        ignore_flags: Označi kao pogledano
+        order: Redoslijed
+        orders:
+          created_at: Najnovije
+          flags: Najviše puta označene
+        title: Debate
+    menu:
+      flagged_comments: Komentari
+      flagged_debates: Debate
+      proposals: Prijedlozi
+      users: Blokiraj korisnike
+    proposals:
+      index:
+        block_authors: Blokiraj autore
+        confirm: Jeste sigurni?
+        filter: Filter (suzi pretragu)
+        filters:
+          all: Sve
+          pending_flag_review: Pregled u toku
+          with_ignored_flag: Označi kao pogledano
+        headers:
+          moderate: Moderiraj
+          proposal: Prijedlog
+        hide_proposals: Sakrij prijedloge
+        ignore_flags: Označi kao pogledano
+        order: Poredaj po
+        orders:
+          created_at: Najnovije
+          flags: Najviše puta označeni
+        title: Prijedlozi
+    users:
+      index:
+        hidden: Blokirani
+        hide: Blokiraj
+        search: Traži
+        search_placeholder: email ili ime korisnika
+        title: Blokiraj korisnike
+      notice_hide: Korisnik blokiran. Sve debate i komentari korisnika su sakriveni.
