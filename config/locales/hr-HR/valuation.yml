@@ -1,0 +1,61 @@
+hr:
+  valuation:
+    header:
+      title: Procjena
+    menu:
+      title: Procjena
+      budgets: Participativni budžet
+    budgets:
+      index:
+        title: Participativni budžet
+        filters:
+          current: Otvoreno
+          finished: Dovršeno
+        table_name: Ime
+        table_phase: Faza
+        table_assigned_investments_valuation_open: Pripisani investicijski projekti su otvoreni s procjenom
+        table_actions: Djelovanja
+        evaluate: Procijeniti
+    budget_investments:
+      index:
+        headings_filter_all: Svi naslovi
+        filters:
+          valuation_open: Otvoreno
+          valuating: Pod vrednovanjem
+          valuation_finished: Vrednovanje dovršeno
+        assigned_to: "Pripisano %{valuator}"
+        title: Investicijski projekti
+        edit: Uredi dosje
+        table_id: ID
+        table_title: Naziv
+        table_heading_name: Ime naslova
+        table_actions: Djelovanja
+      show:
+        back: Nazad
+        title: Investicijski projekt
+        info: Informacije o autoru
+        by: Poslao od strane
+        sent: Poslano u
+        heading: Naslov
+        dossier: Dosje
+        edit_dossier: Uredi dojse
+        price: Cijena
+        price_first_year: Troškovi tokom prve godine
+        currency: "€"
+        feasibility: Izvodljivost
+        feasible: Izvodljivo
+        unfeasible: Neizvodljivo
+        undefined: Nedefinirano
+        valuation_finished: Valuacija dovršena
+        duration: Vremenski opseg
+        responsibles: Odgovornosti
+        assigned_admin: Pripisani admin
+        assigned_valuators: Pripisani procjenitelji
+      edit:
+        dossier: Dosje
+        feasibility: Izvodljivost
+        save: Spremi promjene
+      notice:
+        valuate: "Dosje ažuriran"
+
+
