@@ -1,0 +1,230 @@
+sr:
+  activerecord:
+    models:
+      activity:
+        one: "активност"
+        few: "aktivnosti"
+        other: "aktivnosti"
+      budget/investment:
+        one: "Инвестиција"
+        few: "Инвестиције"
+        other: "Инвестиције"
+      comment:
+        one: "Komentar"
+        few: "Komentari"
+        other: "Komentari"
+      debate:
+        one: "Расправа"
+        few: "Расправе"
+        other: "Расправе"
+      tag:
+        one: "Ознака"
+        few: "Ознаке"
+        other: "Ознаке"
+      user:
+        one: "Корисник"
+        few: "Корисници"
+        other: "Корисници"
+      moderator:
+        one: "Модератор"
+        few: "Модератори"
+        other: "Модератори"
+      administrator:
+        one: "Администратор"
+        few: "Администратори"
+        other: "Администратори"
+      vote:
+        one: "Глас"
+        few: "Гласови"
+        other: "Гласови"
+      organization:
+        one: "Организација"
+        few: "Организације"
+        other: "Организације"
+      poll/booth:
+        one: "кабина"
+        few: "кабине"
+        other: "кабине"
+      poll/officer:
+        one: "чиновник"
+        few: "чиновници"
+        other: "чиновници"
+      proposal:
+        one: "Предлог грађана"
+        few: "Предлози грађана"
+        other: "Предлози грађана"
+      site_customization/page:
+        one: Прилагођена страница
+        few: Прилагођене странице
+        other: Прилагођене странице
+      site_customization/image:
+        one: Прилагођена слика
+        few: Прилагођене слике
+        other: Прилагођене слике
+      site_customization/content_block:
+        one: Прилагођени блок садржаја
+        few: Прилагођени блокови садржаја
+        other: Прилагођени блокови садржаја
+      legislation/process:
+        one: "Процес"
+        few: "Процеси"
+        other: "Процеси"
+      legislation/draft_versions:
+        one: "Нацрт верзије"
+        few: "Нацрт верзија"
+        other: "Нацрт верзија"
+      legislation/questions:
+        one: "Питање"
+        few: "Питања"
+        other: "Питања"
+      legislation/question_options:
+        one: "Опција питања"
+        few: "Опције питања"
+        other: "Опције питања"
+      legislation/answers:
+        one: "Одговор"
+        few: "Одговори"
+        other: "Одговори"
+    attributes:
+      budget:
+        name: "Име"
+        description_accepting: "Опис током фазе Прихватања"
+        description_reviewing: "Опис током фазе Прегледа"
+        description_selecting: "Опис током фазе Селекције"
+        description_valuating: "Опис током фазе Евалуације"
+        description_balloting: "Опис током фазе Изгласавања"
+        description_reviewing_ballots: "Опис током фазе Прегледа Гласања"
+        description_finished: "Опис када се финализира буџет"
+        phase: "Фаза"
+        currency_symbol: "Валута"
+      budget/investment:
+        heading_id: "Наслов"
+        title: "Назив"
+        description: "Опис"
+        external_url: "Веза за додатну документацију"
+        administrator_id: "Администратор"
+      comment:
+        body: "Коментар"
+        user: "Корисник"
+      debate:
+        author: "Аутор"
+        description: "Мишљење"
+        terms_of_service: "Услови коришћења услуге"
+        title: "Наслов"
+      proposal:
+        author: "Аутор"
+        title: "Наслов"
+        question: "Питање"
+        description: "Опис"
+        terms_of_service: "Услови коришћења услуге"
+      user:
+        login: "Емаил или корисничко име"
+        email: "Емаил"
+        username: "Корисничко име"
+        password_confirmation: "Лозинка потврђена"
+        password: "Лозинка"
+        current_password: "Тренутна лозинка"
+        phone_number: "Број телефона"
+        official_position: "Званични став"
+        official_level: "Званични ниво"
+        redeemable_code: "Верификациони код примљен путем емаила"
+      organization:
+        name: "Назив организације"
+        responsible_name: "Одговорна особа за групу"
+      poll:
+        name: "Име"
+        starts_at: "Датум почетка"
+        ends_at: "Датум завршетка"
+        geozone_restricted: "Ограничено геозоном"
+      poll/question:
+        title: "Питање"
+        summary: "Сажетак"
+        description: "Опис"
+        external_url: "Веза ка додатној документацији"
+      signature_sheet:
+        signable_type: "Тип који се може уписати"
+        signable_id: "ИД за пријављивање"
+        document_numbers: "Бројеви докумената"
+      site_customization/page:
+        content: Садржај
+        created_at: Креирано у
+        subtitle: Поднаслов
+        slug: Метак
+        status: Статус
+        title: Наслов
+        updated_at: Ажурирано у
+        print_content_flag: Дугме одштампај садржај
+        locale: Језик
+      site_customization/image:
+        name: Име
+        image: Слике
+      site_customization/content_block:
+        name: Име
+        locale: локалне
+        body: Тело
+      legislation/process:
+        title: Наслов процеса
+        description: Опис
+        additional_info: Додатне информације
+        draft_publication_date: Датум објављивања радне верзије
+        result_publication_date: Датум последње публикације резултата
+      legislation/draft_version:
+        title: Наслов верзије
+        body: Текст
+        changelog: Промене
+        status: Статус
+        final_version: Финална верзија
+      legislation/question:
+        title: Наслов
+        question_options: Опције
+      legislation/question_option:
+        value: Вредност
+      legislation/annotation:
+        text: Коментар
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "Корисник већ има лозинку"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "ознаке морају бити мање или једнаке %{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "Достигли сте максималан број приватних порука дневно"
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "Документ није у попису"
+              has_voted: "Корисник је већ гласао"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: мора бити на или после почетног дана
+            debate_end_date:
+              invalid_date_range: мора бити на или после датума почетка дебате
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "ознаке морају бити мање или једнаке %{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "ознаке морају бити мање или једнаке %{count}"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: 'Није проверено Пописом'
+              already_voted: 'Већ сте гласали овај предлог'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "морају бити слова, бројеви, _и-"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Ширина мора бити %{required_width}пх"
+              image_height: "Висина мора бити %{required_height}пх"
