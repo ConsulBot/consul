@@ -1,0 +1,301 @@
+fi:
+  admin:
+    header:
+      title: Järjestelmänvalvonta
+    actions:
+      actions: Toiminnot
+      confirm: Oletko varma?
+      hide: Piilota
+      hide_author: Piilota tekijä
+      restore: Palauta
+      edit: Muokkaa
+      configure: Määritä
+    banners:
+      index:
+        title: Bannerit
+        create: Luo banneri
+        edit: Muokkaa banneria
+        delete: Poista banneri
+        filters:
+          all: Kaikki
+          with_active: Aktiivinen
+          with_inactive: Passiivinen
+        preview: Esikatselu
+      edit:
+        editing: Muokkaa banneria
+        form:
+          submit_button: Tallenna muutokset
+      new:
+        creating: Luo banneri
+    activity:
+      show:
+        action: Toiminto
+        actions:
+          block: Estetty
+          hide: Piilotettu
+          restore: Palautettu
+        content: Sisältö
+        filter: Näytä
+        filters:
+          all: Kaikki
+          on_comments: Kommentit
+          on_proposals: Ehdotukset
+          on_users: Käyttäjät
+        type: Tyyppi
+    budgets:
+      index:
+        new_link: Luo uusi budjetti
+        filters:
+          finished: Päättynyt
+        table_name: Nimi
+        table_phase: Vaihe
+        table_investments: Sijoitukset
+        table_edit_budget: Muokkaa
+        edit_budget: Muokkaa budjettia
+    budget_investments:
+      index:
+        administrator_filter_all: Kaikki järjestelmänvalvojat
+        tags_filter_all: Kaikki tunnisteet
+        filters:
+          selected: Valittu
+          winners: Voittajat
+          all: Kaikki
+        feasibility:
+          unfeasible: "Toteuttamiskelvoton"
+        selected: "Valittu"
+        select: "Valitse"
+      show:
+        edit: Muokkaa
+        tags: Tunnisteet
+        undefined: Määrittelemätön
+        compatibility:
+          title: Yhteensopivuus
+          "true": Yhteensopimaton
+          "false": Yhteensopiva
+        selection:
+          title: Valinta
+        winner:
+          title: Voittaja
+          "true": "Kyllä"
+          "false": "Ei"
+      edit:
+        compatibility: Yhteensopivuus
+        selection: Valinta
+        submit_button: Päivitä
+        undefined: Määrittelemätön
+    milestones:
+      index:
+        table_description: "Kuvaus"
+        table_actions: "Toiminnot"
+        delete: "Poista tavoite"
+        no_milestones: "Ei määriteltyjä tavoitteita"
+      new:
+        creating: Luo tavoite
+      edit:
+        title: Muokkaa tavoite
+      create:
+        notice: Uusi tavoite luotu onnistuneesti!
+      update:
+        notice: Tavoite päivitetty onnistuneesti
+      delete:
+        notice: Tavoite poistettu onnistuneesti
+    dashboard:
+      index:
+        title: Järjestelmänvalvonta
+    hidden_users:
+      index:
+        filter: Suodatin
+        filters:
+          all: Kaikki
+          with_confirmed_hide: Vahvistettu
+          without_confirmed_hide: Vireillä
+        title: Piilotetut käyttäjät
+      show:
+        email: 'Sähköposti:'
+    legislation:
+      processes:
+        edit:
+          back: Takaisin
+          submit_button: Tallenna muutokset
+        form:
+          enabled: Käytössä
+          process: Prosessi
+        index:
+          create: Uusi prosessi
+          delete: Poista
+          filters:
+            all: Kaikki
+        new:
+          back: Takaisin
+          submit_button: Luo prosessi
+        process:
+          title: Prosessi
+          comments: Kommentit
+          status: Tila
+          status_open: Avaa
+          status_closed: Suljettu
+        subnav:
+          info: Tiedot
+      draft_versions:
+        destroy:
+          notice: Luonnos poistettu onnistuneesti
+        edit:
+          back: Takaisin
+          submit_button: Tallenna muutokset
+        form:
+          close_text_editor: Sulje tekstieditori
+        index:
+          delete: Poista
+          preview: Esikatselu
+        new:
+          back: Takaisin
+        table:
+          created_at: Luotu
+          comments: Kommentit
+          status: Tila
+      questions:
+        destroy:
+          notice: Kysymys poistettu onnistuneesti
+        edit:
+          back: Takaisin
+          submit_button: Tallenna muutokset
+        index:
+          back: Takaisin
+          create: Luo kysymys
+          delete: Poista
+        new:
+          back: Takaisin
+          submit_button: Luo kysymys
+    managers:
+      manager:
+        add: Lisää
+        delete: Poista
+    menu:
+      hidden_comments: Piilotetut kommentit
+      hidden_proposals: Piilotetut ehdotukset
+      hidden_users: Piilotetut käyttäjät
+      polls: Kyselyt
+      organizations: Organisaatiot
+      users: Käyttäjät
+    administrators:
+      administrator:
+        add: Lisää
+        delete: Poista
+    moderators:
+      moderator:
+        add: Lisää
+        delete: Poista
+    newsletters:
+      index:
+        title: Uutiskirjeet
+    poll_officers:
+      officer:
+        add: Lisää
+        name: Nimi
+        email: Sähköposti
+      search:
+        search: Etsi
+        user_not_found: Käyttäjää ei löydy
+    poll_officer_assignments:
+      index:
+        table_name: "Nimi"
+        table_email: "Sähköposti"
+      by_officer:
+        date: "Päivämäärä"
+    poll_booth_assignments:
+      show:
+        date: "Päivämäärä"
+      index:
+        table_name: "Nimi"
+    polls:
+      index:
+        name: "Nimi"
+        dates: "Päivämäärät"
+      show:
+        questions_tab: Kysymykset
+    questions:
+      index:
+        title: "Kysymykset"
+        create: "Luo kysymys"
+        questions_tab: "Kysymykset"
+        create_question: "Luo kysymys"
+        table_proposal: "Ehdotus"
+        table_question: "Kysymys"
+      show:
+        author: Tekijä
+    booths:
+      index:
+        name: "Nimi"
+    organizations:
+      index:
+        filter: Suodatin
+        filters:
+          all: Kaikki
+          pending: Vireillä
+        search: Etsi
+        title: Organisaatiot
+    settings:
+      index:
+        update_setting: Päivitä
+    shared:
+      booths_search:
+        button: Etsi
+      poll_officers_search:
+        button: Etsi
+      poll_questions_search:
+        button: Etsi
+      proposal_search:
+        button: Etsi
+      user_search:
+        button: Etsi
+    geozones:
+      index:
+        edit: Muokkaa
+        delete: Poista
+      geozone:
+        name: Nimi
+      edit:
+        form:
+          submit_button: Tallenna muutokset
+        back: Takaisin
+      new:
+        back: Takaisin
+    signature_sheets:
+      author: Tekijä
+      name: Nimi
+      show:
+        author: Tekijä
+    stats:
+      show:
+        summary:
+          comments: Kommentit
+          proposals: Ehdotukset
+          budgets: Avaa budjetit
+    users:
+      columns:
+        name: Nimi
+        email: Sähköposti
+      index:
+        title: Käyttäjä
+      search:
+        search: Etsi
+    site_customization:
+      content_blocks:
+        content_block:
+          name: Nimi
+      images:
+        index:
+          update: Päivitä
+          delete: Poista
+          image: Kuva
+        destroy:
+          notice: Kuva poistettu onnistuneesti
+          error: Kuvaa ei voitu poistaa
+      pages:
+        destroy:
+          notice: Sivu poistettu onnistuneesti
+        index:
+          delete: Poista sivu
+        page:
+          created_at: Luotu
+          status: Tila
