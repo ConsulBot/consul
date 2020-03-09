@@ -1,0 +1,28 @@
+id:
+  settings:
+    comments_body_max_length: "Komentar panjang tubuh maksimal"
+    official_level_1_name: "Tingkat 1 pejabat publik"
+    official_level_2_name: "Tingkat 2 pejabat publik"
+    official_level_3_name: "Tingkat 3 pejabat publik"
+    official_level_4_name: "Tingkat 4 pejabat publik"
+    official_level_5_name: "Tingkat 5 pejabat publik"
+    max_ratio_anon_votes_on_debates: "Maksimum rasio anonim suara per Perdebatan"
+    max_votes_for_debate_edit: "Jumlah suara yang menjadi Perdebatan tidak bisa lagi diedit"
+    proposal_code_prefix: "Awalan untuk Proposal kode"
+    months_to_archive_proposals: "Bulan untuk arsip Proposal"
+    email_domain_for_officials: "Email domain untuk pejabat publik"
+    twitter_handle: "Twitter menangani"
+    twitter_hashtag: "Hashtag Twitter"
+    facebook_handle: "Facebook menangani"
+    youtube_handle: "Youtube menangani"
+    telegram_handle: "Telegram menangani"
+    instagram_handle: "Instagram menangani"
+    url: "URL Utama"
+    feature:
+      twitter_login: Twitter masuk
+      facebook_login: Facebook masuk
+      google_login: Google masuk
+      signature_sheets: Lembaran tanda tangan
+    meta_description: "Deskripsi situs (SEO)"
+    meta_keywords: "Kata kunci (SEO)"
+    min_age_to_participate: Usia Minimum yang diperlukan untuk berpartisipasi
