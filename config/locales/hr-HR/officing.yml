@@ -1,0 +1,55 @@
+hr:
+  officing:
+    header:
+      title: Bilježenje glasova
+    dashboard:
+      index:
+        title: Službeno prebrojavanje
+        info: Ovdje možete potvrditi dokumente korisnika i spremiti rezultate glasova
+    menu:
+      voters: Potvrdi dokument
+    polls:
+      final:
+        title: Glasovanje je spremljeno za finalno prebrojavanje
+        no_polls: Nemate službeno prebrojavanje u niti jednom aktivnom glasanju
+        select_poll: Odaberi glasanje
+        add_results: Vidi rezultate
+    results:
+      flash:
+        create: "Spremljeni rezultati"
+        error_create: "Rezultati NISU spremljeni. Greška u podacima."
+        error_wrong_booth: "Pogrešno glasačko mjesto. Rezultati nisu spremljeni."
+      new:
+        title: "%{poll} - Dodaj rezultate"
+        booth: "Glasačko mjesto"
+        date: "Datum"
+        select_booth: "Odaberi glasačko mjesto"
+        ballots_null: "Nevažeči glasovi"
+        submit: "Spremi"
+        results_list: "Vaši rezultati"
+        see_results: "Pogledaj rezultate"
+      index:
+        no_results: "Nema rezultata"
+        results: Rezultati
+        table_answer: Odgovor
+        table_votes: Glasovi
+        table_nulls: "Nevažeči glasovi"
+    residence:
+      flash:
+        create: "Dokument potvrđen s Cenzusom"
+        not_allowed: "Danas nemate službene smjene"
+      new:
+        title: Potvrdi dokument
+        document_number: "Broj dokumenta (uključujući znakove)"
+        submit: Potvrdi dokument
+        error_verifying_census: "Cenzus nije u mogućnosti potvriditi ovaj dokument."
+        form_errors: spriječena je verifikacija ovog dokumenta
+    voters:
+      new:
+        title: Glasovanje
+        table_poll: Glasanje
+      show:
+        can_vote: Može glasati
+        error_already_voted: Već je sudjelovao u ovom glasovanju
+        submit: Potvrdi glas
+        success: "Glas je unesen!"
