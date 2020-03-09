@@ -1,0 +1,77 @@
+hr:
+  moderation:
+    header:
+      title: Uređivanje
+    comments:
+      index:
+        block_authors: Blokirani autori
+        confirm: Jeste li sigurni?
+        filter: Filter
+        filters:
+          all: Svi
+          pending_flag_review: U tijeku
+          with_ignored_flag: Označeno za pregled
+        headers:
+          comment: Komentar
+          moderate: Uredi
+        hide_comments: Sakrij komentare
+        ignore_flags: Označi kao pogledano
+        order: Poredak
+        orders:
+          flags: Većina označena
+          newest: Najnoviji
+        title: Komentari
+    dashboard:
+      index:
+        title: Uređivanje
+    debates:
+      index:
+        block_authors: Blok autori
+        confirm: Jeste li sigurni?
+        filter: Filter
+        filters:
+          all: Svi
+          pending_flag_review: U tijeku
+          with_ignored_flag: Označi kao pogledano
+        headers:
+          debate: Rasprave
+          moderate: Uredi
+        hide_debates: Sakrij debate
+        ignore_flags: Označi kao pogledano
+        order: Poredak
+        orders:
+          created_at: Najnovije
+          flags: Označena većina
+        title: Rasprave
+    menu:
+      flagged_comments: Komentari
+      flagged_debates: Rasprave
+      proposals: Prijedlozi
+      users: Blokirani korisnici
+    proposals:
+      index:
+        block_authors: Blokirani autori
+        confirm: Jeste li sigurni?
+        filter: Filter
+        filters:
+          all: Svi
+          pending_flag_review: Pregled u tijeku
+          with_ignored_flag: Označi kao pogledano
+        headers:
+          moderate: Uređivanje
+          proposal: Prijedlog
+        hide_proposals: Sakrij prijedloge
+        ignore_flags: Označi kao pogledano
+        order: Poredaj po
+        orders:
+          created_at: Posljednje
+          flags: Najviše označeno
+        title: Prijedlozi
+    users:
+      index:
+        hidden: Blokirano
+        hide: Blok
+        search: Pretraga
+        search_placeholder: email ili ime korisnika
+        title: Blokirani korisnici
+      notice_hide: Korisnik blokiran. Sve baze podataka i komentari ovog korisnika su sakrivene.
