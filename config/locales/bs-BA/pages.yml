@@ -1,0 +1,6 @@
+bs:
+  pages:
+    verify:
+      info_code: 'Sada unesite kod koji ste dobili u pismu:'
+      submit: Potvrdi moj nalog
+      title: Potvrdi svoj nalog
