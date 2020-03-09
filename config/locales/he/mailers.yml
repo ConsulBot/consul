@@ -1,0 +1,58 @@
+he:
+  mailers:
+    no_reply: "נא לא לענות לכתובת דואר זו."
+    comment:
+      hi: שלום
+      subject: ישנה הערה חדשה %{commentable}
+      title: הערה חדשה
+    config:
+      manage_email_subscriptions: כדי להפסיק לקבל דואר דומה עליכם לשנות את הגדרות הדואר
+    email_verification:
+      click_here_to_verify: קישור זה
+      subject: נא אשר את הדוא"ל שלך
+      thanks: תודה מכל הלב.
+      title: אשר את חשבונך באמצעות הקישור הבא
+    reply:
+      hi: שלום
+      subject: מישהו הגיב להערה שלך
+      title: התקבלה תגובה חדשה להערה שלך
+    budget_investment_unfeasible:
+      hi: "משתמש/ת יקר/ה,"
+      new_href: "פרויקט השקעה חדש"
+      sincerely: "בברכה,"
+      sorry: "אנו מתנצלים על האי-נוחות ומודים לך שוב על השתתפותך החשובה."
+      subject: "פרויקט ההשקעה שלך '%{code}' סומן כאינו בר ביצוע"
+    proposal_notification_digest:
+      info: "התראות חדשות אשר פורסמו בידי כותבי ההצעות שתמכת בהן ב-%{org_name}."
+      title: "התרעות הצעות ב-%{org_name}"
+      share: שיתוף ההצעה
+      comment: תגובה על ההצעה
+      unsubscribe_account: החשבון שלי
+    direct_message_for_receiver:
+      subject: "התקבלה הודעה פרטית חדשה"
+      reply: השב ל %{sender}
+      unsubscribe_account: החשבון שלי
+    user_invite:
+      ignore: "אם לא את/ה ביקשת את ההזמנה הזו, אין בעיה, תוכל/י פשוט להתעלם מהודעת הדואר האלקטרוני הזו."
+      thanks: "תודה מכל הלב."
+      title: "ברוכים הבאים אל %{org}"
+      button: להשלמת רישום
+      subject: "הזמנה ל-%{org_name}"
+    budget_investment_created:
+      subject: "תודה על יצירת ההשקעה!"
+      title: "תודה על יצירת ההשקעה!"
+      follow_link: "תקציבים שיתופיים"
+      sincerely: "בברכה,"
+      share: "שתף את הפרויקט שלך"
+    budget_investment_selected:
+      subject: "הפרוייקט השקעה שלך '%{code}' נבחר"
+      hi: "משתמש/ת יקר/ה,"
+      share: "התחל לקבל הצבעות, שתף את פרויקט ההשקעה שלך ברשתות החברתיות. השיתוף הוא חיוני כדי להפוך אותו למציאות."
+      share_button: "שתף את הפרוייקט ההשקעה שלך"
+      thanks: "תודה שוב על השתתפותך."
+      sincerely: "בברכה,"
+    budget_investment_unselected:
+      subject: "הפרוייקט השקעות שלך '%{code}' לא נבחר"
+      hi: "משתמש/ת יקר/ה,"
+      thanks: "תודה שוב על השתתפותך."
+      sincerely: "בברכה,"
