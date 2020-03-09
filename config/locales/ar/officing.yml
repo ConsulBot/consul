@@ -1,0 +1,55 @@
+ar:
+  officing:
+    header:
+      title: الاقتراع
+    dashboard:
+      index:
+        title: مكتب الاستطلاع
+        info: يمكنك هنا المصادقة على صحة وثائق المستخدم وتخزين نتائج التصويت
+    menu:
+      voters: التحقق من الوثيقة
+    polls:
+      final:
+        title: الاستطلاعات جاهزة لعملية العد النهائي
+        no_polls: أنت لا تقوم بإعداد عمليات إعادة فرز الأصوات النهائية في أي استطلاع ناشط
+        select_poll: تحديد استطلاع
+        add_results: إضافة نتائج
+    results:
+      flash:
+        create: "تم حفظ النتائج"
+        error_create: "لم تم حفظ النتائج. هناك خظأ في البيانات."
+        error_wrong_booth: "هناك خطأ. لم يتم حفظ البيانات."
+      new:
+        title: "%{poll} - إضافة النتائج"
+        booth: "مكتب الإقتراع"
+        date: "تاريخ"
+        select_booth: "حدّد مكتب الإقتراع"
+        ballots_null: "أوراق غير صالحة"
+        submit: "حفظ"
+        results_list: "نتائجك"
+        see_results: "رؤية النتائج"
+      index:
+        no_results: "لا توجد نتائج"
+        results: النتائج
+        table_answer: إجابة
+        table_votes: اصوات
+        table_nulls: "أوراق غير صالحة"
+    residence:
+      flash:
+        create: "وثيقة تم التحقق منها من خلال التعداد"
+        not_allowed: "ليس لديك مناوبة اليوم"
+      new:
+        title: التحقق من الوثيقة
+        document_number: "رقم المستند (بما في ذلك الاحرف)"
+        submit: التحقق من الوثيقة
+        error_verifying_census: "التعداد غير قادر على التحقق من هذه الوثيقة."
+        form_errors: منعَ التحقق من هذه الوثيقة
+    voters:
+      new:
+        title: استطلاعات
+        table_poll: استطلاع
+      show:
+        can_vote: يمكنه التصويت
+        error_already_voted: شارك سابقا في هذا الاستطلاع
+        submit: تأكيد التصويت
+        success: "تم التصويت!"
