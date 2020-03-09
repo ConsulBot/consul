@@ -1,0 +1,101 @@
+pt-BR:
+  budgets:
+    ballots:
+      show:
+        title: Sua cédula
+        amount_spent: Quantia gasta
+        remaining: "Você ainda tem <span>%{amount}</span> para investir."
+        no_balloted_group_yet: "Você ainda não votou neste grupo, vote!"
+        remove: Remover voto
+        zero: Você não votou em um projeto de investimento.
+      reasons_for_not_balloting:
+        not_logged_in: Você precisa %{signin} ou %{signup} para continuar.
+        not_verified: Somente usuários verificados podem votar em investimentos; %{verify_account}.
+        organization: Organizações não tem permissão de voto
+        not_selected: Projetos de investimento não selecionados não podem ser apoiados
+        no_ballots_allowed: A fase de seleção está fechada
+        change_ballot: mudar seus votos
+    groups:
+      show:
+        title: Selecione uma opção
+        unfeasible_title: Investimentos inviáveis
+        unfeasible: Ver investimentos inviáveis
+        unselected_title: Investimentos não selecionados para a fase de votação
+        unselected: Ver investimentos não selecionados para a fase de votação
+    phase:
+      accepting: Aceite dos projetos
+      reviewing: Revendo projetos
+      selecting: Seleção dos projetos
+      valuating: Avaliação dos projetos
+      finished: Orçamento final
+    index:
+      title: Orçamentos participativos
+    investments:
+      form:
+        tag_category_label: "Categorias"
+        tags_instructions: "Marque esta proposta. Você pode escolher entre as categorias propostas ou adicionar a sua própria"
+        tags_label: Marcação
+        tags_placeholder: "Entre com as marcações que você deseja usar, separadas por vírgulas ('s\")"
+      index:
+        title: Orçamento participativo
+        unfeasible: Projetos de investimento inviáveis
+        by_heading: "Projetos de investimento com escopo: %{heading}"
+        search_form:
+          button: Buscar
+          placeholder: Buscar projetos de investimento...
+          title: Buscar
+        sidebar:
+          my_ballot: Minha cédula
+          voted_info: Você pode %{link} a qualquer momento até o encerramento desta fase. Não há necessidade de gastar todo o dinheiro disponível.
+          voted_info_link: mudar seu voto
+          change_ballot: "Se você mudar de ideia, poderá remover seus votos em %{check_ballot} e começar de novo."
+          zero: Você não votou em um projeto de investimento neste grupo.
+          verified_only: "Para criar um novo investimento orçamentário %{verify}."
+          not_logged_in: "Para criar um novo investimento orçamentário, você deve %{sign_in} ou %{sign_up}."
+          by_feasibility: Por viabilidade
+          feasible: Projetos viáveis
+          unfeasible: Projetos inviáveis
+        orders:
+          random: aleatório
+          confidence_score: melhor avaliado
+          price: por preço
+      show:
+        author_deleted: Usuário excluído
+        price_explanation: Explicação do preço
+        unfeasibility_explanation: Explanação da inviabilidade
+        share: Compartilhar
+        title: Projeto de investimento
+        supports: Apoios
+        votes: Votos
+        price: Preço
+        comments_tab: Comentários
+        milestones_tab: Marcos
+      wrong_price_format: Apenas números inteiros
+      investment:
+        add: Voto
+        already_added: Você já adicionou este projeto de investimento
+        support_title: Apoiar este projeto
+        supports:
+          zero: Nenhum apoio
+          one: 1 apoio
+          other: "%{count} apoios"
+        give_support: Apoiar
+      header:
+        change_ballot: "Se você mudar de ideia, poderá remover seus votos em %{check_ballot} e começar de novo."
+    show:
+      group: Grupo
+      phase: Fase atual
+      unfeasible_title: Investimentos inviáveis
+      unfeasible: Ver investimentos inviáveis
+      unselected_title: Investimentos não selecionados para a fase de votação
+      unselected: Ver investimentos não selecionados para a fase de votação
+      see_results: Exibir resultados
+    results:
+      link: Resultados
+      page_title: "%{budget} - Resultados"
+      heading: "Resultados do orçamento participativo"
+      heading_selection_title: "Por distrito"
+      hide_discarded_link: Esconder descartados
+      show_all_link: Mostrar todos
+      amount_available: Orçamento disponível
+      incompatibles: Incompatíveis
