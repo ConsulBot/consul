@@ -1,4 +1,3 @@
----
 fr:
   moderation:
     header:
@@ -6,11 +5,11 @@ fr:
     comments:
       index:
         block_authors: Bloquer un auteur
-        confirm: "Êtes-vous sûr(e) ?"
-        filter: Filtrer
+        confirm: Êtes-vous sûr(e) ?
+        filter: Filtre
         filters:
-          all: Tous
-          pending_flag_review: En attente
+          all: Toutes
+          pending_flag_review: Indécis
           with_ignored_flag: Marqué comme vu
         headers:
           comment: Commentaire
@@ -28,11 +27,11 @@ fr:
     debates:
       index:
         block_authors: Bloquer un auteur
-        confirm: "Êtes-vous sûr(e) ?"
-        filter: Filtrer
+        confirm: Êtes-vous sûr(e) ?
+        filter: Filtre
         filters:
-          all: Tous
-          pending_flag_review: En attente
+          all: Toutes
+          pending_flag_review: Indécis
           with_ignored_flag: Marqué comme vu
         headers:
           debate: Débat
@@ -52,10 +51,10 @@ fr:
     proposals:
       index:
         block_authors: Bloquer un auteur
-        confirm: "Êtes-vous sûr(e) ?"
-        filter: Filtrer
+        confirm: Êtes-vous sûr(e) ?
+        filter: Filtre
         filters:
-          all: Tous
+          all: Toutes
           pending_flag_review: En attente de revue
           with_ignored_flag: Marqué comme vu
         headers:
@@ -72,7 +71,7 @@ fr:
       index:
         hidden: Bloqué
         hide: Bloquer
-        search: Rechercher
+        search: Chercher
         search_placeholder: courriel ou nom de l'utilisateur
         title: Bloquer les utilisateurs
       notice_hide: Utilisateur bloqué. Tous les débats et les propositions de cet utilisateur ont été masqués.
