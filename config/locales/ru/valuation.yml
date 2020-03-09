@@ -1,0 +1,61 @@
+ru:
+  valuation:
+    header:
+      title: Оценка
+    menu:
+      title: Оценка
+      budgets: Партисипаторные бюджеты
+    budgets:
+      index:
+        title: Партисипаторные бюджеты
+        filters:
+          current: Открытые
+          finished: Оконченные
+        table_name: Имя
+        table_phase: Этап
+        table_assigned_investments_valuation_open: Назначенные проекты инвестирования с открытой оценкой
+        table_actions: Действия
+        evaluate: Оценить
+    budget_investments:
+      index:
+        headings_filter_all: Все заголовки
+        filters:
+          valuation_open: Открытые
+          valuating: Производится оценка
+          valuation_finished: Оценка окончена
+        assigned_to: "Назначено %{valuator}"
+        title: Инновационные проекты
+        edit: Редактировать пакет документов
+        table_id: ID
+        table_title: Название
+        table_heading_name: Название раздела
+        table_actions: Действия
+      show:
+        back: Назад
+        title: Инвестиционный проект
+        info: Об авторе
+        by: Отправил(а)
+        sent: Дата отправки
+        heading: Раздел
+        dossier: Пакет документов
+        edit_dossier: Редактировать пакет документов
+        price: Цена
+        price_first_year: Стоимость в течение первого года
+        currency: "€"
+        feasibility: Выполнимость
+        feasible: Выполнимо
+        unfeasible: Не выполнимо
+        undefined: Не определено
+        valuation_finished: Оценка окончена
+        duration: Объем времени
+        responsibles: Ответственные
+        assigned_admin: Назначенный администратор
+        assigned_valuators: Назначенные оценщики
+      edit:
+        dossier: Пакет документов
+        feasibility: Выполнимость
+        save: Сохранить изменения
+      notice:
+        valuate: "Пакет документов обновлен"
+
+
