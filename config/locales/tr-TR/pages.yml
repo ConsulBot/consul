@@ -1,0 +1,6 @@
+tr:
+  pages:
+    verify:
+      info_code: 'Şimdi mektupta aldığınız kodu tanıtın:'
+      submit: Hesabımı doğrula
+      title: Hesabınızı doğrulayın
