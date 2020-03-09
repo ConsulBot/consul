@@ -8,8 +8,8 @@ fr:
         one: "Budget participatif"
         other: "Budgets participatifs"
       budget/investment:
-        one: "Projet d'investissement"
-        other: "Projets d'investissement"
+        one: "Investissement"
+        other: "Propositions d'investissement"
       comment:
         one: "Commentaire"
         other: "Commentaires"
@@ -18,9 +18,9 @@ fr:
         other: "Débats"
       tag:
         one: "Étiquette"
-        other: "Étiquettes"
+        other: "Sujets"
       user:
-        one: "Utilisateur"
+        one: "Utilisateurs masqués"
         other: "Utilisateurs"
       moderator:
         one: "Modérateur"
@@ -55,6 +55,21 @@ fr:
       site_customization/content_block:
         one: Bloc de contenu personnalisé
         other: Blocs de contenu personnalisés
+      legislation/process:
+        one: "Processus"
+        other: "Processus législatifs"
+      legislation/draft_versions:
+        one: "Ébauche"
+        other: "Version brouillon"
+      legislation/questions:
+        one: "Question"
+        other: "Questions"
+      legislation/question_options:
+        one: "Paramètres de la question"
+        other: "Paramètres de la question"
+      legislation/answers:
+        one: "Réponse"
+        other: "Réponses"
     attributes:
       budget:
         name: "Nom"
@@ -65,27 +80,22 @@ fr:
         description_balloting: "Description durant la phase de vote"
         description_reviewing_ballots: "Description durant la phase de revue des votes"
         description_finished: "Description quand le budget est finalisé"
-        phase: "Phase"
+        phase: "Phases"
         currency_symbol: "Devise"
       budget/investment:
-        heading_id: "Rubrique du budget"
+        heading_id: "Titre"
         title: "Titre"
         description: "Description"
-        external_url: "Lien externe"
+        external_url: "Lien vers de la documentation supplémentaire"
         location: "Lieu"
         administrator_id: "Administrateur"
-        description: "Description"
-        external_url: "Lien vers la documentation complémentaire"
-        heading_id: "Rubrique du budget"
-        title: "Titre"
-        location: "Lieu"
         organization_name: "Si votre proposition concerne un collectif ou une organisation, renseignez leur nom"
       comment:
         body: "Commentaire"
-        user: "Utilisateur"
+        user: "Utilisateurs masqués"
       debate:
         author: "Auteur"
-        description: "Opinion"
+        description: "Avis"
         terms_of_service: "Conditions d'utilisation"
         title: "Titre"
       proposal:
@@ -95,12 +105,13 @@ fr:
         description: "Description"
         terms_of_service: "Conditions d'utilisation"
       user:
-        email: "Courriel"
+        login: "Email ou nom d’utilisateur"
+        email: "Email"
         username: "Nom d'utilisateur"
         password_confirmation: "Confirmation du mot de passe"
         password: "Mot de passe"
         current_password: "Mot de passe actuel"
-        phone_number: "Téléphone"
+        phone_number: "Numéro de téléphone"
         official_position: "Position officielle"
         official_level: "Niveau officiel"
         redeemable_code: "Vérification du code reçu par courriel"
@@ -110,7 +121,6 @@ fr:
       spending_proposal:
         administrator_id: "Administrateur"
         association_name: "Nom de l'association"
-        description: "Description"
         external_url: "Lien vers la documentation complémentaire"
         geozone_id: "Périmètre de l'opération"
         title: "Titre"
@@ -124,7 +134,7 @@ fr:
         valid_answers: "Réponses possibles"
         summary: "Résumé"
         description: "Description"
-        external_url: "Lien vers la documentation complémentaire"
+        external_url: "Lien vers de la documentation supplémentaire"
       signature_sheet:
         signable_type: "Type de signature"
         signable_id: "Identifiant de la signature"
@@ -147,6 +157,25 @@ fr:
         name: Nom
         locale: Langue
         body: Contenu
+      legislation/process:
+        title: Titre du processus
+        description: Description
+        additional_info: Plus d'infos
+        draft_publication_date: Date de publication de l'ébauche
+        result_publication_date: Date de publication du résultat final
+      legislation/draft_version:
+        title: Titre de la version
+        body: Texte
+        changelog: Changements
+        status: Statut
+        final_version: Version finale
+      legislation/question:
+        title: Titre
+        question_options: Options
+      legislation/question_option:
+        value: Valeur
+      legislation/annotation:
+        text: Commentaire
     errors:
       models:
         user:
@@ -166,6 +195,12 @@ fr:
             document_number:
               not_in_census: "Ce document n'est pas dans le recensement"
               has_voted: "L'utilisateur a déjà voté"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: doit être la date de début ou postérieur
+            debate_end_date:
+              invalid_date_range: doit être la date de début du débat ou postérieur
         proposal:
           attributes:
             tag_list:
