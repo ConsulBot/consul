@@ -1,52 +1,48 @@
----
 fr:
   admin:
     header:
       title: Administration
     actions:
-      actions: Actions
-      confirm: "Êtes-vous sûr(e) ?"
+      actions: Statut des votes
+      confirm: Êtes-vous sûr(e) ?
       confirm_hide: Confirmer
       hide: Cacher
       hide_author: Cacher l'auteur
       restore: Restaurer
-      mark_featured: Mettre en avant
+      mark_featured: Mis en avant
       unmark_featured: Retirer la mise en avant
-      edit: Modifier
+      edit: Éditer
       configure: Configurer
     banners:
       index:
         title: Bannières
-        create: Créer une bannière
+        create: Créer la bannière
         edit: Modifier la bannière
         delete: Supprimer la bannière
         filters:
-          all: Tous
+          all: Toutes
           with_active: Actif
           with_inactive: Inactif
         preview: Aperçu
       banner:
         title: Titre
-        description:  Description
-        target_url:  Lien
-        style: Style
-        image: Image
+        target_url: Lien
         post_started_at: Début de la publication
         post_ended_at: Fin de la publication
       edit:
         editing: Modifier la bannière
         form:
-          submit_button: Sauvegarder les changements
+          submit_button: Sauvegarder des changements
       errors:
         form:
           error:
             one: "a empêché cette bannière d'être sauvegardée"
-            other: "ont empêchés cette bannière d'être sauvegardée"
+            other: 'ont empêchés cette bannière d''être sauvegardée'
       new:
         creating: Créer la bannière
     activity:
       show:
-        action: Action
+        action: Actions
         actions:
           block: Bloqué
           hide: masqué
@@ -55,12 +51,12 @@ fr:
         content: Contenu
         filter: Montrer
         filters:
-          all: Tous
+          all: Toutes
           on_comments: Commentaires
           on_debates: Débats
           on_proposals: Propositions
           on_users: Utilisateurs
-        title: Activité de modération
+        title: Activité des modérateurs
         type: Type
     budgets:
       index:
@@ -74,7 +70,7 @@ fr:
         table_phase: Phase
         table_investments: Propositions d'investissement
         table_edit_groups: Groupes de rubriques
-        table_edit_budget: Modifier
+        table_edit_budget: Éditer
         edit_groups: Modifier les groupes de rubriques
         edit_budget: Modifier le budget
       create:
@@ -97,74 +93,97 @@ fr:
         heading: Nom de la rubrique
         add_heading: Ajouter une rubrique
         amount: Montant
-        population: Population
         save_heading: Sauvegarder la rubrique
         no_heading: Ce groupe n'a pas de rubrique assignée.
         table_heading: Rubrique
         table_amount: Montant
-        table_population: Population
       winners:
-        calculate: Calculate Winner Investments
-        calculated: Winners being calculated, it may take a minute.
+        calculate: Calculer les investissements gagnant
+        calculated: Le calcul des gagnants peut prendre quelques minutes.
     budget_investments:
       index:
-        heading_filter_all: Toutes les rubriques
+        heading_filter_all: Tous les titres
         administrator_filter_all: Tous les administrateurs
         valuator_filter_all: Tous les évaluateurs
         tags_filter_all: Toutes les étiquettes
         filters:
           valuation_open: Ouvert
-          without_admin: Sans administrateur assigné
+          without_admin: Sans administrateur affecté
           managed: Géré
           valuating: En évaluation
           valuation_finished: Évaluation terminée
           valuation_finished_feasible: Ev. Ter. Réalisable
           selected: Sélectionné
-          all: Tous
+          winners: Gagnants
+          all: Toutes
         title: Propositions d'investissement
-        assigned_admin: Administrateur assigné
-        no_admin_assigned: Pas d'administrateur assigné
-        no_valuators_assigned: Pas d'évaluateur assigné
+        assigned_admin: Administrateur affecté
+        no_admin_assigned: Aucun administrateur affecté
+        no_valuators_assigned: Aucun évaluateur affecté
         feasibility:
           feasible: "Réalisable (%{price})"
-          unfeasible: "Irréalisable"
+          unfeasible: "Infaisable"
           undecided: "Incertain"
         selected: "Sélectionné"
         select: "Sélectionner"
-        table_id: "ID"
         table_title: "Titre"
-        table_supports: "Supports"
         table_admin: "Administrateur"
         table_valuator: "Évaluateur"
         table_geozone: "Périmètre des opérations"
         table_feasibility: "Faisabilité"
         table_valuation_finished: "Ev. Ter."
         table_selection: "Sélection"
-        table_incompatible: "Incompatible"
       show:
-        assigned_admin: Administrateur assigné
-        assigned_valuators: Évaluateur assigné
+        assigned_admin: Administrateur affecté
+        assigned_valuators: Évaluateurs assignés
         classification: Classification
         info: "%{budget_name} - Groupe : %{group_name} - Proposition d'investissement %{id}"
-        edit: Modifier
-        edit_classification: Modifier la classification
+        edit: Éditer
+        edit_classification: Mettre-à-jour la classification
         by: Par
         sent: Envoyé
         group: Groupe
-        heading: Rubrique
-        dossier: Dossier
-        edit_dossier: Modifier le dossier
-        tags: Étiquettes
-        undefined: Indéterminé
+        heading: Titre
+        dossier: Rapport
+        edit_dossier: Éditer le rapport
+        tags: Sujets
+        undefined: Indéfini
+        compatibility:
+          title: Compatibilité
+          "true": Incompatibles
+          "false": Compatible
+        selection:
+          title: Sélection
+        winner:
+          title: Gagnants
+          "true": "Oui"
+          "false": "Non"
       edit:
         classification: Classification
+        compatibility: Compatibilité
+        selection: Sélection
         assigned_valuators: Évaluateurs
         select_heading: Sélectionner la rubrique
-        submit_button: Mettre à jour
+        submit_button: Mettre-à-jour
         tags: Étiquettes
         tags_placeholder: "Saisir les étiquettes souhaitées séparées par des virgules (,)"
-        undefined: Indéterminé
+        undefined: Indéfini
       search_unfeasible: Recherche impossible
+    milestones:
+      index:
+        table_title: "Titre"
+        delete: "Supprimer le jalon"
+        no_milestones: "Aucun jalon défini"
+      new:
+        creating: Créer un nouveau jalon
+      edit:
+        title: Modifier le jalon
+      create:
+        notice: Nouveau jalon créé avec succès !
+      update:
+        notice: Mise à jour du jalon réussie
+      delete:
+        notice: Jalon supprimé avec succès
     comments:
       index:
         filter: Filtrer
@@ -187,11 +206,137 @@ fr:
           with_confirmed_hide: Confirmé
           without_confirmed_hide: En attente
         title: Débats masqués
+    hidden_users:
+      index:
+        filter: Filtre
+        filters:
+          all: Toutes
+          with_confirmed_hide: Confirmé
+          without_confirmed_hide: Indécis
+        title: Utilisateurs masqués
+      show:
+        email: 'Courriel :'
+        hidden_at: 'Masqué le :'
+        registered_at: 'Inscrit le :'
+        title: Activité de l'utilisateur (%{user})
+    legislation:
+      processes:
+        create:
+          notice: 'Processus créé avec succès. <a href="%{link}">Cliquez pour y accéder</a>'
+          error: Le processus n'a pu être créé
+        update:
+          notice: 'Processus mis à jour avec succès. <a href="%{link}">Cliquez pour y accéder</a>'
+          error: Le processus n'a pu être mis à jour
+        destroy:
+          notice: Processus supprimé avec succès
+        edit:
+          back: Retour
+          submit_button: Sauvegarder des changements
+        form:
+          enabled: Activé
+          process: Processus
+          debate_phase: Phase de débat
+          use_markdown: Utilisez Markdown pour formater le text
+          title_placeholder: Le titre du processus
+          summary_placeholder: Bref résumé de la description
+          description_placeholder: Ajouter une description du processus
+          additional_info_placeholder: Ajouter n'importe quelle information supplémentaire que vous estimez utile
+        index:
+          create: Nouveau processus
+          delete: Supprimer
+          filters:
+            all: Toutes
+        new:
+          back: Retour
+          title: Créer un nouveau processus législatif collaboratif
+          submit_button: Créer un processus
+        process:
+          title: Processus
+          comments: Commentaires
+          status: Statut
+          status_open: Ouvert
+          status_closed: Fermé
+          status_planned: Planifié
+        subnav:
+          info: Information
+          questions: Débat
+      draft_versions:
+        create:
+          notice: 'Le brouillon a été créé avec succès. <a href="%{link}"> cliquez ici pour le visualiser</a>'
+          error: Le brouillon n’a pas pu être créé
+        update:
+          notice: 'Brouillon mis à jour avec succès. <a href="%{link}"> cliquez pour le visualiser</a>'
+          error: Le brouillon n'a pas pu être mis à jour
+        destroy:
+          notice: Le brouillon a été supprimé avec succès
+        edit:
+          back: Retour
+          submit_button: Sauvegarder des changements
+          warning: Vous avez modifié le texte, n’oubliez pas de cliquer sur Enregistrer pour enregistrer vos modifications.
+        form:
+          launch_text_editor: Lancer l’éditeur de texte
+          close_text_editor: Fermer l'éditeur de text
+          use_markdown: Utilisez Markdown pour formater le texte
+          hints:
+            final_version: Cette version sera publiée comme résultat final de ce processus. Les commentaires ne seront pas autorisés dans cette version.
+            status:
+              draft: Vous pouvez voir un aperçu en tant qu’admin, personne d’autre ne peut le voir
+              published: Visible par tout le monde
+          title_placeholder: Écrire le titre du brouillon
+          changelog_placeholder: Ajouter les changements de la version précédente
+          body_placeholder: Ecrivez le text du brouillon
+        index:
+          title: Ébauches
+          create: Créer une version
+          delete: Supprimer
+          preview: Aperçu
+        new:
+          back: Retour
+          title: Créer une nouvelle version
+          submit_button: Créer une version
+        table:
+          title: Titre
+          created_at: Créé le
+          comments: Commentaires
+          final_version: Version finale
+          status: Statut
+      questions:
+        create:
+          notice: 'Le question a été créée avec succès. <a href="%{link}"> cliquez ici pour la visualiser</a>'
+          error: La question n’a pas pu être créée
+        update:
+          notice: 'Le question a été créée avec succès. <a href="%{link}"> cliquez ici pour la visualiser</a>'
+          error: La question n’a pas pu être mis à jour
+        destroy:
+          notice: La question a été supprimé avec succès
+        edit:
+          back: Retour
+          title: "Editer “%{question_title}”"
+          submit_button: Sauvegarder des changements
+        form:
+          add_option: Ajouter une option
+          value_placeholder: Ajouter une réponse
+        index:
+          back: Retour
+          title: Questions liées à ce processus
+          create: Créer une question
+          delete: Supprimer
+        new:
+          back: Retour
+          title: Créer une nouvelle question
+          submit_button: Créer une question
+        table:
+          title: Titre
+          question_options: Paramètres de la question
+          answers_count: Nombre de réponses
+          comments_count: Nombre de commentaires
+        question_option_fields:
+          remove_option: Supprimer l’option
     managers:
       index:
         title: Responsables
       manager:
-        add: Ajouter
+        add: Ajouter en tant que président
         delete: Supprimer
       search:
         email_placeholder: Rechercher un utilisateur par courriel
@@ -202,20 +347,21 @@ fr:
       admin: Menu d'administration
       banner: Gérer les bannières
       poll_questions: Questions des citoyens
-      proposals_topics:  Sujets des propositions
+      proposals_topics: Sujets des propositions
       budgets: Budgets participatifs
       geozones: Gérer les districts
       hidden_comments: Commentaires masqués
       hidden_debates: Débats masqués
       hidden_proposals: Propositions masquées
       hidden_users: Utilisateurs masqués
+      administrators: Administrateurs
       managers: Responsables
       moderators: Modérateurs
       valuators: Évaluateurs
       poll_officers: Présidents
       polls: Votes
       poll_booths: Bureaux de vote
-      officials: Officiels
+      officials: Fonctionnaires
       organizations: Organisations
       settings: Paramétres de configuration
       spending_proposals: Propositions d'investissement
@@ -227,21 +373,32 @@ fr:
         content_blocks: Blocs de contenu personnalisés
       title_categories: Catégories
       title_moderated_content: Contenu modéré
-      title_budgets: Budgets
       title_polls: Votes
       title_profiles: Profils
       title_banners: Bannières
       title_site_customization: Personnalisation du site
+      legislation: Processus législatif collaboratif
+      users: Utilisateurs
+    administrators:
+      index:
+        title: Administrateurs
+      administrator:
+        add: Ajouter en tant que président
+        delete: Supprimer
+        restricted_removal: "Désolé, vous ne pouvez pas vous retirer de la liste des administrateurs"
     moderators:
       index:
         title: Modérateurs
       moderator:
-        add: Ajouter
+        add: Ajouter en tant que président
         delete: Supprimer
       search:
         email_placeholder: Rechercher un utilisateur par courriel
         search: Rechercher
         user_not_found: Utilisateur non trouvé
+    newsletters:
+      index:
+        title: Bulletins d’information
     valuators:
       index:
         title: Évaluateurs
@@ -260,21 +417,20 @@ fr:
         finished_and_unfeasible_count: Terminé et irréalisable
         finished_count: Terminé
         in_evaluation_count: En évaluation
-        total_count: Total
         cost: Coût
     poll_officers:
       index:
-        title: Présidents
+        title: Assesseurs
       officer:
         add: Ajouter en tant que président
         delete: Supprimer la position
         name: Nom
-        email: Courriel
-        entry_name: président
+        email: Email
+        entry_name: assesseur
       search:
         email_placeholder: Rechercher un utilisateur par courriel
-        search: Rechercher
-        user_not_found: Utilisateur non trouvé
+        search: Chercher
+        user_not_found: Utilisateur introuvable
     poll_officer_assignments:
       flash:
         destroy: "Affectation supprimée"
@@ -285,13 +441,13 @@ fr:
         officers_title: "Liste des présidents"
         no_officers: "Il n'y a aucun président affecté à ce vote."
         table_name: "Nom"
-        table_email: "Courriel"
+        table_email: "Email"
         add_officer_assignments: "Ajouter une affectation"
         edit_officer_assignments: "Modifier une affectation"
       by_officer:
         new_assignment: "Nouvelle affectation"
         date: "Date"
-        booth: "Bureau de vote"
+        booth: "Urne"
         assignment: "Affectation"
         select_date: "Sélectionner le jour"
         select_booth: "Sélectionner le bureau de vote"
@@ -299,8 +455,6 @@ fr:
         remove_assignment: "Retirer"
         assignments: "Affectations pour ce vote"
         no_assignments: "Cet utilisateur n'a pas d'affectation pour ce vote."
-        recounts: "Dépouillement journalier"
-        recount: "Dépouillement journalier (par président)"
         final_recounts: "Dépouillement final"
         final_recount: "Dépouillement final (par président)"
     poll_booth_assignments:
@@ -314,13 +468,11 @@ fr:
         officers: "Présidents"
         officers_list: "Liste des présidents pour ce bureau de vote"
         no_officers: "Il n'y a pas de président pour ce bureau de vote."
-        recounts: "Dépouillement"
+        recounts: "Dépouillements"
         recounts_list: "Liste des dépouillements pour ce bureau de vote"
-        no_recounts: "Il n'y a pas encore de dépouillements journaliers pour ce bureau de vote."
         date: "Date"
-        count_by_officer: "Dépouillement journalier (par président)"
         count_final: "Dépouillement final (par président)"
-        count_by_system:  "Votes (automatique)"
+        count_by_system: "Votes (automatique)"
       index:
         booths_title: "Liste des bureaux de vote"
         no_booths: "Il n'y a pas de bureaux de vote affectés à ce vote."
@@ -333,7 +485,7 @@ fr:
       index:
         title: "Liste des votes"
         no_polls: "Il n'y a pas de votes."
-        create: "Créer un vote"
+        create: "Créer le vote"
         name: "Nom"
         dates: "Dates"
       new:
@@ -345,7 +497,7 @@ fr:
       show:
         questions_tab: Questions
         booths_tab: Bureaux de vote
-        officers_tab: Présidents
+        officers_tab: Assesseurs
         recounts_tab: Dépouillements
         results_tab: Résultats
         no_questions: "Il n'y a pas de questions affectées à ce vote."
@@ -383,14 +535,12 @@ fr:
         author: Auteur
         title: Titre
         valid_answers: Réponses valides
-        description: Description
         preview: Voir l'aperçu
     recounts:
       index:
         title: "Dépouillements"
         no_recounts: "Il n'y a rien à dépouiller"
-        table_booth_name: "Bureau de vote"
-        table_recounts: "Accumulation des dépouillements journaliers (par président)"
+        table_booth_name: "Urne"
         table_final_recount: "Dépouillement final (par président)"
         table_system_count: "Votes (automatique)"
     results:
@@ -400,7 +550,6 @@ fr:
         table_whites: "Bulletins blancs"
         table_nulls: "Bulletins invalides"
         table_answer: Réponse
-        table_votes: Votes
     booths:
       index:
         title: "Liste des bureaux de vote"
@@ -421,9 +570,9 @@ fr:
     officials:
       edit:
         destroy: Supprimer le statut de fonctionnaire
-        title: "Fonctionnaire: Modifier l'utilisateur"
+        title: 'Fonctionnaire: Modifier l''utilisateur'
       flash:
-        official_destroyed: "Informations sauvegardées : l'utilisateur n'est plus un fonctionnaire."
+        official_destroyed: 'Informations sauvegardées : l''utilisateur n''est plus un fonctionnaire.'
         official_updated: Informations du fonctionnaire sauvegardées
       index:
         title: Fonctionnaires
@@ -439,10 +588,10 @@ fr:
         title: 'Positions de fonctionnaire: recherche utilisateur'
     organizations:
       index:
-        filter: Filtrer
+        filter: Filtre
         filters:
-          all: Tous
-          pending: En attente
+          all: Toutes
+          pending: Indécis
           rejected: Rejeté
           verified: Vérifié
         hidden_count_html:
@@ -450,7 +599,7 @@ fr:
           other: Il y a <strong>%{count} organisations</strong> sans utilisateurs ou avec un utilisateur masqué.
         reject: Rejeter
         rejected: Rejeté
-        search: Rechercher
+        search: Chercher
         search_placeholder: Nom, courriel ou téléphone
         title: Organisations
         verified: Vérifié
@@ -472,7 +621,7 @@ fr:
         banners: Style des bannières
         banner_imgs: Images des bannières
         title: Paramètres
-        update_setting: Mettre à jour
+        update_setting: Mettre-à-jour
         feature_flags: Fonctionnalités
         features:
           enabled: "Fonctionnalité activée"
@@ -481,23 +630,23 @@ fr:
           disable: "Désactiver"
     shared:
       booths_search:
-        button: Rechercher
+        button: Chercher
         placeholder: Rechercher le bureau de vote par nom
       poll_officers_search:
-        button: Rechercher
+        button: Chercher
         placeholder: Rechercher le président d'un vote
       poll_questions_search:
-        button: Rechercher
+        button: Chercher
         placeholder: Rechercher les questions d'un vote
       proposal_search:
-        button: Rechercher
+        button: Chercher
         placeholder: Rechercher des propositions par titre, code, description ou question
       spending_proposal_search:
         button: Rechercher
         placeholder: Rechercher des propositions de dépenses par titre ou description
       user_search:
-        button: Rechercher
-        placeholder: 'Rechercher un utilisateur par nom ou courriel'
+        button: Chercher
+        placeholder: Rechercher un utilisateur par nom ou courriel
       search_results: "Résultats de recherche"
       no_search_results: "Aucun résultat trouvé."
     spending_proposals:
@@ -531,11 +680,9 @@ fr:
         heading: "Proposition d'investissement %{id}"
         edit: Mettre-à-jour
         edit_classification: Mettre-à-jour la classification
-        association_name: Association
         by: Par
         sent: Envoyé
         geozone: Périmètre
-        dossier: Dossier
         edit_dossier: Mettre-à-jour le dossier
         tags: Étiquettes
         undefined: Indéfini
@@ -554,13 +701,12 @@ fr:
         finished_and_unfeasible_count: Terminé et irréalisable
         finished_count: Terminé
         in_evaluation_count: En évaluation
-        total_count: Total
         cost_for_geozone: Coût
     geozones:
       index:
         title: District
         create: Créer un district
-        edit: Mettre-à-jour
+        edit: Éditer
         delete: Supprimer
       geozone:
         name: Nom
@@ -571,10 +717,10 @@ fr:
         form:
           error:
             one: "a empêché ce district d'être sauvegardé"
-            other: "a empêché ce district d'être sauvegardé"
+            other: 'a empêché ce district d''être sauvegardé'
       edit:
         form:
-          submit_button: Sauvegarder les changements
+          submit_button: Sauvegarder des changements
         editing: Mettre-à-jour le district
         back: Revenir
       new:
@@ -598,7 +744,6 @@ fr:
       show:
         created_at: Créé le
         author: Auteur
-        documents: Documents
         document_count: "Nombre de documents :"
         verified:
           one: "Il y a %{count} signature valide"
@@ -630,7 +775,7 @@ fr:
           visits: Visites
           votes: Total des votes
         spending_proposals_title: Propositions d'investissement
-        budgets_title: Budgets participatifs
+        budgets_title: Budget participatif
         visits_title: Visites
         direct_messages: Messages privés
         proposal_notifications: Notifications des propositions
@@ -652,18 +797,17 @@ fr:
       name:
         placeholder: Saisir le nom du sujet
     users:
+      columns:
+        name: Nom
+        email: Email
+        document_number: Numéro de document
+        roles: Rôles
+        verification_level: Niveau de vérification
       index:
-        filter: Filtrer
-        filters:
-          all: Tous
-          with_confirmed_hide: Confirmé
-          without_confirmed_hide: En attente
         title: Utilisateurs masqués
-      show:
-        email: 'Courriel :'
-        hidden_at: 'Masqué le :'
-        registered_at: 'Inscrit le :'
-        title: Activité de l'utilisateur (%{user})
+      search:
+        placeholder: Rechercher un utilisateur par email, nom ou numéro de document
+        search: Chercher
     verifications:
       index:
         phone_not_given: Téléphone non communiqué
