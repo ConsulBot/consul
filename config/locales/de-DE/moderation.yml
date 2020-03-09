@@ -1,0 +1,77 @@
+de:
+  moderation:
+    header:
+      title: Moderation
+    comments:
+      index:
+        block_authors: Autoren blockieren
+        confirm: Sind Sie sich sicher?
+        filter: Filter
+        filters:
+          all: Alle
+          pending_flag_review: Ausstehend
+          with_ignored_flag: Als gelesen markieren
+        headers:
+          comment: Kommentar
+          moderate: Moderieren
+        hide_comments: Kommentare ausblenden
+        ignore_flags: Als gelesen markieren
+        order: Bestellung
+        orders:
+          flags: Am meisten markiert
+          newest: Neueste
+        title: Kommentare
+    dashboard:
+      index:
+        title: Moderation
+    debates:
+      index:
+        block_authors: Autoren blockieren
+        confirm: Sind Sie sich sicher?
+        filter: Filter
+        filters:
+          all: Alle
+          pending_flag_review: Ausstehend
+          with_ignored_flag: Als gelesen markieren
+        headers:
+          debate: Diskussion
+          moderate: Moderieren
+        hide_debates: Diskussionen ausblenden
+        ignore_flags: Als gelesen markieren
+        order: Bestellung
+        orders:
+          created_at: Neueste
+          flags: Am meisten markiert
+        title: Diskussionen
+    menu:
+      flagged_comments: Kommentare
+      flagged_debates: Diskussionen
+      proposals: Vorschläge
+      users: Benutzer blockieren
+    proposals:
+      index:
+        block_authors: Autoren blockieren
+        confirm: Sind Sie sich sicher?
+        filter: Filter
+        filters:
+          all: Alle
+          pending_flag_review: Ausstehende Bewertung
+          with_ignored_flag: Als gelesen markieren
+        headers:
+          moderate: Moderieren
+          proposal: Vorschlag
+        hide_proposals: Anträge ausblenden
+        ignore_flags: Als gelesen markieren
+        order: Sortieren nach
+        orders:
+          created_at: Neuste
+          flags: Am meisten markiert
+        title: Vorschläge
+    users:
+      index:
+        hidden: Blockiert
+        hide: Block
+        search: Suche
+        search_placeholder: E-Mail oder Benutzername
+        title: Benutzer blockieren
+      notice_hide: Benutzer gesperrt. Alle Diskussionen und Kommentare dieses Benutzers wurden ausgeblendet.
