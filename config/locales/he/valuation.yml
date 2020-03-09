@@ -1,0 +1,61 @@
+he:
+  valuation:
+    header:
+      title: הערכה
+    menu:
+      title: הערכה
+      budgets: תקציבים השתתפותיים
+    budgets:
+      index:
+        title: תקציבים השתתפותיים
+        filters:
+          current: פתוח
+          finished: הסתיים
+        table_name: שם
+        table_phase: שלב
+        table_assigned_investments_valuation_open: פרויקטים להשקעה שהוקצו עם תקציב מוערך פתוח
+        table_actions: פעולות
+        evaluate: להעריך
+    budget_investments:
+      index:
+        headings_filter_all: כל הכותרות
+        filters:
+          valuation_open: פתוח
+          valuating: תחת הערכה
+          valuation_finished: ההערכה הסתיימה
+        assigned_to: "שהוקצה ל- %{valuator}"
+        title: פרויקטי השקעה
+        edit: עריכת תיקים
+        table_id: מזהה
+        table_title: שם
+        table_heading_name: שם כותרת
+        table_actions: פעולות
+      show:
+        back: חזרה
+        title: פרויקט להשקעה
+        info: פרטי המחבר
+        by: נשלח על ידי
+        sent: נשלח ב
+        heading: כותרת
+        dossier: תיק
+        edit_dossier: ערוך תיק
+        price: מחיר
+        price_first_year: עלות במהלך השנה הראשונה
+        currency: "שקלים"
+        feasibility: סבירות לביצוע
+        feasible: בר ביצוע
+        unfeasible: אינו בר-ביצוע
+        undefined: לא מוגדר
+        valuation_finished: ההערכה הסתיימה
+        duration: טווח זמן
+        responsibles: אחראים
+        assigned_admin: מנהל מערכת אשר הוקצה
+        assigned_valuators: מעריכים שהוקצו
+      edit:
+        dossier: תיק
+        feasibility: סבירות לביצוע
+        save: שמירת שינויים
+      notice:
+        valuate: "התיק עודכן"
+
+
