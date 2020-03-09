@@ -1,0 +1,651 @@
+it:
+  admin:
+    header:
+      title: Amministrazione
+    actions:
+      actions: Azioni
+      confirm: Sei sicuro?
+      hide: Nascondi
+      hide_author: Nascondi l'autore
+      restore: Ripristino
+      mark_featured: In primo piano
+      unmark_featured: Deselezionare 'in primo piano'
+      edit: Modificare
+      configure: Configurare
+    banners:
+      index:
+        title: Banner
+        create: Crea il banner
+        edit: Modifica il banner
+        delete: Elimina il banner
+        filters:
+          all: Tutti
+          with_active: Attivo
+          with_inactive: Inattivo
+        preview: Anteprima
+      edit:
+        editing: Modifica banner
+        form:
+          submit_button: Salva modifiche
+      new:
+        creating: Crea banner
+    activity:
+      show:
+        action: Azione
+        actions:
+          block: Bloccato
+          hide: Nascosto
+          restore: Ripristinato
+        by: Moderato da
+        content: Contenuto
+        filter: Mostra
+        filters:
+          all: Tutti
+          on_comments: Commenti
+          on_debates: Dibattiti
+          on_proposals: Proposte
+          on_users: Utenti
+        title: Attività del moderatore
+        type: Tipo
+    budgets:
+      index:
+        title: Bilanci partecipativi
+        new_link: Creare un nuovo bilancio
+        filters:
+          finished: Terminati
+        table_name: Nominativo
+        table_phase: Fase
+        table_investments: Investimenti
+        table_edit_groups: Gruppi di intestazioni
+        table_edit_budget: Modificare
+        edit_groups: Modificare i gruppi di intestazioni
+        edit_budget: Modifica il budget
+      create:
+        notice: Nuovo bilancio partecipativo creato con successo!
+      update:
+        notice: Bilancio partecipativo aggiornato con successo
+      edit:
+        title: Modificare il bilancio partecipativo
+      new:
+        title: Nuovo bilancio partecipativo
+      winners:
+        calculate: Calcolare gli investimenti del vincitore
+        calculated: Stiamo calcolando i vincitori, ciò potrebbe richiedere alcuni minuti.
+    budget_investments:
+      index:
+        heading_filter_all: Tutte le intestazioni
+        administrator_filter_all: Tutti gli amministratori
+        valuator_filter_all: Tutti i valutatori
+        tags_filter_all: Tutti i tag
+        filters:
+          without_admin: Senza amministratore designato
+          valuation_finished: Valutazione terminata
+          selected: Selezionato
+          winners: Vincitori
+          all: Tutti
+        title: Progetti di investimento
+        assigned_admin: Amministratore assegnato
+        no_admin_assigned: Nessun amministratore assegnato
+        no_valuators_assigned: Nessun valutatore assegnato
+        feasibility:
+          unfeasible: "Irrealizzabile"
+          undecided: "Nessuna decisione"
+        selected: "Selezionato"
+        select: "Selezionare"
+      show:
+        assigned_admin: Amministratore assegnato
+        assigned_valuators: Valutatori assegnati
+        info: "%{budget_name} - gruppo: %{group_name} - %{id} progetto di investimento"
+        edit: Modificare
+        edit_classification: Modificare la classificazione
+        by: Autore
+        sent: Inviato
+        heading: Intestazione
+        dossier: Dossier
+        edit_dossier: Modificare il dossier
+        tags: Etichette
+        undefined: Non definito
+        compatibility:
+          title: Compatibilità
+          "true": Incompatibile
+          "false": Compatibile
+        selection:
+          title: Selezione
+        winner:
+          title: Vincitore
+          "true": "Sì"
+          "false": "No"
+      edit:
+        compatibility: Compatibilità
+        selection: Selezione
+        assigned_valuators: Valutatori
+        select_heading: Selezionare intestazione
+        submit_button: Aggiorna
+        tags_placeholder: "Scrivere i tag separati da virgole (,)"
+        undefined: Non definito
+      search_unfeasible: Ricerca irrealizzabile
+    milestones:
+      index:
+        table_title: "Titolo"
+        table_description: "Descrizione"
+        table_actions: "Azioni"
+        delete: "Cancellare il traguardo-milestone"
+        no_milestones: "Non ci sono traguardi-milestone definiti"
+      new:
+        creating: Crea traguardo-milestone
+      edit:
+        title: Modifica traguardo-milestone
+      create:
+        notice: Il nuovo traguardo-milestone è stato definito con successo!
+      update:
+        notice: Il traguardo-milestone è stato aggiornato con successo
+      delete:
+        notice: Il traguardo-milestone è stato cancellato con successo
+    dashboard:
+      index:
+        title: Amministrazione
+    hidden_users:
+      index:
+        filter: Filtra
+        filters:
+          all: Tutti
+          with_confirmed_hide: Confermato
+          without_confirmed_hide: In sospeso
+        title: Utenti bloccati
+      show:
+        email: 'Email:'
+        hidden_at: 'Nascosto:'
+        registered_at: 'Data di registrazione:'
+        title: Attività dell'utente (%{user})
+    legislation:
+      processes:
+        create:
+          notice: 'Procedimento creato con successo. <a href="%{link}">Clicca per visitare</a>'
+          error: Non è stato possibile creare il procedimento
+        update:
+          notice: 'Procedimento aggiornato con successo. <a href="%{link}">Clicca per visitare</a>'
+          error: Non è stato possibile aggiornare il procedimento
+        destroy:
+          notice: Procedimento eliminato con successo
+        edit:
+          back: Indietro
+          submit_button: Salva modifiche
+        form:
+          enabled: Abilitato
+          process: Procedimento
+          debate_phase: Fase di dibattito
+          use_markdown: Usa Markdown per formattare il testo
+          title_placeholder: Il titolo del procedimento
+          summary_placeholder: Breve riassunto della descrizione
+          description_placeholder: Aggiungi una descrizione del procedimento
+          additional_info_placeholder: Aggiungi ulteriori informazioni che ritieni utili
+        index:
+          create: Nuovo procedimento
+          delete: Eliminare
+          filters:
+            all: Tutti
+        new:
+          back: Indietro
+          title: Crea nuovo procedimento collaborativo di legislazione
+          submit_button: Crea procedimento
+        process:
+          title: Procedimento
+          comments: Commenti
+          status: Status
+          status_open: Aperti
+          status_closed: Chiuso
+          status_planned: Programmato
+        subnav:
+          info: Informazione
+          questions: Dibattito
+      draft_versions:
+        create:
+          notice: 'Bozza creata con successo. <a href="%{link}"> Clicca per consultarla</a>'
+          error: La bozza non può essere creata
+        update:
+          notice: 'Bozza aggiornata con successo. <a href="%{link}"> Clicca per consultarla</a>'
+          error: La bozza non può essere aggiornata
+        destroy:
+          notice: Bozza cancellata con successo
+        edit:
+          back: Indietro
+          submit_button: Salva modifiche
+          warning: Hai modificato il testo, non dimenticare di cliccare su Salva per salvare le modifiche in modo permanente.
+        form:
+          launch_text_editor: Avviare l'editor di testo
+          close_text_editor: Chiudere l'editor di testo
+          use_markdown: Usa il Markdown per formattare il testo
+          hints:
+            final_version: Questa versione sarà pubblicata come risultato finale per questo procedimento. I commenti non saranno consentiti in questa versione.
+            status:
+              draft: Puoi vedere l'anteprima come amministratore, nessun altro può vederla
+              published: Visibile a tutti
+          title_placeholder: Scrivi il titolo della bozza
+          changelog_placeholder: Aggiungi i principali cambiamenti rispetto alla versione precedente
+          body_placeholder: Scrivi il testo in bozza
+        index:
+          title: Bozze
+          create: Creare la versione
+          delete: Eliminare
+          preview: Anteprima
+        new:
+          back: Indietro
+          title: Creare una nuova versione
+          submit_button: Crea versione
+        table:
+          title: Titolo
+          created_at: Creato al
+          comments: Commenti
+          final_version: Versione finale
+          status: Status
+      questions:
+        create:
+          notice: 'Domanda creata con successo. <a href="%{link}"> Clicca per consultarla</a>'
+          error: La domanda non può essere creata
+        update:
+          notice: 'Domanda aggiornata con successo. <a href="%{link}"> Clicca per consultarla</a>'
+          error: La domanda non può essere aggiornata
+        destroy:
+          notice: Domanda cancellata con successo
+        edit:
+          back: Indietro
+          title: "Modificare \"%{question_title}\""
+          submit_button: Salva modifiche
+        form:
+          add_option: Aggiungere l'opzione
+          value_placeholder: Aggiungi una risposta chiusa
+        index:
+          back: Indietro
+          title: Quesiti associati a questo procedimento
+          create: Creare la domanda
+          delete: Eliminare
+        new:
+          back: Indietro
+          title: Creare una nuova domanda
+          submit_button: Creare la domanda
+        table:
+          title: Titolo
+          question_options: Opzioni quesito
+          answers_count: Risposte totali
+          comments_count: Commenti totali
+        question_option_fields:
+          remove_option: Rimuovere l'opzione
+    managers:
+      index:
+        title: Gestori
+      manager:
+        add: Aggiungere
+        delete: Eliminare
+    menu:
+      activity: Attività del moderatore
+      admin: Menu admin
+      banner: Gestire i banner
+      proposals_topics: Argomenti delle proposte
+      budgets: Bilanci partecipativi
+      geozones: Gestisci distretti
+      hidden_comments: Commenti nascosti
+      hidden_debates: Dibattiti nascosti
+      hidden_proposals: Proposte nascoste
+      hidden_users: Utenti bloccati
+      administrators: Amministratori
+      managers: Gestori
+      moderators: Moderatori
+      valuators: Stimatori
+      poll_officers: Presidenti del seggio di voto
+      polls: Votazioni
+      poll_booths: Ubicazione delle urne
+      officials: Pubblici ufficiali
+      organizations: Organizzazioni
+      stats: Statistiche
+      signature_sheets: Fogli firma
+      site_customization:
+        content_blocks: Blocchi di contenuto personalizzati
+      title_moderated_content: Contenuto moderato
+      title_profiles: Profili
+      legislation: Legislazione collaborativa
+      users: Utenti
+    administrators:
+      index:
+        title: Amministratori
+      administrator:
+        add: Aggiungi
+        delete: Eliminare
+        restricted_removal: "Non è possibile rimuovere se stessi dagli amministratori"
+    moderators:
+      index:
+        title: Moderatori
+      moderator:
+        add: Aggiungi
+        delete: Eliminare
+    newsletters:
+      index:
+        title: Newsletter
+    valuators:
+      index:
+        title: Stimatori
+      valuator:
+        add: Aggiungere ai valutatori
+    poll_officers:
+      index:
+        title: Scrutatori
+      officer:
+        add: Aggiungi
+        delete: Eliminare la posizione
+        name: Nominativo
+        email: Email
+        entry_name: scrutatore
+      search:
+        email_placeholder: Cerca utente via email
+        search: Ricercare
+        user_not_found: Utente non trovato
+    poll_officer_assignments:
+      index:
+        officers_title: "Elenco dei presidenti di seggio designati"
+        no_officers: "Non ci sono scrutatori assegnati a questa votazione."
+        table_name: "Nominativo"
+        table_email: "Email"
+      by_officer:
+        date: "Data"
+        booth: "Urna"
+        assignments: "Turni come presidente di seggio per questo sondaggio"
+        no_assignments: "Questo utente non ha turni come presidente di seggio in questo sondaggio."
+    poll_booth_assignments:
+      show:
+        location: "Luogo"
+        officers: "Presidenti di seggio"
+        officers_list: "Lista dei presidenti per questo seggio"
+        no_officers: "Non ci sono presidenti per questo seggio"
+        recounts: "Scrutinii"
+        recounts_list: "Elenco scrutatori per il riconteggio in questo seggio"
+        date: "Data"
+        count_final: "Scrutinio finale (per presidente)"
+        count_by_system: "Voti (automatico)"
+      index:
+        booths_title: "Elenco dei seggi"
+        no_booths: "Non ci sono seggi assegnati a questa votazione."
+        table_name: "Nominativo"
+        table_location: "Luogo"
+    polls:
+      index:
+        title: "Lista di votazioni attive"
+        no_polls: "Non ci sono votazioni in programma."
+        create: "Creare sondaggio"
+        name: "Nominativo"
+        dates: "Date"
+      new:
+        title: "Nuovo sondaggio"
+        submit_button: "Crea votazione"
+      edit:
+        title: "Modificare il sondaggio"
+        submit_button: "Aggiorna votazione"
+      show:
+        questions_tab: Domande
+        booths_tab: Urne
+        officers_tab: Scrutatori
+        recounts_tab: Riconteggio
+        results_tab: Risultati
+        no_questions: "Non ci sono quesiti assegnati a questa votazione."
+        questions_title: "Elenco dei quesiti"
+        table_title: "Titolo"
+      flash:
+        question_added: "Domanda aggiunta a questo sondaggio"
+        error_on_question_added: "La domanda non può essere assegnata a questo sondaggio"
+    questions:
+      index:
+        title: "Quesiti"
+        create: "Creare la domanda"
+        no_questions: "Non ci sono domande."
+        filter_poll: Filtra in base alla Votazione
+        select_poll: Seleziona sondaggio
+        questions_tab: "Quesiti"
+        successful_proposals_tab: "La proposta ha superato la soglia minima"
+        create_question: "Creare la domanda"
+        table_proposal: "Proposta"
+        table_question: "Quesito"
+      edit:
+        title: "Modifica la domanda"
+      show:
+        proposal: Proposta originaria
+        author: Autore
+        valid_answers: Risposte valide
+    recounts:
+      index:
+        title: "Riconteggi"
+        no_recounts: "Non c'è nulla da scrutinare"
+        table_booth_name: "Urna"
+        table_system_count: "Voti (automatico)"
+    results:
+      index:
+        title: "Risultati"
+        no_results: "Non ci sono risultati"
+    booths:
+      index:
+        add_booth: "Aggiungere seggio"
+        name: "Nominativo"
+        location: "Luogo"
+      new:
+        title: "Nuovo seggio"
+        submit_button: "Creare seggio"
+      edit:
+        title: "Modificare il seggio"
+        submit_button: "Aggiornare il seggio"
+      show:
+        location: "Luogo"
+    officials:
+      edit:
+        title: 'Pubblici ufficiali: modificare l''utente'
+      flash:
+        official_destroyed: 'Dettagli salvati: l''utente non è più pubblico ufficiale'
+        official_updated: Dettagli del pubblico ufficiale salvati
+      index:
+        title: Funzionari
+      level_0: Non è pubblico ufficiale
+      level_1: Livello 1
+      level_2: Livello 2
+      level_3: Livello 3
+      level_4: Livello 4
+      level_5: Livello 5
+      search:
+        edit_official: Modifica pubblico ufficiale
+        make_official: Convertire in pubblico ufficiale
+        title: 'Pubblici ufficiali: ricerca utente'
+    organizations:
+      index:
+        filter: Filtra
+        filters:
+          all: Tutti
+          pending: In sospeso
+          rejected: Respinto
+          verified: Verificato
+        reject: Respingi
+        rejected: Respinto
+        search: Ricercare
+        search_placeholder: Nominativo, numero di telefono o e-mail
+        title: Organizzazioni
+        verified: Verificato
+        verify: Verificare
+      search:
+        title: Cerca organizzazioni
+    settings:
+      flash:
+        updated: Valore aggiornato
+      index:
+        update_setting: Aggiorna
+        feature_flags: Funzionalità
+        features:
+          enabled: "Funzionalità attivata"
+          disabled: "Funzionalità disabilitata"
+          enable: "Attivare"
+          disable: "Disattivare"
+    shared:
+      booths_search:
+        button: Ricercare
+      poll_officers_search:
+        button: Ricercare
+        placeholder: Ricercare presidenti di seggio
+      poll_questions_search:
+        button: Ricercare
+        placeholder: Cerca quesiti oggetto di votazione
+      proposal_search:
+        button: Ricercare
+        placeholder: Ricercare le proposte per titolo, codice. descrizione o domanda
+      user_search:
+        button: Ricercare
+        placeholder: Cerca utente in base al nome o all’email
+      search_results: "Risultati della ricerca"
+      no_search_results: "Nessun risultato trovato."
+    geozones:
+      index:
+        title: Geozona
+        create: Creare geozona
+        edit: Modificare
+        delete: Eliminare
+      geozone:
+        name: Nominativo
+        external_code: Codice esterno
+        census_code: Codice anagrafico
+        coordinates: Coordinate
+      edit:
+        form:
+          submit_button: Salva modifiche
+        editing: Modifica distretto
+        back: Indietro
+      new:
+        back: Indietro
+        creating: Crea distretto
+      delete:
+        success: Distretto eliminato con successo
+        error: Questo distretto non può essere eliminato perché ci sono degli elementi ad esso collegati
+    signature_sheets:
+      author: Autore
+      created_at: Data di creazione
+      name: Nominativo
+      no_signature_sheets: "Non ci sono fogli di firma"
+      index:
+        title: Fogli firma
+        new: Nuovo foglio di firma
+      new:
+        title: Nuovi fogli firma
+        submit: Creare foglio di firma
+      show:
+        created_at: Creato
+        author: Autore
+        verified:
+          one: "C'è %{count} firme valide"
+          other: "Ci sono %{count} firme valide"
+        unverified:
+          one: "Ci sono %{count} firme non valide"
+          other: "Ci sono %{count} firme non valide"
+        unverified_error: (non verificato in anagrafe)
+        loading: "Ci sono ancora le firme da verificare in anagrafe, attende e riaggiornare la pagina"
+    stats:
+      show:
+        stats_title: Statistiche
+        summary:
+          comment_votes: Voti dei commenti
+          comments: Commenti
+          debate_votes: Voti dei dibattiti
+          debates: Dibattiti
+          proposal_votes: Voti delle proposte
+          proposals: Proposte
+          budgets: Bilanci aperti
+          budget_investments: Progetti di investimento
+          unverified_users: Utenti non verificati
+          user_level_three: Utenti di livello 3
+          user_level_two: Utenti di livello 2
+          users: Utenti totali
+          verified_users: Utenti verificati
+          verified_users_who_didnt_vote_proposals: Utenti verificati che non hanno votato proposte
+          visits: Visite
+          votes: Voti totali
+        budgets_title: Bilancio partecipativo
+        direct_messages: Messaggi diretti
+        proposal_notifications: Notifiche di proposta
+        incomplete_verifications: Verifiche incomplete
+      direct_messages:
+        title: Messaggi diretti
+        total: Totale
+        users_who_have_sent_message: Utenti che hanno inviato un messaggio privato
+      proposal_notifications:
+        title: Notifiche di proposta
+        total: Totale
+        proposals_with_notifications: Proposte con notifiche
+    tags:
+      index:
+        add_tag: Aggiungi un nuovo tema di proposta
+        title: Temi di proposta
+    users:
+      columns:
+        name: Nominativo
+        email: Email
+        document_number: Numero del documento
+        roles: Ruoli
+        verification_level: Livello di verifica
+      index:
+        title: Utente
+      search:
+        placeholder: Ricerca utente per e-mail, nome o documento
+        search: Ricercare
+    verifications:
+      index:
+        phone_not_given: Telefono non fornito
+        sms_code_not_confirmed: Non è stato confermato il codice inviato per Sms
+        title: Verifiche incomplete
+    site_customization:
+      content_blocks:
+        create:
+          notice: Blocco di contenuto creato con successo
+          error: Il blocco di contenuto non può essere creato
+        update:
+          notice: Blocco di contenuto aggiornato con successo
+          error: Il blocco di contenuto non può essere aggiornato
+        destroy:
+          notice: Blocco di contenuto eliminato con successo
+        edit:
+          title: Modificare il blocco di contenuto
+        index:
+          create: Creare un nuovo blocco di contenuto
+          delete: Elimina blocco
+          title: Blocchi di contenuto
+        new:
+          title: Crea nuovo blocco di contenuto
+        content_block:
+          body: Testo
+          name: Nominativo
+      images:
+        index:
+          title: Immagini personalizzate
+          update: Aggiorna
+          delete: Eliminare
+          image: Immagine
+        update:
+          notice: Immagine aggiornata correttamente
+          error: L'immagine non può essere aggiornata
+        destroy:
+          notice: Immagine cancellata con successo
+          error: L'immagine non può essere eliminata
+      pages:
+        create:
+          notice: Pagina creata con successo
+          error: La pagina non può essere creata
+        update:
+          notice: Pagina aggiornata con successo
+          error: La pagina non può essere aggiornata
+        destroy:
+          notice: Pagina cancellata con successo
+        edit:
+          title: Modifica %{page_title}
+        form:
+          options: Opzioni
+        index:
+          create: Crea una nuova pagina
+          delete: Eliminare pagina
+          title: Pagine personalizzate
+          see_page: Vedere la pagina
+        new:
+          title: Creare la nuova pagina personalizzata
+        page:
+          created_at: Creato al
+          status: Stato
+          title: Titolo
+          updated_at: Aggiornato al
