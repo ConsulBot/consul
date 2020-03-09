@@ -1,0 +1,6 @@
+val:
+  pages:
+    verify:
+      info_code: 'Ara introdueix el codi que has rebut en la teua carta:'
+      submit: Verificar el meu compte
+      title: Verifica el teu compte
