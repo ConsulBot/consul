@@ -1,0 +1,28 @@
+da:
+  settings:
+    comments_body_max_length: "Kommentarfeltets maksimale længde"
+    official_level_1_name: "Myndighedsperson/embedsmand, niveau 1"
+    official_level_2_name: "Myndighedsperson/embedsmand, niveau 2"
+    official_level_3_name: "Myndighedsperson/embedsmand, niveau 3"
+    official_level_4_name: "Myndighedsperson/embedsmand, niveau 4"
+    official_level_5_name: "Myndighedsperson/embedsmand, niveau 5"
+    max_ratio_anon_votes_on_debates: "Maksimalt antal anonyme stemmer pr. debat"
+    max_votes_for_debate_edit: "Debatindlægget kan ikke længere redigeres, når dette antal personer har stemt på det:"
+    proposal_code_prefix: "Foranstillet titel for Forslag koder"
+    months_to_archive_proposals: "Måneder til at arkivere Borgerforslagene"
+    email_domain_for_officials: "E-mail domæne for offentlige ansatte"
+    twitter_handle: "Twitter"
+    twitter_hashtag: "Twitter hashtag"
+    facebook_handle: "Facebook"
+    youtube_handle: "Youtube"
+    telegram_handle: "Telegram"
+    instagram_handle: "Instagram"
+    url: "Hjemmesidens URL"
+    feature:
+      twitter_login: Twitter login
+      facebook_login: Facebook login
+      google_login: Google login
+      signature_sheets: Signaturark
+    meta_description: "Beskrivelse af siden (SEO)"
+    meta_keywords: "Søgeord (SEO)"
+    min_age_to_participate: Minimumsalder for deltagelse
