@@ -1,0 +1,102 @@
+fi:
+  activerecord:
+    models:
+      budget/investment:
+        one: "Sijoitus"
+        other: "Sijoitukset"
+      comment:
+        one: "Kommentti"
+        other: "Kommentit"
+      tag:
+        one: "Tunniste"
+        other: "Tunnisteet"
+      user:
+        one: "Käyttäjä"
+        other: "Käyttäjät"
+      vote:
+        one: "Ääni"
+        other: "Äänet"
+      organization:
+        one: "Organisaatio"
+        other: "Organisaatiot"
+      site_customization/page:
+        one: Mukautettu sivu
+        other: Mukautetut sivut
+      legislation/process:
+        one: "Prosessi"
+        other: "Prosessit"
+      legislation/questions:
+        one: "Kysymys"
+        other: "Kysymykset"
+      legislation/answers:
+        one: "Vastaus"
+        other: "Vastaukset"
+    attributes:
+      budget:
+        name: "Nimi"
+        phase: "Vaihe"
+        currency_symbol: "Valuutta"
+      budget/investment:
+        description: "Kuvaus"
+        administrator_id: "Järjestelmänvalvoja"
+      comment:
+        body: "Kommentti"
+        user: "Käyttäjä"
+      debate:
+        author: "Tekijä"
+        description: "Mielipide"
+        terms_of_service: "Käyttöehdot"
+      proposal:
+        author: "Tekijä"
+        question: "Kysymys"
+        description: "Kuvaus"
+        terms_of_service: "Käyttöehdot"
+      user:
+        login: "Sähköposti tai käyttäjänimi"
+        email: "Sähköposti"
+        username: "Käyttäjätunnus"
+        password_confirmation: "Salasanan vahvistus"
+        password: "Salasana"
+        current_password: "Nykyinen salasana"
+        phone_number: "Puhelinnumero"
+      organization:
+        name: "Organisaation nimi"
+      poll:
+        name: "Nimi"
+        starts_at: "Aloituspäivä"
+        ends_at: "Sulkeutumispäivä"
+      poll/question:
+        title: "Kysymys"
+        summary: "Yhteenveto"
+        description: "Kuvaus"
+      site_customization/page:
+        content: Sisältö
+        created_at: Luotu
+        status: Tila
+        locale: Kieli
+      site_customization/image:
+        name: Nimi
+        image: Kuva
+      site_customization/content_block:
+        name: Nimi
+      legislation/process:
+        description: Kuvaus
+        additional_info: Lisätiedot
+      legislation/draft_version:
+        title: Version nimi
+        body: Teksti
+        changelog: Muutokset
+        status: Tila
+      legislation/annotation:
+        text: Kommentti
+    errors:
+      models:
+        poll/voter:
+          attributes:
+            document_number:
+              has_voted: "Käyttäjä on jo äänestänyt"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Leveys tulee olla %{required_width}px"
+              image_height: "Korkeus tulee olla %{required_height}px"
