@@ -1,0 +1,21 @@
+bg:
+  activemodel:
+    models:
+      verification:
+        sms: "СМС"
+    attributes:
+      verification:
+        residence:
+          document_type: "Вид на документа"
+          document_number: "Номер на документа (включително букви)"
+          date_of_birth: "Дата на раждане"
+          postal_code: "Пощенски код"
+        sms:
+          phone: "Телефон"
+          confirmation_code: "Код за потвърждение"
+        email:
+          recipient: "Електронна поща"
+      officing/residence:
+        document_type: "Вид на документа"
+        document_number: "Номер на документа (включително букви)"
+        year_of_birth: "Година на раждане"
