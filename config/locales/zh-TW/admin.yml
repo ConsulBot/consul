@@ -1,0 +1,649 @@
+zh-TW:
+  admin:
+    header:
+      title: 管理
+    actions:
+      actions: 行動
+      confirm: 您確定？
+      hide: 隱藏
+      hide_author: 隱藏作者
+      restore: 恢復
+      mark_featured: 特色
+      unmark_featured: 解除標記為"特色"
+      edit: 編輯
+      configure: 配置
+    banners:
+      index:
+        title: 橫幅
+        create: 創建橫幅
+        edit: 編輯橫幅
+        delete: 刪除橫幅
+        filters:
+          all: 所有
+          with_active: 活躍
+          with_inactive: 非活躍
+        preview: 預覽
+      edit:
+        editing: 編輯橫幅
+        form:
+          submit_button: 儲存更改
+      new:
+        creating: 創建橫幅
+    activity:
+      show:
+        action: 行動
+        actions:
+          block: 已被封鎖
+          hide: 隱藏
+          restore: 恢復
+        by: 審核者
+        content: 內容
+        filter: 顯示
+        filters:
+          all: 所有
+          on_comments: 評論
+          on_debates: 辯論
+          on_proposals: 建議
+          on_users: 用戶
+        title: 審核員活動
+        type: 類型
+    budgets:
+      index:
+        title: 參與性預算
+        new_link: 創建新預算
+        filters:
+          finished: 已完成
+        table_name: 名字
+        table_phase: 階段
+        table_investments: 投資
+        table_edit_groups: 標題組
+        table_edit_budget: 編輯
+        edit_groups: 編輯標題組
+        edit_budget: 編輯預算
+      create:
+        notice: 新的參與性預算創建成功!
+      update:
+        notice: 參與性預算已成功更新
+      edit:
+        title: 編輯參與性預算
+      new:
+        title: 新的參與性預算
+      winners:
+        calculate: 計算勝出者投資
+        calculated: 勝出者正在被計算中，可能需要一分鐘。
+    budget_investments:
+      index:
+        heading_filter_all: 所有標題
+        administrator_filter_all: 所有管理員
+        valuator_filter_all: 所有評估員
+        tags_filter_all: 所有標籤
+        filters:
+          without_admin: 沒有指定的管理員
+          valuation_finished: 評估已完成
+          selected: 已選擇
+          winners: 勝出者
+          all: 所有
+        title: 投資項目
+        assigned_admin: 指定的管理員
+        no_admin_assigned: 未分配管理員
+        no_valuators_assigned: 未分配評估員
+        feasibility:
+          unfeasible: "不可行"
+          undecided: "未定"
+        selected: "已選擇"
+        select: "選擇"
+      show:
+        assigned_admin: 指定的管理員
+        assigned_valuators: 分配的評估員
+        info: "%{budget_name} - 組： %{group_name} - 投資項目 %{id}"
+        edit: 編輯
+        edit_classification: 編輯分類
+        by: 由
+        sent: 發送
+        heading: 標題
+        dossier: 檔案
+        edit_dossier: 編輯檔案
+        tags: 標籤
+        undefined: 未定義
+        compatibility:
+          title: 相容性
+          "true": 不相容
+          "false": 相容
+        selection:
+          title: 選擇
+        winner:
+          title: 勝出者
+          "true": "是"
+          "false": "否"
+      edit:
+        compatibility: 相容性
+        selection: 選擇
+        assigned_valuators: 評估員
+        select_heading: 選擇標題
+        submit_button: 更新
+        tags_placeholder: "寫下你想要的標籤，用逗號 (,) 作分隔"
+        undefined: 未定義
+      search_unfeasible: 搜尋不可行
+    milestones:
+      index:
+        table_title: "標題"
+        table_description: "描述"
+        table_actions: "行動"
+        delete: "刪除里程碑"
+        no_milestones: "沒有已定義的里程碑"
+      new:
+        creating: 創建里程碑
+      edit:
+        title: 編輯里程碑
+      create:
+        notice: 新的里程碑已創建成功!
+      update:
+        notice: 里程碑已成功更新
+      delete:
+        notice: 里程碑已成功刪除
+    dashboard:
+      index:
+        title: 管理
+    hidden_users:
+      index:
+        filter: 篩選器
+        filters:
+          all: 所有
+          with_confirmed_hide: 確認
+          without_confirmed_hide: 有待
+        title: 隱藏的用戶
+      show:
+        email: '電郵：'
+        hidden_at: '隱藏於:'
+        registered_at: '註冊於:'
+        title: 用戶的活動 (%{user})
+    legislation:
+      processes:
+        create:
+          notice: '進程已創建成功。 <a href="%{link}">點擊訪問</a>'
+          error: 進程無法創建
+        update:
+          notice: '進程已成功更新。 <a href="%{link}">點擊訪問</a>'
+          error: 進程無法更新
+        destroy:
+          notice: 進程已成功刪除
+        edit:
+          back: 返回
+          submit_button: 儲存更改
+        form:
+          enabled: 啟用
+          process: 進程
+          debate_phase: 辯論階段
+          use_markdown: 使用Markdown格式化文本
+          title_placeholder: 進程的標題
+          summary_placeholder: 描述的簡短摘要
+          description_placeholder: 添加進程的描述
+          additional_info_placeholder: 添加您認為有用的額外資訊
+        index:
+          create: 新進程
+          delete: 刪除
+          filters:
+            all: 所有
+        new:
+          back: 返回
+          title: 創建新的合作立法進程
+          submit_button: 創建進程
+        process:
+          title: 進程
+          comments: 評論
+          status: 狀態
+          status_open: 開
+          status_closed: 關
+          status_planned: 計劃
+        subnav:
+          info: 資訊
+          questions: 辯論
+      draft_versions:
+        create:
+          notice: '草稿已成功創建。 <a href="%{link}">點擊訪問</a>'
+          error: 草稿無法創建
+        update:
+          notice: '草稿已成功更新。 <a href="%{link}">點擊訪問</a>'
+          error: 草稿無法更新
+        destroy:
+          notice: 草稿已成功刪除
+        edit:
+          back: 返回
+          submit_button: 儲存更改
+          warning: 您已經編輯了文本, 別忘記按一下 "儲存" 以永久儲存更改。
+        form:
+          launch_text_editor: 啟動文字編輯器
+          close_text_editor: 關閉文字編輯器
+          use_markdown: 使用Markdown格式化文本
+          hints:
+            final_version: 此版本將發佈為此進程的"最終結果"。此版本中不允許使用評論。
+            status:
+              draft: 您作為管理員可以預覽, 其他人未能看到它
+              published: 所有人都可以看見
+          title_placeholder: 編寫草稿版本的標題
+          changelog_placeholder: 添加從早期版本中的主要更改
+          body_placeholder: 寫下草稿文本
+        index:
+          title: 草稿版本
+          create: 創建版本
+          delete: 刪除
+          preview: 預覽
+        new:
+          back: 返回
+          title: 創建新版本
+          submit_button: 創建版本
+        table:
+          title: 標題
+          created_at: 創建於
+          comments: 評論
+          final_version: 最終版本
+          status: 狀態
+      questions:
+        create:
+          notice: '問題已成功創建。 <a href="%{link}">點擊訪問</a>'
+          error: 問題無法創建
+        update:
+          notice: '問題已成功更新。 <a href="%{link}">點擊訪問</a>'
+          error: 問題無法更新
+        destroy:
+          notice: 問題已成功刪除
+        edit:
+          back: 返回
+          title: "編輯 \"%{question_title}\""
+          submit_button: 儲存更改
+        form:
+          add_option: 添加選項
+          value_placeholder: 添加一個已關閉的答案
+        index:
+          back: 返回
+          title: 與此進程相關的問題
+          create: 創建問題
+          delete: 刪除
+        new:
+          back: 返回
+          title: 創建新問題
+          submit_button: 創建問題
+        table:
+          title: 標題
+          question_options: 問題選項
+          answers_count: 答案數
+          comments_count: 評論數
+        question_option_fields:
+          remove_option: 刪除選項
+    managers:
+      index:
+        title: 經理
+      manager:
+        add: 添加
+        delete: 刪除
+    menu:
+      activity: 審核員活動
+      admin: 管理菜單
+      banner: 管理橫幅
+      proposals_topics: 建議主題
+      budgets: 參與性預算
+      geozones: 管理地理區域（geozones）
+      hidden_comments: 隱藏的評論
+      hidden_debates: 隱藏的辯論
+      hidden_proposals: 隱藏的建議
+      hidden_users: 隱藏的用戶
+      administrators: 管理員
+      managers: 經理
+      moderators: 版主
+      valuators: 評估員
+      poll_officers: 投票站職員
+      polls: 投票
+      poll_booths: 投票亭位置
+      officials: 官員
+      organizations: 組織
+      stats: 統計
+      signature_sheets: 簽名表
+      site_customization:
+        content_blocks: 自定義內容塊
+      title_moderated_content: 已審核的內容
+      title_profiles: 配置檔
+      legislation: 合作立法
+      users: 用戶
+    administrators:
+      index:
+        title: 管理員
+      administrator:
+        add: 添加
+        delete: 刪除
+        restricted_removal: "對不起，您無法將自己從管理員中刪除"
+    moderators:
+      index:
+        title: 版主
+      moderator:
+        add: 添加
+        delete: 刪除
+    newsletters:
+      index:
+        title: 通訊
+    valuators:
+      index:
+        title: 評估員
+      valuator:
+        add: 添加到評估組
+    poll_officers:
+      index:
+        title: 投票站職員
+      officer:
+        add: 添加
+        delete: 刪除職位
+        name: 名字
+        email: 電郵
+        entry_name: 職員
+      search:
+        email_placeholder: 通過電郵搜尋用戶
+        search: 搜尋
+        user_not_found: 未找到用戶
+    poll_officer_assignments:
+      index:
+        officers_title: "職員名單"
+        no_officers: "沒有分配給此投票項的職員。"
+        table_name: "名字"
+        table_email: "電郵"
+      by_officer:
+        date: "日期"
+        booth: "投票亭"
+        assignments: "此投票項的職員輪班"
+        no_assignments: "此用戶並不在此投票項的職員輪班中。"
+    poll_booth_assignments:
+      show:
+        location: "位置"
+        officers: "職員"
+        officers_list: "此投票亭的職員名單"
+        no_officers: "此投票亭沒有官員"
+        recounts: "重新計票"
+        recounts_list: "此投票亭的重新計票清單"
+        date: "日期"
+        count_final: "最終的重新計票 (由官員)"
+        count_by_system: "投票數 (自動)"
+      index:
+        booths_title: "投票亭清單"
+        no_booths: "沒有分配給此投票項的投票亭。"
+        table_name: "名字"
+        table_location: "位置"
+    polls:
+      index:
+        title: "活躍投票清單"
+        no_polls: "目前沒有投票項。"
+        create: "創建投票項"
+        name: "名字"
+        dates: "日期"
+      new:
+        title: "新投票項"
+        submit_button: "創建投票項"
+      edit:
+        title: "編輯投票項"
+        submit_button: "更新投票項"
+      show:
+        questions_tab: 問題
+        booths_tab: 投票亭
+        officers_tab: 職員
+        recounts_tab: 重新計票
+        results_tab: 結果
+        no_questions: "此投票項沒有穫分配的問題。"
+        questions_title: "問題清單"
+        table_title: "標題"
+      flash:
+        question_added: "此投票項中添加的問題"
+        error_on_question_added: "無法將問題分配給此投票項"
+    questions:
+      index:
+        title: "問題"
+        create: "創建問題"
+        no_questions: "這裡沒有問題。"
+        filter_poll: 按投票項篩選
+        select_poll: 選擇投票項
+        questions_tab: "問題"
+        successful_proposals_tab: "成功的建議"
+        create_question: "創建問題"
+        table_proposal: "建議"
+        table_question: "問題"
+      edit:
+        title: "編輯問題"
+      show:
+        proposal: 原建議
+        author: 作者
+        valid_answers: 有效答案
+    recounts:
+      index:
+        title: "重新計票"
+        no_recounts: "沒有什麼要重新計票"
+        table_booth_name: "投票亭"
+        table_system_count: "投票數 (自動)"
+    results:
+      index:
+        title: "結果"
+        no_results: "沒有結果"
+    booths:
+      index:
+        add_booth: "添加投票亭"
+        name: "名字"
+        location: "位置"
+      new:
+        title: "新投票亭"
+        submit_button: "創建投票亭"
+      edit:
+        title: "編輯投票亭"
+        submit_button: "更新投票亭"
+      show:
+        location: "位置"
+    officials:
+      edit:
+        title: '官員: 編輯用戶'
+      flash:
+        official_destroyed: '儲存詳細信息：用戶不再是官員'
+        official_updated: 官員的詳細信息已儲存
+      index:
+        title: 官員
+      level_0: 不是官員
+      level_1: 級別1
+      level_2: 級別2
+      level_3: 級別3
+      level_4: 級別4
+      level_5: 級別5
+      search:
+        edit_official: 編輯官員
+        make_official: 成為官員
+        title: '官員職位: 用戶搜尋'
+    organizations:
+      index:
+        filter: 篩選器
+        filters:
+          all: 所有
+          pending: 有待
+          rejected: 已拒绝
+          verified: 已核實
+        reject: 拒絕
+        rejected: 已拒绝
+        search: 搜尋
+        search_placeholder: 姓名、電郵或電話號碼
+        title: 組織
+        verified: 已核實
+        verify: 核實
+      search:
+        title: 搜尋組織
+    settings:
+      flash:
+        updated: 價值已更新
+      index:
+        update_setting: 更新
+        feature_flags: 功能
+        features:
+          enabled: "功能已啟用"
+          disabled: "功能已禁用"
+          enable: "啟用"
+          disable: "禁用"
+    shared:
+      booths_search:
+        button: 搜尋
+      poll_officers_search:
+        button: 搜尋
+        placeholder: 搜尋投票站職員
+      poll_questions_search:
+        button: 搜尋
+        placeholder: 搜尋投票項問題
+      proposal_search:
+        button: 搜尋
+        placeholder: 按標題，代碼，描述或問題來搜尋建議
+      user_search:
+        button: 搜尋
+        placeholder: 按名稱或電郵搜索用戶
+      search_results: "搜尋結果"
+      no_search_results: "未找到結果。"
+    geozones:
+      index:
+        title: 地理區域
+        create: 創建地理區域
+        edit: 編輯
+        delete: 刪除
+      geozone:
+        name: 名字
+        external_code: 外部代碼
+        census_code: 人口普查代碼
+        coordinates: 座標
+      edit:
+        form:
+          submit_button: 儲存更改
+        editing: 編輯地理區域
+        back: 返回
+      new:
+        back: 返回
+        creating: 創建地區
+      delete:
+        success: 地理區域成功刪除
+        error: 此地理區域無法刪除，因為它附加了元素
+    signature_sheets:
+      author: 作者
+      created_at: 創建日期
+      name: 名字
+      no_signature_sheets: "沒有簽名表"
+      index:
+        title: 簽名表
+        new: 新的簽名表
+      new:
+        title: 新的簽名表
+        submit: 創建簽名表
+      show:
+        created_at: 已創建
+        author: 作者
+        verified:
+          other: "有 %{count} 個有效簽名"
+        unverified:
+          other: "有 %{count} 個無效簽名"
+        unverified_error: (未通過人口普查核實)
+        loading: "仍然有簽名正在被人口普查核實中，請稍後刷新頁面"
+    stats:
+      show:
+        stats_title: 統計
+        summary:
+          comment_votes: 評論票數
+          comments: 評論
+          debate_votes: 辯論票數
+          debates: 辯論
+          proposal_votes: 建議票數
+          proposals: 建議
+          budgets: 開放式預算
+          budget_investments: 投資項目
+          unverified_users: 未核實的用戶
+          user_level_three: 三級用戶
+          user_level_two: 二級用戶
+          users: 用戶總數
+          verified_users: 已核實的用戶
+          verified_users_who_didnt_vote_proposals: 已核實的用戶，但沒有為建議投票
+          visits: 訪問
+          votes: 總投票數
+        budgets_title: 參與式預算編制
+        direct_messages: 直接消息
+        proposal_notifications: 建議通知
+        incomplete_verifications: 不完全核實
+      direct_messages:
+        title: 直接消息
+        total: 總
+        users_who_have_sent_message: 已發送私人消息的用戶
+      proposal_notifications:
+        title: 建議通知
+        total: 總
+        proposals_with_notifications: 有發通知的建議
+    tags:
+      index:
+        add_tag: 添加新的建議主題
+        title: 建議主題
+    users:
+      columns:
+        name: 名字
+        email: 電郵
+        document_number: 文檔編號
+        roles: 角色
+        verification_level: 核實級別
+      index:
+        title: 用戶
+      search:
+        placeholder: 按電郵、姓名或文檔編號搜尋用戶
+        search: 搜尋
+    verifications:
+      index:
+        phone_not_given: 未提供電話
+        sms_code_not_confirmed: 未確認 sms 代碼
+        title: 不完全核實
+    site_customization:
+      content_blocks:
+        create:
+          notice: 內容塊已成功創建
+          error: 內容塊無法創建
+        update:
+          notice: 內容塊已成功更新
+          error: 內容塊無法更新
+        destroy:
+          notice: 內容塊已成功刪除
+        edit:
+          title: 編輯內容塊
+        index:
+          create: 創建新內容塊
+          delete: 刪除塊
+          title: 內容塊
+        new:
+          title: 創建新內容塊
+        content_block:
+          body: 內容
+          name: 名字
+      images:
+        index:
+          title: 自定義圖像
+          update: 更新
+          delete: 刪除
+          image: 圖像
+        update:
+          notice: 圖像已成功更新
+          error: 圖像無法更新
+        destroy:
+          notice: 圖像已成功刪除
+          error: 圖像無法刪除
+      pages:
+        create:
+          notice: 頁面已成功創建
+          error: 頁面無法創建
+        update:
+          notice: 頁面已成功更新
+          error: 頁面無法更新
+        destroy:
+          notice: 頁面已成功刪除
+        edit:
+          title: 正在編輯 %{page_title}
+        form:
+          options: 選項
+        index:
+          create: 新建新頁面
+          delete: 刪除頁面
+          title: 自訂頁
+          see_page: 見頁面
+        new:
+          title: 創建新的自訂頁
+        page:
+          created_at: 創建於
+          status: 狀態
+          title: 標題
+          updated_at: 更新於
