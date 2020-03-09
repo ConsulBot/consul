@@ -1,0 +1,58 @@
+gl:
+  mailers:
+    no_reply: "Esta mensaxe enviouse desde un enderezo de correo electrónico que non admite respostas."
+    comment:
+      hi: Ola
+      subject: Alguén comentou no teu %{commentable}
+      title: Novo comentario
+    config:
+      manage_email_subscriptions: Podes deixar de recibir estes correos electrónicos cambiando a túa configuración en
+    email_verification:
+      click_here_to_verify: neste enlace
+      subject: Verifica o teu correo electrónico
+      thanks: Moitas grazas.
+      title: Verifica a túa conta co seguinte enlace
+    reply:
+      hi: Ola
+      subject: Alguén respondeu ao teu comentario
+      title: Nova resposta ao teu comentario
+    budget_investment_unfeasible:
+      hi: "Estimado usuario,"
+      new_href: "novo proxecto de investimento"
+      sincerely: "Un cordial saúdo"
+      sorry: "Sentimos as molestias ocasionadas e volvémosche dar as grazas pola túa inestimable participación."
+      subject: "A túa proposta de investimento '%{code}' foi marcada como inviable"
+    proposal_notification_digest:
+      info: "A seguir amosámosche as novas notificacións que publicaron os autores das propostas que estás apoiando en %{org_name}."
+      title: "Notificacións de propostas en %{org_name}"
+      share: Compartir proposta
+      comment: Comentar proposta
+      unsubscribe_account: A miña conta
+    direct_message_for_receiver:
+      subject: "Recibiches unha nova mensaxe privada"
+      reply: Responder a %{sender}
+      unsubscribe_account: A miña conta
+    user_invite:
+      ignore: "Se non solicitaches este convite non te preocupes, podes ignorar este correo."
+      thanks: "Moitas grazas."
+      title: "Benvido/a a %{org}"
+      button: Completar rexistro
+      subject: "Convite a %{org_name}"
+    budget_investment_created:
+      subject: "Grazas por crear un proxecto!"
+      title: "Grazas por crear un proxecto!"
+      follow_link: "Orzamentos participativos"
+      sincerely: "Un cordial saúdo"
+      share: "Comparte o teu proxecto"
+    budget_investment_selected:
+      subject: "A túa proposta de investimento '%{code}' foi seleccionada"
+      hi: "Estimado usuario,"
+      share: "Empeza xa a conseguir votos, comparte o teu proxecto de gasto nas redes sociais. A difusión é fundamental para conseguir que se faga realidade."
+      share_button: "Comparte o teu proxecto"
+      thanks: "Grazas de novo pola túa participación."
+      sincerely: "Un saúdo cordial"
+    budget_investment_unselected:
+      subject: "A túa proposta de investimento '%{code}' non foi seleccionada"
+      hi: "Estimado usuario,"
+      thanks: "Grazas de novo pola túa participación."
+      sincerely: "Un saúdo cordial,"
