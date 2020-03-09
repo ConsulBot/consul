@@ -1,0 +1,7 @@
+eu:
+  valuation:
+    budgets:
+      index:
+        table_name: Izena
+
+
