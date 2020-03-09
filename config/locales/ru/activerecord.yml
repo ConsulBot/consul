@@ -1,0 +1,251 @@
+ru:
+  activerecord:
+    models:
+      activity:
+        one: "деятельность"
+        few: "активность"
+        many: "активность"
+        other: "деятельности"
+      budget/investment:
+        one: "Инвестиция"
+        few: "Инвестиции"
+        many: "Инвестиции"
+        other: "Инвестиции"
+      comment:
+        one: "Отзыв"
+        few: "Комментарии"
+        many: "Комментарии"
+        other: "Комментарии"
+      debate:
+        one: "Дебаты"
+        few: "Дебаты"
+        many: "Дебаты"
+        other: "Обсуждения проблем"
+      tag:
+        one: "Метка"
+        few: "Метки"
+        many: "Метки"
+        other: "Метки"
+      user:
+        one: "Пользователь"
+        few: "Пользователи"
+        many: "Пользователи"
+        other: "Пользователи"
+      moderator:
+        one: "Модератор"
+        few: "Модераторы"
+        many: "Модераторы"
+        other: "Модераторы"
+      administrator:
+        one: "Администратор"
+        few: "Администраторы"
+        many: "Администраторы"
+        other: "Администраторы"
+      vote:
+        one: "Голос"
+        few: "Голоса"
+        many: "Голоса"
+        other: "Голоса"
+      organization:
+        one: "Организация"
+        few: "Организации"
+        many: "Организации"
+        other: "Организации"
+      poll/booth:
+        one: "кабинка для голосования"
+        few: "кабинки для голосования"
+        many: "кабинки для голосования"
+        other: "кабинки для голосований"
+      poll/officer:
+        one: "офицер"
+        few: "сотрудники"
+        many: "сотрудники"
+        other: "офицеры"
+      proposal:
+        one: "Предложение гражданина"
+        few: "Предложения граждан"
+        many: "Предложения граждан"
+        other: "Предложения граждан"
+      site_customization/page:
+        one: Пользовательская страница
+        few: Пользовательские страницы
+        many: Пользовательские страницы
+        other: Пользовательские страницы
+      site_customization/image:
+        one: Пользовательское изображение
+        few: Пользовательские изображения
+        many: Пользовательские изображения
+        other: Пользовательские изображения
+      site_customization/content_block:
+        one: Пользовательский блок содержимого
+        few: Пользовательские блоки содержимого
+        many: Пользовательские блоки содержимого
+        other: Пользовательские блоки содержимого
+      legislation/process:
+        one: "Процесс"
+        few: "Процессы"
+        many: "Процессы"
+        other: "Процессы"
+      legislation/draft_versions:
+        one: "Предварительный вариант"
+        few: "Черновые варианты"
+        many: "Черновые варианты"
+        other: "Предварительные варианты"
+      legislation/questions:
+        one: "Вопрос"
+        few: "Вопросы"
+        many: "Вопросы"
+        other: "Вопросы"
+      legislation/question_options:
+        one: "Вариант вопроса"
+        few: "Варианты вопроса"
+        many: "Варианты вопроса"
+        other: "Варианты вопроса"
+      legislation/answers:
+        one: "Ответ"
+        few: "Ответы"
+        many: "Ответы"
+        other: "Ответы"
+    attributes:
+      budget:
+        name: "Имя"
+        description_accepting: "Описание во время этапа приема"
+        description_reviewing: "Описание во время этапа рассмотрения"
+        description_selecting: "Описание во время этапа выбора"
+        description_valuating: "Описание во время этапа оценки"
+        description_balloting: "Описание во время этапа голосования"
+        description_reviewing_ballots: "Описание во время этапа рассмотрения голосований"
+        description_finished: "Описание по завершению бюджета"
+        phase: "Этап"
+        currency_symbol: "Валюта"
+      budget/investment:
+        heading_id: "Заглавие"
+        title: "Название"
+        description: "Описание"
+        external_url: "Ссылка на дополнительную документацию"
+        administrator_id: "Администратор"
+      comment:
+        body: "Отзыв"
+        user: "Пользователь"
+      debate:
+        author: "Автор"
+        description: "Мнение"
+        terms_of_service: "Условия предоставления услуг"
+        title: "Название"
+      proposal:
+        author: "Автор"
+        title: "Название"
+        question: "Вопрос"
+        description: "Описание"
+        terms_of_service: "Условия предоставления услуг"
+      user:
+        login: "Электронный адрес или имя пользователя"
+        email: "Электронный адрес"
+        username: "Имя пользователя"
+        password_confirmation: "Подтверждение пароля"
+        password: "Пароль"
+        current_password: "Текущий пароль"
+        phone_number: "Номер телефона"
+        official_position: "Официальная позиция"
+        official_level: "Официальный уровень"
+        redeemable_code: "Код подтверждения получен по электронному адресу"
+      organization:
+        name: "Название организации"
+        responsible_name: "Лицо, ответственное за группу"
+      poll:
+        name: "Имя"
+        starts_at: "Дата начала"
+        ends_at: "Дата закрытия"
+        geozone_restricted: "Ограничено географической зоной"
+      poll/question:
+        title: "Вопрос"
+        summary: "Резюме"
+        description: "Описание"
+        external_url: "Ссылка на дополнительную документацию"
+      signature_sheet:
+        signable_type: "Тип подписываемого"
+        signable_id: "Подписываемое ID"
+        document_numbers: "Номера документов"
+      site_customization/page:
+        content: Содержание
+        created_at: Создано в
+        subtitle: Субтитр
+        slug: URL-наименование
+        status: Статус
+        title: Название
+        updated_at: Обновлено в
+        print_content_flag: Кнопка печати содержимого
+        locale: Язык
+      site_customization/image:
+        name: Имя
+        image: Изображение
+      site_customization/content_block:
+        name: Имя
+        locale: Язык
+        body: Тело
+      legislation/process:
+        title: Название процесса
+        description: Описание
+        additional_info: Дополнительная информация
+        draft_publication_date: Дата публикации проекта
+        result_publication_date: Дата публикации окончательного результата
+      legislation/draft_version:
+        title: Название версии
+        body: Текст
+        changelog: Изменения
+        status: Статус
+        final_version: Окончательная версия
+      legislation/question:
+        title: Название
+        question_options: Опции
+      legislation/question_option:
+        value: Значение
+      legislation/annotation:
+        text: Отзыв
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "Этот пользователь уже имеет пароль"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "метки должны быть меньше или равны %{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "Вы достигли максимума количества личных сообщений в день"
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "Документ не в переписи"
+              has_voted: "Пользователь уже проголосовал"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: должна равняться или быть позже даты начала
+            debate_end_date:
+              invalid_date_range: должна равняться или быть позже даты начала дебатов
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "метки должны быть меньше или равны %{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "метки должны быть меньше или равны %{count}"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: 'Не проверено переписью'
+              already_voted: 'Этому предложению уже поставлен голос'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "должны быть буквы, цифры, _ и -"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Ширина должна быть %{required_width}px"
+              image_height: "Высота должна быть %{required_height}px"
