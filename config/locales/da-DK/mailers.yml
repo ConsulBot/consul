@@ -1,0 +1,58 @@
+da:
+  mailers:
+    no_reply: "Denne meddelelse blev sendt fra en e-mail-adresse, der ikke kan besvares."
+    comment:
+      hi: Hej
+      subject: Nogen har kommenteret på din %{commentable}
+      title: Ny kommentar
+    config:
+      manage_email_subscriptions: Afmeld e-mails ved at gå til dine indstillinger
+    email_verification:
+      click_here_to_verify: dette link
+      subject: Bekræft din e-mail
+      thanks: Mange tak.
+      title: Bekræft din konto ved hjælp af følgende link
+    reply:
+      hi: Hej
+      subject: Nogen har reageret på din kommentar
+      title: Nyt svar til din kommentar
+    budget_investment_unfeasible:
+      hi: "Kære bruger,"
+      new_href: "ny projektidé"
+      sincerely: "Med venlig hilsen"
+      sorry: "Undskyld ulejligheden og vi takker endnu engang for din deltagelse."
+      subject: "Vi har desværre vurderet, at din projektidé '%{code}' ikke kan gennemføres inden for budgettets rammer"
+    proposal_notification_digest:
+      info: "Her er de nye notifikationer, der er blevet publiceret af forfatterne til de forslag, du har støttet op om i %{org_name}."
+      title: "Notifikationer vedrørende forslag i %{org_name}"
+      share: Del forslag
+      comment: Skriv en kommentar til forslaget
+      unsubscribe_account: Min konto
+    direct_message_for_receiver:
+      subject: "Du har modtaget en ny privat besked"
+      reply: Svar %{sender}
+      unsubscribe_account: Min konto
+    user_invite:
+      ignore: "Hvis du ikke har anmodet om denne invitation, skal du ikke bekymre dig. Du kan ignorere denne e-mail."
+      thanks: "Mange tak."
+      title: "Velkommen til %{org}"
+      button: Færdiggør registrering
+      subject: "Invitation til %{org_name}"
+    budget_investment_created:
+      subject: "Tak fordi du oprettede en idé!"
+      title: "Tak fordi du har oprettet en idé!"
+      follow_link: "Deltagerbudgetter"
+      sincerely: "Med venlig hilsen"
+      share: "Del dit projekt"
+    budget_investment_selected:
+      subject: "Din projektidé '%{code}' er blevet valgt"
+      hi: "Kære bruger,"
+      share: "Del din projektidé i dit sociale netværk. "
+      share_button: "Del din projektidé"
+      thanks: "Endnu engang tak for din deltagelse."
+      sincerely: "Med venlig hilsen"
+    budget_investment_unselected:
+      subject: "Din projektidé '%{code}' er desværre ikke blevet valgt"
+      hi: "Kære bruger,"
+      thanks: "Endnu engang tak for din deltagelse."
+      sincerely: "Med venlig hilsen"
