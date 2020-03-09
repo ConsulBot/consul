@@ -1,0 +1,28 @@
+pt-BR:
+  settings:
+    comments_body_max_length: "Tamanho máximo dos comentários"
+    official_level_1_name: "Cargos públicos de nível 1"
+    official_level_2_name: "Cargos públicos de nível 2"
+    official_level_3_name: "Cargos públicos de nível 3"
+    official_level_4_name: "Cargos públicos de nível 4"
+    official_level_5_name: "Cargos públicos de nível 5"
+    max_ratio_anon_votes_on_debates: "Porcentagem máxima de votos anônimos por debate"
+    max_votes_for_debate_edit: "Número de votos com que um Debate deixa de poder ser editado"
+    proposal_code_prefix: "Prefixo para os códigos das propostas"
+    months_to_archive_proposals: "Meses para arquivar Propostas"
+    email_domain_for_officials: "Dominio de email para cargos públicos"
+    twitter_handle: "Usuário do Twitter"
+    twitter_hashtag: "Hashtag para Twitter"
+    facebook_handle: "Usuário do Facebook"
+    youtube_handle: "Usuário do Youtube"
+    telegram_handle: "Usuário do Telegram"
+    instagram_handle: "Usuário do Instagram"
+    url: "URL principal"
+    feature:
+      twitter_login: Login do Twitter
+      facebook_login: Login do Facebook
+      google_login: Login do Google
+      signature_sheets: Folhas de assinatura
+    meta_description: "Descrição do site (SEO)"
+    meta_keywords: "Palavras-chave (SEO)"
+    min_age_to_participate: Idade mínima para participar
