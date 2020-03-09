@@ -1,0 +1,55 @@
+fa:
+  officing:
+    header:
+      title: نظر سنجی
+    dashboard:
+      index:
+        title: نظرسنجی
+        info: در اینجا میتوانید اسناد کاربر را تأیید کنید و نتایج رای گیری را ذخیره کنید.
+    menu:
+      voters: مدارک معتبر
+    polls:
+      final:
+        title: نظرسنجی برای بازنویسی نهایی  آماده است
+        no_polls: شما در نظرسنجی فعال هیچ گزارش نهایی ندارید
+        select_poll: انتخاب نظرسنجي
+        add_results: اضافه کردن نتایج
+    results:
+      flash:
+        create: "نتایج ذخیره شده"
+        error_create: "نتایج ذخیره نشد. خطا در داده ها."
+        error_wrong_booth: "غرفه های اشتباه. نتایج ذخیره نشد."
+      new:
+        title: "%{poll} - اضافه کردن نتایج"
+        booth: "غرفه"
+        date: "تاریخ"
+        select_booth: "انتخاب غرفه"
+        ballots_null: "برگه های نامعتبر"
+        submit: "ذخیره کردن"
+        results_list: "نتایج شما"
+        see_results: "مشاهده نتایج"
+      index:
+        no_results: "هیچ نتیجه ای"
+        results: نتایج
+        table_answer: پاسخ
+        table_votes: آرا
+        table_nulls: "برگه های نامعتبر"
+    residence:
+      flash:
+        create: "سند با سرشماری تأیید شد"
+        not_allowed: "شما امروز شیفت ندارید"
+      new:
+        title: اعتبار سند
+        document_number: "شماره سند ( حروف هم شامل میشوند)"
+        submit: اعتبار سند
+        error_verifying_census: "سرشماری قادر به تایید این سند نیست."
+        form_errors: مانع تایید این سند شد
+    voters:
+      new:
+        title: نظر سنجی ها
+        table_poll: نظرسنجی
+      show:
+        can_vote: می توانید رای بدهید
+        error_already_voted: قبلا در این نظر سنجی شرکت کرده اید
+        submit: تایید رأی
+        success: "معرفی رای !"
