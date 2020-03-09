@@ -1,0 +1,293 @@
+ar:
+  activerecord:
+    models:
+      activity:
+        zero: "النشاط"
+        one: "نشاط"
+        two: "نشاطين"
+        few: "الأنشطة"
+        many: "الأنشطة"
+        other: "الأنشطة"
+      budget/investment:
+        zero: "إستثمارات"
+        one: "إستثمار"
+        two: "إستثمارات"
+        few: "إستثمارات"
+        many: "إستثمارات"
+        other: "إستثمارات"
+      comment:
+        zero: "تعليقات"
+        one: "التعليق"
+        two: "تعليقات"
+        few: "تعليقات"
+        many: "تعليقات"
+        other: "تعليقات"
+      debate:
+        zero: "النقاشات"
+        one: "الحوارات"
+        two: "النقاشات"
+        few: "النقاشات"
+        many: "النقاشات"
+        other: "النقاشات"
+      tag:
+        zero: "علامات"
+        one: "علامة"
+        two: "علامات"
+        few: "علامات"
+        many: "علامات"
+        other: "علامات"
+      user:
+        zero: "المستخدمين"
+        one: "المستخدم"
+        two: "المستخدمين"
+        few: "المستخدمين"
+        many: "المستخدمين"
+        other: "المستخدمين"
+      moderator:
+        zero: "المشرفون"
+        one: "المشرف"
+        two: "المشرفون"
+        few: "المشرفون"
+        many: "المشرفون"
+        other: "المشرفون"
+      administrator:
+        zero: "المدراء"
+        one: "مدير"
+        two: "المدراء"
+        few: "المدراء"
+        many: "المدراء"
+        other: "المدراء"
+      vote:
+        zero: "اصوات"
+        one: "صوت"
+        two: "اصوات"
+        few: "اصوات"
+        many: "اصوات"
+        other: "اصوات"
+      organization:
+        zero: "المنظمات"
+        one: "منظمة"
+        two: "المنظمات"
+        few: "المنظمات"
+        many: "المنظمات"
+        other: "المنظمات"
+      poll/booth:
+        zero: "مكتب إقتراع"
+        one: "مكتب إقتراع"
+        two: "مكتبين إقتراع"
+        few: "مكاتب إقتراع"
+        many: "مكاتب إقتراع"
+        other: "مكاتب إنتخاب"
+      poll/officer:
+        zero: "ضابط"
+        one: "ضابط"
+        two: "ضابطان"
+        few: "ضباط"
+        many: "ضباط"
+        other: "ضباط"
+      proposal:
+        zero: "مقترحات المواطنين"
+        one: "مقترح المواطنين"
+        two: "مقترحا المواطنين"
+        few: "مقترحات المواطنين"
+        many: "مقترحات المواطنين"
+        other: "مقترحات المواطنين"
+      site_customization/page:
+        zero: صفحات مخصصة
+        one: صفحة مخصصة
+        two: صفحات مخصصة
+        few: صفحات مخصصة
+        many: صفحات مخصصة
+        other: صفحات مخصصة
+      site_customization/image:
+        zero: صور مخصصة
+        one: صورة مخصصة
+        two: صور مخصصة
+        few: صور مخصصة
+        many: صور مخصصة
+        other: صور مخصصة
+      site_customization/content_block:
+        zero: كتل المحتوى المخصصة
+        one: كتلة محتوى مخصصة
+        two: كتل المحتوى المخصصة
+        few: كتل المحتوى المخصصة
+        many: كتل المحتوى المخصصة
+        other: كتل المحتوى المخصصة
+      legislation/process:
+        zero: "العمليات"
+        one: "العملية"
+        two: "العمليات"
+        few: "العمليات"
+        many: "العمليات"
+        other: "العمليات"
+      legislation/draft_versions:
+        zero: "إصدارات المسودة"
+        one: "إصدار المسودّة"
+        two: "إصدارات المسودة"
+        few: "إصدارات المسودة"
+        many: "إصدارات المسودة"
+        other: "إصدارات المسودة"
+      legislation/questions:
+        zero: "الأسئلة"
+        one: "سؤال"
+        two: "الأسئلة"
+        few: "الأسئلة"
+        many: "الأسئلة"
+        other: "الأسئلة"
+      legislation/question_options:
+        zero: "خيارات السؤال"
+        one: "خيار السؤال"
+        two: "خيارات السؤال"
+        few: "خيارات السؤال"
+        many: "خيارات السؤال"
+        other: "خيارات السؤال"
+      legislation/answers:
+        zero: "الإجابة"
+        one: "إجابة"
+        two: "إجابتان"
+        few: "إجابات"
+        many: "إجابات"
+        other: "إجابات"
+    attributes:
+      budget:
+        name: "الاسم"
+        description_accepting: "وصف خلال مرحلة القبول"
+        description_reviewing: "وصف خلال مرحلة المراجعة"
+        description_selecting: "وصف خلال مرحلة التحديد"
+        description_valuating: "وصف خلال مرحلة التقييم"
+        description_balloting: "وصف خلال مرحلة الإقتراع"
+        description_reviewing_ballots: "الوصف خلال مرحلة مراجعة الإقتراع"
+        description_finished: "الوصف عند الإنتهاء من الميزانية"
+        phase: "المرحلة"
+        currency_symbol: "العملة"
+      budget/investment:
+        heading_id: "عنوان"
+        title: "عنوان"
+        description: "الوصف"
+        external_url: "رابط لوثائق إضافية"
+        administrator_id: "مدير"
+      comment:
+        body: "التعليق"
+        user: "المستخدم"
+      debate:
+        author: "كاتب"
+        description: "رأي"
+        terms_of_service: "شروط الخدمة"
+        title: "عنوان"
+      proposal:
+        author: "كاتب"
+        title: "عنوان"
+        question: "سؤال"
+        description: "الوصف"
+        terms_of_service: "شروط الخدمة"
+      user:
+        login: "البريد الإلكتروني أو اسم المستخدم"
+        email: "البريد الإلكتروني"
+        username: "اسم المستخدم"
+        password_confirmation: "تأكيد كلمة المرور"
+        password: "كلمة المرور"
+        current_password: "كلمة المرور الحالية"
+        phone_number: "رقم الهاتف"
+        official_position: "الموقف الرسمي"
+        official_level: "المستوى الرسمي"
+        redeemable_code: "رمز التحقق الواردة عبر البريد الإلكتروني"
+      organization:
+        name: "اسم المنظمة"
+        responsible_name: "الشخص المسؤول عن المجموعة"
+      poll:
+        name: "الإ سم"
+        starts_at: "تاريخ البدء"
+        ends_at: "تاريخ الإغلاق"
+        geozone_restricted: "مقيد حسب المناطق"
+      poll/question:
+        title: "سؤال"
+        summary: "ملخص"
+        description: "الوصف"
+        external_url: "رابط لوثائق إضافية"
+      signature_sheet:
+        signable_type: "نوع القابلة"
+        signable_id: "معرف القابلة"
+        document_numbers: "أرقام المستندات"
+      site_customization/page:
+        content: المحتوى
+        created_at: أنشئت في
+        subtitle: عنوان فرعي
+        slug: سبيكة
+        status: حالة
+        title: عنوان
+        updated_at: تم التحديث في
+        print_content_flag: زر طباعة المحتوى
+        locale: لغة
+      site_customization/image:
+        name: الإ سم
+        image: صورة
+      site_customization/content_block:
+        name: الإ سم
+        locale: الإعدادات المحلية
+        body: الهيئة
+      legislation/process:
+        title: عنوان العملية
+        description: الوصف
+        additional_info: معلومات إضافية
+        draft_publication_date: مسودة تاريخ النشر
+        result_publication_date: تاريخ نشر النتيجة النهائية
+      legislation/draft_version:
+        title: عنوان الإصدار
+        body: نص
+        changelog: تغييرات
+        status: حالة
+        final_version: الإصدار الأخير
+      legislation/question:
+        title: عنوان
+        question_options: خيارات
+      legislation/question_option:
+        value: القيمة
+      legislation/annotation:
+        text: التعليق
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "هذا المستخدم لديه بالفعل كلمة مرور"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "العلامات يجب أن تكون أقل من أو تساوي %{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "لقد وصلت إلى الحد الأقصى لعدد الرسائل الخاصة في اليوم"
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "الوثيقة ليست في التعداد"
+              has_voted: "هذا المستخدم قد صوت بالفعل"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: يجب أن يكون في أو بعد تاريخ البدء
+            debate_end_date:
+              invalid_date_range: يجب أن يكون في أو بعد تاريخ بدء المناقشة
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "العلامات يجب أن تكون أقل من أو يساوي %{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "العلامات يجب أن تكون أقل من أو يساوي %{count}"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: 'لم يتم التحقق من التعداد'
+              already_voted: 'بالفعل صوت هذا الاقتراح'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "يجب ان يكون أحرف, أرقام, _و -"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "يجب ان يكون العرض %{required_width}بكسل"
+              image_height: "يجب ان يكون الارتفاع %{required_height}بكسل"
