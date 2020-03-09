@@ -1,0 +1,28 @@
+so:
+  settings:
+    comments_body_max_length: "Faalooyinka dhererka miisaanka"
+    official_level_1_name: "Heerka 1 sarkaal dowladeed"
+    official_level_2_name: "Heerka 2 sarkaal dowladeed"
+    official_level_3_name: "Heerka 3sarkaal dowladeed"
+    official_level_4_name: "Heerka 4sarkaal dowladeed"
+    official_level_5_name: "Heerka 5sarkaal dowladeed"
+    max_ratio_anon_votes_on_debates: "Saameynta ugu badan ee codka qarsoodiga ah ee doodda"
+    max_votes_for_debate_edit: "Tirada codadka taas oo laga yaabo in Doodaha aan la beddeli karin"
+    proposal_code_prefix: "Horgal u ah kodhadhka soo jeedinta"
+    months_to_archive_proposals: "Bilaha aruurinta Soo jeedinta"
+    email_domain_for_officials: "Ciwaanka Email ee saraakiisha dawladda"
+    twitter_handle: "Tuwiitarka"
+    twitter_hashtag: "Tuwitar hashtag"
+    facebook_handle: "Facebook gacanta"
+    youtube_handle: "Gacanka Yotuyuubka"
+    telegram_handle: "Gacanka Telegram"
+    instagram_handle: "Gacanka Instigraamka"
+    url: "URL ugu weyn"
+    feature:
+      twitter_login: Galitaanka bogga Twitter
+      facebook_login: Gelintaanka Facebook
+      google_login: Gelintaanka Google
+      signature_sheets: Warqadaha Saxixyada
+    meta_description: "Sifeynta goobta (SEO)"
+    meta_keywords: "Ereyada (SEO)"
+    min_age_to_participate: Da'da ugu yar ee loo baahan yahay si looga qaybqaato
