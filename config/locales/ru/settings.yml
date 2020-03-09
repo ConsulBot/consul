@@ -1,0 +1,28 @@
+ru:
+  settings:
+    comments_body_max_length: "Максимальный размер тела комментариев"
+    official_level_1_name: "Государственный чиновник 1 уровня"
+    official_level_2_name: "Государственный чиновник 2 уровня"
+    official_level_3_name: "Государственный чиновник 3 уровня"
+    official_level_4_name: "Государственный чиновник 4 уровня"
+    official_level_5_name: "Государственный чиновник 5 уровня"
+    max_ratio_anon_votes_on_debates: "Максимальное соотношение анонимных голосов на дебаты"
+    max_votes_for_debate_edit: "Количество голосов, начиная с которого дебаты больше нельзя будет отредактировать"
+    proposal_code_prefix: "Префикс для кодов предложения"
+    months_to_archive_proposals: "Месяцы для достижения предложений"
+    email_domain_for_officials: "Домен Email для государственных чиновников"
+    twitter_handle: "Прозвище в Twitter"
+    twitter_hashtag: "Хештег в Twitter"
+    facebook_handle: "Прозвище в Facebook"
+    youtube_handle: "Прозвище на Youtube"
+    telegram_handle: "Прозвище в Telegram"
+    instagram_handle: "Прозвище в Instagram"
+    url: "Основной URL"
+    feature:
+      twitter_login: Логин от Twitter
+      facebook_login: Логин Facebook
+      google_login: Логин Google
+      signature_sheets: Подписные листы
+    meta_description: "Описание сайта (SEO)"
+    meta_keywords: "Ключавые слова (SEO)"
+    min_age_to_participate: Минимальный возраст для участия
