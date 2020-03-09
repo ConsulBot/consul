@@ -1,0 +1,58 @@
+tr:
+  mailers:
+    no_reply: "Bu mesaj yanıtları kabul etmeyen bir e-posta adresinden gönderildi."
+    comment:
+      hi: Merhaba
+      subject: Birisi sizin %{commentable} paylaşımınız hakkında yorum yaptı
+      title: Yeni yorum
+    config:
+      manage_email_subscriptions: Bizden daha fazla e-posta almak istemiyorsanız, lütfen ayarlarınızı değiştirin
+    email_verification:
+      click_here_to_verify: bu bağlantı
+      subject: E-postanızı onaylayın
+      thanks: Çok teşekkür ederiz.
+      title: Aşağıdaki bağlantıyı kullanarak hesabınızı onaylayın
+    reply:
+      hi: Merhaba
+      subject: Birisi sizin yorumunuza cevap verdi
+      title: Yorumunuza yeni bir cevap geldi
+    budget_investment_unfeasible:
+      hi: "Değerli kullanıcı,"
+      new_href: "yeni yatırım projesi"
+      sincerely: "İçtenlikle"
+      sorry: "Verdiğimiz rahatsızlıktan dolayı özür dileriz ve değerli katılımınız için tekrar teşekkür ederiz."
+      subject: "Sizin yatırım projeniz '%{code}' uygulanamaz olarak işaretlendi"
+    proposal_notification_digest:
+      info: "%{org_name}'de desteklediğin önerilerin yazarları tarafından paylaşılan yeni bildirimleri burada."
+      title: "%{org_name}'daki öneri bildirimleri"
+      share: Öneriyi paylaş
+      comment: Öneriye yorum yap
+      unsubscribe_account: Hesabım
+    direct_message_for_receiver:
+      subject: "Yeni bir özel mesaj aldınız"
+      reply: '%{sender}''a yanıt ver'
+      unsubscribe_account: Hesabım
+    user_invite:
+      ignore: "Eğer bu daveti talep etmemişseniz endişelenmeyin, bu e-postayı görmezden gelebilirsiniz."
+      thanks: "Çok teşekkür ederiz."
+      title: "%{org}'ya hoş geldiniz"
+      button: Kaydı tamamla
+      subject: "%{org_name}'e davet"
+    budget_investment_created:
+      subject: "Bir yatırım oluşturduğunuz için teşekkür ederiz!"
+      title: "Bir yatırım oluşturduğunuz için teşekkür ederiz!"
+      follow_link: "Katılımcı Bütçeler"
+      sincerely: "İçtenlikle,"
+      share: "Projenizi paylaşın"
+    budget_investment_selected:
+      subject: "Yatırım projeniz '%{code}' seçildi"
+      hi: "Değerli kullanıcı,"
+      share: "Yatırım projenizi sosyal paylaşım sitelerinde paylaşarak, oyları almaya başlayın. Fikirlerinizi gerçeğe dönüştürmek için paylaşım çok önemli."
+      share_button: "Yatırım projenizi paylaşın"
+      thanks: "Katıldığınız için tekrar teşekkür ederiz."
+      sincerely: "İçtenlikle"
+    budget_investment_unselected:
+      subject: "Sizin yatırım projeniz '%{code}' seçilmedi"
+      hi: "Sevgili kullanıcı,"
+      thanks: "Katıldığınız için tekrar teşekkür ederiz."
+      sincerely: "İçtenlikle"
