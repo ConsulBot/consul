@@ -1,0 +1,651 @@
+gl:
+  admin:
+    header:
+      title: Administración
+    actions:
+      actions: Accións
+      confirm: Estás seguro?
+      hide: Agochar
+      hide_author: Bloquear o autor
+      restore: Volver mostrar
+      mark_featured: Destacar
+      unmark_featured: Quitar destacado
+      edit: Editar proposta
+      configure: Configurar
+    banners:
+      index:
+        title: Bánners
+        create: Crear anuncio
+        edit: Editar anuncio
+        delete: Borrar anuncio
+        filters:
+          all: Todo
+          with_active: Activa
+          with_inactive: Inactivos
+        preview: Vista previa
+      edit:
+        editing: Editar anuncio
+        form:
+          submit_button: Gardar so cambios
+      new:
+        creating: Crear anuncio
+    activity:
+      show:
+        action: Acción
+        actions:
+          block: Bloqueado
+          hide: Ocultado
+          restore: Restaurado
+        by: Moderado por
+        content: Contido
+        filter: Amosar
+        filters:
+          all: Todo
+          on_comments: Comentarios
+          on_debates: Debates
+          on_proposals: Propostas cidadás
+          on_users: Usuarios/as
+        title: Actividade de moderadores
+        type: Tipo
+    budgets:
+      index:
+        title: Orzamentos participativos
+        new_link: Crear un novo orzamento
+        filters:
+          finished: Finalizadas
+        table_name: Nome
+        table_phase: Fase
+        table_investments: Investimentos
+        table_edit_groups: Grupo de partidas
+        table_edit_budget: Editar proposta
+        edit_groups: Editar grupos de partidas
+        edit_budget: Editar orzamento
+      create:
+        notice: Nova campaña de orzamentos participativos creada con éxito!
+      update:
+        notice: Campaña de orzamentos participativos actualizada
+      edit:
+        title: Editar campaña de orzamentos participativos
+      new:
+        title: Novo orzamento cidadán
+      winners:
+        calculate: Calcular propostas gañadoras
+        calculated: Calculando gañadoras, pode tardar un minuto.
+    budget_investments:
+      index:
+        heading_filter_all: Todas as partidas
+        administrator_filter_all: Todos os administradores
+        valuator_filter_all: Todos os avaliadores
+        tags_filter_all: Todas as etiquetas
+        filters:
+          without_admin: Sen administrador
+          valuation_finished: Informe finalizado
+          selected: Seleccionada
+          winners: Gañadores
+          all: Todo
+        title: Propostas de investimento
+        assigned_admin: Administrador asignado
+        no_admin_assigned: Sen administrador asignado
+        no_valuators_assigned: Sen avaliador
+        feasibility:
+          unfeasible: "Non viables"
+          undecided: "Sen decidir"
+        selected: "Seleccionadas"
+        select: "Seleccionar"
+      show:
+        assigned_admin: Administrador asignado
+        assigned_valuators: Avaliadores asignados
+        info: "%{budget_name} - Grupo: %{group_name} - Proxecto de investimento %{id}"
+        edit: Editar proposta
+        edit_classification: Editar clasificación
+        by: Autor
+        sent: Data
+        heading: Partida do orzamento
+        dossier: Informe
+        edit_dossier: Editar informe
+        tags: Etiquetas
+        undefined: Sen definir
+        compatibility:
+          title: Compatibilidade
+          "true": Incompatible
+          "false": Compatible
+        selection:
+          title: Selección
+        winner:
+          title: Gañadora
+          "true": "Si"
+          "false": "Non"
+      edit:
+        compatibility: Compatibilidade
+        selection: Selección
+        assigned_valuators: Avaliadores
+        select_heading: Seleccionar partida
+        submit_button: Actualizar
+        tags_placeholder: "Escribe as etiquetas que desexes separadas por comas (,)"
+        undefined: Sen definir
+      search_unfeasible: Buscar inviables
+    milestones:
+      index:
+        table_title: "Título"
+        table_description: "Descrición"
+        table_actions: "Accións"
+        delete: "Eliminar fito"
+        no_milestones: "Non hai datos definidos"
+      new:
+        creating: Crear fito
+      edit:
+        title: Editar fito
+      create:
+        notice: Novo fito creado con éxito!
+      update:
+        notice: Fito actualizado correctamente
+      delete:
+        notice: Fito borrado correctamente
+    dashboard:
+      index:
+        title: Administración
+    hidden_users:
+      index:
+        filter: Filtro
+        filters:
+          all: Todo
+          with_confirmed_hide: Confirmadas
+          without_confirmed_hide: Pendentes
+        title: Usuarios agochados
+      show:
+        email: 'Correo electrónico:'
+        hidden_at: 'Bloqueado:'
+        registered_at: 'Data de alta:'
+        title: Actividade do usuario (%{user})
+    legislation:
+      processes:
+        create:
+          notice: 'Proceso creado correctamente. <a href="%{link}">Preme para velo</a>'
+          error: Non se puido crear o proceso
+        update:
+          notice: 'Proceso actualizado correctamente. <a href="%{link}">Preme para velo</a>'
+          error: Non se puido crear o proceso
+        destroy:
+          notice: Proceso eliminado correctamente
+        edit:
+          back: Volver
+          submit_button: Gardar so cambios
+        form:
+          enabled: Habilitada
+          process: Proceso
+          debate_phase: Fase previa
+          use_markdown: Usar Markdown para formatear o texto
+          title_placeholder: Escribe o título do proceso
+          summary_placeholder: Resumo corto da descrición
+          description_placeholder: Engade unha descrición do proceso
+          additional_info_placeholder: Engade unha información adicional que pode ser de interese
+        index:
+          create: Novo proceso
+          delete: Borrar
+          filters:
+            all: Todo
+        new:
+          back: Volver
+          title: Crear un novo proceso de lexislación colaborativa
+          submit_button: Crear proceso
+        process:
+          title: Proceso
+          comments: Comentarios
+          status: Estado
+          status_open: Abertas
+          status_closed: Pechado
+          status_planned: Planificado
+        subnav:
+          info: Información
+          questions: o debate
+      draft_versions:
+        create:
+          notice: 'Borrador creado correctamente. <a href="%{link}">Preme para o veres</a>'
+          error: Non se puido crear o borrador
+        update:
+          notice: 'Borrador actualizado correctamente. <a href="%{link}">Preme para o ver</a>'
+          error: Non se puido actualizar o borrador
+        destroy:
+          notice: O borrador borrouse correctamente
+        edit:
+          back: Volver
+          submit_button: Gardar so cambios
+          warning: Xa editaches o texto, mais lembra premeres o botón Gardar para conservar permanentemente os cambios.
+        form:
+          launch_text_editor: Abrir editor de texto
+          close_text_editor: Pechar editor de texto
+          use_markdown: Usar Markdown para darlle formato ao texto
+          hints:
+            final_version: Será a versión que se publique en "publicación de resultados". Esta versión non se poderá comentar.
+            status:
+              draft: Poderás previsualizalo en modo admin, ninguén máis o poderá ver
+              published: Visible para todo o mundo
+          title_placeholder: Escrite o título desta versión do borrador
+          changelog_placeholder: Describe calquera cambio relevante coa versión anterior
+          body_placeholder: Escribe o texto do borrador
+        index:
+          title: Versións borrador
+          create: Crear versión
+          delete: Borrar
+          preview: Vista previa
+        new:
+          back: Volver
+          title: Crear unha nova versión
+          submit_button: Crear versión
+        table:
+          title: Título
+          created_at: Creada
+          comments: Comentarios
+          final_version: Versión final
+          status: Estado
+      questions:
+        create:
+          notice: 'A pregunta creouse correctamente. <a href="%{link}">Preme para a ver</a>'
+          error: Non se puido crear a pregunta
+        update:
+          notice: 'A pregunta creouse correctamente. <a href="%{link}">Preme para a ver</a>'
+          error: A pregunta non se puido actualizar
+        destroy:
+          notice: Pregunta borrada correctamente
+        edit:
+          back: Volver
+          title: "Editar \"%{question_title}\""
+          submit_button: Gardar so cambios
+        form:
+          add_option: Engadir unha opción
+          value_placeholder: Engadir unha resposta pechada
+        index:
+          back: Volver
+          title: Preguntas asociadas ao proceso
+          create: Crear pregunta
+          delete: Borrar
+        new:
+          back: Volver
+          title: Crear unha nova pregunta
+          submit_button: Crear pregunta
+        table:
+          title: Título
+          question_options: Opcións de respostas pechadas
+          answers_count: Número de respostas
+          comments_count: Número de comentarios
+        question_option_fields:
+          remove_option: Borrar opción
+    managers:
+      index:
+        title: Xestores
+      manager:
+        add: Engadir
+        delete: Borrar
+    menu:
+      activity: Actividade de moderador
+      admin: Menú de administración
+      banner: Xestionar anuncios
+      proposals_topics: Temas das propostas
+      budgets: Orzamentos participativos
+      geozones: Xestionar zonas
+      hidden_comments: Comentarios agochados
+      hidden_debates: Debates agochados
+      hidden_proposals: Propostas ocultas
+      hidden_users: Usuarios bloqueados
+      administrators: Administradores
+      managers: Xestores
+      moderators: Moderadores
+      valuators: Avaliadores
+      poll_officers: Presidentes da mesa
+      polls: Votacións
+      poll_booths: Localización das urnas
+      officials: Cargos públicos
+      organizations: Organizacións
+      stats: Estatísticas
+      signature_sheets: Follas de sinaturas
+      site_customization:
+        content_blocks: Bloques
+      title_moderated_content: Moderar contido
+      title_profiles: Perfís
+      legislation: Lexislación colaborativa
+      users: Usuarios/as
+    administrators:
+      index:
+        title: Administradores
+      administrator:
+        add: Engadir
+        delete: Borrar
+        restricted_removal: "Sentímolo mais non podes borrarte a ti mesmo da relación"
+    moderators:
+      index:
+        title: Moderadores
+      moderator:
+        add: Engadir
+        delete: Borrar
+    newsletters:
+      index:
+        title: Envío de newsletters
+    valuators:
+      index:
+        title: Avaliadores
+      valuator:
+        add: Engadir como avaliador
+    poll_officers:
+      index:
+        title: Presidentes de mesa
+      officer:
+        add: Engadir
+        delete: Borrar cargo
+        name: Nome
+        email: O teu correo electrónico
+        entry_name: presidente de mesa
+      search:
+        email_placeholder: Buscar usuario por correo electrónico
+        search: Procurar
+        user_not_found: Non se atopou o usuario
+    poll_officer_assignments:
+      index:
+        officers_title: "Listaxe de presidentes/as asignados/as"
+        no_officers: "Non hai ningún presidente de mesa asignado a esta votación."
+        table_name: "Nome"
+        table_email: "O teu correo electrónico"
+      by_officer:
+        date: "Día"
+        booth: "Urna"
+        assignments: "Quendas como presidencia de mesa nesta votación"
+        no_assignments: "Non ten quendas como presidencia de mesa nesta votación."
+    poll_booth_assignments:
+      show:
+        location: "Localización"
+        officers: "Presidentes de mesa"
+        officers_list: "Relación de presidentes de mesa asignados a esta urna"
+        no_officers: "Non hai ningún presidente de mesa para esta urna"
+        recounts: "Recontos"
+        recounts_list: "Listaxe de recontos desta urna"
+        date: "Data"
+        count_final: "Escrutinio final (presidente de mesa)"
+        count_by_system: "Votos (automático)"
+      index:
+        booths_title: "Listaxe de urnas"
+        no_booths: "Non hai urnas asignadas a esta votación."
+        table_name: "Nome"
+        table_location: "Localización"
+    polls:
+      index:
+        title: "Relación de votacións"
+        no_polls: "Non hai ningunha votación proximamente."
+        create: "Crear votación"
+        name: "Nome"
+        dates: "Datas"
+      new:
+        title: "Nova votación"
+        submit_button: "Crear votación"
+      edit:
+        title: "Editar votación"
+        submit_button: "Actualizar votación"
+      show:
+        questions_tab: Preguntas
+        booths_tab: Urnas
+        officers_tab: Presidentes de mesa
+        recounts_tab: Recontos
+        results_tab: Resultados
+        no_questions: "Non hai preguntas asignadas a esta votación."
+        questions_title: "Listaxe de preguntas"
+        table_title: "Título"
+      flash:
+        question_added: "Pregunta engadida a esta votación"
+        error_on_question_added: "Non se puido asignar a pregunta"
+    questions:
+      index:
+        title: "Preguntas"
+        create: "Crear pregunta"
+        no_questions: "Non hai preguntas cidadás."
+        filter_poll: Filtrar por votación
+        select_poll: Escoller votación
+        questions_tab: "Preguntas"
+        successful_proposals_tab: "Propostas que superaron o límite"
+        create_question: "Crear pregunta"
+        table_proposal: "a proposta"
+        table_question: "Pregunta"
+      edit:
+        title: "Editar pregunta cidadá"
+      show:
+        proposal: Proposta orixinal
+        author: Autoría
+        valid_answers: Respostas válidas
+    recounts:
+      index:
+        title: "Recontos"
+        no_recounts: "Non hai nada para o que facer o reconto"
+        table_booth_name: "Urna"
+        table_system_count: "Votos (automático)"
+    results:
+      index:
+        title: "Resultados"
+        no_results: "Non hai ningún resultado"
+    booths:
+      index:
+        add_booth: "Engadir urna"
+        name: "Nome"
+        location: "Localización"
+      new:
+        title: "Nova urna"
+        submit_button: "Crear urna"
+      edit:
+        title: "Editar urna"
+        submit_button: "Actualizar urna"
+      show:
+        location: "Localización"
+    officials:
+      edit:
+        title: 'Cargos públicos: editar usuario'
+      flash:
+        official_destroyed: 'Datos gardados: o usuario xa non é cargo público'
+        official_updated: Datos do cargo público gardados
+      index:
+        title: Cargos
+      level_0: Non é cargo público
+      level_1: Nivel 1
+      level_2: Nivel 2
+      level_3: Nivel 3
+      level_4: Nivel 4
+      level_5: Nivel 5
+      search:
+        edit_official: Editar cargo público
+        make_official: Converter en cargo público
+        title: 'Cargos públicos: busca de usuarios'
+    organizations:
+      index:
+        filter: Filtro
+        filters:
+          all: Todo
+          pending: Pendentes
+          rejected: Rexeitada
+          verified: Verificada
+        reject: Rexeitar
+        rejected: Rexeitada
+        search: Procurar
+        search_placeholder: Nome, correo electrónico ou teléfono
+        title: Organizacións
+        verified: Verificada
+        verify: Verificar
+      search:
+        title: Buscar organizacións
+    settings:
+      flash:
+        updated: Valor actualizado
+      index:
+        update_setting: Actualizar
+        feature_flags: Funcionalidades
+        features:
+          enabled: "Funcionalidade activada"
+          disabled: "Funcionalidade desactivada"
+          enable: "Activar"
+          disable: "Desactivar"
+    shared:
+      booths_search:
+        button: Procurar
+      poll_officers_search:
+        button: Procurar
+        placeholder: Buscar presidentes da mesa
+      poll_questions_search:
+        button: Procurar
+        placeholder: Buscar preguntas
+      proposal_search:
+        button: Procurar
+        placeholder: Buscar propostas por título, código, descrición ou pregunta
+      user_search:
+        button: Procurar
+        placeholder: Buscar usuario por nome ou correo electrónico
+      search_results: "Resultados da procura"
+      no_search_results: "Non se atoparon resultados."
+    geozones:
+      index:
+        title: Zonas
+        create: Crear unha zona
+        edit: Editar proposta
+        delete: Borrar
+      geozone:
+        name: Nome
+        external_code: Código externo
+        census_code: Código do censo
+        coordinates: Coordenadas
+      edit:
+        form:
+          submit_button: Gardar so cambios
+        editing: Editar zona
+        back: Volver
+      new:
+        back: Volver
+        creating: Crear zona
+      delete:
+        success: A zona eliminouse correctamente
+        error: Non se pode eliminar a zona porque xa ten elementos asociados
+    signature_sheets:
+      author: Autoría
+      created_at: Data de creación
+      name: Nome
+      no_signature_sheets: "Non existes follas de sinaturas"
+      index:
+        title: Follas de sinaturas
+        new: Nova folla de sinaturas
+      new:
+        title: Nova folla de sinaturas
+        submit: Crear folla de sinaturas
+      show:
+        created_at: Creado
+        author: Autoría
+        verified:
+          one: "Hai %{count} sinatura válida"
+          other: "Hai %{count} sinaturas válidas"
+        unverified:
+          one: "Hai %{count} sinatura válida"
+          other: "Hai %{count} sinaturas válidas"
+        unverified_error: (Non verificada polo padrón)
+        loading: "Aínda hai sinaturas que o padrón está verificando. Actualiza a páxina dentro dun anaco"
+    stats:
+      show:
+        stats_title: Estatísticas
+        summary:
+          comment_votes: Votos en comentarios
+          comments: Comentarios
+          debate_votes: Votos en debates
+          debates: Debates
+          proposal_votes: Votos en propostas
+          proposals: Propostas cidadás
+          budgets: Orzamentos abertos
+          budget_investments: Proxectos de investimento
+          unverified_users: Usuarios con contas sen verificar
+          user_level_three: Usuarios de nivel tres
+          user_level_two: Usuarios de nivel dous
+          users: Usuarios
+          verified_users: Usuarios con contas verificadas
+          verified_users_who_didnt_vote_proposals: Usuarios verificados que non votaron propostas
+          visits: Visitas
+          votes: Votos totais
+        budgets_title: Orzamentos participativos
+        direct_messages: Mensaxes directas
+        proposal_notifications: Notificacións de propostas
+        incomplete_verifications: Verificacións incompletas
+      direct_messages:
+        title: Mensaxes directas
+        total: Total
+        users_who_have_sent_message: Usuarios que enviaron unha mensaxe privada
+      proposal_notifications:
+        title: Notificacións das propostas
+        total: Total
+        proposals_with_notifications: Propostas con notifificacións
+    tags:
+      index:
+        add_tag: Engade un novo tema de debate
+        title: Temas de debate
+    users:
+      columns:
+        name: Nome
+        email: O teu correo electrónico
+        document_number: Número de documento
+        roles: Roles
+        verification_level: Nivel de verificación
+      index:
+        title: Usuario/a
+      search:
+        placeholder: Buscar usuarios por correo electrónico, nome ou DNI
+        search: Procurar
+    verifications:
+      index:
+        phone_not_given: Non deu o seu teléfono
+        sms_code_not_confirmed: Non introduciu o seu código de seguridade
+        title: Confirmacións incompletas
+    site_customization:
+      content_blocks:
+        create:
+          notice: O bloque creouse correctamente
+          error: Non se puido crear o bloque
+        update:
+          notice: O bloque actualizouse correctamente
+          error: Non se puido actualizar o bloque
+        destroy:
+          notice: O bloque borrouse correctamente
+        edit:
+          title: Editar bloque
+        index:
+          create: Crear un novo bloque de contido
+          delete: Borrar bloque
+          title: Bloques de contido
+        new:
+          title: Crear un novo bloque
+        content_block:
+          body: Contido
+          name: Nome
+      images:
+        index:
+          title: Imaxes
+          update: Actualizar
+          delete: Borrar
+          image: Imaxe
+        update:
+          notice: Imaxe actualizada correctamente
+          error: Non se puido actualizar a imaxe
+        destroy:
+          notice: A imaxe borrouse correctamene
+          error: Non se puido borrar a imaxe
+      pages:
+        create:
+          notice: A páxina creouse correctamente
+          error: Non se puido crear a páxina
+        update:
+          notice: A páxina actualizouse correctamente
+          error: Non se puido actualizar a páxina
+        destroy:
+          notice: A páxina borrouse correctamente
+        edit:
+          title: Editar %{page_title}
+        form:
+          options: Opcións
+        index:
+          create: Crear unha páxina nova
+          delete: Borrar páxina
+          title: Páxinas personalizadas
+          see_page: Ver páxina
+        new:
+          title: Crear unha páxina nova
+        page:
+          created_at: Creada
+          status: Estado
+          title: Título
+          updated_at: Última actualización
