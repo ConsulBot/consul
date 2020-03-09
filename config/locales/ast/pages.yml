@@ -1,0 +1,6 @@
+ast:
+  pages:
+    verify:
+      info_code: 'Ahora introduce el código que has recibido en tu carta:'
+      submit: Verificar mi cuenta
+      title: Verifica tu cuenta
