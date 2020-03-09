@@ -1,0 +1,25 @@
+bs:
+  flash:
+    actions:
+      create:
+        notice: "%{resource_name} uspješno napravljeno."
+        debate: "Debata uspješno napravljena."
+        direct_message: "Poruka uspješno poslana."
+        poll: "Anketa uspješno kreirana."
+        poll_booth: "Kabina uspješno kreirana."
+        proposal: "Prijedlog uspješno kreiran."
+        proposal_notification: "Poruka ispravno poslana."
+        budget_investment: "Budžetska investicija uspješno kreirana."
+        signature_sheet: "Potpisni list uspješno kreiran"
+      save_changes:
+        notice: Izmjene spašene
+      update:
+        notice: "%{resource_name} uspješno ažuriran."
+        debate: "Debata uspješno ažurirana."
+        poll: "Anketa uspješno ažurirana."
+        poll_booth: "Kabina uspješno ažurirana."
+        proposal: "Prijedlog uspješno ažuriran."
+        budget_investment: "Investicioni projekat uspješno ažuriran."
+      destroy:
+        budget_investment: "Investicioni projekat uspješno obrisan."
+        error: "Ne može se obrisati"
