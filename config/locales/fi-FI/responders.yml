@@ -1,0 +1,5 @@
+fi:
+  flash:
+    actions:
+      destroy:
+        error: "Ei voitu poistaa"
