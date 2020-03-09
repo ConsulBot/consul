@@ -1,0 +1,25 @@
+gl:
+  flash:
+    actions:
+      create:
+        notice: "%{resource_name} creado correctamente."
+        debate: "Debate creado correctamente."
+        direct_message: "A mensaxe enviouse correctamente."
+        poll: "A votación creouse correctamente."
+        poll_booth: "A urna creouse correctamente."
+        proposal: "Proposta creada correctamente."
+        proposal_notification: "A mensaxe enviouse correctamente."
+        budget_investment: "A proposta de investimento creouse correctamente."
+        signature_sheet: "A folla de sinaturas creouse correctamente"
+      save_changes:
+        notice: Cambios gardados
+      update:
+        notice: "%{resource_name} actualizado correctamente."
+        debate: "Debate actualizado correctamente."
+        poll: "A votación actualizouse correctamente."
+        poll_booth: "A urna actualizouse correctamente."
+        proposal: "Proposta actualizada correctamente."
+        budget_investment: "A proposta de investimento actualizouse correctamente."
+      destroy:
+        budget_investment: "O proxecto de investimento actualizouse correctamente."
+        error: "Non se puido eliminar"
