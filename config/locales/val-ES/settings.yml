@@ -1,0 +1,28 @@
+val:
+  settings:
+    comments_body_max_length: "Longitud màxima dels comentaris"
+    official_level_1_name: "Càrrecs públics de nivel 1"
+    official_level_2_name: "Càrrecs públics de nivel 2"
+    official_level_3_name: "Càrrecs públics de nivel 3"
+    official_level_4_name: "Càrrecs públics de nivel 4"
+    official_level_5_name: "Càrrecs públics de nivel 5"
+    max_ratio_anon_votes_on_debates: "Percentatge màxim de vots anònims per Debat"
+    max_votes_for_debate_edit: "Número de vots en que un Debat deixa de poderse editar"
+    proposal_code_prefix: "Prefixe per als codis de Propostes"
+    months_to_archive_proposals: "Mesos per a arxivar les Propostes"
+    email_domain_for_officials: "Domini de correu elèctronic per a carrecs públics"
+    twitter_handle: "Usuari de Twitter"
+    twitter_hashtag: "Hashtag per a Twitter"
+    facebook_handle: "Identificador de Facebook"
+    youtube_handle: "Usuari de Youtube"
+    telegram_handle: "Usuari de Telegram"
+    instagram_handle: "Usuari de Instagram"
+    url: "URL general de la web"
+    feature:
+      twitter_login: Registre amb Twitter
+      facebook_login: Registre amb Facebook
+      google_login: Registre amb Google
+      signature_sheets: Fulles de signatures
+    meta_description: "Descripció del lloc (SEO)"
+    meta_keywords: "Paraules clau (SEO)"
+    min_age_to_participate: Edat mínima per a participar
