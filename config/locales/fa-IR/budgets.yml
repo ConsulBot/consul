@@ -1,0 +1,101 @@
+fa:
+  budgets:
+    ballots:
+      show:
+        title: ' رای شما'
+        amount_spent: مقدار صرف شده
+        remaining: "شما هنوز<span>%{amount}</span> برای سرمایه گذاری دارید"
+        no_balloted_group_yet: "شما هنوز به این گروه رای نداده اید، رأی دهید"
+        remove: حذف رای
+        zero: شما به پروژه سرمایه گذاری رای نداده اید
+      reasons_for_not_balloting:
+        not_logged_in: شما باید %{signin} یا %{signup} کنید برای ادامه دادن.
+        not_verified: فقط کاربران تأییدشده می توانند در مورد سرمایه گذاری رای دهند%{verify_account}
+        organization: سازمان ها مجاز به رای دادن نیستند
+        not_selected: پروژه های سرمایه گذاری انتخاب نشده پشتیبانی نمی شود
+        no_ballots_allowed: فازانتخاب  بسته است
+        change_ballot: تغییر رای خود 
+    groups:
+      show:
+        title: یک گزینه را انتخاب کنید
+        unfeasible_title: سرمایه گذاری غیر قابل پیش بینی
+        unfeasible: سرمایه گذاری های غیرقابل پیش بینی را ببینید
+        unselected_title: سرمایه گذاری هایی برای مرحله رای گیری انتخاب نشده اند
+        unselected: دیدن سرمایه گذاری هایی که برای مرحله رای گیری انتخاب نشده اند
+    phase:
+      accepting: پذیرش پروژه
+      reviewing: بررسی پروژه ها
+      selecting: پذیرش پروژه
+      valuating: ارزیابی پروژه
+      finished: بودجه به پایان رسید
+    index:
+      title: بودجه مشارکتی
+    investments:
+      form:
+        tag_category_label: "دسته بندی ها\n"
+        tags_instructions: "برچسب این پیشنهاد. شما می توانید از دسته های پیشنهاد شده را انتخاب کنید یا خودتان را اضافه کنید"
+        tags_label: برچسب ها
+        tags_placeholder: "برچسبهایی را که میخواهید از آن استفاده کنید، با کاما ('،') جدا کنید"
+      index:
+        title: بودجه مشارکتی
+        unfeasible: سرمایه گذاری غیر قابل پیش بینی
+        by_heading: "پروژه های سرمایه گذاری با دامنه:%{heading}"
+        search_form:
+          button: جستجو
+          placeholder: جستجو پروژه های سرمایه گذاری ...
+          title: جستجو
+        sidebar:
+          my_ballot: رای من
+          voted_info: شما می توانید%{link} در هر زمانی  این مرحله را پایان دهید . بدون نیاز به صرف تمام پول در دسترس.
+          voted_info_link: تغییر رای خود 
+          change_ballot: "اگر نظر شما تغییر کند، می توانید رای خود را در%{check_ballot} حذف کنید و دوباره شروع کنید."
+          zero: شما به هیچ پروژه سرمایه گذاری در این گروه رأی نداده اید.
+          verified_only: "برای ایجاد یک سرمایه گذاری جدید بودجه%{verify}"
+          not_logged_in: "برای ایجاد یک سرمایه گذاری جدید بودجه باید%{sign_in} یا %{sign_up} کنید."
+          by_feasibility: "امکان پذیری\n"
+          feasible: پروژه های قابل اجرا
+          unfeasible: پروژه های غیرقابل اجرا
+        orders:
+          random: "تصادفی\n"
+          confidence_score: بالاترین امتیاز
+          price: با قیمت
+      show:
+        author_deleted: کاربر حذف شد
+        price_explanation: توضیح قیمت
+        unfeasibility_explanation: توضیح امکان سنجی 
+        share: "اشتراک گذاری\n"
+        title: پروژه سرمایه گذاری
+        supports: پشتیبانی ها
+        votes: آرا
+        price: قیمت
+        comments_tab: توضیحات
+        milestones_tab: نقطه عطف
+      wrong_price_format: فقط اعداد صحیح 
+      investment:
+        add: رای
+        already_added: شما قبلا این پروژه سرمایه گذاری را اضافه کرده اید
+        support_title: پشتیبانی از این پروژه
+        supports:
+          zero: بدون پشتیبانی 
+          one: 1 پشتیبانی
+          other: "%{count}پشتیبانی"
+        give_support: پشتیبانی
+      header:
+        change_ballot: "اگر نظر شما تغییر کند، می توانید رای خود را در%{check_ballot} حذف کنید و دوباره شروع کنید."
+    show:
+      group: گروه
+      phase: فاز واقعی
+      unfeasible_title: سرمایه گذاری غیر قابل پیش بینی
+      unfeasible: سرمایه گذاری های غیرقابل پیش بینی را ببینید
+      unselected_title: سرمایه گذاری هایی برای مرحله رای گیری انتخاب نشده اند
+      unselected: دیدن سرمایه گذاری هایی که برای مرحله رای گیری انتخاب نشده اند
+      see_results: مشاهده نتایج
+    results:
+      link: نتایج
+      page_title: "%{budget} - نتایج"
+      heading: "نتایج بودجه مشارکتی"
+      heading_selection_title: "توسط منطقه"
+      hide_discarded_link: پنهان کردن 
+      show_all_link: نمایش همه
+      amount_available: بودجه موجود
+      incompatibles: ناسازگار
