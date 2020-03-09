@@ -1,0 +1,77 @@
+ru:
+  moderation:
+    header:
+      title: Модерация
+    comments:
+      index:
+        block_authors: Заблокировать авторов
+        confirm: Вы уверены?
+        filter: Фильтр
+        filters:
+          all: Все
+          pending_flag_review: Ожидают
+          with_ignored_flag: Отметить на просмотренное
+        headers:
+          comment: Отзыв
+          moderate: Модерировать
+        hide_comments: Скрыть комментарии
+        ignore_flags: Отметить как просмотренное
+        order: Порядок
+        orders:
+          flags: Самое помечаемое
+          newest: Самое новое
+        title: Комментарии
+    dashboard:
+      index:
+        title: Модерация
+    debates:
+      index:
+        block_authors: Заблокировать авторов
+        confirm: Вы уверены?
+        filter: Фильтр
+        filters:
+          all: Все
+          pending_flag_review: Ожидают
+          with_ignored_flag: отметить как просмотренное
+        headers:
+          debate: Обсуждение
+          moderate: Модерировать
+        hide_debates: Скрыть обсуждения
+        ignore_flags: Отметить как просмотренное
+        order: Порядок
+        orders:
+          created_at: Самое новое
+          flags: Самое помечаемое
+        title: Обсуждения проблем
+    menu:
+      flagged_comments: Комментарии
+      flagged_debates: Обсуждения проблем
+      proposals: Заявки
+      users: Блокировать пользователей
+    proposals:
+      index:
+        block_authors: Блокировать авторов
+        confirm: Вы уверены?
+        filter: Фильтр
+        filters:
+          all: Все
+          pending_flag_review: Ожидают рассмотрения
+          with_ignored_flag: Отметить как просмотренное
+        headers:
+          moderate: Модерировать
+          proposal: Заявка
+        hide_proposals: Скрыть предложения
+        ignore_flags: Отметить как просмотренное
+        order: Упорядочить но
+        orders:
+          created_at: Самое свежее
+          flags: Самое помечаемое
+        title: Заявки
+    users:
+      index:
+        hidden: Заблокирован
+        hide: Блокировать
+        search: Поиск
+        search_placeholder: email или имя пользователя
+        title: Блокировать пользователей
+      notice_hide: Пользователь заблокирован. Все дебаты и комментарии этого пользователя были скрыты.
