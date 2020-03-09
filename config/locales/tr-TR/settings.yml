@@ -1,0 +1,28 @@
+tr:
+  settings:
+    comments_body_max_length: "Yorumların maksimum uzunluğu"
+    official_level_1_name: "1. seviye kamu memuru"
+    official_level_2_name: "2. seviye kamu memuru"
+    official_level_3_name: "3. seviye kamu memuru"
+    official_level_4_name: "4. seviye kamu memuru"
+    official_level_5_name: "5. seviye kamu memuru"
+    max_ratio_anon_votes_on_debates: "Tartışma başına gizli oyların maksimum oranı"
+    max_votes_for_debate_edit: "Bir Tartışma'nın artık düzenlenemediği oy sayısı"
+    proposal_code_prefix: "Öneri kodları için önek"
+    months_to_archive_proposals: "Önerilerin arşivleneceği aylar"
+    email_domain_for_officials: "Kamu memurları için e-posta alan adı"
+    twitter_handle: "Twitter kolu"
+    twitter_hashtag: "Twitter hashtag"
+    facebook_handle: "Facebook kolu"
+    youtube_handle: "Youtube kolu"
+    telegram_handle: "Telegram kolu"
+    instagram_handle: "Instagram kolu"
+    url: "Ana URL"
+    feature:
+      twitter_login: Twitter girişi
+      facebook_login: Facebook girişi
+      google_login: Google girişi
+      signature_sheets: İmza sayfaları
+    meta_description: "Site açıklaması (SEO)"
+    meta_keywords: "Anahtar Kelimeler (SEO)"
+    min_age_to_participate: Katılmak için gereken minimum yaş
