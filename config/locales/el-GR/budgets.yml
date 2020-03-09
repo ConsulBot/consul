@@ -1,0 +1,101 @@
+el:
+  budgets:
+    ballots:
+      show:
+        title: Το ψηφοδέλτιο σας
+        amount_spent: Ποσό που δαπανήθηκε
+        remaining: "Έχετε ακόμα <span>%{amount}</span> να επενδύσετε."
+        no_balloted_group_yet: "Δεν έχετε ψηφίσει σε αυτήν την ομάδα ακόμα, ψηφίστε!"
+        remove: Αφαίρεση ψήφου
+        zero: Δεν έχετε ψηφίσει κάποιο επενδυτικό σχέδιο.
+      reasons_for_not_balloting:
+        not_logged_in: Για να συνεχίσετε %{signin} ή %{signup}. 
+        not_verified: Μόνο επιβεβαιωμένοι χρήστες μπορούν να ψηφίσουν στις επενδύσεις; %{verify_account}.
+        organization: Οι οργανισμοί δεν επιτρέπεται να ψηφίσουν
+        not_selected: Τα μη επιλεγμένα επενδυτικά σχέδια δεν μπορούν να υποστηριχθούν
+        no_ballots_allowed: Η φάση επιλογής είναι κλειστή
+        change_ballot: αλλάξτε τις ψήφους σας
+    groups:
+      show:
+        title: Κάντε μια επιλογή
+        unfeasible_title: Ανέφικτες επενδύσεις
+        unfeasible: Δείτε τις ανέφικτες επενδύσεις
+        unselected_title: Επενδύσεις που δεν έχουν επιλεγεί για την φάση ψηφοφορίας
+        unselected: Προβολή επενδύσεων οι οποίες δεν έχουν επιλεγεί για την φάση ψηφοφορίας
+    phase:
+      accepting: Αποδοχή έργων
+      reviewing: Αναθεώρηση σχεδίων
+      selecting: Επιλογή έργων
+      valuating: Αξιολόγηση έργων
+      finished: Τελικός προϋπολογισμός
+    index:
+      title: Συμμετοχικοί προϋπολογισμοί
+    investments:
+      form:
+        tag_category_label: "Κατηγορίες"
+        tags_instructions: "Πρόσθεσε ετικέτα σε αυτήν την πρόταση. Μπορείτε να επιλέξετε από τις προτεινόμενες κατηγορίες ή να προσθέσετε δική σας"
+        tags_label: Ετικέτες
+        tags_placeholder: "Εισαγάγετε τις ετικέτες που θα θέλατε να χρησιμοποιήσετε, διαχωρισμένες με κόμματα (',')"
+      index:
+        title: Συμμετοχικός προϋπολογισμός
+        unfeasible: Ανέφικτα επενδυτικά έργα
+        by_heading: "Επενδυτικά σχέδια με πεδίο εφαρμογής: %{heading}"
+        search_form:
+          button: Αναζήτηση
+          placeholder: Αναζήτηση επενδυτικών σχεδίων...
+          title: Αναζήτηση
+        sidebar:
+          my_ballot: Η ψηφοφορία μου
+          voted_info: Μπορείτε να %{link} οποιαδήποτε στιγμή μέχρι το κλείσιμο αυτής της φάσης. Δεν χρειάζεται να δαπανηθούν όλα τα χρήματα που διατίθενται.
+          voted_info_link: Αλλαγή της ψήφου σας
+          change_ballot: "Εάν αλλάξετε γνώμη, μπορείτε να αφαιρέσετε τις ψήφους σας στο %{check_ballot} και να ξεκινήσετε πάλι."
+          zero: Δεν έχετε ψηφίσει κάποιο επενδυτικό έργο σε αυτήν την ομάδα.
+          verified_only: "Για να δημιουργήσετε νέο προϋπολογισμό επενδύσεων %{verify}."
+          not_logged_in: "Για να δημιουργήσετε νέο προϋπολογισμό επένδυσεων πρέπει πρώτα να %{sign_in} ή %{sign_up}."
+          by_feasibility: Κατά πόσο έιναι εφικτό
+          feasible: Εφικτά σχέδια
+          unfeasible: Ανέφικτά σχέδια
+        orders:
+          random: τυχαία
+          confidence_score: με την υψηλότερη βαθμολογία
+          price: ανά τιμή
+      show:
+        author_deleted: Ο χρήστης έχει διαγραφεί
+        price_explanation: Επεξήγηση τιμής
+        unfeasibility_explanation: Επεξήγηση των λόγων για τους οποίους κρίθηκε ως ανέφικτη
+        share: Μοιραστείτε το
+        title: Επενδυτικό έργο
+        supports: Υποστηρίξεις
+        votes: Ψήφοι
+        price: Τιμή
+        comments_tab: Σχόλια
+        milestones_tab: Ορόσημα
+      wrong_price_format: Μόνο ακέραιοι αριθμοί
+      investment:
+        add: Ψηφίστε
+        already_added: Έχετε ήδη καταχωρήσει αυτό το επενδυτικό σχέδιο
+        support_title: Υποστηρίξτε αυτό το έργο 
+        supports:
+          zero: Χωρίς υποστηρίξεις
+          one: 1 υποστήριξη
+          other: "%{count} υποστηρίξεις"
+        give_support: Υποστήριξη
+      header:
+        change_ballot: "Εάν αλλάξετε γνώμη, μπορείτε να αφαιρέσετε τις ψήφους σας στο %{check_ballot} και να ξεκινήσετε πάλι."
+    show:
+      group: Ομάδα
+      phase: Πραγματική φάση
+      unfeasible_title: Ανέφικτες επενδύσεις
+      unfeasible: Προβολή των ανέφικτων επενδύσεων
+      unselected_title: Επενδύσεις που δεν έχουν επιλεγεί για τη φάση ψηφοφορίας
+      unselected: Προβολή των επενδύσεων που δεν έχουνν επιλεγεί για τη φάση ψηφοφορίας
+      see_results: Προβολή αποτελεσμάτων
+    results:
+      link: Αποτελέσματα
+      page_title: "%{budget} - αποτελέσματα"
+      heading: "Αποτελέσματα συμμετοχικού προϋπολογισμού"
+      heading_selection_title: "Κατά περιοχή"
+      hide_discarded_link: Η απόκρυψη απορρίπτεται
+      show_all_link: Εμφάνιση όλων
+      amount_available: Διαθέσιμος προϋπολογισμός
+      incompatibles: Μη συμβατά
