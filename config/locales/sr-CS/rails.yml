@@ -1,0 +1,71 @@
+#Files in the config/locales directory are used for internationalization
+#and are automatically loaded by Rails. If you want to use locales other
+#than English, add the necessary files in this directory.
+#To use the locales, use `I18n.t`:
+#I18n.t 'hello'
+#In views, this is aliased to just `t`:
+#<%= t('hello') %>
+#To use a different locale, set it with `I18n.locale`:
+#I18n.locale = :es
+#This would use the information in config/locales/es.yml.
+#To learn more, please read the Rails Internationalization guide
+#available at http://guides.rubyonrails.org/i18n.html.
+#---
+sr:
+  date:
+    abbr_day_names:
+      - Ned
+      - Pon
+      - Uto
+      - Sre
+      - Čet
+      - Pet
+      - Sub
+    abbr_month_names:
+      - 
+      - Jan
+      - Feb
+      - Mar
+      - Apr
+      - Maj
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Okt
+      - Nov
+      - Dec
+    day_names:
+      - Nedelja
+      - Ponedeljak
+      - Utorak
+      - Sreda
+      - Četvrtak
+      - Petak
+      - Subota
+    formats:
+      default: "%Y-%m-%d"
+      long: "%B %d, %Y"
+      short: "%b %d"
+    month_names:
+      - 
+      - Januar
+      - Februar
+      - Mart
+      - April
+      - Maj
+      - Jun
+      - Jul
+      - Avgust
+      - Septembar
+      - Oktobar
+      - Novembar
+      - Decembar
+  datetime:
+    distance_in_words:
+      half_a_minute: pola minute
+  number:
+    human:
+      format:
+        significant: true
+        strip_insignificant_zeros: true
