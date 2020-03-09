@@ -1,0 +1,58 @@
+bs:
+  mailers:
+    no_reply: "Ova poruka je poslana s email adrese koja ne prihvata odgovore."
+    comment:
+      hi: Pozdrav
+      subject: Neko je dao komentar na vaš %{commentable}
+      title: Novi komentar
+    config:
+      manage_email_subscriptions: Kako bi prestali dobijati ove emailove, promijenite svoje postavke u
+    email_verification:
+      click_here_to_verify: ovaj link
+      subject: Potvrdite vaš email
+      thanks: Hvala puno.
+      title: Potvrdite nalog ovim linkom
+    reply:
+      hi: Pozdrav
+      subject: Neko je odgovorio na vaš komentar
+      title: Novi odgovor na vaš komentar
+    budget_investment_unfeasible:
+      hi: "Poštovani korisniče,"
+      new_href: "novi investicioni projekat"
+      sincerely: "S poštovanjem"
+      sorry: "Žao nam je zbog neugodnosti i hvala još jednom na vašem dragocjenom učešću."
+      subject: "Vaš investicioni projekat %{code} je označen kao neizvodiv"
+    proposal_notification_digest:
+      info: "Ovo su nove obavijesti autora prijedloga koje ste podržali u %{org_name}."
+      title: "Obavijesti o prijedlozima u %{org_name}"
+      share: Podijeli prijedlog
+      comment: Prijedlog komentara
+      unsubscribe_account: Moj nalog
+    direct_message_for_receiver:
+      subject: "Dobili ste novu privatnu poruku"
+      reply: Odgovori %{sender}
+      unsubscribe_account: Moj nalog
+    user_invite:
+      ignore: "Ako niste tražili ovaj poziv, ne brinite, možete zanemariti ovaj email."
+      thanks: "Hvala puno."
+      title: "Dobrodošli u %{org}"
+      button: Završite registraciju
+      subject: "Poziv za %{org_name}"
+    budget_investment_created:
+      subject: "Hvala što ste predložili investiciju!"
+      title: "Hvala što ste predložili investiciju!"
+      follow_link: "Participativni budžeti"
+      sincerely: "S poštovanjem"
+      share: "Podijeli svoj projekat s drugima"
+    budget_investment_selected:
+      subject: "Vaš investicioni projekat %{code} je odabran"
+      hi: "Poštovani korisniče,"
+      share: "Krenite sa prikupljanjem glasova, podijelite svoj investicioni projekat na društvenim mrežama, što je od suštinske važnosti kako bi projekat postao stvarnost."
+      share_button: "Podijeli svoj investicioni projekat"
+      thanks: "Hvala još jednom na učešću."
+      sincerely: "S poštovanjem"
+    budget_investment_unselected:
+      subject: "Vaš investicioni projekat %{code} nije odabran"
+      hi: "Poštovani korisniče,"
+      thanks: "Hvala još jednom na učešću."
+      sincerely: "S poštovanjem"
