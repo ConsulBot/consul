@@ -1,0 +1,55 @@
+bs:
+  officing:
+    header:
+      title: Anketiranje
+    dashboard:
+      index:
+        title: Vođenje glasačke ankete
+        info: Ovdje možete potvrditi korisničke dokumente i pohraniti rezultate glasanja
+    menu:
+      voters: Potvrdi dokument
+    polls:
+      final:
+        title: Glasačke ankete spremne za konačno ponovno brojanje
+        no_polls: Ne vršite ponovno prebrojavanje ni u jednoj aktivnoj anketi
+        select_poll: Odaberi glasačku anketu
+        add_results: Dodaj rezultate
+    results:
+      flash:
+        create: "Rezultati spašeni"
+        error_create: "Rezultati NISU spašeni. Greška u podacima."
+        error_wrong_booth: "Pogrešna kabina. Rezultati NISU spašeni."
+      new:
+        title: "%{poll} - Dodaj rezultate"
+        booth: "Kabina"
+        date: "Datum"
+        select_booth: "Odaberi kabinu"
+        ballots_null: "Nevažeći glasački listići"
+        submit: "Spasi"
+        results_list: "Vaši rezultati"
+        see_results: "Vidi rezultate"
+      index:
+        no_results: "Nema rezultata"
+        results: Rezultati
+        table_answer: Odgovor
+        table_votes: Glasovi
+        table_nulls: "Nevažeći glasački listići"
+    residence:
+      flash:
+        create: "Dokumenti potvrđeni popisom"
+        not_allowed: "Danas nemate anketarskih smjena u rasporedu"
+      new:
+        title: Potvrdi dokument
+        document_number: "Broj isprave"
+        submit: Potvrdi dokument
+        error_verifying_census: "Dokument se ne može potvrditi u popisu."
+        form_errors: je razlog zašto je spriječena verifikacija ovog dokumenta
+    voters:
+      new:
+        title: Glasačke ankete
+        table_poll: Glasačka anketa
+      show:
+        can_vote: Može glasati
+        error_already_voted: Već je učestvovao/la u ovoj anketi
+        submit: Potvrdi glas
+        success: "Glas unesen!"
