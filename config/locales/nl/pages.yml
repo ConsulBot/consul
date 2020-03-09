@@ -1,7 +1,5 @@
----
 nl:
   pages:
-    census_terms: To confirm the account, you must be 16 or older and be registered, having provided the information requested previously, will verify. By accepting the verification process, you also consent to the verification of this information, as well as the contact methods featuring in said files. The data provided will be acquired and processed in a file mentioned previously in the terms and conditions of use for the Portal.
     conditions: Gebruiksvoorwaarden
     general_terms: Gebruiksvoorwaarden
     more_info:
@@ -54,8 +52,6 @@ nl:
       other:
         title: "Verdere informatie"
         how_to_use: "Gebruik %{org_name} in uw gemeente"
-        world: "Burgerparticipatie in de wereld"
-        facts: "Feiten over burgerparticipatie en directe democratie"
       how_to_use:
         text: |-
           Gebruik het in uw gemeente en help ons het te verbeteren, het is gratis software.
@@ -73,7 +69,6 @@ nl:
       privacy: Privacy Verklaring
     verify:
       code: Code die u in een brief heeft ontvangen
-      email: Email
       info: 'Vul uw toegangsgegevens in om uw account te verifieren:'
       info_code: 'en de code die u heeft ontvangen:'
       password: Wachtwoord
