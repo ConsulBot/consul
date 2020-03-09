@@ -1,0 +1,28 @@
+ar:
+  settings:
+    comments_body_max_length: "الطول الأقصى لجسم التعليقات"
+    official_level_1_name: "مسؤول عمومي من المستوى 1"
+    official_level_2_name: "مسؤول عمومي من المستوى 2"
+    official_level_3_name: "مسؤول عمومي من المستوى 3"
+    official_level_4_name: "مسؤول عمومي من المستوى 4"
+    official_level_5_name: "مسؤول عمومي من المستوى 5"
+    max_ratio_anon_votes_on_debates: "الحد الأقصى لنسبة الأصوات المجهولة لكل نقاش"
+    max_votes_for_debate_edit: "عدد الأصوات الذي لا يمكن تعديل المناقشة بعده"
+    proposal_code_prefix: "بادئة لرموز المقترحات"
+    months_to_archive_proposals: "أشهر لأرشفة المقترحات"
+    email_domain_for_officials: "مجال البريد الإلكتروني للموظفين العموميين"
+    twitter_handle: "إسم الحساب على Twitter"
+    twitter_hashtag: "Twitter hashtag"
+    facebook_handle: "إسم الحساب على Facebook"
+    youtube_handle: "إسم الحساب على Youtube"
+    telegram_handle: "إسم الحساب على Telegram"
+    instagram_handle: "مقبض Instagram"
+    url: "الصّفحة الرئيسية"
+    feature:
+      twitter_login: تسجيل الدخول عبر Twitter
+      facebook_login: تسجيل الدخول عبر Facebook
+      google_login: تسجيل الدخول عبر Google
+      signature_sheets: أوراق التوقيع
+    meta_description: "وصف الموقع (SEO)"
+    meta_keywords: "الكلمات المفاتيح (SEO)"
+    min_age_to_participate: العمر الأدنى المطلوب للمشاركة
