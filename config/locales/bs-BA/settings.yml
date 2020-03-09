@@ -1,0 +1,28 @@
+bs:
+  settings:
+    comments_body_max_length: "Maksimalna dužina komentara"
+    official_level_1_name: "Anketar, 1. stupanj"
+    official_level_2_name: "Anketar, 2. stupanj"
+    official_level_3_name: "Anketar, 3. stupanj"
+    official_level_4_name: "Anketar, 4. stupanj"
+    official_level_5_name: "Anketar, 5. stupanj"
+    max_ratio_anon_votes_on_debates: "Maksimalni omjer anonimnih glasova po debati"
+    max_votes_for_debate_edit: "Broj prikupljenih glasova nakon kojeg se debata više ne može mijenjati"
+    proposal_code_prefix: "Prefiks za šifre prijedloga"
+    months_to_archive_proposals: "Mjeseci za arhiviranje prijedloga"
+    email_domain_for_officials: "Email domena za anketare"
+    twitter_handle: "Ime na Twitteru"
+    twitter_hashtag: "Hashtag na Twitteru"
+    facebook_handle: "Ime na Facebook profilu"
+    youtube_handle: "Ime na YouTube"
+    telegram_handle: "Ime na Telegramu"
+    instagram_handle: "Ime na Instagramu"
+    url: "Glavni URL"
+    feature:
+      twitter_login: Prijava preko Twittera
+      facebook_login: Prijava preko Facebooka
+      google_login: Prijava preko Googlea
+      signature_sheets: Potpisni listovi
+    meta_description: "Opis sajta (SEO)"
+    meta_keywords: "Ključne riječi (SEO)"
+    min_age_to_participate: Najmanja starosna dob za učešće
