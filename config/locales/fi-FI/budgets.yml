@@ -1,0 +1,36 @@
+fi:
+  budgets:
+    ballots:
+      show:
+        remove: Poista ääni
+    investments:
+      form:
+        tag_category_label: "Kategoriat"
+        tags_label: Tunnisteet
+      index:
+        search_form:
+          button: Etsi
+          title: Etsi
+        orders:
+          random: satunnainen
+          confidence_score: korkeimmin arvioitu
+      show:
+        author_deleted: Käyttäjä poistettu
+        share: Jaa
+        votes: Äänet
+        price: Hinta
+        comments_tab: Kommentit
+        milestones_tab: Tavoitteet
+      investment:
+        add: Ääni
+        support_title: Tue tätä projektia
+        supports:
+          zero: Ei tukijoita
+          one: 1 tukija
+          other: "%{count} tukijaa"
+        give_support: Tue
+    show:
+      group: Ryhmä
+      see_results: Näytä tulokset
+    results:
+      show_all_link: Näytä kaikki
