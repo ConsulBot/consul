@@ -1,0 +1,12 @@
+fi:
+  settings:
+    twitter_handle: "Twitter-tunnus"
+    twitter_hashtag: "Twitter aihetunniste"
+    facebook_handle: "Facebook-tunnus"
+    youtube_handle: "YouTube-tunnus"
+    telegram_handle: "Telegram-tunnus"
+    instagram_handle: "Instagram käyttäjätunnus"
+    feature:
+      twitter_login: Twitter kirjautuminen
+      facebook_login: Facebook kirjautuminen
+      google_login: Google kirjautuminen
