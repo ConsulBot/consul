@@ -1,0 +1,644 @@
+cs:
+  admin:
+    header:
+      title: Administrace
+    actions:
+      actions: Akce
+      confirm: Jste si jisti?
+      hide: Skrýt
+      hide_author: Skrýt autora
+      restore: Obnovit
+      mark_featured: Označené
+      unmark_featured: Zrušit označení
+      edit: Upravit
+      configure: Nastavení
+    banners:
+      index:
+        title: Bannery
+        create: Vytvořit banner
+        edit: Upravit banner
+        delete: Odstranit banner
+        filters:
+          all: Vše
+          with_active: Aktivní
+          with_inactive: Neaktivní
+        preview: Zobrazit
+      edit:
+        editing: Upravit banner
+        form:
+          submit_button: Uložit změny
+      new:
+        creating: Vytvořit banner
+    activity:
+      show:
+        action: Akce
+        actions:
+          block: Blokováno
+          hide: Skrytý
+          restore: Obnovený
+        by: Upraveno moderátorem
+        content: Obsah
+        filter: Zobrazit
+        filters:
+          all: Vše
+          on_comments: Komentáře
+          on_debates: Debaty
+          on_proposals: Návrhy
+          on_users: Uživatelé
+        title: Aktivity moderátora
+        type: Typ
+    budgets:
+      index:
+        title: Participativní rozpočty
+        new_link: Vytvořit nový rozpočet
+        filters:
+          finished: Dokončené
+        table_name: Název
+        table_phase: Fáze
+        table_investments: Investice
+        table_edit_groups: Záhlaví skupiny
+        table_edit_budget: Upravit
+        edit_groups: Upravit záhlaví skupiny
+        edit_budget: Upravit rozpočet
+      create:
+        notice: Nový participativní rozpočet byl úspěšně vytvořen!
+      update:
+        notice: Participativní rozpočet byl úspěšně aktualizován
+      edit:
+        title: Upravit participativní rozpočet
+      new:
+        title: Nový participativní rozpočet
+      winners:
+        calculate: Vypočítat vítěznou investici
+        calculated: Výpočet vítězných investic může chvíli trvat.
+    budget_investments:
+      index:
+        heading_filter_all: Všechny kapitoly
+        administrator_filter_all: Všichni administrátoři
+        valuator_filter_all: Všichni hodotitelé
+        tags_filter_all: Všechny štítky
+        filters:
+          without_admin: Bez přidělené role admin
+          valuation_finished: Naceňování bylo ukončeno
+          selected: Vybrané
+          winners: Vítězové
+          all: Vše
+        title: Investiční projekty
+        assigned_admin: Přiřazený administrátor
+        no_admin_assigned: Administrátor není přiřazen
+        no_valuators_assigned: Žádný hodnotitel není přiřazen
+        feasibility:
+          unfeasible: "Nerealizovatelné"
+          undecided: "Nerozhodnuté"
+        selected: "Vybrané"
+        select: "Vybrat"
+      show:
+        assigned_admin: Přiřazený administrátor
+        assigned_valuators: Přiřazení hodnotitelé
+        info: "%{budget_name} - skupina: %{group_name} - investiční projekt %{id}"
+        edit: Upravit
+        edit_classification: Upravit klasifikaci
+        by: Od
+        sent: Odesláno
+        heading: Heading
+        dossier: Dokumentace
+        edit_dossier: Upravit dokumentaci
+        tags: Štítky
+        undefined: Nedefinováno
+        compatibility:
+          title: Kompatibilita
+          "true": Nekompatibilní
+          "false": Kompatibilní
+        selection:
+          title: Výběr
+        winner:
+          title: Vítěz
+          "true": "Ano"
+          "false": "Ne"
+      edit:
+        compatibility: Kompatibilita
+        selection: Výběr
+        assigned_valuators: Hodnotitel
+        select_heading: Vyberte záhlaví
+        submit_button: Aktualizovat
+        tags_placeholder: "Napište štítky které chcete a oddělte je čárkami (,)"
+        undefined: Nedefinováno
+      search_unfeasible: Hledat neproveditelné
+    milestones:
+      index:
+        table_title: "Předmět"
+        table_actions: "Akce"
+        delete: "Odstranit milník"
+        no_milestones: "Milníky nejsou definovány"
+      new:
+        creating: Vytvořit milník
+      edit:
+        title: Upravit fázi
+      create:
+        notice: Úspěšně vytvořen nový milník!
+      update:
+        notice: Milník úspěšně aktualizován
+      delete:
+        notice: Milník byl odstraněn
+    dashboard:
+      index:
+        title: Administrace
+    hidden_users:
+      index:
+        filter: Filtr
+        filters:
+          all: Vše
+          with_confirmed_hide: Potvrzeno
+          without_confirmed_hide: Nevyřízený
+        title: Skrytí uživatelé
+      show:
+        email: 'Email:'
+        hidden_at: 'Skryté v:'
+        registered_at: 'Registrace v:'
+        title: Aktivita uživatele (%{user})
+    legislation:
+      processes:
+        create:
+          notice: 'Proces byl úspěšně vytvořen. <a href="%{link}">Klikněte pro zobrazení</a>'
+          error: Proces nemohl být vytvořen.
+        update:
+          notice: 'Proces byl úspěšně aktualizován. <a href="%{link}">Klikněte pro zobrazení</a>'
+          error: Proces nemohl být aktualizován
+        destroy:
+          notice: Proces byl úspěšně smazán
+        edit:
+          back: Zpět
+          submit_button: Uložit změny
+        form:
+          enabled: Povoleno
+          process: Proces
+          debate_phase: Fáze debaty
+          use_markdown: Pro formátování textu použijte Markdown
+          title_placeholder: Název procesu
+          summary_placeholder: Stručné shrnutí popisu
+          description_placeholder: Přidat popis procesu
+          additional_info_placeholder: Přidat doplňující ifnormace, které považujete za užitečné
+        index:
+          create: Nový proces
+          delete: Smazat
+          filters:
+            all: Vše
+        new:
+          back: Zpět
+          title: Vytvořit nový participativní legislativní proces
+          submit_button: Vytvořit proces
+        process:
+          title: Proces
+          comments: Komentáře
+          status: Status
+          status_open: Otevřené
+          status_closed: Uzavřené
+          status_planned: Plánované
+        subnav:
+          info: Informace
+          questions: Debata
+      draft_versions:
+        create:
+          notice: 'Pracovní verze úspěšně vytvořena. <a href="%{link}">Klikněte pro zobrazení</a>'
+          error: Pracovní verze nemohla být vytvořena.
+        update:
+          notice: 'Pracovní verze byla úspěšně aktualizována. <a href="%{link}">Klikněte pro zobrazení</a>'
+          error: Pracovní verze nemohla být aktualizována.
+        destroy:
+          notice: Pracovní verze byla smazána.
+        edit:
+          back: Zpět
+          submit_button: Uložit změny
+          warning: Text jste upravili, nezapomeňte kliknout na tlačítko Uložit, aby změny byly trvale uloženy.
+        form:
+          launch_text_editor: Spustit textový editor
+          close_text_editor: Zavřít textový editor
+          use_markdown: Pro formátování textu použijte Markdown
+          hints:
+            final_version: Tato verze bude zveřejněna jako konečný výsledek pro tento proces. Komentáře v této verzi nejsou povoleny.
+            status:
+              draft: Můžete zobrazit náhled jako aministrátor, nikdo jiný to nevidí
+              published: Viditelné pro každého
+          title_placeholder: Napište název pracovní verze
+          changelog_placeholder: Přidat hlavní změny od předchozí verze
+          body_placeholder: Poznamenejte si návrh textu
+        index:
+          title: Pracovní verze
+          create: Vytvořit verzi
+          delete: Smazat
+          preview: Náhled
+        new:
+          back: Zpět
+          title: Vytvořit novou verzi
+          submit_button: Vytvořit pracovní verzi
+        table:
+          title: Předmět
+          created_at: Vytvořeno v
+          comments: Komentáře
+          final_version: Final version
+          status: Status
+      questions:
+        create:
+          notice: 'Otázka byla úspěšně vytvořena. <a href="%{link}">Klikněte pro zobrazení</a>'
+          error: Otázka nemohla být vytvořena
+        update:
+          notice: 'Otázka byla úspěšně aktualizována. <a href="%{link}">Klikněte pro zobrazení</a>'
+          error: Otázka nemohla být aktualizována
+        destroy:
+          notice: Otázka byla úspěšně smazána.
+        edit:
+          back: Zpět
+          title: "Upravit \"%{question_title}\""
+          submit_button: Uložit změny
+        form:
+          add_option: Přidat možnost
+          value_placeholder: Přidat uzavřenou odpověď
+        index:
+          back: Zpět
+          title: Otázky spojené s tímto procesem
+          create: Vytvořit otázku
+          delete: Smazat
+        new:
+          back: Zpět
+          title: Vytvořit otázku
+          submit_button: Vytvořit otázku
+        table:
+          title: Předmět
+          question_options: Možnosti otázky
+          answers_count: Počet odpovědí
+          comments_count: Počet komentářů
+        question_option_fields:
+          remove_option: Odstranit možnost
+    managers:
+      index:
+        title: Manažeři
+      manager:
+        add: Přidat
+        delete: Smazat
+    menu:
+      activity: Aktivity moderátora
+      admin: Admin menu
+      banner: Správa bannerů
+      proposals_topics: Témata návrhů
+      budgets: Participativní rozpočty
+      geozones: Správa geografických oblastí
+      hidden_comments: Skryté komentáře
+      hidden_debates: Skrýt debaty
+      hidden_proposals: Skryté návrhy
+      hidden_users: Skrýt uživatele
+      administrators: Administrátoři
+      managers: Manažeři
+      moderators: Moderátoři
+      valuators: Hodnotitelé
+      poll_officers: Asistenti hlasování
+      polls: Průzkum
+      poll_booths: Umístění informačního stánku
+      officials: Úředníci
+      organizations: Organizace
+      stats: Statistiky
+      signature_sheets: Podpisové archy
+      site_customization:
+        content_blocks: Vlastní bloky obsahu
+      title_moderated_content: Moderovaný obsah
+      title_profiles: Profily
+      legislation: Participativní legislativní proces
+      users: Uživatelé
+    administrators:
+      index:
+        title: Administrátoři
+      administrator:
+        add: Přidat
+        delete: Smazat
+        restricted_removal: "Omlouváme se, nemůžete se odstranit ze skupiny administrátorů"
+    moderators:
+      index:
+        title: Moderátoři
+      moderator:
+        add: Přidat
+        delete: Smazat
+    newsletters:
+      index:
+        title: Informační bulletin
+    valuators:
+      index:
+        title: Hodnotitelé
+      valuator:
+        add: Přidat k hodnotitelům
+    poll_officers:
+      index:
+        title: Asistenti hlasování
+      officer:
+        add: Přidat
+        delete: Odstranit pozici
+        name: Název
+        email: Email
+        entry_name: úředník
+      search:
+        email_placeholder: Vyhledat uživatele podle emailu
+        search: Vyhledat
+        user_not_found: Uživatel nenalezen
+    poll_officer_assignments:
+      index:
+        officers_title: "Seznam úředníků"
+        no_officers: "Nemáte žádné hodnotitele přiřazené k tomuto hlasování."
+        table_name: "Název"
+        table_email: "Email"
+      by_officer:
+        date: "Datum"
+        booth: "Oba"
+        assignments: "Administrativní směny v této anketě"
+        no_assignments: "Tento uživatel nemá žádnou směnu v tomto hlasování."
+    poll_booth_assignments:
+      show:
+        location: "Umístění"
+        officers: "Úředníci"
+        officers_list: "Seznam úředníků pro tento informační stánek"
+        no_officers: "Nemáte žádné úředníky pro tento informační stánek"
+        recounts: "Přepisy"
+        recounts_list: "Seznam rozpisů pro tento informační stánek"
+        date: "Datum"
+        count_final: "Konečné přepočtení (podle úředníka)"
+        count_by_system: "Hlasů (automaticky)"
+      index:
+        booths_title: "Seznam informačních stánků"
+        no_booths: "Nemáte žádné informační stánky přiřazené k tomuto průzkumu."
+        table_name: "Název"
+        table_location: "Umístění"
+    polls:
+      index:
+        title: "List of active polls"
+        no_polls: "Nemáte žádné plánované ankety."
+        create: "Vytvořit anketu"
+        name: "Název"
+        dates: "Kalendářní data"
+      new:
+        title: "Nová anketa"
+        submit_button: "Vytvořit anketu"
+      edit:
+        title: "Upravit anketu"
+        submit_button: "Aktualizovat anketu"
+      show:
+        questions_tab: Otázky
+        booths_tab: Informační stánky
+        officers_tab: Úředníci
+        recounts_tab: Přepočet
+        results_tab: Výsledky
+        no_questions: "Nemáte žádné otázky přiřazené k této anketě."
+        questions_title: "Seznam otázek"
+        table_title: "Předmět"
+      flash:
+        question_added: "Otázka přidána k této anketě"
+        error_on_question_added: "Otázku nelze přiřadit k této anketě"
+    questions:
+      index:
+        title: "Otázky"
+        create: "Vytvořit otázku"
+        no_questions: "Nejsou k dispozici žádné otázky."
+        filter_poll: Filtrovat podle ankety
+        select_poll: Vyberte anketu
+        questions_tab: "Otázky"
+        successful_proposals_tab: "Úspěšné návrhy"
+        create_question: "Vytvořit otázku"
+        table_proposal: "Návrhy"
+        table_question: "Question"
+      edit:
+        title: "Upravit dotaz"
+      show:
+        proposal: Původní návrh
+        author: Autor
+        valid_answers: Správné odpovědi
+    recounts:
+      index:
+        title: "Přepočítat"
+        no_recounts: "Není nic k přepočítání"
+        table_booth_name: "Informační stánek"
+        table_system_count: "Hlasů (automaticky)"
+    results:
+      index:
+        title: "Výsledky"
+        no_results: "Nejsou žádné výsledky"
+    booths:
+      index:
+        add_booth: "Přidat informační stánek"
+        name: "Název"
+        location: "Umístění"
+      new:
+        title: "Nový informační stánek"
+        submit_button: "Vytvořit informační stánek"
+      edit:
+        title: "Upravit informační stánek"
+        submit_button: "Aktualizovat informační stánek"
+      show:
+        location: "Umístění"
+    officials:
+      edit:
+        title: 'Úředníci: Upravit uživatele'
+      flash:
+        official_destroyed: 'Podrobnosti uložené: uživatel již nadále není úředník'
+        official_updated: Podrobnosti o úředníkovi uložené
+      index:
+        title: Úředníci
+      level_0: Není úředníkem
+      level_1: Úroveň 1
+      level_2: Úroveň 2
+      level_3: Úroveň 3
+      level_4: Úroveň 4
+      level_5: Úroveň 5
+      search:
+        edit_official: Upravit úředníka
+        make_official: Učinit úředníkem
+        title: 'Úřednické pozice: Vyhledávání uživatelů'
+    organizations:
+      index:
+        filter: Filtr
+        filters:
+          all: Vše
+          pending: Nevyřízený
+          rejected: Odmítnutý
+          verified: Ověřen
+        reject: Odmítnout
+        rejected: Odmítnutý
+        search: Vyhledat
+        search_placeholder: Jméno, email nebo telefonní číslo
+        title: Organizace
+        verified: Ověřen
+        verify: Ověřit
+      search:
+        title: Hledání organizací
+    settings:
+      flash:
+        updated: Hodnota aktualizována
+      index:
+        update_setting: Aktualizovat
+        feature_flags: Doporučené
+        features:
+          enabled: "Funkce povolena"
+          disabled: "Funkce je zakázaná"
+          enable: "Povolit"
+          disable: "Zakázat"
+    shared:
+      booths_search:
+        button: Vyhledat
+      poll_officers_search:
+        button: Vyhledat
+        placeholder: Vyhledat úředníky ankety
+      poll_questions_search:
+        button: Vyhledat
+        placeholder: Vyhledat otázky ankety
+      proposal_search:
+        button: Vyhledat
+        placeholder: Vyhledat návrhy podle názvu, kódu, popisu nebo otázky
+      user_search:
+        button: Vyhledat
+        placeholder: Vyhledat uživatele podle jména nebo e-mailu
+      search_results: "Výsledky vyhledávání"
+      no_search_results: "Nebyly nalezeny žádné výsledky."
+    geozones:
+      index:
+        title: Geozóna
+        create: Vytvořit geozónu
+        edit: Upravit
+        delete: Smazat
+      geozone:
+        name: Název
+        external_code: Externí kód
+        census_code: Kód statistického úřadu
+        coordinates: Souřadnice
+      edit:
+        form:
+          submit_button: Uložit změny
+        editing: Úprava geozóny
+        back: Jít zpět
+      new:
+        back: Jít zpět
+        creating: Vytvořit oblast
+      delete:
+        success: Geozóna byla odstraněna
+        error: Tato geozóna nemohla být odstraněna, protože jsou k ní připojeny některé prvky
+    signature_sheets:
+      author: Autor
+      created_at: Datum vytvoření
+      name: Název
+      no_signature_sheets: "Nemáte žádné podpisové archy"
+      index:
+        title: Podpisové archy
+        new: Nové podpisové archy
+      new:
+        title: Nové podpisové archy
+        submit: Vytvořit podpisový arch
+      show:
+        created_at: Vytvořen
+        author: Autor
+        unverified_error: (Není ověřeno statistickým úřadem)
+        loading: "Stále existují podpisy, které nejsou ověřeny základními datovými registry, prosíme aktualizujte stránku za pár okamžiků"
+    stats:
+      show:
+        stats_title: Statistiky
+        summary:
+          comment_votes: Hlasů ke komentářům
+          comments: Komentáře
+          debate_votes: Hlasů k debatám
+          debates: Debaty
+          proposal_votes: Hlasů k návrhům
+          proposals: Návrhy
+          budgets: Otevřené rozpočty
+          budget_investments: Investiční projekty
+          unverified_users: Neověření uživatelé
+          user_level_three: Počet uživatelů třetí úrovně
+          user_level_two: Počet uživatelů druhé úrovně
+          users: Počet uživatelů
+          verified_users: Ověření uživatelé
+          verified_users_who_didnt_vote_proposals: Počet ověřených uživatelů, kteří nehlasovali o návrzích
+          visits: Návštěvy
+          votes: Hlasů celkem
+        budgets_title: Participativní rozpočtování
+        direct_messages: Soukromé zprávy
+        proposal_notifications: Upozornění k návrhům
+        incomplete_verifications: Neúplné ověření
+      direct_messages:
+        title: Soukromé zprávy
+        total: Celkem
+        users_who_have_sent_message: Uživatelé, kteří poslali soukromou zprávu
+      proposal_notifications:
+        title: Upozornění k návrhům
+        total: Celkem
+        proposals_with_notifications: Návrhy s oznámeními
+    tags:
+      index:
+        add_tag: Přidat nové téma návrhu
+        title: Témata návrhů
+    users:
+      columns:
+        name: Název
+        email: Email
+        document_number: Číslo dokladu
+        roles: Role
+        verification_level: Úroveň ověření
+      index:
+        title: User
+      search:
+        placeholder: Hledat uživatele pomocí e-mailu, jména nebo čísla dokladu
+        search: Vyhledat
+    verifications:
+      index:
+        phone_not_given: Telefon není uveden
+        sms_code_not_confirmed: Není potvrzené pomocí sms kódu
+        title: Neúplné ověření
+    site_customization:
+      content_blocks:
+        create:
+          notice: Blok s obsahem úspěšně vytvořen
+          error: Nelze vytvořit blok s obsahem
+        update:
+          notice: Blok s obsahem úspěšně aktualizován
+          error: Blok s obsahem nemohl být aktualizován
+        destroy:
+          notice: Blok s obsahem byl smazán
+        edit:
+          title: Úprava bloku s obsahem
+        index:
+          create: Vytvořit nový blok s obsahem
+          delete: Odstranit blok
+          title: Bloky s obsahem
+        new:
+          title: Vytvořit nový blok s obsahem
+        content_block:
+          body: Body
+          name: Název
+      images:
+        index:
+          title: Vlastní obrázky
+          update: Aktualizovat
+          delete: Smazat
+          image: Image
+        update:
+          notice: Obrázek byl úspěšně aktualizován
+          error: Obrázek nemohl být aktualizován
+        destroy:
+          notice: Obrázek byl úspěšně smazán
+          error: Obrázek nemohl být smazán
+      pages:
+        create:
+          notice: Stránka byla úspěšně vytvořena
+          error: Stránka nemohla být vytvořena
+        update:
+          notice: Stránka úspěšně aktualizována
+          error: Stránka nemohla být aktualizována
+        destroy:
+          notice: Stránka byla úspěšně smazána
+        edit:
+          title: Editace %{page_title}
+        form:
+          options: Options
+        index:
+          create: Vytvořit novou stránku
+          delete: Smazat stránku
+          title: Vlastní stránky
+          see_page: Zobrazit stránku
+        new:
+          title: Vytvořit novou vlastní stránku
+        page:
+          created_at: Vytvořeno v
+          status: Status
+          title: Předmět
+          updated_at: Aktualizováno dne
