@@ -1,0 +1,6 @@
+cs:
+  pages:
+    verify:
+      info_code: 'Nyní zadejte kód, který jste obdrželi v dopise:'
+      submit: Ověřit můj účet
+      title: Ověřte svůj účet
