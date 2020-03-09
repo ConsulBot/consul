@@ -1,0 +1,6 @@
+hr:
+  pages:
+    verify:
+      info_code: 'Sada koristite šifru koju ste zaprimili u pismu:'
+      submit: Potvrdi moj račun
+      title: Potvrditi tvoj račun
