@@ -1,0 +1,28 @@
+sq:
+  settings:
+    comments_body_max_length: "Gjatësia maksimale e komenteve"
+    official_level_1_name: "Zyrtar publik i nivelit 1"
+    official_level_2_name: "Zyrtar publik i nivelit 2"
+    official_level_3_name: "Zyrtar publik i nivelit 3"
+    official_level_4_name: "Zyrtar publik i nivelit 4"
+    official_level_5_name: "Zyrtar publik i nivelit 5"
+    max_ratio_anon_votes_on_debates: "Raporti maksimal i votave anonime për Debat"
+    max_votes_for_debate_edit: "Numri i votave nga të cilat një Propozim nuk mund të përpunohet"
+    proposal_code_prefix: "Prefixi për kodet e Propozimit"
+    months_to_archive_proposals: "Muajt për të arkivuar Propozimet"
+    email_domain_for_officials: "Domaini i emailit për zyrtarët publikë"
+    twitter_handle: "Twitter handle"
+    twitter_hashtag: "Hashtagu Twitter-it"
+    facebook_handle: "Facebook handle"
+    youtube_handle: "Youtube handle"
+    telegram_handle: "Telegram handle"
+    instagram_handle: "Instagram handle"
+    url: "URL kryesore"
+    feature:
+      twitter_login: "\nIdentifikohu në Twitter"
+      facebook_login: Identifikohu në Facebook
+      google_login: Identifikohu në Google
+      signature_sheets: Nënshkrimi i fletëve
+    meta_description: "Përshkrimi i faqes (SEO)\n"
+    meta_keywords: "\nFjalë kyçe (SEO)"
+    min_age_to_participate: Mosha minimale e nevojshme për të marrë pjesë
