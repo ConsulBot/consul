@@ -1,0 +1,55 @@
+pl:
+  officing:
+    header:
+      title: Ankieta
+    dashboard:
+      index:
+        title: Uoficialnianie głosowania
+        info: Tutaj możesz uprawomocniać dokumenty użytkownika i przechowaywać wyniki głosowania
+    menu:
+      voters: Uprawomocnij dokument
+    polls:
+      final:
+        title: Ankiety gotowe do ostatecznego przeliczenia
+        no_polls: Nie uoficjalniasz ostatecznych rozliczeń w żadnej aktywnej ankiecie
+        select_poll: Wybierz ankietę
+        add_results: Dodaj wyniki
+    results:
+      flash:
+        create: "Wyniki zapisane"
+        error_create: "Wyniki NIE zapisane. Błąd w danych."
+        error_wrong_booth: "Zła kabina wyborcza. Wyniki NIE zapisane."
+      new:
+        title: "%{poll} - Dodaj wyniki"
+        booth: "Kabina wyborcza"
+        date: "Data"
+        select_booth: "Wybierz kabinę wyborczą"
+        ballots_null: "Nieprawidłowe karty do głosowania"
+        submit: "Zapisz"
+        results_list: "Twoje wyniki"
+        see_results: "Zobacz wyniki"
+      index:
+        no_results: "Brak wyników"
+        results: Wyniki
+        table_answer: Odpowiedź
+        table_votes: Głosów
+        table_nulls: "Nieprawidłowe karty do głosowania"
+    residence:
+      flash:
+        create: "Dokument zweryfikowany ze Spisem Powszechnym"
+        not_allowed: "Nie masz dziś uoficjalniających zmian"
+      new:
+        title: Uprawomocnij dokument
+        document_number: "Numer dokumentu (zawierając litery)"
+        submit: Uprawomocnij dokument
+        error_verifying_census: "Spis powszechny nie był w stanie zweryfikować tego dokumentu."
+        form_errors: uniemożliwił weryfikację tego dokumentu
+    voters:
+      new:
+        title: Ankiety
+        table_poll: Głosowanie
+      show:
+        can_vote: Można głosować
+        error_already_voted: Brał już udział w tej ankiecie
+        submit: Potwierdź głos
+        success: "Głosowanie wprowadzone!"
