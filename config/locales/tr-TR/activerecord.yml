@@ -1,0 +1,209 @@
+tr:
+  activerecord:
+    models:
+      activity:
+        one: "etkinlik"
+        other: "faaliyet"
+      budget/investment:
+        one: "Yatırım"
+        other: "Yatırımlar"
+      comment:
+        one: "Yorum"
+        other: "Yorumlar"
+      debate:
+        one: "Tartışma"
+        other: "Tartışmalar"
+      tag:
+        one: "Etiket"
+        other: "Etiketler"
+      user:
+        one: "Kullanıcı"
+        other: "Kullanıcılar"
+      moderator:
+        one: "Moderatör"
+        other: "Moderatörler"
+      administrator:
+        one: "Yönetici"
+        other: "Yöneticiler"
+      vote:
+        one: "Oy"
+        other: "Oylar"
+      organization:
+        one: "Kurum"
+        other: "Organizasyonlar"
+      poll/booth:
+        one: "kabin"
+        other: "kabinler"
+      poll/officer:
+        one: "görevli"
+        other: "görevliler"
+      proposal:
+        one: "Vatandaş önerisi"
+        other: "Vatandaş önerileri"
+      site_customization/page:
+        one: Kişisel sayfa
+        other: Kişisel sayfalar
+      site_customization/image:
+        one: Kişisel görsel
+        other: Kişisel görseller
+      site_customization/content_block:
+        one: Özel içerik bloğu
+        other: Özel içerik blokları
+      legislation/process:
+        one: "Süreç"
+        other: "Süreçler"
+      legislation/draft_versions:
+        one: "Taslak versiyon"
+        other: "Taslak versiyonlar"
+      legislation/questions:
+        one: "Soru"
+        other: "Sorular"
+      legislation/question_options:
+        one: "Soru seçeneği"
+        other: "Soru seçenekleri"
+      legislation/answers:
+        one: "Cevap"
+        other: "Cevaplar"
+    attributes:
+      budget:
+        name: "İsim"
+        description_accepting: "Kabul aşaması sırasında tanımlama"
+        description_reviewing: "Gözden Geçirme aşaması sırasında tanımlama"
+        description_selecting: "Seçim aşaması sırasında tanımlama"
+        description_valuating: "Değerlendirme aşaması sırasında tanımlama"
+        description_balloting: "Oylama aşamasında tanımlama"
+        description_reviewing_ballots: "Oyları Gözden Geçirme aşamasında tanımlama"
+        description_finished: "Bütçe tamamlandığı zaman belirtilen tanım"
+        phase: "Aşama"
+        currency_symbol: "Para Birimi"
+      budget/investment:
+        heading_id: "Başlık"
+        title: "İsim"
+        description: "Tanımlama"
+        external_url: "Ek belgelere bağlantı"
+        administrator_id: "Yönetici"
+      comment:
+        body: "Yorum"
+        user: "Kullanıcı"
+      debate:
+        author: "Yazar"
+        description: "Fikir"
+        terms_of_service: "Hizmet şartları"
+        title: "İsim"
+      proposal:
+        author: "Yazar"
+        title: "İsim"
+        question: "Soru"
+        description: "Tanımlama"
+        terms_of_service: "Kullanım şartları"
+      user:
+        login: "E-posta veya kullanıcı adı"
+        email: "E-posta"
+        username: "Kullanıcı adı"
+        password_confirmation: "Şifre onayı"
+        password: "Şifre"
+        current_password: "Mevcut şifre"
+        phone_number: "Telefon numarası"
+        official_position: "Resmi görev"
+        official_level: "Resmi düzey"
+        redeemable_code: "Doğrulama kodu e-posta yoluyla alındı"
+      organization:
+        name: "Organizasyon adı"
+        responsible_name: "Gruptan sorumlu kişi"
+      poll:
+        name: "Ad"
+        starts_at: "Başlangıç Tarihi"
+        ends_at: "Kapanış Tarihi"
+        geozone_restricted: "Geozone tarafından kısıtlandırılmış"
+      poll/question:
+        title: "Soru"
+        summary: "Özet"
+        description: "Tanımlama"
+        external_url: "Ek belgelere bağlantı"
+      signature_sheet:
+        signable_type: "İmzalanır tür"
+        signable_id: "İmzalanır KİMLİK"
+        document_numbers: "Belgelerin numaraları"
+      site_customization/page:
+        content: İçerik
+        created_at: Oluşturuldu
+        subtitle: Altyazı
+        slug: Parça
+        status: Durum
+        title: İsim
+        updated_at: Güncellenmiş
+        print_content_flag: İçerik yazdır düğmesi
+        locale: Dil
+      site_customization/image:
+        name: Ad
+        image: Fotoğraf
+      site_customization/content_block:
+        name: Ad
+        locale: yer
+        body: Gövde
+      legislation/process:
+        title: İşlem Adı
+        description: Açıklama
+        additional_info: Ek bilgi
+        draft_publication_date: Taslak yayın tarihi
+        result_publication_date: Son sonuç yayın tarihi
+      legislation/draft_version:
+        title: Sürüm adı
+        body: Metin
+        changelog: Değişiklikler
+        status: Durum
+        final_version: Son sürüm
+      legislation/question:
+        title: İsim
+        question_options: Seçenekler
+      legislation/question_option:
+        value: Değer
+      legislation/annotation:
+        text: Yorum
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "Bu kullanıcının bir şifresi var"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "etiketler %{count} 'tan küçük veya ona eşit olmalıdır"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "Günlük maksimum özel mesaj sayısına ulaştınız"
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "Belge sayımda değil"
+              has_voted: "Kullanıcı zaten oylanmış"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: başlangıç tarihi sonrasında veya sırasında olmalıdır
+            debate_end_date:
+              invalid_date_range: tartışma başlangıç tarihinde veya sonrasında olmalıdır
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "etiketiler %{count} 'tan daha az veya eşit sayıda olmalıdır"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "etiketiler %{count} 'tan daha az veya eşit sayıda olmalıdır"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: 'Pusula tarafından doğrulanmadı'
+              already_voted: 'Bu öneriye daha önce oy verdiniz'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "harfler, sayılar, _ ve - olmalıdır"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Genişlik %{required_width}px olmalı"
+              image_height: "Yükseklik %{required_height}px olmalı"
