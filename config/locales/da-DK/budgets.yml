@@ -1,0 +1,101 @@
+da:
+  budgets:
+    ballots:
+      show:
+        title: Din stemme
+        amount_spent: Opbrugt beløb
+        remaining: "Du har stadig <span>%{amount}</span> at investere for."
+        no_balloted_group_yet: "Du har ikke stemt på denne gruppe endnu, så stem stem stem!"
+        remove: Fjern din stemme
+        zero: Du har endnu ikke stemt.
+      reasons_for_not_balloting:
+        not_logged_in: Du skal %{signin} eller %{signup} for at kunne fortsætte.
+        not_verified: Kun verificerede brugere kan stemme på projekter; %{verify_account}.
+        organization: Det er ikke tilladt for organisationer at stemme
+        not_selected: Du kan ikke støtte op om idéer, der ikke kan gennemføres
+        no_ballots_allowed: Støttefasen er slut
+        change_ballot: ændre din stemme
+    groups:
+      show:
+        title: Vælg en mulighed
+        unfeasible_title: Projekter, der ikke er mulige at gennemføre
+        unfeasible: Se projekter, der ikke kan gennemføres
+        unselected_title: Projekter, der ikke er udvalgt til afstemningsfasen
+        unselected: Se projekter, der ikke er udvalgt til afstemningsfasen
+    phase:
+      accepting: Opret dit forslag
+      reviewing: Vi gennemgår projekterne
+      selecting: Støt de forslag der skal gå videre
+      valuating: Vi evaluerer jeres forslag
+      finished: Se resultat af afstemning
+    index:
+      title: Deltagerbudgetter
+    investments:
+      form:
+        tag_category_label: "Kategorier"
+        tags_instructions: "Tilføj tags. Du kan vælge mellem de allerede viste kategorier eller tilføje dine egne"
+        tags_label: Tags
+        tags_placeholder: "Tilføj de tags du gerne vil anvende og adskil dem med komma (',')"
+      index:
+        title: Deltagerbudgetter
+        unfeasible: Projekter, der ikke er mulige at gennemføre
+        by_heading: "Forslag tilknyttet: %{heading}"
+        search_form:
+          button: Søg
+          placeholder: Søg efter projekter...
+          title: Søg
+        sidebar:
+          my_ballot: Min stemme
+          voted_info: Du kan %{link} på ethvert tidspunkt inden denne fase afsluttes. Det er ikke nødvendigt at bruge alle de penge, der er til rådighed.
+          voted_info_link: ændre din stemme
+          change_ballot: "Hvis du ombestemmer dig, kan du fjerne din stemme in %{check_ballot} og starte forfra."
+          zero: Du har endnu ikke stemt på forslag i denne gruppe.
+          verified_only: "For at oprette et forslag til det aktuelle deltagerbudget %{verify}."
+          not_logged_in: "For at oprette et forslag skal du %{sign_in} eller %{sign_up}."
+          by_feasibility: Kan gennemføres
+          feasible: Mulige forslag
+          unfeasible: Ikke mulige forslag
+        orders:
+          random: Alle idéer
+          confidence_score: højest rangeret
+          price: pris
+      show:
+        author_deleted: Bruger slettet
+        price_explanation: Forklaring på pris
+        unfeasibility_explanation: Forklaring på, hvorfor projektet ikke kan gennemføres
+        share: Del
+        title: Projekt
+        supports: Støtte
+        votes: Stemmer
+        price: Pris
+        comments_tab: Kommentarer
+        milestones_tab: Processer
+      wrong_price_format: Kun hele tal
+      investment:
+        add: Stem
+        already_added: Du har allerede tilføjet projektet
+        support_title: Støt forslaget
+        supports:
+          zero: Ingen støtte
+          one: 1 støtter op om projektet
+          other: "%{count} støtter op om projektet"
+        give_support: Støt
+      header:
+        change_ballot: "Hvis du ombestemmer dig, kan du fjerne din stemme in %{check_ballot} og starte forfra."
+    show:
+      group: Gruppe
+      phase: Aktuel fase
+      unfeasible_title: Projekter, der ikke kan gennemføres
+      unfeasible: Se projekter, der ikke kan gennemføres
+      unselected_title: Projekter, der ikke er udvalgt til afstemning
+      unselected: Se projekter, der ikke er udvalgt til afstemning
+      see_results: Se resultat
+    results:
+      link: Resultater
+      page_title: "%{budget} - Resultater"
+      heading: "Resultat af deltagerbudgettet"
+      heading_selection_title: "Efter distrikt"
+      hide_discarded_link: Skjul fravalgte projekter
+      show_all_link: Vis alle
+      amount_available: 'Penge der kan fordeles: '
+      incompatibles: Uforeneligede
