@@ -1,0 +1,61 @@
+el:
+  valuation:
+    header:
+      title: Αξιολόγηση
+    menu:
+      title: Αξιολόγηση
+      budgets: Συμμετοχικοί προϋπολογισμοί
+    budgets:
+      index:
+        title: Συμμετοχικοί προϋπολογισμοί
+        filters:
+          current: Ανοιχτό
+          finished: Ολοκληρώθηκε
+        table_name: Όνομα
+        table_phase: Φάση
+        table_assigned_investments_valuation_open: Επενδυτικά σχέδια που έχουν ανατεθεί με αποτίμηση ανοίξτε
+        table_actions: Ενέργειες
+        evaluate: Αξιολόγηση
+    budget_investments:
+      index:
+        headings_filter_all: Όλες οι επικεφαλίδες
+        filters:
+          valuation_open: Άνοιγμα
+          valuating: Υπό αξιολόγηση
+          valuation_finished: Η αξιολόγηση ολοκληρώθηκε
+        assigned_to: "Έχει ανατεθεί σε %{valuator}"
+        title: Επενδυτικά έργα
+        edit: Επεξεργασία φακέλου
+        table_id: Ταυτότητα
+        table_title: Τίτλος
+        table_heading_name: Όνομα επικεφαλίδας
+        table_actions: Ενέργειες
+      show:
+        back: Πίσω
+        title: Επενδυτικό έργο
+        info: Πληροφορίες συντάκτη
+        by: Αποστολή από
+        sent: Αποστολή σε
+        heading: Επικεφαλίδα
+        dossier: Φάκελος
+        edit_dossier: Επεξεργασία φακέλου
+        price: Τιμή
+        price_first_year: Κόστος κατά το πρώτο έτος
+        currency: "€"
+        feasibility: Κατά πόσο είναι εφικτό
+        feasible: Εφικτό
+        unfeasible: Δεν είναι εφικτό
+        undefined: Δεν έχει προσδιοριστεί
+        valuation_finished: Η αξιολόγηση ολοκληρώθηκε
+        duration: Χρονικό πλαίσιο
+        responsibles: Υπεύθυνοι
+        assigned_admin: Αναθετημένος λειτουργός
+        assigned_valuators: Ανατεθημένοι αξιολογητές
+      edit:
+        dossier: Φάκελος
+        feasibility: Κατά πόσο έιναι εφικτό 
+        save: Αποθήκευση αλλαγών
+      notice:
+        valuate: "Ο φάκελος έχει ενημερεί"
+
+
