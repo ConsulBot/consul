@@ -1,0 +1,653 @@
+hr:
+  admin:
+    header:
+      title: Administracija
+    actions:
+      actions: Djelovanja
+      confirm: Jeste li sigurni?
+      hide: Sakrij
+      hide_author: Sakrij autora
+      restore: Obnovi
+      mark_featured: Istaknuto
+      unmark_featured: Neoznačeno istaknuto
+      edit: Uredi
+      configure: Konfiguriraj
+    banners:
+      index:
+        title: Zastave
+        create: Stvori zastave
+        edit: Uredi zastavu
+        delete: Obriši zastavu
+        filters:
+          all: Svi
+          with_active: Aktivirati
+          with_inactive: Neaktivan
+        preview: Pregled
+      edit:
+        editing: Uredi zastavu
+        form:
+          submit_button: Spremi promjene
+      new:
+        creating: Stvori zastavu
+    activity:
+      show:
+        action: Akcija
+        actions:
+          block: Blokirano
+          hide: Skriveno
+          restore: Obnovljeno
+        by: Uređeno od
+        content: Sadržaj
+        filter: Prikaži
+        filters:
+          all: Svi
+          on_comments: Komentari
+          on_debates: Rasprave
+          on_proposals: Prijedlozi
+          on_users: Krosnici
+        title: Aktivnosti moderatora
+        type: Tip
+    budgets:
+      index:
+        title: Participativni budžeti
+        new_link: Stvori novi budžet
+        filters:
+          finished: Dovršeno
+        table_name: Ime
+        table_phase: Faza
+        table_investments: Investicije
+        table_edit_groups: Tematska grupa
+        table_edit_budget: Uredi
+        edit_groups: Uredi naslov grupa
+        edit_budget: Uredi budžet
+      create:
+        notice: Novi participativni budžet je stvoren uspješno!
+      update:
+        notice: Participativni budžet je ažuriran uspješno
+      edit:
+        title: Uredi Participativni budžet
+      new:
+        title: Novi participativni budžet
+      winners:
+        calculate: Izračunaj Pobjedničke Investicije
+        calculated: Pobjednici se izračunavaju, potrebna je minuta.
+    budget_investments:
+      index:
+        heading_filter_all: Svi naslovi
+        administrator_filter_all: Svi administratori
+        valuator_filter_all: Svi procjenitelji
+        tags_filter_all: Sve oznake
+        filters:
+          without_admin: Bez dodjeljenog admina
+          valuation_finished: Evaluacija dovršena
+          selected: Odabrano
+          winners: Pobjednici
+          all: Svi
+        title: Investicijski projekti
+        assigned_admin: Dodijeljen administrator
+        no_admin_assigned: Nema dodijeljenog administratora
+        no_valuators_assigned: Nema dodijeljenih procjenitelja
+        feasibility:
+          unfeasible: "Neizvodljivo"
+          undecided: "Nije odlučeno"
+        selected: "Odabrano"
+        select: "Odaberi"
+      show:
+        assigned_admin: Dodijeljen administrator
+        assigned_valuators: Pripisani procjenitelji
+        info: "%{budget_name} - Grupa: %{group_name}- Investicijski projekt %{id}"
+        edit: Uredi
+        edit_classification: Uredi klasifikaciju
+        by: Od
+        sent: Pošalji
+        heading: Naslov
+        dossier: Dosje
+        edit_dossier: Uredi dosje
+        tags: Oznake
+        undefined: Nedefinirano
+        compatibility:
+          title: Kompatibilnost
+          "true": Nekompatabilno
+          "false": Kompatibilno
+        selection:
+          title: Odabir
+        winner:
+          title: Pobjednik
+          "true": "Da"
+          "false": "Ne"
+      edit:
+        compatibility: Kompatibilnost
+        selection: Odabir
+        assigned_valuators: Procjenitelji
+        select_heading: Označi naslov
+        submit_button: Ažuriranje
+        tags_placeholder: "Dopiši oznake koje želiš odjeliti zarezom (,)"
+        undefined: Nedefinirano
+      search_unfeasible: Pretraga neizvediva
+    milestones:
+      index:
+        table_title: "Naziv"
+        table_description: "Opis"
+        table_actions: "Akcije"
+        delete: "Obriši ključni cilj"
+        no_milestones: "Nemate definirane ključne ciljeve"
+      new:
+        creating: Stvori ključni cilj
+      edit:
+        title: Uredi ključne ciljeve
+      create:
+        notice: Novi ključni ciljevi stvoreni su uspješno!
+      update:
+        notice: Ključni ciljevi uspješno ažurirani
+      delete:
+        notice: Ključni ciljevi uspješno obrisani
+    dashboard:
+      index:
+        title: Administracija
+    hidden_users:
+      index:
+        filter: Filter
+        filters:
+          all: Svi
+          with_confirmed_hide: Potvrđeno
+          without_confirmed_hide: U tijeku
+        title: Sakriveni korisnici
+      show:
+        email: 'Email:'
+        hidden_at: 'Sakriveno u:'
+        registered_at: 'Registrirano u:'
+        title: Aktivnost korisnika (%{user})
+    legislation:
+      processes:
+        create:
+          notice: 'Proces je uspješno stvoren. <a href="%{link}">Pritisni kako bi posjetio</a>'
+          error: Proces ne može biti stvoren
+        update:
+          notice: 'Proces je učitan uspješno. <a href="%{link}">Klikni kako bi posjetio</a>'
+          error: Proces ne može biti ažuriran
+        destroy:
+          notice: Proces uspješno obrisan
+        edit:
+          back: Nazad
+          submit_button: Spremi promjene
+        form:
+          enabled: Omogućeno
+          process: Proces
+          debate_phase: Faza rasprave
+          use_markdown: Koristi Smanjenje kako bi formatirali tekst
+          title_placeholder: Naziv procesa
+          summary_placeholder: Kratki sažetak opisa
+          description_placeholder: Dodaj opis procesa
+          additional_info_placeholder: Dodaj dodatne informacije koje smatraš korisnima
+        index:
+          create: Novi proces
+          delete: Izbriši
+          filters:
+            all: Svi
+        new:
+          back: Nazad
+          title: Svori novi proces za kolaborativnu legislativu
+          submit_button: Stvori proces
+        process:
+          title: Proces
+          comments: Komentari
+          status: Status
+          status_open: Otvoren
+          status_closed: Zatvoren
+          status_planned: Planirano
+        subnav:
+          info: Informacija
+          questions: Rasprava
+      draft_versions:
+        create:
+          notice: 'Draft uspješno stvoren. <a href="%{link}">Kliknite ovdje da posjetite</a>'
+          error: Draft nije uspješno stvoren
+        update:
+          notice: 'Draft uspješno ažuriran. <a href="%{link}">Kliknite ovdje kako bi posjetili</a>'
+          error: Draft se nemože ažurirati
+        destroy:
+          notice: Draft je uspješno obrisan
+        edit:
+          back: Nazad
+          submit_button: Spremi promjene
+          warning: Možete urediti tekst, nemojte zaboraviti klinuti Spremi kako bi trajno spremili promjene.
+        form:
+          launch_text_editor: Upali uređivač teksta
+          close_text_editor: Zatvori uređivač teksta
+          use_markdown: Koristi Smanjenje kako bi formatirali tekst
+          hints:
+            final_version: Ova verzija će se objaviti kao Konačni rezultat ovog procesa. Komentari neće biti dopušteni u ovoj verziji.
+            status:
+              draft: Ovo možete pregledati kao admin, nitko drugi nema uvid
+              published: Vidljivo svima
+          title_placeholder: Napiši naziv draft verzije
+          changelog_placeholder: Dodaj glavne promejene od prošle verzije
+          body_placeholder: Napiši tekst drafta
+        index:
+          title: Draft verzije
+          create: Stvori verziju
+          delete: Izbriši
+          preview: Pregled
+        new:
+          back: Nazad
+          title: Stvori novu verziju
+          submit_button: Stvori verziju
+        table:
+          title: Naziv
+          created_at: Stvoreno u
+          comments: Komentari
+          final_version: Finalna verzija
+          status: Status
+      questions:
+        create:
+          notice: 'Pitanja uspješno stvorena. <a href="%{link}">Kliknite ovdje da posjetite</a>'
+          error: Ne možete stvoriti pitanje
+        update:
+          notice: 'Pitanje uspješno ažurirano. <a href="%{link}">Kliknite ovdje da posjetite</a>'
+          error: Pitanje se ne može ažurirati
+        destroy:
+          notice: Pitanje uspješno obrisano
+        edit:
+          back: Nazad
+          title: "Uredi \"%{question_title}\""
+          submit_button: Spremi promjene
+        form:
+          add_option: Dodaj opciju
+          value_placeholder: Dodaj zatvreni odgovor
+        index:
+          back: Nazad
+          title: Pitanja povezana s ovim procesom
+          create: Stvori pitanje
+          delete: Izbriši
+        new:
+          back: Nazad
+          title: Stvori novo pitanje
+          submit_button: Stvori pitanje
+        table:
+          title: Naziv
+          question_options: Opcije pitanja
+          answers_count: Odgovori se broje
+          comments_count: Broj komentara
+        question_option_fields:
+          remove_option: Ukloni opciju
+    managers:
+      index:
+        title: Menadžeri
+      manager:
+        add: Dodaj
+        delete: Izbriši
+    menu:
+      activity: Aktivnosti moderatora
+      admin: Meni admina
+      banner: Upravljaj zastavama
+      proposals_topics: Teme prijedloga
+      budgets: Participativni budžeti
+      geozones: Uredi geozone
+      hidden_comments: Sakriveni komentari
+      hidden_debates: Sakrivene rasprave
+      hidden_proposals: Sakriveni prijedlozi
+      hidden_users: Sakriveni korisnici
+      administrators: Administratori
+      managers: Menadžeri
+      moderators: Moderatori
+      valuators: Procjenitelji
+      poll_officers: Službenici za bilježenje glasova
+      polls: Glasanje
+      poll_booths: Položaj glasačkih mjesta
+      officials: Službenici
+      organizations: Organizacije
+      stats: Statistike
+      signature_sheets: Liste za potpise
+      site_customization:
+        content_blocks: Prilagođeni blokovi sadržaja
+      title_moderated_content: Moderirani sadržaj
+      title_profiles: Profili
+      legislation: Kolaborativna Legislativa
+      users: Krosnici
+    administrators:
+      index:
+        title: Administratori
+      administrator:
+        add: Dodaj
+        delete: Izbriši
+        restricted_removal: "Oprostite, ne možete sebe ukloniti kao administratora"
+    moderators:
+      index:
+        title: Moderatori
+      moderator:
+        add: Dodaj
+        delete: Izbriši
+    newsletters:
+      index:
+        title: Newsletteri
+    valuators:
+      index:
+        title: Procjenitelji
+      valuator:
+        add: Dodaj procjenitelje
+    poll_officers:
+      index:
+        title: Službenici za bilježenje glasova
+      officer:
+        add: Dodaj
+        delete: Obriši poziciju
+        name: Ime
+        email: Email
+        entry_name: činovnik
+      search:
+        email_placeholder: Pretraži korisnika po emailu
+        search: Pretraga
+        user_not_found: Korisnik nije pronađen
+    poll_officer_assignments:
+      index:
+        officers_title: "Popis činovnika"
+        no_officers: "Ne postoje činovnici pripisani ovoj anketi."
+        table_name: "Ime"
+        table_email: "Email"
+      by_officer:
+        date: "Datum"
+        booth: "Glasačko mjesto"
+        assignments: "Promjene u službi u ovom glasanju"
+        no_assignments: "Ovaj korisnik nema činovnika u smjeni u ovom glasanju."
+    poll_booth_assignments:
+      show:
+        location: "Lokacija"
+        officers: "Činovnici"
+        officers_list: "Lista činovnika u ovom glasačkom mjestu"
+        no_officers: "Ne postoje činovnici na ovom glasačkom mjestu"
+        recounts: "Prebrojavanje"
+        recounts_list: "Prebrojite listu za ovo glasačko mjesto"
+        date: "Datum"
+        count_final: "Konačno prebrojavanje (od strane činovnika)"
+        count_by_system: "Glasovi (automatski)"
+      index:
+        booths_title: "Popis glasačkih mjesta"
+        no_booths: "Ne postoje glasačka mjesta pripisana ovom glasanju."
+        table_name: "Ime"
+        table_location: "Lokacija"
+    polls:
+      index:
+        title: "Popis glasanja"
+        no_polls: "Ne postoje glasanja."
+        create: "Stvori glasanje"
+        name: "Ime"
+        dates: "Datumi"
+      new:
+        title: "Novo glasanje"
+        submit_button: "Stvori glasanje"
+      edit:
+        title: "Uredi glasanje"
+        submit_button: "Ažuriraj glasanje"
+      show:
+        questions_tab: Pitanja
+        booths_tab: Glasačka mjesta
+        officers_tab: Činovnici
+        recounts_tab: Prebrojavanje
+        results_tab: Rezultati
+        no_questions: "Ne postoje pitanja pripisana ovom glasovanju."
+        questions_title: "Popis pitanja"
+        table_title: "Naziv"
+      flash:
+        question_added: "Dodana pitanja ovom glasanju"
+        error_on_question_added: "Pitanja nisu mogla biti pripisana ovom glasanju"
+    questions:
+      index:
+        title: "Pitanja"
+        create: "Stvori pitanje"
+        no_questions: "Ne postoje pitanja."
+        filter_poll: Filtriraj po Glasanju
+        select_poll: Odaberi Glasanje
+        questions_tab: "Pitanja"
+        successful_proposals_tab: "Uspješni prijedlozi"
+        create_question: "Stvori pitanje"
+        table_proposal: "Prijedlog"
+        table_question: "Pitanje"
+      edit:
+        title: "Uredi Pitanje"
+      show:
+        proposal: Izvorni prijedlog
+        author: Autor
+        valid_answers: Valjani odgovori
+    recounts:
+      index:
+        title: "Prebrojavanje"
+        no_recounts: "Ne postoje glasovi koje možemo prebrojati"
+        table_booth_name: "Glasačko mjesto"
+        table_system_count: "Glasovi (automatski)"
+    results:
+      index:
+        title: "Rezultati"
+        no_results: "Ne postoje rezultati"
+    booths:
+      index:
+        add_booth: "Dodaj glasačko mjesto"
+        name: "Ime"
+        location: "Lokacija"
+      new:
+        title: "Novo glasačko mjesto"
+        submit_button: "Stvori glasačko mjesto"
+      edit:
+        title: "Uredi glasačko mjesto"
+        submit_button: "Ažuriraj glasačko mjesto"
+      show:
+        location: "Lokacija"
+    officials:
+      edit:
+        title: 'Činovnici: Uredi korisnika'
+      flash:
+        official_destroyed: 'Spremljeni detalji: korsnik više nije činovnik'
+        official_updated: Detalji činovnika spremljeni
+      index:
+        title: Službenici
+      level_0: Nije službeno
+      level_1: Razina 1
+      level_2: Razina 2
+      level_3: Razina 3
+      level_4: Razina 4
+      level_5: Razina 5
+      search:
+        edit_official: Uredi službenika
+        make_official: Napravi službeno
+        title: 'Službene pozicije: Pretraga korisnika'
+    organizations:
+      index:
+        filter: Filter
+        filters:
+          all: Svi
+          pending: U tijeku
+          rejected: Odbijeno
+          verified: Dopušteno
+        reject: Odbiti
+        rejected: Odbijeno
+        search: Pretraga
+        search_placeholder: Ime, email ili telfonski broj
+        title: Organizacije
+        verified: Dopušteno
+        verify: Potvrdi
+      search:
+        title: Pretraga Organizacija
+    settings:
+      flash:
+        updated: Vrijednost ažurirana
+      index:
+        update_setting: Ažuriranje
+        feature_flags: Značajke
+        features:
+          enabled: "Značajke omogućene"
+          disabled: "Značajke isključene"
+          enable: "Omogućiti"
+          disable: "Isključi"
+    shared:
+      booths_search:
+        button: Pretraga
+      poll_officers_search:
+        button: Pretraga
+        placeholder: Pretraži činovnike za glasanje
+      poll_questions_search:
+        button: Pretraga
+        placeholder: Pretraga pitanja glasanja
+      proposal_search:
+        button: Pretraga
+        placeholder: Pretraga prijedloga po naslovu, kodu, opisu ili pitanju
+      user_search:
+        button: Pretraga
+        placeholder: Pretraži korisnika po imenu ili emailu
+      search_results: "Pretraži rezultate"
+      no_search_results: "Rezultati nisu pronađeni."
+    geozones:
+      index:
+        title: Geozona
+        create: Stvori geozonu
+        edit: Uredi
+        delete: Izbriši
+      geozone:
+        name: Ime
+        external_code: Vanjski kod
+        census_code: Kod cenzusa
+        coordinates: Coordinate
+      edit:
+        form:
+          submit_button: Spremi promjene
+        editing: Uredi geozonu
+        back: Idi nazad
+      new:
+        back: Idi nazad
+        creating: Stvori distrikt
+      delete:
+        success: Geozona je uspješno obrisana
+        error: Ova geozona ne može biti obrisana zbog elemenata koji su u privitku
+    signature_sheets:
+      author: Autor
+      created_at: Datum stvaranja
+      name: Ime
+      no_signature_sheets: "Ne postoje potpisne liste"
+      index:
+        title: Potpisne liste
+        new: Nove potpisne liste
+      new:
+        title: Nove potpisne liste
+        submit: Stvori potpisnu listu
+      show:
+        created_at: Stvoreno
+        author: Autor
+        verified:
+          one: "Postoji %{count} valjani potpis"
+          few: "Postoji %{count} valjani potpisi"
+          other: "Postoji %{count} valjani potpisi"
+        unverified:
+          one: "Postoji %{count} nevažeč potpis"
+          few: "Postoji %{count} nevažeči potpisi"
+          other: "Postoji %{count} nevažeči potpisi"
+        unverified_error: (Nije potvrđeno Cenzusom)
+        loading: "Još ima potpisa koji se provjeravaju Cenzusom, molimo vas osvježite stranicu za nekoliko trenutaka"
+    stats:
+      show:
+        stats_title: Statistika
+        summary:
+          comment_votes: Komentari glasova
+          comments: Komentari
+          debate_votes: Glasovi rasprave
+          debates: Rasprave
+          proposal_votes: Glasovi prijedloga
+          proposals: Prijedlozi
+          budgets: Otvoreni budžeti
+          budget_investments: Investicijski projekti
+          unverified_users: Korisnici koji nisu potvrđeni
+          user_level_three: Razina tri korisnika
+          user_level_two: Razina dva korisnika
+          users: Ukupno korisnika
+          verified_users: Potvrđeni korisnici
+          verified_users_who_didnt_vote_proposals: Potvrđeni korisnici koji nemaju prijedloge za izglasavanje
+          visits: Broj posjeta
+          votes: Ukupno glasova
+        budgets_title: Participativno budžetiranje
+        direct_messages: Izravne poruke
+        proposal_notifications: Obavijesti prijedloga
+        incomplete_verifications: Nedovršene verifikacije
+      direct_messages:
+        title: Izravne poruke
+        total: Ukupno
+        users_who_have_sent_message: Korisnici koji su poslali privatne poruke
+      proposal_notifications:
+        title: Obavijesti prijedloga
+        total: Ukupno
+        proposals_with_notifications: Prijedlozi s obavijestima
+    tags:
+      index:
+        add_tag: Dodaj novu temu prijedloga
+        title: Teme prijedloga
+    users:
+      columns:
+        name: Ime
+        email: Email
+        document_number: Broj dokumenta
+        roles: Uloge
+        verification_level: Razina verifikacije
+      index:
+        title: Korisnik
+      search:
+        placeholder: Pretražite korisnike putem emaila, ime ili broj dokumenta
+        search: Pretraga
+    verifications:
+      index:
+        phone_not_given: Broj telefona nije dostupan
+        sms_code_not_confirmed: Nije potvrđen SMS kodom
+        title: Nedovršene verifikacije
+    site_customization:
+      content_blocks:
+        create:
+          notice: Blokovi sadržaja stvoreni su uspješno
+          error: Trenutni blokovi se ne mogu stvoriti
+        update:
+          notice: Blokovi sadržaja su uspješno ažurirani
+          error: Blokovi sadržaja se ne mogu ažuririati
+        destroy:
+          notice: Blokovi sadržaja su uspješno obrisani
+        edit:
+          title: Uređivanje sadržaja blokova
+        index:
+          create: Stvori novi sadržaj blokova
+          delete: Obriši blok
+          title: Blokovi sadržaja
+        new:
+          title: Stvori novi sadržaj blokova
+        content_block:
+          body: Tijelo
+          name: Ime
+      images:
+        index:
+          title: Prilagođene slike
+          update: Ažuriranje
+          delete: Izbriši
+          image: Slika
+        update:
+          notice: Slika je uspješno ažurirana
+          error: Slika nije uspješno ažurirana
+        destroy:
+          notice: Slika je uspješno ažurirana
+          error: Sliku nije moguće obrisati
+      pages:
+        create:
+          notice: Slika je uspješno stvorena
+          error: Sliku nije moguće stvoriti
+        update:
+          notice: Slika je uspješno ažurirana
+          error: Slika se ne može ažurirati
+        destroy:
+          notice: Slika je uspješno obrisana
+        edit:
+          title: Uređivanje %{page_title}
+        form:
+          options: Opcije
+        index:
+          create: Stvori novu stranicu
+          delete: Izbriši stranicu
+          title: Prilagođene Stranice
+          see_page: Pogledaj stranicu
+        new:
+          title: Stvori novu prilagođenu stranicu
+        page:
+          created_at: Stvoreno kod
+          status: Status
+          title: Naziv
+          updated_at: Ažurirano u
