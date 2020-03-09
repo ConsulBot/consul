@@ -1,0 +1,188 @@
+id:
+  activerecord:
+    models:
+      activity:
+        other: "aktivitas"
+      budget/investment:
+        other: "Investasi"
+      comment:
+        other: "Komentar"
+      debate:
+        other: "Perdebatan"
+      tag:
+        other: "Tag"
+      user:
+        other: "Pengguna"
+      moderator:
+        other: "Moderasi"
+      administrator:
+        other: "Administrasi"
+      vote:
+        other: "Suara"
+      organization:
+        other: "Organisasi"
+      poll/booth:
+        other: "stan"
+      poll/officer:
+        other: "petugas"
+      proposal:
+        other: "Usulan warga"
+      site_customization/page:
+        other: Gambar Khusus
+      site_customization/image:
+        other: Gambar Khusus
+      site_customization/content_block:
+        other: Blok konten khusus
+      legislation/process:
+        other: "Proses"
+      legislation/draft_versions:
+        other: "Versi rancangan"
+      legislation/questions:
+        other: "Pertanyaan"
+      legislation/question_options:
+        other: "Pilihan pertanyaan"
+      legislation/answers:
+        other: "Jawaban"
+    attributes:
+      budget:
+        name: "Nama"
+        description_accepting: "Deskripsi selama fase menerima"
+        description_reviewing: "Deskripsi selama fase menerima"
+        description_selecting: "Deskripsi selama fase menerima"
+        description_valuating: "Keterangan selama fase kematangan dan penurunan fase"
+        description_balloting: "Deskripsi selama fase menerima"
+        description_reviewing_ballots: "Keterangan selama Meninjau surat Suara tahap"
+        description_finished: "Deskripsi ketika anggaran selesai"
+        phase: "Fase"
+        currency_symbol: "Mata uang"
+      budget/investment:
+        heading_id: "Judul"
+        title: "Judul"
+        description: "Deskripsi"
+        external_url: "Tautkan ke dokumentasi tambahan"
+        administrator_id: "Administrasi"
+      comment:
+        body: "Komentar"
+        user: "Pengguna"
+      debate:
+        author: "Penulis"
+        description: "Pendapat"
+        terms_of_service: "Persayaratan layanan"
+        title: "Judul"
+      proposal:
+        author: "Penulis"
+        title: "Judul"
+        question: "Pertanyaan"
+        description: "Deskripsi"
+        terms_of_service: "Persayaratan layanan"
+      user:
+        login: "Email atau nama pengguna"
+        email: "Email"
+        username: "Nama pengguna"
+        password_confirmation: "Konfirmasi kata sandi"
+        password: "Kata Sandi"
+        current_password: "Kata sandi saat ini"
+        phone_number: "Nomor telepon"
+        official_position: "Posisi resmi"
+        official_level: "Tingkat resmi"
+        redeemable_code: "Kode verifikasi diterima melalui surel"
+      organization:
+        name: "Nama organisasi"
+        responsible_name: "Orang yang bertanggung jawab untuk kelompok"
+      poll:
+        name: "Nama"
+        starts_at: "Tanggal Mulai"
+        ends_at: "Tanggal Penutupan"
+        geozone_restricted: "Dibatasi oleh geozone"
+      poll/question:
+        title: "Pertanyaan"
+        summary: "Ringkasan"
+        description: "Deskripsi"
+        external_url: "Tautkan ke dokumentasi tambahan"
+      signature_sheet:
+        signable_type: "Tipe yang dapat dipertanggungjawabkan"
+        signable_id: "ID yang dapat dicantumkan"
+        document_numbers: "Dokumen nomor"
+      site_customization/page:
+        content: Konten
+        created_at: Dibuat di
+        subtitle: Subtitle
+        slug: Siput
+        status: Status
+        title: Judul
+        updated_at: Diperbarui di
+        print_content_flag: Cetak tombol konten
+        locale: Bahasa
+      site_customization/image:
+        name: Nama
+        image: Gambar
+      site_customization/content_block:
+        name: Nama
+        locale: lokal
+        body: Tubuh
+      legislation/process:
+        title: Proses Judul
+        description: Deskripsi
+        additional_info: Info tambahan
+        draft_publication_date: Draft tanggal publikasi
+        result_publication_date: Hasil akhir tanggal publikasi
+      legislation/draft_version:
+        title: Versi judul
+        body: Teks
+        changelog: Perubahan
+        status: Status
+        final_version: Versi terakhir
+      legislation/question:
+        title: Judul
+        question_options: Pilihan
+      legislation/question_option:
+        value: Nilai
+      legislation/annotation:
+        text: Komentar
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "Pengguna ini sudah memiliki sebuah kata sandi"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "harus kurang dari atau sama dengan %{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "Anda telah mencapai jumlah maksimum pesan pribadi per hari"
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "Dokumen tidak dalam sensus"
+              has_voted: "Pengguna yang telah terpilih"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: harus pada atau setelah tanggal mulai
+            debate_end_date:
+              invalid_date_range: link to additional documentation
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "tag harus kurang dari atau sama dengan %{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "tag harus kurang dari atau sama dengan %{count}"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: 'Tidak diverifikasi oleh sensus'
+              already_voted: 'Sudah memilih proposal ini'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "harus huruf, _-"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Lebar harus %{required_width}px"
+              image_height: "Tinggi harus %{required_height}px"
