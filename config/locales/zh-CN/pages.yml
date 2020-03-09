@@ -1,0 +1,6 @@
+zh-CN:
+  pages:
+    verify:
+      info_code: '现在请输入您在信里收到的代码：'
+      submit: 验证我的帐号
+      title: 核实您的账户
