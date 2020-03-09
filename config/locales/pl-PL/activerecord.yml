@@ -1,0 +1,246 @@
+pl:
+  activerecord:
+    models:
+      activity:
+        one: "aktywność"
+        few: "aktywności"
+        many: "aktywności"
+        other: "aktywności"
+      budget/investment:
+        one: "Inwestycja"
+        few: "Inwestycje"
+        many: "Inwestycje"
+        other: "Inwestycje"
+      comment:
+        one: "Komentarz"
+        few: "Komentarze"
+        many: "Komentarze"
+        other: "Komentarze"
+      debate:
+        one: "Debata"
+        few: "Debaty"
+        many: "Debaty"
+        other: "Debaty"
+      tag:
+        one: "Znacznik"
+        few: "Tagi"
+        many: "Tagi"
+        other: "Tagi"
+      user:
+        one: "Użytkownik"
+        few: "Użytkownicy"
+        many: "Użytkownicy"
+        other: "Użytkownicy"
+      moderator:
+        one: "Moderator"
+        few: "Moderatorzy"
+        many: "Moderatorzy"
+        other: "Moderatorzy"
+      administrator:
+        one: "Administrator"
+        few: "Administrator"
+        many: "Administrator"
+        other: "Administrator"
+      vote:
+        one: "Głos"
+        few: "Głosy"
+        many: "Głosy"
+        other: "Głosy"
+      organization:
+        one: "Organizacja"
+        few: "Organizacje"
+        many: "Organizacje"
+        other: "Organizacje"
+      poll/booth:
+        one: "kabina wyborcza"
+        few: "kabiny wyborcze"
+        many: "kabin wyborczych"
+        other: "kabin wyborczych"
+      proposal:
+        one: "Propozycje obywatelskie"
+        few: "Propozycje obywatelskie"
+        many: "Propozycji obywatelskich"
+        other: "Propozycji obywatelskich"
+      site_customization/page:
+        one: Niestandardowa strona
+        few: Strony niestandardowe
+        many: Strony niestandardowe
+        other: Strony niestandardowe
+      site_customization/image:
+        one: Niestandardowy obraz
+        few: Niestandardowe obrazy
+        many: Niestandardowe obrazy
+        other: Niestandardowe obrazy
+      site_customization/content_block:
+        one: Niestandardowy blok
+        few: Niestandardowe bloki zawartości
+        many: Niestandardowe bloki zawartości
+        other: Niestandardowe bloki zawartości
+      legislation/process:
+        one: "Proces"
+        few: "Procesy"
+        many: "Procesy"
+        other: "Procesy"
+      legislation/draft_versions:
+        one: "Wersja robocza"
+        few: "Wersje robocze"
+        many: "Wersje robocze"
+        other: "Wersje robocze"
+      legislation/questions:
+        one: "Pytanie"
+        few: "Pytania"
+        many: "Pytania"
+        other: "Pytania"
+      legislation/question_options:
+        one: "Opcja pytania"
+        few: "Opcje pytania"
+        many: "Opcje pytania"
+        other: "Opcje pytania"
+      legislation/answers:
+        one: "Odpowiedź"
+        few: "Odpowiedzi"
+        many: "Odpowiedzi"
+        other: "Odpowiedzi"
+    attributes:
+      budget:
+        name: "Nazwa"
+        description_accepting: "Opis w fazie Akceptowania"
+        description_reviewing: "Opis w fazie Przeglądania"
+        description_selecting: "Opis w fazie Wybierania"
+        description_valuating: "Opis w fazie Wyceny"
+        description_balloting: "Opis w fazie Głosowania"
+        description_reviewing_ballots: "Opis na etapie Przeglądu Głosów"
+        description_finished: "Opis po zakończeniu budżetu"
+        phase: "Etap"
+        currency_symbol: "Waluta"
+      budget/investment:
+        heading_id: "Nagłówek"
+        title: "Tytuł"
+        description: "Opis"
+        external_url: "Link do dodatkowej dokumentacji"
+        administrator_id: "Administrator"
+      comment:
+        body: "Komentarz"
+        user: "Użytkownik"
+      debate:
+        author: "Autor"
+        description: "Opinia"
+        terms_of_service: "Warunki użytkowania"
+        title: "Tytuł"
+      proposal:
+        author: "Autor"
+        title: "Tytuł"
+        question: "Pytanie"
+        description: "Opis"
+        terms_of_service: "Regulamin"
+      user:
+        login: "E-mail lub nazwa użytkownika"
+        email: "E-mail"
+        username: "Nazwa użytkownika"
+        password_confirmation: "Potwierdzenie hasła"
+        password: "Hasło"
+        current_password: "Stare hasło"
+        phone_number: "Numer telefonu"
+        official_position: "Oficjalne stanowisko"
+        official_level: "Oficjalny poziom"
+        redeemable_code: "Kod weryfikacyjny otrzymany za pośrednictwem poczty e-mail"
+      organization:
+        name: "Nazwa organizacji"
+        responsible_name: "Osoba odpowiedzialna za grupę"
+      poll:
+        name: "Nazwa"
+        starts_at: "Data Rozpoczęcia"
+        ends_at: "Data Zakończenia"
+        geozone_restricted: "Ograniczone przez geozone"
+      poll/question:
+        title: "Pytanie"
+        summary: "Podsumowanie"
+        description: "Opis"
+        external_url: "Link do dodatkowej dokumentacji"
+      signature_sheet:
+        signable_type: "Rodzaj podpisywalny"
+        signable_id: "Podpisywalny identyfikator"
+        document_numbers: "Numery dokumentów"
+      site_customization/page:
+        content: Zawartość
+        created_at: Utworzony w
+        subtitle: Napis
+        slug: Ścieżka
+        status: Status
+        title: Tytuł
+        updated_at: Aktualizacja w
+        print_content_flag: Przycisk Drukuj zawartość
+        locale: Język
+      site_customization/image:
+        name: Nazwa
+        image: Obraz
+      site_customization/content_block:
+        name: Nazwa
+        locale: ustawienia regionalne
+        body: Zawartość
+      legislation/process:
+        title: Tytuł procesu
+        description: Opis
+        additional_info: Informacje dodatkowe
+        draft_publication_date: Data publikacji projektu
+        result_publication_date: Data publikacji wyniku końcowego
+      legislation/draft_version:
+        title: Tytuł w wersji
+        body: Tekst
+        changelog: Zmiany
+        status: Status
+        final_version: Wersja ostateczna
+      legislation/question:
+        title: Tytuł
+        question_options: Opcje
+      legislation/question_option:
+        value: Wartość
+      legislation/annotation:
+        text: Komentarz
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "Ten użytkownik posiada już hasło"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "liczba tagów musi być mniejsza lub równa %{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "Osiągnąłeś maksymalną liczbę wiadomości prywatnych na dzień"
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "Brak dokumentu w spisie"
+              has_voted: "Użytkownik już zagłosował"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: musi być nie wcześniej niż data rozpoczęcia
+            debate_end_date:
+              invalid_date_range: musi być nie wcześniej niż data rozpoczęcia debaty
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "tagów może być najwyżej %{count}"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "tagów może być najwyżej %{count}"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: 'Niezweryfikowane z rejestrem mieszkańców'
+              already_voted: 'Już zagłosowano na tę propozycję'
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "muszą być literami, liczbami, _ oraz -"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Szerokość musi wynosić %{required_width}px"
+              image_height: "Wysokość musi wynosić %{required_height}px"
