@@ -1,0 +1,28 @@
+hr:
+  settings:
+    comments_body_max_length: "Maksimalna duljina tijela komentara"
+    official_level_1_name: "Razina 1 javni činovnik"
+    official_level_2_name: "Razina 2 javni činovnik"
+    official_level_3_name: "Razina 3 javni činovnik"
+    official_level_4_name: "Razina 4 javni činovnik"
+    official_level_5_name: "Razina 5 javni činovnik"
+    max_ratio_anon_votes_on_debates: "Maksimalni odnos anonimnih glasova po Raspravi"
+    max_votes_for_debate_edit: "Broj glasova nakon kojih se Rasprava više ne može uređivati"
+    proposal_code_prefix: "Prefiks za kodove Prijedloga"
+    months_to_archive_proposals: "Mjeseci za arhiviranje Prijedloga"
+    email_domain_for_officials: "Email domena javnih činovnika"
+    twitter_handle: "Twitter ime"
+    twitter_hashtag: "Twitter hashtag"
+    facebook_handle: "Facebook ime"
+    youtube_handle: "Youtube ime"
+    telegram_handle: "Telegram ime"
+    instagram_handle: "Instagram ime"
+    url: "Glavni URL"
+    feature:
+      twitter_login: Twitter prijava
+      facebook_login: Facebook prijava
+      google_login: Google prijava
+      signature_sheets: Potpisne liste
+    meta_description: "Opis stranice (SEO)"
+    meta_keywords: "Ključne riječi (SEO)"
+    min_age_to_participate: Minimalno godina kako bi bili u mogućnosti sudjelovati
