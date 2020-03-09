@@ -1,0 +1,649 @@
+zh-CN:
+  admin:
+    header:
+      title: 管理
+    actions:
+      actions: 行动
+      confirm: 您确定吗？
+      hide: 隐藏
+      hide_author: 隐藏作者
+      restore: 恢复
+      mark_featured: 特色
+      unmark_featured: 取消特色标记
+      edit: 编辑
+      configure: 配置
+    banners:
+      index:
+        title: 横幅
+        create: 创建横幅
+        edit: 编辑横幅
+        delete: 删除横幅
+        filters:
+          all: 所有
+          with_active: 活跃
+          with_inactive: 非活跃
+        preview: 预览
+      edit:
+        editing: 编辑横幅
+        form:
+          submit_button: 保存更改
+      new:
+        creating: 创建横幅
+    activity:
+      show:
+        action: 行动
+        actions:
+          block: 已封锁
+          hide: 隐藏
+          restore: 恢复
+        by: 审核者
+        content: 内容
+        filter: 显示
+        filters:
+          all: 所有
+          on_comments: 评论
+          on_debates: 辩论
+          on_proposals: 提议
+          on_users: 用户
+        title: 审核员活动
+        type: 类型
+    budgets:
+      index:
+        title: 参与性预算
+        new_link: 创建新预算
+        filters:
+          finished: 已完成
+        table_name: 名字
+        table_phase: 阶段
+        table_investments: 投资
+        table_edit_groups: 标题组
+        table_edit_budget: 编辑
+        edit_groups: 编辑标题组
+        edit_budget: 编辑预算
+      create:
+        notice: 新的参与性预算创建成功！
+      update:
+        notice: 参与性预算更新成功
+      edit:
+        title: 编辑参与性预算
+      new:
+        title: 新的参与性预算
+      winners:
+        calculate: 计算胜出者投资
+        calculated: 计算胜出者中，可能需要一分钟时间。
+    budget_investments:
+      index:
+        heading_filter_all: 所有标题
+        administrator_filter_all: 所有管理员
+        valuator_filter_all: 所有评估员
+        tags_filter_all: 所有标签
+        filters:
+          without_admin: 没有指定的管理员
+          valuation_finished: 评估已完成
+          selected: 已选
+          winners: 胜出者
+          all: 所有
+        title: 投资项目
+        assigned_admin: 指定的管理员
+        no_admin_assigned: 没有指定管理员
+        no_valuators_assigned: 没有指定评估员
+        feasibility:
+          unfeasible: "不可行"
+          undecided: "未定"
+        selected: "已选"
+        select: "选择"
+      show:
+        assigned_admin: 指定的管理员
+        assigned_valuators: 指定的评估员
+        info: "%{budget_name}-组：%{group_name}-投资项目%{id}"
+        edit: 编辑
+        edit_classification: 编辑分类
+        by: 由
+        sent: 已发送
+        heading: 标题
+        dossier: 档案
+        edit_dossier: 编辑档案
+        tags: 标签
+        undefined: 未定义
+        compatibility:
+          title: 兼容性
+          "true": 不兼容
+          "false": 兼容
+        selection:
+          title: 选择
+        winner:
+          title: 胜出者
+          "true": "是"
+          "false": "不是"
+      edit:
+        compatibility: 兼容性
+        selection: 选择
+        assigned_valuators: 评估员
+        select_heading: 选择标题
+        submit_button: 更新
+        tags_placeholder: "编写想要的标签，用逗号 (,) 分割"
+        undefined: 未定义
+      search_unfeasible: 搜索不可行
+    milestones:
+      index:
+        table_title: "标题"
+        table_description: "说明"
+        table_actions: "行动"
+        delete: "删除里程碑"
+        no_milestones: "没有已定义的里程碑"
+      new:
+        creating: 创建里程碑
+      edit:
+        title: 编辑里程碑
+      create:
+        notice: 新的里程碑已成功创建！
+      update:
+        notice: 里程碑已成功更新
+      delete:
+        notice: 里程碑已成功删除
+    dashboard:
+      index:
+        title: 管理
+    hidden_users:
+      index:
+        filter: 过滤器
+        filters:
+          all: 所有
+          with_confirmed_hide: 已确认
+          without_confirmed_hide: 有待
+        title: 隐藏的用户
+      show:
+        email: '电子邮件：'
+        hidden_at: '隐藏于：'
+        registered_at: '注册于：'
+        title: 用户的活动 (%{user})
+    legislation:
+      processes:
+        create:
+          notice: '进程已经成功创建。<a href="%{link}">点击访问</a>'
+          error: 进程无法被创建
+        update:
+          notice: '进程已经成功更新。<a href="%{link}">点击访问</a>'
+          error: 进程无法更新
+        destroy:
+          notice: 进程已成功删除
+        edit:
+          back: 返回
+          submit_button: 保存更改
+        form:
+          enabled: 已启用
+          process: 进程
+          debate_phase: 辩论阶段
+          use_markdown: 使用Markdown 来格式化文本
+          title_placeholder: 进程的标题
+          summary_placeholder: 描述的简短总结
+          description_placeholder: 添加进程描述
+          additional_info_placeholder: 添加您认为有用的其他信息
+        index:
+          create: 新进程
+          delete: 删除
+          filters:
+            all: 所有
+        new:
+          back: 返回
+          title: 创建新的合作立法过程
+          submit_button: 创建进程
+        process:
+          title: 进程
+          comments: 评论
+          status: 状态
+          status_open: 打开
+          status_closed: 关闭
+          status_planned: 计划
+        subnav:
+          info: 信息
+          questions: 辩论
+      draft_versions:
+        create:
+          notice: '草稿已成功创建，<a href="%{link}">点击访问</a>'
+          error: 草稿无法创建
+        update:
+          notice: '草稿已成功更新，<a href="%{link}">点击访问</a>'
+          error: 草稿无法更新
+        destroy:
+          notice: 草稿已成功删除
+        edit:
+          back: 返回
+          submit_button: 保存更改
+          warning: 您已经编辑文本，请不要忘了点击保存来永久保存所做的更改。
+        form:
+          launch_text_editor: 启动文本编辑器
+          close_text_editor: 关闭文本编辑器
+          use_markdown: 使用Markdown 来格式化文本
+          hints:
+            final_version: 此版本将作为此进程的最终结果发布。此版本中将不允许有评论。
+            status:
+              draft: 您作为管理员可以预览，其它人不能看到它
+              published: 人人可见
+          title_placeholder: 编写草稿版本的标题
+          changelog_placeholder: 添加早期版本中的主要更改
+          body_placeholder: 写下草稿文本
+        index:
+          title: 草稿版本
+          create: 创建版本
+          delete: 删除
+          preview: 预览
+        new:
+          back: 返回
+          title: 创建新版本
+          submit_button: 创建版本
+        table:
+          title: 标题
+          created_at: 创建于
+          comments: 评论
+          final_version: 最后版本
+          status: 状态
+      questions:
+        create:
+          notice: '问题已成功创建。<a href="%{link}">点击访问</a>'
+          error: 问题无法创建
+        update:
+          notice: '问题已成功更新。<a href="%{link}">点击访问</a>'
+          error: 问题无法更新
+        destroy:
+          notice: 问题已成功删除
+        edit:
+          back: 返回
+          title: "编辑“%{question_title}”"
+          submit_button: 保存更改
+        form:
+          add_option: 添加选项
+          value_placeholder: 添加已关闭的答案
+        index:
+          back: 返回
+          title: 与此过程相关的问题
+          create: 创建问题
+          delete: 删除
+        new:
+          back: 返回
+          title: 创建新问题
+          submit_button: 创建问题
+        table:
+          title: 标题
+          question_options: 问题选项
+          answers_count: 回答数
+          comments_count: 评论数
+        question_option_fields:
+          remove_option: 删除选项
+    managers:
+      index:
+        title: 经理
+      manager:
+        add: 添加
+        delete: 删除
+    menu:
+      activity: 审核员活动
+      admin: 管理菜单
+      banner: 管理横幅
+      proposals_topics: 提议主题
+      budgets: 参与性预算
+      geozones: 管理地理区域
+      hidden_comments: 隐藏的评论
+      hidden_debates: 隐藏的辩论
+      hidden_proposals: 隐藏的提议
+      hidden_users: 隐藏的用户
+      administrators: 管理员
+      managers: 经理
+      moderators: 版主
+      valuators: 评估者
+      poll_officers: 投票站官员
+      polls: 投票
+      poll_booths: 投票亭位置
+      officials: 官员
+      organizations: 组织
+      stats: 统计
+      signature_sheets: 签名表
+      site_customization:
+        content_blocks: 自定义内容模块
+      title_moderated_content: 已审核的内容
+      title_profiles: 个人资料
+      legislation: 合作立法
+      users: 用户
+    administrators:
+      index:
+        title: 管理员
+      administrator:
+        add: 添加
+        delete: 删除
+        restricted_removal: "抱歉，您无法将自己从管理员中删除"
+    moderators:
+      index:
+        title: 版主
+      moderator:
+        add: 添加
+        delete: 删除
+    newsletters:
+      index:
+        title: 时事通讯
+    valuators:
+      index:
+        title: 评估者
+      valuator:
+        add: 添加到评估员
+    poll_officers:
+      index:
+        title: 投票站官员
+      officer:
+        add: 添加
+        delete: 删除职位
+        name: 名字
+        email: 电子邮件地址
+        entry_name: 官员
+      search:
+        email_placeholder: 通过电子邮件搜索用户
+        search: 搜索
+        user_not_found: 未找到用户
+    poll_officer_assignments:
+      index:
+        officers_title: "官员列表"
+        no_officers: "没有官员被分配给此投票站。"
+        table_name: "名字"
+        table_email: "电子邮件地址"
+      by_officer:
+        date: "日期"
+        booth: "投票亭"
+        assignments: "此投票项的官员轮班"
+        no_assignments: "此用户不在此投票项的官员轮班里。"
+    poll_booth_assignments:
+      show:
+        location: "位置"
+        officers: "官员"
+        officers_list: "此投票亭的官员列表"
+        no_officers: "此投票亭没有官员"
+        recounts: "重现计票"
+        recounts_list: "此投票亭的重新计票列表"
+        date: "日期"
+        count_final: "最终的重新计票（由官员）"
+        count_by_system: "投票（自动）"
+      index:
+        booths_title: "投票亭列表"
+        no_booths: "没有分配给此投票项的投票亭。"
+        table_name: "名字"
+        table_location: "位置"
+    polls:
+      index:
+        title: "活跃投票列表"
+        no_polls: "目前没有投票项。"
+        create: "创建投票项"
+        name: "名字"
+        dates: "日期"
+      new:
+        title: "新的投票项"
+        submit_button: "创建投票项"
+      edit:
+        title: "编辑投票项"
+        submit_button: "更新投票项"
+      show:
+        questions_tab: 问题
+        booths_tab: 投票亭
+        officers_tab: 官员
+        recounts_tab: 重新计票
+        results_tab: 结果
+        no_questions: "没有分配给此投票项的问题。"
+        questions_title: "问题列表"
+        table_title: "标题"
+      flash:
+        question_added: "已添加到此投票项的问题"
+        error_on_question_added: "无法被指定到此投票项的问题"
+    questions:
+      index:
+        title: "问题"
+        create: "创建问题"
+        no_questions: "没有问题。"
+        filter_poll: 按投票项过滤
+        select_poll: 选择投票项
+        questions_tab: "问题"
+        successful_proposals_tab: "成功的提议"
+        create_question: "创建问题"
+        table_proposal: "提议"
+        table_question: "问题"
+      edit:
+        title: "编辑问题"
+      show:
+        proposal: 原提议
+        author: 作者
+        valid_answers: 有效答案
+    recounts:
+      index:
+        title: "重新计票"
+        no_recounts: "没有什么需要重新计票"
+        table_booth_name: "投票亭"
+        table_system_count: "投票（自动）"
+    results:
+      index:
+        title: "结果"
+        no_results: "没有结果"
+    booths:
+      index:
+        add_booth: "添加投票亭"
+        name: "名字"
+        location: "位置"
+      new:
+        title: "新投票亭"
+        submit_button: "创建投票亭"
+      edit:
+        title: "编辑投票亭"
+        submit_button: "更新投票亭"
+      show:
+        location: "位置"
+    officials:
+      edit:
+        title: '官员：编辑用户'
+      flash:
+        official_destroyed: '保存的详细信息：用户不再是官员'
+        official_updated: 官员详细信息已保存
+      index:
+        title: 官员
+      level_0: 非官员
+      level_1: 级别1
+      level_2: 级别2
+      level_3: 级别3
+      level_4: 级别4
+      level_5: 级别5
+      search:
+        edit_official: 编辑官员
+        make_official: 成为官员
+        title: '官方职位：用户搜索'
+    organizations:
+      index:
+        filter: 过滤器
+        filters:
+          all: 所有
+          pending: 有待
+          rejected: 已拒绝
+          verified: 已验证
+        reject: 拒绝
+        rejected: 已拒绝
+        search: 搜索
+        search_placeholder: 名字，电子邮件或者电话号码
+        title: 组织
+        verified: 已验证
+        verify: 验证
+      search:
+        title: 搜索组织
+    settings:
+      flash:
+        updated: 价值已更新
+      index:
+        update_setting: 更新
+        feature_flags: 功能
+        features:
+          enabled: "功能已启用"
+          disabled: "功能已禁用"
+          enable: "启用"
+          disable: "禁用"
+    shared:
+      booths_search:
+        button: 搜索
+      poll_officers_search:
+        button: 搜索
+        placeholder: 搜索投票站官员
+      poll_questions_search:
+        button: 搜索
+        placeholder: 搜索投票项问题
+      proposal_search:
+        button: 搜索
+        placeholder: 按标题，代码，描述或问题搜索提议
+      user_search:
+        button: 搜索
+        placeholder: 按名字或电子邮件搜索用户
+      search_results: "搜索结果"
+      no_search_results: "未找到结果。"
+    geozones:
+      index:
+        title: 地理区域
+        create: 创建地理区域
+        edit: 编辑
+        delete: 删除
+      geozone:
+        name: 名字
+        external_code: 外部代码
+        census_code: 人口普查代码
+        coordinates: 坐标
+      edit:
+        form:
+          submit_button: 保存更改
+        editing: 正在编辑地理区域
+        back: 返回
+      new:
+        back: 返回
+        creating: 创建区
+      delete:
+        success: 地理区域已成功删除
+        error: 此地理区域无法删除，因为它附加了元素
+    signature_sheets:
+      author: 作者
+      created_at: 创建日期
+      name: 名字
+      no_signature_sheets: "没有signature_sheets"
+      index:
+        title: 签名表
+        new: 新的签名表
+      new:
+        title: 新的签名表
+        submit: 创建签名表
+      show:
+        created_at: 已创建
+        author: 作者
+        verified:
+          other: "有%{count} 个有效签名"
+        unverified:
+          other: "有%{count} 个无效签名"
+        unverified_error: '（未经人口普查核实）'
+        loading: "仍有签名正被人口普查核实中，请稍后刷新此页面"
+    stats:
+      show:
+        stats_title: 统计
+        summary:
+          comment_votes: 评论投票数
+          comments: 评论
+          debate_votes: 辩论投票数
+          debates: 辩论
+          proposal_votes: 提议投票数
+          proposals: 提议
+          budgets: 开放式预算
+          budget_investments: 投资项目
+          unverified_users: 未验证的用户
+          user_level_three: 三级用户
+          user_level_two: 二级用户
+          users: 总用户数
+          verified_users: 已验证的用户
+          verified_users_who_didnt_vote_proposals: 没有投票提议的已验证用户
+          visits: 访问
+          votes: 总投票数
+        budgets_title: 参与性预算
+        direct_messages: 直接信息
+        proposal_notifications: 提议通知
+        incomplete_verifications: 不完全验证
+      direct_messages:
+        title: 直接消息
+        total: 总计
+        users_who_have_sent_message: 已经发送私人信息的用户
+      proposal_notifications:
+        title: 提议通知
+        total: 总计
+        proposals_with_notifications: 有通知的提议
+    tags:
+      index:
+        add_tag: 添加新的提议主题
+        title: 提议主题
+    users:
+      columns:
+        name: 名字
+        email: 电子邮件地址
+        document_number: 文档编号
+        roles: 角色
+        verification_level: 验证级别
+      index:
+        title: 用户
+      search:
+        placeholder: 通过电子邮件，名字或者文档编号搜索用户
+        search: 搜索
+    verifications:
+      index:
+        phone_not_given: 未提供电话号码
+        sms_code_not_confirmed: 未确认sms 码
+        title: 不完全验证
+    site_customization:
+      content_blocks:
+        create:
+          notice: 内容块已成功创建
+          error: 内容块无法被创建
+        update:
+          notice: 内容块已成功更新
+          error: 内容块无法被更新
+        destroy:
+          notice: 内容块已成功删除
+        edit:
+          title: 正在编辑内容块
+        index:
+          create: 创建新的内容块
+          delete: 删除块
+          title: 内容块
+        new:
+          title: 创建新内容块
+        content_block:
+          body: 内容
+          name: 名字
+      images:
+        index:
+          title: 自定义图片
+          update: 更新
+          delete: 删除
+          image: 图像
+        update:
+          notice: 图像已成功更新
+          error: 图像无法被更新
+        destroy:
+          notice: 图像成功删除
+          error: 图像无法被删除
+      pages:
+        create:
+          notice: 页面成功创建
+          error: 页面无法被创建
+        update:
+          notice: 页面成功更新
+          error: 页面无法被更新
+        destroy:
+          notice: 页面成功删除
+        edit:
+          title: 正在编辑%{page_title}
+        form:
+          options: 选项
+        index:
+          create: 创建新页面
+          delete: 删除页面
+          title: 自定义页面
+          see_page: 参阅页面
+        new:
+          title: 创建新的自定义页面
+        page:
+          created_at: 创建于
+          status: 状态
+          title: 标题
+          updated_at: 更新于
