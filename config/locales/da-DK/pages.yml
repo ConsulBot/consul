@@ -1,0 +1,6 @@
+da:
+  pages:
+    verify:
+      info_code: 'Indfør den kode du modtog i brevet:'
+      submit: Verificer min konto
+      title: Verificer din konto
