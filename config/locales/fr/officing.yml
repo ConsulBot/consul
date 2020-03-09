@@ -1,4 +1,3 @@
----
 fr:
   officing:
     header:
@@ -8,36 +7,15 @@ fr:
         title: Bureaux de vote
         info: Ici vous pouvez valider les documents des utilisateurs et enregistrer les résultats des votes
     menu:
-      voters: "Valider un document"
-      recounts: "Enregistrer le dépouillement"
-      final_recounts: "Dépouillements finaux et résultats"
+      voters: Valider le document
+      final_recounts: Dépouillements finaux et résultats
     polls:
-      index:
-        title: "Liste des votes"
-        no_polls: "Vous n'êtes responsable d'aucun vote actif"
-        select_poll: "Sélectionner un vote"
-        add_recount: "Ajouter un dépouillement"
       final:
-        title: "Liste des votes finaux"
-        no_polls: "Vous n'êtes responsable d'aucun dépouillement final pour aucun des votes actifs"
-        select_poll: "Sélectionner un vote"
-        add_recount: "Ajouter le dépouillement final"
-        add_results: "Ajouter les résultats"
-    recounts:
-      flash:
-        create: "Données ajoutées"
-        error_create: "Décompte NON ajouté. Erreur dans les données."
-      new:
-        title: "%{poll} - Ajouter le dépouillement quotidien"
-        not_allowed: "Vous n'êtes pas le président de ce vote"
-        booth_date: "Bureau de vote et date"
-        select_booth_date: "Sélectionner un bureau de vote et une date"
-        count: "Décompte des votes"
-        count_placeholder: "Décompte des votes"
-        submit: "Sauvegarder"
-        recount_list: "Vos dépouillements"
-        booth: "Urne"
-        date: "Date"
+        title: Liste des votes finaux
+        no_polls: Vous n'êtes responsable d'aucun dépouillement final pour aucun des votes actifs
+        select_poll: Sélectionner un vote
+        add_recount: Ajouter le dépouillement final
+        add_results: Ajouter les résultats
     final_recounts:
       flash:
         create: "Données ajoutées"
@@ -46,12 +24,11 @@ fr:
         title: "%{poll} - Ajouter le dépouillement final"
         not_allowed: "Vous n'êtes pas autorisés à ajouter les dépouillements finaux pour ce vote"
         booth: "Bureau de vote"
-        date: "Date"
         select_booth: "Sélectionner un bureau de vote"
         select_date: "Sélectionner une date"
         count: "Décompte final des votes"
         count_placeholder: "Décompte final des votes"
-        submit: "Sauvegarder"
+        submit: Sauvegarder
         final_recount_list: "Vos dépouillements finaux"
         system_count: "Dépouillement par le système"
         add_results: "Ajouter les résultats"
@@ -64,7 +41,7 @@ fr:
       new:
         title: "%{poll} - Ajouter des résultats"
         not_allowed: "Vous n'êtes pas autorisé à ajouter des résultats pour ce vote"
-        booth: "Bureau de vote"
+        booth: "Urne"
         date: "Date"
         select_booth: "Sélectionner une bureau de vote"
         select_date: "Sélectionner une date"
