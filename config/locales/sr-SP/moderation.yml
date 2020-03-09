@@ -1,0 +1,77 @@
+sr:
+  moderation:
+    header:
+      title: Модерирање
+    comments:
+      index:
+        block_authors: Блокирај ауторе
+        confirm: Да ли сте сигурни?
+        filter: Филтер
+        filters:
+          all: Све
+          pending_flag_review: У процесу
+          with_ignored_flag: Означена као прегледано
+        headers:
+          comment: Коментар
+          moderate: Модерирајте
+        hide_comments: Сакријте коментар
+        ignore_flags: Означи као прегледано
+        order: Наруџбина
+        orders:
+          flags: Највише означено
+          newest: Најновије
+        title: Коментари
+    dashboard:
+      index:
+        title: Модерирање
+    debates:
+      index:
+        block_authors: Блокирај ауторе
+        confirm: Да ли сте сигурни?
+        filter: Филтер
+        filters:
+          all: Све
+          pending_flag_review: У процесу
+          with_ignored_flag: Означено као прегледано
+        headers:
+          debate: Расправа
+          moderate: Модерирајте
+        hide_debates: Сакријте расправе
+        ignore_flags: Означи као прегледано
+        order: Наруџбина
+        orders:
+          created_at: Најновије
+          flags: Највише означено
+        title: Расправе
+    menu:
+      flagged_comments: Коментари
+      flagged_debates: Расправе
+      proposals: Предлози
+      users: Блокирајте кориснике
+    proposals:
+      index:
+        block_authors: Блокирај ауторе
+        confirm: Да ли сте сигурни?
+        filter: Филтер
+        filters:
+          all: Све
+          pending_flag_review: У фази прегледа
+          with_ignored_flag: Означи као прегледано
+        headers:
+          moderate: Модерирајте
+          proposal: Предлог
+        hide_proposals: Сакријте предлоге
+        ignore_flags: Означи као прегледано
+        order: Послагано по
+        orders:
+          created_at: Најскорији
+          flags: Највише означено
+        title: Предлози
+    users:
+      index:
+        hidden: Блокирано
+        hide: Блокирано
+        search: Тражите
+        search_placeholder: емаил или име корисника
+        title: Блокирајте кориснике
+      notice_hide: Корисник је блокиран. Све корисникове расправе и коментару су сакривени.
