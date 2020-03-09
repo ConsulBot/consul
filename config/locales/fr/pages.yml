@@ -1,4 +1,3 @@
----
 fr:
   pages:
     census_terms: Pour confirmer ce compte, vous devez être âgé(e) de 16 ans ou plus, et avoir été recensé avec les données indiquées ci-dessus, lesquelles seront vérifiées. En acceptant le processus de vérification, vous donnez également votre consentement au recoupement de cette information, ainsi que les moyens de communication qui figurent dans ce fichier. Les données fournies seront intégrées et traitées dans le fichier indiqué dans les conditions d'utilisations du portail.
@@ -7,7 +6,7 @@ fr:
     more_info:
       title: "Découvrez %{org_name}"
       subtitle: "Découvrez tout ce qu'il est possible de faire avec ce site"
-      guide: "Ce guide explique chaque section de %{org_name}. Vous pouvez avoir plus d'information dans les liens 'Informations détaillées'."
+      guide: 'Ce guide explique chaque section de %{org_name}. Vous pouvez avoir plus d''information dans les liens ''Informations détaillées''.'
       menu:
         debates: "Débats"
         proposals: "Propositions"
@@ -20,7 +19,7 @@ fr:
         feature_1_link: "vous inscrire sur %{org_name}"
         feature_2_html: "Les débats peuvent être notés en utilisant les boutons <strong>Je suis d'accord</strong> ou <strong>Je ne suis pas d'accord</strong> que vous trouverez dans chacun d'eux."
         image_alt: "Boutons pour noter les débats"
-        figcaption: "Les boutons 'Je suis d'accord' et 'Je ne suis pas d'accord' pour noter les débats."
+        figcaption: 'Les boutons ''Je suis d''accord'' et ''Je ne suis pas d''accord'' pour noter les débats.'
       proposals:
         title: "Propositions"
         description: "Faites une proposition sur ce que vous souhaitez que la mairie entreprenne et soutenez les propositions d'autres personnes."
@@ -53,8 +52,6 @@ fr:
         button: "Voir les questions fréquemment posées"
       other:
         how_to_use: "Utiliser %{org_name} dans votre ville"
-        world: "Participation citoyenne dans le monde"
-        facts: "Éléments sur la participation citoyenne et la démocratie directe"
       how_to_use:
         text: |-
           Utilisez le librement pour votre gouvernement ou aider nous à l'améliorer, c'est un logiciel libre.
@@ -73,8 +70,8 @@ fr:
     verify:
       code: Code que vous avez reçu par lettre
       email: Courriel
-      info: "Pour vérifier votre compte saisissez vos données d'accès :"
+      info: 'Pour vérifier votre compte saisissez vos données d''accès :'
       info_code: 'Saisissez maintenant le code reçu par lettre :'
       password: Mot de passe
-      submit: Confirmer mon compte
+      submit: Vérifier mon compte
       title: Confirmer mon compte
