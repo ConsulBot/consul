@@ -1,0 +1,33 @@
+eu:
+  activerecord:
+    models:
+      activity:
+        one: "jarduera"
+        other: "jarduerak"
+      legislation/questions:
+        one: "Galdera"
+        other: "Galderak"
+      legislation/answers:
+        one: "Erantzuna"
+        other: "Erantzunak"
+    attributes:
+      budget:
+        name: "Izena"
+      comment:
+        body: "Iruzkin"
+        user: "Erabiltzailea"
+      proposal:
+        question: "Galdera"
+      user:
+        email: "E-mail"
+      poll:
+        name: "Izena"
+      poll/question:
+        title: "Galdera"
+      site_customization/image:
+        name: Izena
+        image: Irudia
+      site_customization/content_block:
+        name: Izena
+      legislation/annotation:
+        text: Iruzkin
