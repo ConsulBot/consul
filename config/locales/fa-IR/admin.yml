@@ -1,0 +1,651 @@
+fa:
+  admin:
+    header:
+      title: مدیران
+    actions:
+      actions: اقدامات
+      confirm: آیا مطمئن هستید؟
+      hide: پنهان کردن
+      hide_author: پنهان کردن نویسنده
+      restore: بازیابی
+      mark_featured: "ویژه\n"
+      unmark_featured: برداشتن علامتگذاری برجسته
+      edit: ویرایش
+      configure: پیکربندی
+    banners:
+      index:
+        title: آگهی ها
+        create: ایجاد أگهی
+        edit: ویرایش  أگهی
+        delete: حذف  أگهی
+        filters:
+          all: همه
+          with_active: فعال
+          with_inactive: غیر فعال
+        preview: پیش نمایش
+      edit:
+        editing: ویرایش  أگهی
+        form:
+          submit_button: ذخیره تغییرات
+      new:
+        creating: ایجاد أگهی
+    activity:
+      show:
+        action: اقدامات
+        actions:
+          block: مسدود شده
+          hide: پنهان
+          restore: بازیابی
+        by: اداره شده توسط
+        content: محتوا
+        filter: نمایش
+        filters:
+          all: همه
+          on_comments: توضیحات
+          on_debates: مباحثه
+          on_proposals: طرح های پیشنهادی
+          on_users: کاربران
+        title: فعالیت مدیر
+        type: نوع
+    budgets:
+      index:
+        title: بودجه مشارکتی
+        new_link: ایجاد بودجه جدید
+        filters:
+          finished: به پایان رسید
+        table_name: نام
+        table_phase: فاز
+        table_investments: سرمایه گذاری ها
+        table_edit_groups: سرفصلهای گروه
+        table_edit_budget: ویرایش
+        edit_groups: ویرایش سرفصلهای گروه
+        edit_budget: ویرایش بودجه
+      create:
+        notice: بودجه مشارکتی جدید با موفقیت ایجاد شده!
+      update:
+        notice: بودجه مشارکتی با موفقیت به روز رسانی شده است.
+      edit:
+        title: ویرایش بودجه مشارکتی
+      new:
+        title: بودجه مشارکت جدید
+      winners:
+        calculate: محاسبه سرمایه گذاری های برنده
+        calculated: برندگان در حال محاسبه می باشند، ممکن است یک دقیقه طول بکشد.
+    budget_investments:
+      index:
+        heading_filter_all: همه سرفصلها
+        administrator_filter_all: همه مدیران
+        valuator_filter_all: همه ارزیابان
+        tags_filter_all: همه برچسب ها
+        filters:
+          without_admin: بدون تعیین مدیر
+          valuation_finished: ' اتمام ارزیابی '
+          selected: انتخاب شده
+          winners: برندگان
+          all: همه
+        title: پروژه سرمایه گذاری
+        assigned_admin: سرپرست تعیین شده
+        no_admin_assigned: بدون  تعیین مدیر
+        no_valuators_assigned: بدون  تعیین ارزیاب
+        feasibility:
+          unfeasible: "غیر قابل پیش بینی"
+          undecided: "بلاتکلیف"
+        selected: "انتخاب شده"
+        select: "انتخاب"
+      show:
+        assigned_admin: سرپرست تعیین شده
+        assigned_valuators: اختصاص ارزیاب ها
+        info: "%{budget_name} - گروه: %{group_name} - سرمایه گذاری پروژه %{id}"
+        edit: ویرایش
+        edit_classification: ویرایش طبقه بندی
+        by: "توسط\n"
+        sent: "ارسال شد\n"
+        heading: سرفصل
+        dossier: پرونده
+        edit_dossier: ویرایش پرونده
+        tags: برچسب ها
+        undefined: تعریف نشده
+        compatibility:
+          title: سازگاری
+          "true": ناسازگار
+          "false": سازگار
+        selection:
+          title: انتخاب
+        winner:
+          title: برندگان
+          "true": "بله"
+          "false": "نه"
+      edit:
+        compatibility: سازگاری
+        selection: انتخاب
+        assigned_valuators: ارزیاب ها
+        select_heading: انتخاب عنوان
+        submit_button: به روز رسانی
+        tags_placeholder: "برچسبهایی را که میخواهید با کاما (،) جدا کنید"
+        undefined: تعریف نشده
+      search_unfeasible: جستجو غیر قابل انجام است
+    milestones:
+      index:
+        table_id: "شناسه"
+        table_title: "عنوان"
+        table_description: "توضیحات"
+        table_actions: "اقدامات"
+        delete: "حذف نقطه عطف"
+        no_milestones: "نقاط قوت را مشخص نکرده اید"
+      new:
+        creating: ایجاد نقطه عطف جدید
+      edit:
+        title: ویرایش نقطه عطف
+      create:
+        notice: نقطه عطف جدید با موفقیت ایجاد شده!
+      update:
+        notice: نقطه عطف با موفقیت به روز رسانی شده
+      delete:
+        notice: نقطه عطف با موفقیت حذف شد.
+    dashboard:
+      index:
+        title: مدیر
+    hidden_users:
+      index:
+        filter: فیلتر
+        filters:
+          all: همه
+          with_confirmed_hide: تایید
+          without_confirmed_hide: انتظار
+        title: کاربران پنهان
+      show:
+        email: 'پست الکترونیکی:'
+        hidden_at: 'پنهان در:'
+        registered_at: 'ثبت در:'
+        title: فعالیت های کاربر (%{user})
+    legislation:
+      processes:
+        create:
+          notice: 'فرآیند با موفقیت ایجاد شد.<a href="%{link}"> برای بازدید کلیک کنید</a>'
+          error: فرایند ایجاد نشد
+        update:
+          notice: 'فرآیند با موفقیت بروز رسانی شد.<a href="%{link}"> برای بازدید کلیک کنید</a>'
+          error: فرایند بروز رسانی نشد
+        destroy:
+          notice: فرآیند با موفقیت حذف شد.
+        edit:
+          back: برگشت
+          submit_button: ذخیره تغییرات
+        form:
+          enabled: فعال
+          process: "روند\n"
+          debate_phase: فاز بحث
+          use_markdown: برای قالب کردن متن از Markdown استفاده کنید
+          title_placeholder: عنوان فرایند
+          summary_placeholder: خلاصه توضیحات
+          description_placeholder: اضافه کردن شرح فرآیند
+          additional_info_placeholder: افزودن اطلاعات اضافی که در نظر شما مفید است
+        index:
+          create: فرآیند جدید
+          delete: حذف
+          filters:
+            all: همه
+        new:
+          back: برگشت
+          title: ایجاد یک پروسه جدید قانون مشارکتی 
+          submit_button: فرآیند را ایجاد کنید
+        process:
+          title: "روند\n"
+          comments: توضیحات
+          status: وضعیت ها
+          status_open: بازکردن
+          status_closed: بسته
+          status_planned: برنامه ریزی شده
+        subnav:
+          info: اطلاعات
+          questions: بحث
+      draft_versions:
+        create:
+          notice: 'پیش نویس با موفقیت ایجاد شد <a href="%{link}"> برای بازدید کلیک کنید </a>'
+          error: پیش نویس ایجاد نشد
+        update:
+          notice: 'پیش نویس با موفقیت ایجاد شد <a href="%{link}"> برای بازدید کلیک کنید </a>'
+          error: پیش نویس قابل ارتقا نیست.
+        destroy:
+          notice: پیش نویس  با موفقیت حذف شد.
+        edit:
+          back: برگشت
+          submit_button: ذخیره تغییرات
+          warning: شما متن را ویرایش کرده اید، فراموش نکنید که برای ذخیره دائمی تغییرات، روی ذخیره کلیک کنید.
+        form:
+          launch_text_editor: راه اندازی ویرایشگر متن
+          close_text_editor: ویرایشگر متن را ببند
+          use_markdown: برای قالب کردن متن از Markdown استفاده کنید
+          hints:
+            final_version: این نسخه به عنوان نتیجه نهایی برای این فرآیند منتشر خواهد شد. نظرات در این نسخه مجاز نیست.
+            status:
+              draft: شما می توانید به عنوان مدیر پیش نمایش را ببینید، کس دیگری نمیتواند آن را ببیند
+              published: برای همه قابل مشاهده است
+          title_placeholder: عنوان پیش نویس را بنویسید
+          changelog_placeholder: تغییرات اصلی را از نسخه قبلی اضافه کنید
+          body_placeholder: نوشتن پیش نویس متن
+        index:
+          title: نسخه های پیش نویس
+          create: ایجاد نسخه
+          delete: حذف
+          preview: پیش نمایش
+        new:
+          back: برگشت
+          title: ایجاد نسخه  جدید
+          submit_button: ایجاد نسخه
+        table:
+          title: عنوان
+          created_at: "ایجاد شده در\n"
+          comments: توضیحات
+          final_version: "نسخه نهایی\n"
+          status: وضعیت ها
+      questions:
+        create:
+          notice: 'سوال با موفقیت ایجاد شد <a href="%{link}"> برای بازدید کلیک کنید </a>'
+          error: سوال ایجاد نشد
+        update:
+          notice: 'سوال با موفقیت ایجاد شد <a href="%{link}"> برای بازدید کلیک کنید </a>'
+          error: سوال قابل ارتقا نیست.
+        destroy:
+          notice: سوال با موفقیت حذف شد.
+        edit:
+          back: برگشت
+          title: "ویرایش%{question_title}"
+          submit_button: ذخیره تغییرات
+        form:
+          add_option: اضافه کردن گزینه
+          value_placeholder: یک پاسخ بسته را اضافه کنید
+        index:
+          back: برگشت
+          title: سوالات مرتبط با این روند
+          create: ایجاد سوال
+          delete: حذف
+        new:
+          back: برگشت
+          title: ایجاد سوال جدید
+          submit_button: ایجاد سوال
+        table:
+          title: عنوان
+          question_options: گزینه های سوال
+          answers_count: تعداد پاسخ
+          comments_count: تعداد نظرات
+        question_option_fields:
+          remove_option: حذف گزینه
+    managers:
+      index:
+        title: "مدیرها\n"
+      manager:
+        add: اضافه کردن
+        delete: حذف
+    menu:
+      activity: فعالیت مدیر
+      admin: منوی ادمین
+      banner: مدیریت آگهی ها
+      proposals_topics: موضوعات پیشنهادی
+      budgets: بودجه مشارکتی
+      geozones: مدیریت geozones
+      hidden_comments: نظرات مخفی
+      hidden_debates: بحث های پنهان
+      hidden_proposals: طرح های پنهان
+      hidden_users: کاربران پنهان
+      administrators: مدیران
+      managers: "مدیرها\n"
+      moderators: سردبیرها
+      valuators: ارزیاب ها
+      poll_officers: افسران نظرسنجی
+      polls: نظر سنجی ها
+      poll_booths: محل غرفه ها
+      officials: مقامات
+      organizations: سازمان ها
+      stats: آمار
+      signature_sheets: ورق امضا
+      site_customization:
+        content_blocks: محتوای بلوکهای سفارشی 
+      title_moderated_content: کنترل محتویات
+      title_profiles: پروفایل
+      legislation: قانون همکاری
+      users: کاربران
+    administrators:
+      index:
+        title: مدیران
+      administrator:
+        add: اضافه کردن
+        delete: حذف
+        restricted_removal: "با عرض پوزش، شما نمی توانید خود را از مدیریت حذف کنید"
+    moderators:
+      index:
+        title: سردبیرها
+      moderator:
+        add: اضافه کردن
+        delete: حذف
+    newsletters:
+      index:
+        title: خبرنامه ها
+    valuators:
+      index:
+        title: ارزیاب ها
+      valuator:
+        add: افزودن به ارزیابان
+    poll_officers:
+      index:
+        title: افسران نظرسنجی
+      officer:
+        add: اضافه کردن
+        delete: حذف موقعیت
+        name: نام
+        email: پست الکترونیکی
+        entry_name: افسر
+      search:
+        email_placeholder: جستجوی کاربر توسط ایمیل
+        search: جستجو
+        user_not_found: کاربری یافت نشد
+    poll_officer_assignments:
+      index:
+        officers_title: "فهرست افسران"
+        no_officers: "هیچ افسران اختصاص یافته به این نظرسنجی وجود دارد."
+        table_name: "نام"
+        table_email: "پست الکترونیکی"
+      by_officer:
+        date: "تاریخ"
+        booth: "غرفه"
+        assignments: "اعمال تغییرات در این نظرسنجی"
+        no_assignments: "این کاربر هیچ تغییری در این نظرسنجی ندارد."
+    poll_booth_assignments:
+      show:
+        location: "محل"
+        officers: "افسرها"
+        officers_list: "لیست افسر  برای این غرفه"
+        no_officers: "هیچ افسران برای این غرفه وجود دارد"
+        recounts: "شمارش مجدد"
+        recounts_list: "لیست را برای این غرفه بازنویسی کنید"
+        date: "تاریخ"
+        count_final: "بازنگری نهایی (توسط افسر)"
+        count_by_system: "رای (اتوماتیک)"
+      index:
+        booths_title: "فهرست غرفه"
+        no_booths: "هیچ غرفه ای برای این نظرسنجی وجود ندارد"
+        table_name: "نام"
+        table_location: "محل"
+    polls:
+      index:
+        title: "فهرست غرفه"
+        create: "ایجاد نظرسنجی"
+        name: "نام"
+        dates: "تاریخ"
+      new:
+        title: "نظر سنجی جدید"
+        submit_button: "ایجاد نظرسنجی"
+      edit:
+        title: "ویرایش نظرسنجی "
+        submit_button: " به روز رسانی نظرسنجی"
+      show:
+        questions_tab: سوالات
+        booths_tab: غرفه ها
+        officers_tab: افسرها
+        recounts_tab: شمارش مجدد
+        results_tab: نتایج
+        no_questions: "هیچ سؤالی برای این نظرسنجی وجود ندارد"
+        questions_title: "فهرست پرسش ها"
+        table_title: "عنوان"
+      flash:
+        question_added: "سوال اضافه شده به این نظر سنجی"
+        error_on_question_added: "سوال را نمی توان به این نظرسنجی اختصاص داد"
+    questions:
+      index:
+        title: "سوالات"
+        create: "ایجاد سوال"
+        no_questions: "هیچ سوالی وجود ندارد"
+        filter_poll: فیلتر توسط نظرسنجی
+        select_poll: انتخاب نظرسنجي
+        questions_tab: "سوالات"
+        successful_proposals_tab: "طرح های موفق"
+        create_question: "ایجاد سوال"
+        table_proposal: "طرح های پیشنهادی"
+        table_question: "سوال"
+      edit:
+        title: "ویرایش پرسش"
+      show:
+        proposal: طرح اصلی
+        author: نویسنده
+        valid_answers: پاسخ های معتبر
+    recounts:
+      index:
+        title: "شمارش مجدد"
+        no_recounts: "هیچ چیز به حساب نمی آید"
+        table_booth_name: "غرفه"
+        table_system_count: "رای (اتوماتیک)"
+    results:
+      index:
+        title: "نتایج"
+        no_results: "هیچ نتیجه ای وجود ندارد"
+    booths:
+      index:
+        add_booth: "اضافه کردن غرفه"
+        name: "نام"
+        location: "محل"
+      new:
+        title: "غرفه های جدید"
+        submit_button: "ایجاد غرفه"
+      edit:
+        title: "ویرایش غرفه"
+        submit_button: "به روز رسانی غرفه"
+      show:
+        location: "محل"
+    officials:
+      edit:
+        title: 'مقام: ویرایش کاربر'
+      flash:
+        official_destroyed: 'جزئیات ذخیره شده: کاربر دیگر رسمی نیست'
+        official_updated: جزئیات رسمی ذخیره شده
+      index:
+        title: مقامات
+      level_0: رسمی نیست
+      level_1: سطح 1
+      level_2: سطح 2
+      level_3: سطح 3
+      level_4: سطح 4
+      level_5: سطح 5
+      search:
+        edit_official: ویرایش رسمی
+        make_official: رسمی
+        title: 'موقعیت های رسمی: جستجوی کاربر'
+    organizations:
+      index:
+        filter: فیلتر
+        filters:
+          all: همه
+          pending: انتظار
+          rejected: رد شده
+          verified: تایید
+        reject: رد
+        rejected: رد شده
+        search: جستجو
+        search_placeholder: نام و ایمیل یا تلفن شماره
+        title: سازمان ها
+        verified: تایید
+        verify: تأیید
+      search:
+        title: جستجو سازمان ها
+    settings:
+      flash:
+        updated: ارزش به روز شد
+      index:
+        update_setting: به روز رسانی
+        feature_flags: ویژگی ها
+        features:
+          enabled: "ویژگی فعال شده"
+          disabled: "ویژگی غیرفعال شده "
+          enable: "فعال کردن"
+          disable: "غیر فعال کردن"
+    shared:
+      booths_search:
+        button: جستجو
+      poll_officers_search:
+        button: جستجو
+        placeholder: جستجو افسران نظرسنجی 
+      poll_questions_search:
+        button: جستجو
+        placeholder: جستجو پرسش های نظرسنجی
+      proposal_search:
+        button: جستجو
+        placeholder: پیشنهادات را با عنوان، کد، توضیحات یا سوال جستجو کنید
+      user_search:
+        button: جستجو
+        placeholder: جستجوی کاربر توسط ایمیل
+      search_results: "جستجو نتایج "
+      no_search_results: "نتیجه ای پیدا نشد.\n"
+    geozones:
+      index:
+        title: Geozone
+        create: ایجاد geozone
+        edit: ویرایش
+        delete: حذف
+      geozone:
+        name: نام
+        external_code: ویدیوهای خارجی
+        census_code: کد سرشماری
+        coordinates: مختصات
+      edit:
+        form:
+          submit_button: ذخیره تغییرات
+        editing: ویرایش geozone
+        back: برگرد
+      new:
+        back: برگرد
+        creating: ایجاد بخش
+      delete:
+        success: نقطه عطف با موفقیت حذف شد.
+        error: این geozone را نمی توان حذف نمود زیرا عناصر متصل به آن وجود دارد
+    signature_sheets:
+      author: نویسنده
+      created_at: تاریخ ایجاد
+      name: نام
+      no_signature_sheets: "ورق امضا وجود ندارد"
+      index:
+        title: محاسبه برنده سرمایه گذاری
+        new: ورق های امضای جدید
+      new:
+        title: ورق های امضای جدید
+        submit: ایجاد  ورقه امضا
+      show:
+        created_at: ایجاد شده
+        author: نویسنده
+        verified:
+          one: "%{count} امضا معتبر است"
+          other: "%{count} امضا معتبر است"
+        unverified:
+          one: "%{count} امضای غیرمعتبر است"
+          other: "%{count} امضا نامعتبر وجود دارد"
+        unverified_error: توسط سرشماری تایید نشده است.
+        loading: " امضاتوسط سرشماری تایید شده است، لطفا  این صفحه را رفرش کنید"
+    stats:
+      show:
+        stats_title: آمار 
+        summary:
+          comment_votes: نظر رای
+          comments: توضیحات
+          debate_votes: بحث رای
+          debates: مباحثه
+          proposal_votes: پیشنهاد رای
+          proposals: طرح های پیشنهادی
+          budgets: بودجه های باز
+          budget_investments: پروژه سرمایه گذاری
+          unverified_users: کاربران تایید نشده
+          user_level_three: کاربران سطح سه
+          user_level_two: کاربران سطح دو
+          users: کل کاربران
+          verified_users: کاربران تایید شده
+          verified_users_who_didnt_vote_proposals: کاربران تأیید شده که آرا پیشنهاد نموده اند
+          visits: بازديد
+          votes: کل رای
+        budgets_title: بودجه مشارکتی
+        direct_messages: پیام های مستقیم
+        proposal_notifications: اطلاعیه های پیشنهاد
+        incomplete_verifications: تأیید ناقص
+      direct_messages:
+        title: پیام های مستقیم
+        total: "جمع\n"
+        users_who_have_sent_message: کاربرانی که پیام خصوصی فرستاده اند
+      proposal_notifications:
+        title: اطلاعیه های پیشنهاد
+        total: "جمع\n"
+        proposals_with_notifications: طرح با اعلان ها
+    tags:
+      index:
+        add_tag: اضافه کردن یک  پیشنهاد جدید
+        title: موضوعات پیشنهادی
+    users:
+      columns:
+        name: نام
+        email: پست الکترونیکی
+        document_number: شماره سند
+        roles: نقش ها
+        verification_level: سطح امنیتی
+      index:
+        title: کاربر
+      search:
+        placeholder: جستجوی کاربر توسط ایمیل و نام یا شماره سند 
+        search: جستجو
+    verifications:
+      index:
+        phone_not_given: تلفن داده نشده
+        sms_code_not_confirmed: اس ام اس کد را تایید نکرده است
+        title: تأیید ناقص
+    site_customization:
+      content_blocks:
+        create:
+          notice: بلوک محتوا با موفقیت ایجاد شد
+          error: بلوک محتوا ایجاد نشد
+        update:
+          notice: بلوک محتوا با موفقیت به روز شد
+          error: بلوک محتوا را نمی توان به روز کرد
+        destroy:
+          notice: بلوک محتوا با موفقیت حذف شد.
+        edit:
+          title: ویرایش بلوک محتوا
+        index:
+          create: ایجاد محتوای جدید بلوک
+          delete: حذف بلوک
+          title: بلوک های محتوا
+        new:
+          title: ایجاد محتوای جدید بلوک
+        content_block:
+          body: بدنه
+          name: نام
+      images:
+        index:
+          title: صفحات سفارشی
+          update: به روز رسانی
+          delete: حذف
+          image: تصویر
+        update:
+          notice: تصویر با موفقیت به روز رسانی شد
+          error: تصویر قابل ارتقا نیست.
+        destroy:
+          notice: تصویر با موفقیت حذف شد.
+          error: تصویر حذف نشد
+      pages:
+        create:
+          notice: صفحه با موفقیت ایجاد شد
+          error: صفحه ایجاد نشد
+        update:
+          notice: صفحه با موفقیت به روز رسانی شد
+          error: صفحه قابل ارتقا نیست.
+        destroy:
+          notice: صفحه با موفقیت حذف شد.
+        edit:
+          title: ویرایش %{page_title}
+        form:
+          options: "گزینه ها\n"
+        index:
+          create: ایجاد صفحه جدید
+          delete: حذف صفحه
+          title: صفحات سفارشی
+          see_page: دیدن صفحه
+        new:
+          title: ایجاد صفحه سفارشی جدید
+        page:
+          created_at: "ایجاد شده در\n"
+          status: وضعیت ها
+          title: عنوان
+          updated_at: "ایجاد شده در\n"
