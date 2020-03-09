@@ -1,0 +1,25 @@
+pl:
+  flash:
+    actions:
+      create:
+        notice: "%{resource_name} utworzony pomyślnie."
+        debate: "Debatę utworzono pomyślnie."
+        direct_message: "Twoja wiadomość została wysłana pomyślnie."
+        poll: "Ankieta została pomyślnie utworzona."
+        poll_booth: "Stanowisko zostało utworzone pomyślnie."
+        proposal: "Wniosek został utworzony pomyślnie."
+        proposal_notification: "Twoja wiadomość została wysłana poprawnie."
+        budget_investment: "Inwestycja budżetowa została pomyślnie utworzona."
+        signature_sheet: "Arkusz podpisu został utworzony pomyślnie"
+      save_changes:
+        notice: Zmiany zapisane
+      update:
+        notice: "%{resource_name} pomyślnie zaktualizowana."
+        debate: "Debata zaktualizowana pomyślnie."
+        poll: "Sonda została pomyślnie zaktualizowana."
+        poll_booth: "Stanowisko zostało zaktualizowane pomyślnie."
+        proposal: "Wniosek został zaktualizowany pomyślnie."
+        budget_investment: "Projekt inwestycyjny został pomyślnie zaktualizowany."
+      destroy:
+        budget_investment: "Projekt inwestycyjny został pomyślnie usunięty."
+        error: "Nie można usunąć"
